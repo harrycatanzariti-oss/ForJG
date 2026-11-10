@@ -1,0 +1,33 @@
+# Render Blueprint: describes how Render builds and hosts this site.
+# It is a static site, so it runs on Render's free static hosting.
+services:
+  - type: web
+    name: lamplight
+    runtime: static
+    repo: https://github.com/harrycatanzariti-oss/ForJG
+    branch: claude/bible-traditions-website-u0t610
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: false
+    envVars:
+      - key: NODE_VERSION
+        value: 22.23.4
+      # Change this to your own domain if you add one.
+      - key: SITE_URL
+        value: https://lamplight.onrender.com
+    headers:
+      - path: /_astro/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
+      - path: /data/*
+        name: Cache-Control
+        value: public, max-age=86400, stale-while-revalidate=604800
+      - path: /sw.js
+        name: Cache-Control
+        value: no-cache
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
