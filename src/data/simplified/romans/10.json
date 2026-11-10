@@ -1,0 +1,24 @@
+{
+  "book": "romans",
+  "chapter": 10,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-13",
+      "text": "Paul's heart's desire and prayer is for the Israelites to be saved. They are zealous for God, but not based on knowledge. Christ is the end (or goal) of the law, so that there may be righteousness for everyone who believes. The message of faith is near you, in your mouth and in your heart: \"If you confess with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved.\" There is no difference between Jew and Gentile; the same Lord is Lord of all and richly blesses all who call on him. \"Everyone who calls on the name of the Lord will be saved.\""
+    },
+    {
+      "verses": "14-21",
+      "text": "But how can people call on him if they have not believed? How can they believe if they have not heard? And how can they hear without someone preaching? \"How beautiful are the feet of those who bring good news!\" Faith comes from hearing the message, and the message comes through the word about Christ. Paul quotes Scripture to show that Israel did hear, and that God had said he would be found by those who were not looking for him. Yet God says of Israel, \"All day long I have held out my hands to a disobedient and obstinate people.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "Salvation is near to all: everyone who calls on the Lord will be saved, so the message must be shared.",
+    "points": [
+      "\"If you confess with your mouth, 'Jesus is Lord,' and believe in your heart... you will be saved.\"",
+      "There is no difference between Jew and Gentile: the same Lord is Lord of all.",
+      "People can only believe if someone tells them the good news."
+    ],
+    "reflection": "\"How beautiful are the feet of those who bring good news!\" Who brought the good news to you?"
+  }
+}

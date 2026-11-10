@@ -1,0 +1,32 @@
+{
+  "book": "romans",
+  "chapter": 3,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-8",
+      "text": "What advantage is there in being Jewish, then? Much in every way! First of all, the Jewish people were trusted with God's words. If some were unfaithful, that does not cancel God's faithfulness. God is always true, even if every person is a liar. Paul rejects the idea that we should do evil so that good may come from it."
+    },
+    {
+      "verses": "9-20",
+      "text": "Are Jews better off? Not at all. Paul has already shown that Jews and Gentiles alike are all under the power of sin. He quotes the Scriptures: \"There is no one righteous, not even one. There is no one who understands; there is no one who seeks God.\" Everyone has turned away. So the whole world is accountable to God. No one will be declared right in his sight by keeping the law; rather, the law makes us aware of sin."
+    },
+    {
+      "verses": "21-26",
+      "text": "But now a righteousness from God, apart from the law, has been made known, as the Law and the Prophets said it would be. This righteousness comes through faith in Jesus Christ to all who believe. There is no difference between people, for all have sinned and fall short of the glory of God. They are made right with God freely by his grace, through the redemption that came by Christ Jesus. God presented Christ as a sacrifice of atonement, through faith in his blood. This shows that God is just, and that he is the one who makes right those who have faith in Jesus."
+    },
+    {
+      "verses": "27-31",
+      "text": "So where is boasting? It is excluded, not by keeping the law, but by faith. \"For we hold that a person is justified by faith apart from works of the law.\" Is God the God of Jews only? Isn't he the God of Gentiles too? Yes, there is only one God, who will make both right with him through faith. Does faith cancel the law? Not at all! Rather, we uphold the law."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Everyone has sinned, and everyone can be made right with God freely, by his grace, through faith in Jesus.",
+    "points": [
+      "God stays faithful even when people are not.",
+      "\"There is no one righteous, not even one\": all have sinned.",
+      "People are made right with God by his grace, through faith in Jesus Christ, so no one can boast."
+    ],
+    "reflection": "Paul says \"all have sinned\" and all can be made right \"freely by his grace\". How does that make you feel about yourself and others?"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "book": "romans",
+  "chapter": 5,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-5",
+      "text": "Since we have been made right with God through faith, we have peace with God through our Lord Jesus Christ. Through him we have access to God's grace, and we rejoice in the hope of God's glory. We even rejoice in our sufferings, because suffering produces perseverance; perseverance produces character; and character produces hope. And hope does not disappoint us, because God has poured his love into our hearts through the Holy Spirit."
+    },
+    {
+      "verses": "6-11",
+      "text": "At just the right time, when we were still powerless, Christ died for the ungodly. Very rarely will anyone die for a good person. \"But God proves his love for us in this: While we were still sinners, Christ died for us.\" Since we have now been made right by his blood, how much more will we be saved through him! We were God's enemies, but we have been reconciled to him through the death of his Son. Now we rejoice in God through Jesus."
+    },
+    {
+      "verses": "12-21",
+      "text": "Sin came into the world through one man, Adam, and death through sin, and so death spread to all people, because all sinned. Paul compares Adam and Christ. Adam's one wrong act brought condemnation to all. But God's gift is far greater: Christ's one right act brings life and a right relationship with God to all. Many were made sinners through one man's disobedience, and many will be made righteous through one man's obedience. Where sin increased, grace increased even more, so that grace might reign through righteousness to bring eternal life through Jesus Christ our Lord."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Through Jesus we have peace with God, and God showed his love by Christ dying for us while we were still sinners.",
+    "points": [
+      "We have peace with God and a hope that does not disappoint.",
+      "\"While we were still sinners, Christ died for us.\"",
+      "Adam brought sin and death; Christ brings grace and life, and grace is greater."
+    ],
+    "reflection": "Paul says suffering can produce perseverance, character and hope. Have you seen that happen in your life or someone else's?"
+  }
+}

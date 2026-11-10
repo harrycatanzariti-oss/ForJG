@@ -1,0 +1,28 @@
+{
+  "book": "romans",
+  "chapter": 13,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-7",
+      "text": "Everyone must submit to the governing authorities, for there is no authority except what God has established. Rulers are God's servants for our good, to hold back wrongdoing. So obey not only to avoid punishment but also because of conscience. That is also why you pay taxes. Give everyone what you owe them: taxes, revenue, respect and honour."
+    },
+    {
+      "verses": "8-10",
+      "text": "Let no debt remain outstanding, except the continuing debt to love one another, for whoever loves others has fulfilled the law. The commandments, \"Do not commit adultery,\" \"Do not murder,\" \"Do not steal,\" \"Do not covet,\" are summed up in this one command: \"Love your neighbour as yourself.\" Love does no harm to a neighbour. Therefore love is the fulfilment of the law."
+    },
+    {
+      "verses": "11-14",
+      "text": "Understand the present time: it is time to wake up, because our salvation is nearer now than when we first believed. The night is nearly over; the day is almost here. So let us put aside the deeds of darkness and put on the armour of light. Behave decently, not in wild parties and drunkenness, sexual immorality, quarrelling or jealousy. Instead, clothe yourselves with the Lord Jesus Christ."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Live as good citizens, let love be the debt you always owe, and wake up to live in the light.",
+    "points": [
+      "Respect governing authorities and pay what you owe.",
+      "Love is the fulfilment of the law: \"Love your neighbour as yourself.\"",
+      "The day is near, so put on the armour of light and clothe yourself with Christ."
+    ],
+    "reflection": "Paul says we always owe a \"debt\" of love. Who could you \"pay\" some love to today?"
+  }
+}

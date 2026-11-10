@@ -1,0 +1,32 @@
+{
+  "book": "romans",
+  "chapter": 1,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-7",
+      "text": "This letter is from Paul, a servant of Christ Jesus, called to be an apostle and set apart for God's good news. God promised this good news long ago through the prophets. It is about his Son, who was born a descendant of King David, and who was shown to be the Son of God with power by being raised from the dead: Jesus Christ our Lord. Paul writes to all in Rome who are loved by God and called to be his holy people. \"Grace and peace to you.\""
+    },
+    {
+      "verses": "8-15",
+      "text": "Paul thanks God that the faith of the Roman Christians is being talked about all over the world. He prays for them constantly and longs to visit, so they can encourage each other in their faith. He has often planned to come but has been prevented. He feels he owes the good news to everyone, educated or not, and is eager to preach in Rome."
+    },
+    {
+      "verses": "16-17",
+      "text": "\"I am not ashamed of the gospel, because it is the power of God for the salvation of everyone who believes: first for the Jew, then for the Gentile.\" In the gospel, a righteousness from God is revealed, a righteousness that is by faith from first to last. As it is written: \"The righteous will live by faith.\""
+    },
+    {
+      "verses": "18-32",
+      "text": "God's anger is being shown against all the wickedness of people who push the truth away. What can be known about God is plain to them. Ever since the world was created, his eternal power and divine nature have been clearly seen in what he has made, so people have no excuse. Yet they did not honour God or give him thanks. Their thinking became foolish. They exchanged the glory of the immortal God for images of people and animals, and worshipped created things rather than the Creator. So God gave them over to what their hearts wanted. Paul lists many wrongs that follow, including sexual sin, greed, envy, murder, fighting, lies, gossip, pride, disobeying parents, and having no mercy. People know such things deserve judgement, yet they keep doing them and approve of others who do."
+    }
+  ],
+  "summary": {
+    "bigIdea": "The good news about Jesus is God's power to save everyone who believes, and the whole world needs it.",
+    "points": [
+      "Paul introduces himself and the good news about Jesus, the risen Son of God.",
+      "\"I am not ashamed of the gospel\": it brings salvation to all who believe.",
+      "People have turned from God to worship created things, and this leads to all kinds of wrong."
+    ],
+    "reflection": "Paul was not ashamed of the good news. Are there times when you are tempted to hide what you believe?"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "book": "romans",
+  "chapter": 7,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-6",
+      "text": "The law has authority over a person only as long as they live. A married woman is bound to her husband while he lives, but if he dies she is free to marry another. In the same way, believers have died to the law through the body of Christ, so that they may belong to another, to him who was raised from the dead, and bear fruit for God. Now they serve in the new way of the Spirit, not in the old way of the written code."
+    },
+    {
+      "verses": "7-12",
+      "text": "Is the law sinful? Certainly not! But Paul says he would not have known what sin was except through the law. He would not have known what coveting really was if the law had not said, \"Do not covet.\" Sin used the commandment as an opportunity to produce wrong desires in him. So the law is holy, and the commandment is holy, righteous and good."
+    },
+    {
+      "verses": "13-25",
+      "text": "Did the good law bring death? No, it was sin, using what is good. Paul describes an inner struggle: \"I do not understand what I do. For what I want to do I do not do, but what I hate I do.\" He wants to do good but cannot carry it out. He delights in God's law in his inner being, but sees another law at work in his body, making him a prisoner of sin. \"What a wretched man I am! Who will rescue me from this body that is subject to death? Thanks be to God, who delivers me through Jesus Christ our Lord!\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "God's law is good, but it cannot free us from sin's power; only Jesus Christ can rescue us.",
+    "points": [
+      "Believers belong to Christ and serve in the new way of the Spirit.",
+      "The law is holy and good, but sin uses it to stir up wrong desires.",
+      "\"What I want to do I do not do\", but thanks be to God through Jesus Christ."
+    ],
+    "reflection": "Paul is honest about his struggle with sin. Is there a struggle you could be honest with God about?"
+  }
+}

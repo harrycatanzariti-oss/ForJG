@@ -1,0 +1,28 @@
+{
+  "book": "romans",
+  "chapter": 12,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-8",
+      "text": "In view of God's mercy, Paul urges believers to offer their bodies as living sacrifices, holy and pleasing to God; this is true worship. \"Do not conform to the pattern of this world, but be transformed by the renewing of your mind.\" Then you will be able to test and approve what God's will is. Do not think of yourself more highly than you ought. Just as a body has many parts with different functions, so in Christ we, though many, form one body. We have different gifts according to God's grace: prophesying, serving, teaching, encouraging, giving, leading or showing mercy. Use them well."
+    },
+    {
+      "verses": "9-13",
+      "text": "Love must be sincere. Hate what is evil; cling to what is good. Be devoted to one another in love. Honour one another above yourselves. Keep your spiritual fervour, serving the Lord. Be joyful in hope, patient in affliction, faithful in prayer. Share with God's people who are in need. Practise hospitality."
+    },
+    {
+      "verses": "14-21",
+      "text": "Bless those who persecute you; bless and do not curse. Rejoice with those who rejoice; mourn with those who mourn. Live in harmony with one another. Do not be proud, but be willing to associate with people of low position. Do not repay anyone evil for evil. As far as it depends on you, live at peace with everyone. Do not take revenge, but leave room for God's justice. \"If your enemy is hungry, feed him.\" \"Do not be overcome by evil, but overcome evil with good.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "Because of God's mercy, believers offer their whole lives to God and love others sincerely, even enemies.",
+    "points": [
+      "Offer yourselves to God as living sacrifices and be transformed by the renewing of your mind.",
+      "Like a body with many parts, believers have different gifts to serve one another.",
+      "Love sincerely, bless persecutors and overcome evil with good."
+    ],
+    "reflection": "\"Overcome evil with good.\" Is there someone you could respond to with unexpected kindness?"
+  }
+}
