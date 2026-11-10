@@ -1,0 +1,33 @@
+{
+  "book": "romans",
+  "chapter": 9,
+  "notes": [
+    {
+      "id": "election",
+      "verses": "15-18",
+      "title": "“I will have mercy on whom I have mercy”",
+      "intro": "Paul discusses God’s choice of Jacob over Esau and his sovereign mercy. Readers have long debated what this means for individual salvation.",
+      "views": [
+        {
+          "label": "God chooses individuals for salvation (unconditional election)",
+          "summary": "Reformed Christians read the chapter as teaching that God freely chooses those he will save, not based on anything they do.",
+          "heldBy": ["reformed", "baptist"],
+          "source": "Westminster Confession 3; Canons of Dort, First Head"
+        },
+        {
+          "label": "God’s choice concerns his plan for peoples and roles",
+          "summary": "Many read Romans 9 as about God’s plan for Israel and the nations, not the eternal destiny of individuals.",
+          "heldBy": ["methodist", "pentecostal", "charismatic-evangelical", "anabaptist", "churches-of-christ"],
+          "source": "John Wesley, sermon “Free Grace” (1739)"
+        },
+        {
+          "label": "God’s foreknowledge and human freedom work together",
+          "summary": "Catholic and Orthodox Christians affirm God’s sovereignty and human free cooperation with grace.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox"],
+          "source": "Catechism of the Catholic Church 600, 2002; St John Chrysostom, Homilies on Romans"
+        }
+      ],
+      "common": "All agree salvation is God’s mercy and not earned."
+    }
+  ]
+}

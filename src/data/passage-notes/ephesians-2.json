@@ -1,0 +1,41 @@
+{
+  "book": "ephesians",
+  "chapter": 2,
+  "notes": [
+    {
+      "id": "by-grace-through-faith",
+      "verses": "8-9",
+      "title": "“By grace you have been saved through faith”",
+      "intro": "One of the best-loved summaries of salvation, followed by “created to do good works” (v. 10).",
+      "views": [
+        {
+          "label": "Grace through faith alone, with works following",
+          "summary": "Protestants see here salvation as God’s gift received by faith alone, with good works as its fruit (v. 10).",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anglican"
+          ],
+          "source": "Augsburg Confession, Article VI"
+        },
+        {
+          "label": "Grace through faith, beginning in baptism and lived in love",
+          "summary": "Catholics fully affirm that salvation is a free gift of grace that cannot be earned, received through faith and baptism, and bearing fruit in good works by grace.",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 1996–2005"
+        },
+        {
+          "label": "Grace with which we cooperate",
+          "summary": "Orthodox Christians stress that salvation is entirely God’s gift, and that people freely respond and cooperate (synergy).",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox"],
+          "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4"
+        }
+      ],
+      "common": "All Christian traditions agree salvation is by God’s grace and is not earned."
+    }
+  ]
+}

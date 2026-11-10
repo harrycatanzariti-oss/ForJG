@@ -1,0 +1,32 @@
+{
+  "book": "1-corinthians",
+  "chapter": 11,
+  "notes": [
+    {
+      "id": "discerning-the-body",
+      "verses": "23-29",
+      "title": "“Without discerning the body”",
+      "intro": "Paul warns against eating the bread and drinking the cup in an unworthy manner.",
+      "views": [
+        {
+          "label": "Recognising Christ’s real presence",
+          "summary": "Catholic, Orthodox and Lutheran Christians understand “discerning the body” as recognising Christ’s body in the sacrament, preparing with confession.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "lutheran"],
+          "source": "Catechism of the Catholic Church 1385"
+        },
+        {
+          "label": "Recognising the church as Christ’s body",
+          "summary": "Many interpreters see “the body” as the church: the Corinthians were humiliating poorer members at the meal (vv. 20–22).",
+          "heldBy": ["baptist", "anabaptist", "pentecostal", "charismatic-evangelical", "churches-of-christ"],
+          "source": "Common evangelical interpretation"
+        },
+        {
+          "label": "Both: examining one’s faith and love",
+          "summary": "Reformed and Methodist Christians call for self-examination of faith, repentance and love before receiving.",
+          "heldBy": ["reformed", "methodist", "anglican"],
+          "source": "Westminster Larger Catechism Q&A 171"
+        }
+      ]
+    }
+  ]
+}

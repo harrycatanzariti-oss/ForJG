@@ -1,0 +1,26 @@
+{
+  "book": "philippians",
+  "chapter": 2,
+  "notes": [
+    {
+      "id": "work-out-your-salvation",
+      "verses": "12-13",
+      "title": "“Work out your salvation with fear and trembling”",
+      "intro": "Paul urges believers to work out their salvation, “for it is God who works in you.”",
+      "views": [
+        {
+          "label": "Living out a salvation already given",
+          "summary": "Protestants read this as living out the salvation already received, with God doing the work within.",
+          "heldBy": ["lutheran", "reformed", "baptist", "pentecostal", "charismatic-evangelical"],
+          "source": "Common Protestant interpretation"
+        },
+        {
+          "label": "Cooperating with grace in a lifelong process",
+          "summary": "Catholic, Orthodox and Methodist Christians see here human cooperation with God’s grace in growing holiness.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "methodist"],
+          "source": "Catechism of the Catholic Church 2001–2002; John Wesley, sermon “On Working Out Our Own Salvation” (1785)"
+        }
+      ]
+    }
+  ]
+}

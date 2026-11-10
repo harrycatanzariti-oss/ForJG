@@ -1,0 +1,27 @@
+{
+  "book": "1-corinthians",
+  "chapter": 13,
+  "notes": [
+    {
+      "id": "when-the-perfect-comes",
+      "verses": "8-10",
+      "title": "“When the perfect comes”",
+      "intro": "Paul says prophecy and tongues will cease “when the perfect comes.”",
+      "views": [
+        {
+          "label": "The perfect is Christ’s return",
+          "summary": "Most Christians read “the perfect” as the end of the age, so gifts continue until then.",
+          "heldBy": ["catholic", "eastern-orthodox", "pentecostal", "charismatic-evangelical", "methodist", "anglican"],
+          "source": "Common interpretation"
+        },
+        {
+          "label": "The perfect is the completed New Testament",
+          "summary": "Some cessationists read it as the completion of Scripture, after which miraculous gifts ended.",
+          "heldBy": ["churches-of-christ"],
+          "source": "Common teaching in Churches of Christ"
+        }
+      ],
+      "common": "All agree the chapter’s main point is that love never fails."
+    }
+  ]
+}

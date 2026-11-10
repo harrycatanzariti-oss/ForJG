@@ -1,0 +1,32 @@
+{
+  "book": "acts",
+  "chapter": 15,
+  "notes": [
+    {
+      "id": "jerusalem-council",
+      "verses": "28",
+      "title": "“It seemed good to the Holy Spirit and to us”",
+      "intro": "Apostles and elders meet in Jerusalem to decide whether Gentile believers must keep the law of Moses.",
+      "views": [
+        {
+          "label": "A model for councils of bishops with authority",
+          "summary": "Catholic and Orthodox Christians see this as the first church council, a model for later councils guided by the Holy Spirit.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east", "anglican"],
+          "source": "Catechism of the Catholic Church 884; Orthodox teaching on conciliarity"
+        },
+        {
+          "label": "A model for church assemblies under Scripture",
+          "summary": "Presbyterians see here elders meeting together in a representative assembly; others see a whole church seeking the Spirit together.",
+          "heldBy": ["reformed", "methodist"],
+          "source": "Westminster Confession 31"
+        },
+        {
+          "label": "A local church seeking unity together",
+          "summary": "Congregational traditions emphasise that “the whole church” agreed (v. 22), and Quakers see a model for discerning God’s will in unity.",
+          "heldBy": ["baptist", "quaker", "churches-of-christ", "anabaptist"],
+          "source": "Quaker faith & practice, Chapter 3"
+        }
+      ]
+    }
+  ]
+}

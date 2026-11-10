@@ -1,0 +1,26 @@
+{
+  "book": "hebrews",
+  "chapter": 6,
+  "notes": [
+    {
+      "id": "falling-away",
+      "verses": "4-6",
+      "title": "“It is impossible… if they fall away”",
+      "intro": "A severe warning about those who have shared in the Holy Spirit and then fall away.",
+      "views": [
+        {
+          "label": "A real warning that believers can fall away",
+          "summary": "Many traditions read this as showing a genuine believer can apostatise.",
+          "heldBy": ["methodist", "pentecostal", "catholic", "eastern-orthodox", "churches-of-christ", "lutheran"],
+          "source": "Methodist Articles of Religion, Article XII"
+        },
+        {
+          "label": "A warning that shows who truly believes",
+          "summary": "Reformed Christians often read it as describing people who tasted blessings without true conversion, or as a means God uses to keep believers persevering.",
+          "heldBy": ["reformed", "baptist"],
+          "source": "Westminster Confession 17"
+        }
+      ]
+    }
+  ]
+}

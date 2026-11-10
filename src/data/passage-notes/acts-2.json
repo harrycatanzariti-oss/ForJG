@@ -1,0 +1,68 @@
+{
+  "book": "acts",
+  "chapter": 2,
+  "notes": [
+    {
+      "id": "tongues-at-pentecost",
+      "verses": "1-4",
+      "title": "Tongues of fire and other languages",
+      "intro": "At Pentecost the disciples are filled with the Holy Spirit and speak in other languages.",
+      "views": [
+        {
+          "label": "A pattern for a Spirit baptism today, with tongues",
+          "summary": "Pentecostals see Pentecost as a model: believers can receive a baptism in the Spirit after conversion, marked by speaking in tongues.",
+          "heldBy": ["pentecostal"],
+          "source": "Assemblies of God, Statement of Fundamental Truths, 7–8"
+        },
+        {
+          "label": "The Spirit’s gifts continue, but tongues is not required",
+          "summary": "Charismatics welcome tongues today without making it the necessary sign.",
+          "heldBy": ["charismatic-evangelical"],
+          "source": "Vineyard USA Statement of Faith"
+        },
+        {
+          "label": "A unique event launching the church",
+          "summary": "Many other Christians see Pentecost as a one-time event when the Spirit was poured out on the church, celebrated each year, with every believer receiving the Spirit at conversion or baptism.",
+          "heldBy": [
+            "catholic",
+            "eastern-orthodox",
+            "lutheran",
+            "reformed",
+            "anglican",
+            "baptist",
+            "methodist",
+            "churches-of-christ"
+          ],
+          "source": "Catechism of the Catholic Church 731–732; Westminster Confession 1.1"
+        }
+      ]
+    },
+    {
+      "id": "repent-and-be-baptized",
+      "verses": "38",
+      "title": "“Repent and be baptized… for the forgiveness of your sins”",
+      "intro": "Peter’s answer to the crowd links repentance, baptism, forgiveness and the gift of the Spirit.",
+      "views": [
+        {
+          "label": "Baptism truly conveys forgiveness",
+          "summary": "Catholic, Orthodox and Lutheran Christians read this as baptism actually giving forgiveness and the Spirit.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "lutheran"],
+          "source": "Catechism of the Catholic Church 1263"
+        },
+        {
+          "label": "Baptism is when forgiveness is received by the believer",
+          "summary": "Churches of Christ see baptism of believers as the point at which sins are forgiven.",
+          "heldBy": ["churches-of-christ"],
+          "source": "Everett Ferguson, The Church of Christ (1996)"
+        },
+        {
+          "label": "Baptism follows and signifies forgiveness received by faith",
+          "summary": "Baptists and many evangelicals read “for” as “because of” or “with a view to,” holding that forgiveness comes through faith and baptism publicly signifies it.",
+          "heldBy": ["baptist", "pentecostal", "charismatic-evangelical", "reformed"],
+          "source": "Baptist Faith and Message (2000), Article VII"
+        }
+      ],
+      "common": "The promise is “for you and your children,” which some also cite for infant baptism."
+    }
+  ]
+}

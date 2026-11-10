@@ -1,0 +1,39 @@
+{
+  "book": "john",
+  "chapter": 6,
+  "notes": [
+    {
+      "id": "bread-of-life",
+      "verses": "53-58",
+      "title": "“Whoever eats My flesh and drinks My blood…”",
+      "intro": "In his “bread of life” teaching, Jesus speaks of eating his flesh and drinking his blood. Traditions differ on how this relates to Communion.",
+      "views": [
+        {
+          "label": "A direct teaching about the Eucharist",
+          "summary": "Catholic and Orthodox Christians read these words as pointing to receiving Christ’s true body and blood in the Eucharist.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "Catechism of the Catholic Church 1336, 1384"
+        },
+        {
+          "label": "About Communion and faith together",
+          "summary": "Lutherans and many Anglicans see a connection to the Lord’s Supper while stressing that Christ is received by faith.",
+          "heldBy": ["lutheran", "anglican", "methodist"],
+          "source": "Formula of Concord, Solid Declaration VII"
+        },
+        {
+          "label": "A picture of believing in Christ",
+          "summary": "Many Protestants read “eating” as believing in Jesus, noting verse 63 (“the Spirit gives life; the flesh profits nothing”) and verse 35 (“whoever believes in Me will never thirst”).",
+          "heldBy": [
+            "reformed",
+            "baptist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anabaptist",
+            "churches-of-christ"
+          ],
+          "source": "Westminster Confession 29.7; common evangelical interpretation"
+        }
+      ]
+    }
+  ]
+}

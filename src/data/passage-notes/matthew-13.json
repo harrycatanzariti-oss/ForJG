@@ -1,0 +1,39 @@
+{
+  "book": "matthew",
+  "chapter": 13,
+  "notes": [
+    {
+      "id": "jesus-brothers",
+      "verses": "55-56",
+      "title": "Jesus’ “brothers and sisters”",
+      "intro": "The Gospels mention Jesus’ brothers James, Joseph, Simon and Judas, and sisters. Traditions understand this differently.",
+      "views": [
+        {
+          "label": "Relatives or cousins",
+          "summary": "Catholics hold that Mary remained a virgin; the Greek word for “brothers” can mean close relatives, as in the Old Testament.",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 499–501"
+        },
+        {
+          "label": "Joseph’s children from a previous marriage",
+          "summary": "Many Orthodox Christians, following early writers, understand them as Joseph’s children by an earlier wife, so Mary remained ever-virgin.",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox"],
+          "source": "Protoevangelium of James (2nd century), followed by Orthodox tradition"
+        },
+        {
+          "label": "Children of Mary and Joseph",
+          "summary": "Many Protestants read them as Jesus’ younger half-siblings, born to Mary and Joseph after Jesus. (Luther, Calvin and Wesley themselves held Mary’s perpetual virginity.)",
+          "heldBy": [
+            "baptist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "churches-of-christ",
+            "seventh-day-adventist",
+            "jehovahs-witnesses"
+          ],
+          "source": "Common Protestant reading of Matthew 1:25 and 13:55–56"
+        }
+      ]
+    }
+  ]
+}

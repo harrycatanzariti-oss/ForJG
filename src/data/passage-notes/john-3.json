@@ -1,0 +1,33 @@
+{
+  "book": "john",
+  "chapter": 3,
+  "notes": [
+    {
+      "id": "water-and-spirit",
+      "verses": "5",
+      "title": "“Born of water and the Spirit”",
+      "intro": "Jesus tells Nicodemus that no one can enter the kingdom of God unless born of water and the Spirit.",
+      "views": [
+        {
+          "label": "Water refers to baptism, which gives new birth",
+          "summary": "Catholic, Orthodox and Lutheran Christians, with many early church writers, read “water” as baptism, through which the Spirit gives new birth.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east", "lutheran", "anglican"],
+          "source": "Catechism of the Catholic Church 1215, 1257; Luther’s Small Catechism on Baptism"
+        },
+        {
+          "label": "Water refers to baptism as the response of faith",
+          "summary": "Churches of Christ also see baptism here, as part of the believer’s response that God uses for new birth.",
+          "heldBy": ["churches-of-christ"],
+          "source": "Everett Ferguson, The Church of Christ (1996)"
+        },
+        {
+          "label": "Water refers to physical birth or to cleansing by the Spirit",
+          "summary": "Many evangelicals read “water” as natural birth or as a picture of the Spirit’s cleansing (Ezekiel 36:25–27), so new birth is the Spirit’s work received by faith.",
+          "heldBy": ["baptist", "pentecostal", "charismatic-evangelical", "reformed"],
+          "source": "Common evangelical interpretation"
+        }
+      ],
+      "common": "All agree that new birth is God’s work by the Holy Spirit."
+    }
+  ]
+}

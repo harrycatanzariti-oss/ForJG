@@ -1,0 +1,33 @@
+{
+  "book": "1-corinthians",
+  "chapter": 12,
+  "notes": [
+    {
+      "id": "gifts-today",
+      "verses": "7-11",
+      "title": "Gifts of the Spirit",
+      "intro": "Paul lists gifts including wisdom, healing, miracles, prophecy and tongues.",
+      "views": [
+        {
+          "label": "All these gifts are for today",
+          "summary": "Pentecostals and charismatics expect these gifts in church life now.",
+          "heldBy": ["pentecostal", "charismatic-evangelical"],
+          "source": "Assemblies of God, Statement of Fundamental Truths, 8 and 12"
+        },
+        {
+          "label": "The Spirit gives gifts today, discerned by the Church",
+          "summary": "Catholic, Orthodox, Anglican and Methodist teaching welcomes spiritual gifts while stressing order and discernment.",
+          "heldBy": ["catholic", "eastern-orthodox", "anglican", "methodist"],
+          "source": "Catechism of the Catholic Church 799–801"
+        },
+        {
+          "label": "Miraculous gifts were for the apostolic age",
+          "summary": "Cessationists believe miraculous gifts confirmed the apostles’ message and ended with them.",
+          "heldBy": ["reformed", "churches-of-christ", "jehovahs-witnesses"],
+          "source": "Westminster Confession 1.1"
+        }
+      ],
+      "common": "See the Big Question “Are the gifts of the Spirit for today?”"
+    }
+  ]
+}

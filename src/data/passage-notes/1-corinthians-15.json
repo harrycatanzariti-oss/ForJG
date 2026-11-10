@@ -1,0 +1,36 @@
+{
+  "book": "1-corinthians",
+  "chapter": 15,
+  "notes": [
+    {
+      "id": "baptism-for-the-dead",
+      "verses": "29",
+      "title": "“Baptized for the dead”",
+      "intro": "Paul mentions people being baptised for the dead, a verse whose meaning is unclear.",
+      "views": [
+        {
+          "label": "A practice to be restored: proxy baptism for ancestors",
+          "summary": "Latter-day Saints perform baptisms on behalf of the dead in temples, which those people may accept in the spirit world.",
+          "heldBy": ["latter-day-saints"],
+          "source": "Doctrine and Covenants 128"
+        },
+        {
+          "label": "A practice Paul mentions but does not endorse",
+          "summary": "Most Christians read it as a reference to an unknown practice in Corinth, which Paul uses to argue for the resurrection without approving it.",
+          "heldBy": [
+            "catholic",
+            "eastern-orthodox",
+            "lutheran",
+            "reformed",
+            "anglican",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical"
+          ],
+          "source": "Common interpretation; St John Chrysostom, Homily 40 on 1 Corinthians"
+        }
+      ]
+    }
+  ]
+}

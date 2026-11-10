@@ -1,0 +1,37 @@
+{
+  "book": "luke",
+  "chapter": 23,
+  "notes": [
+    {
+      "id": "paradise",
+      "verses": "43",
+      "title": "“Today you will be with Me in Paradise”",
+      "intro": "Jesus’ promise to the criminal crucified with him is often discussed in relation to what happens at death.",
+      "views": [
+        {
+          "label": "The believer is with Christ immediately after death",
+          "summary": "Most Christians read this as showing that those who die in Christ are with him at once, awaiting the resurrection of the body.",
+          "heldBy": [
+            "catholic",
+            "eastern-orthodox",
+            "lutheran",
+            "reformed",
+            "anglican",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical"
+          ],
+          "source": "Westminster Confession 32.1"
+        },
+        {
+          "label": "A promise about the future, punctuated differently",
+          "summary": "Some read “I tell you today, you will be with Me in Paradise,” meaning a future promise, since they believe the dead sleep until the resurrection.",
+          "heldBy": ["seventh-day-adventist", "jehovahs-witnesses"],
+          "source": "Seventh-day Adventist Fundamental Beliefs, 26; New World Translation punctuation"
+        }
+      ],
+      "common": "Ancient Greek manuscripts had no punctuation, so translators decide where the comma goes."
+    }
+  ]
+}

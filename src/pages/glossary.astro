@@ -1,0 +1,47 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { glossary } from '~/lib/glossary';
+
+const letters = [...new Set(glossary.map((g) => g.term[0]!.toUpperCase()))];
+---
+
+<BaseLayout
+  title="Glossary"
+  description="Plain explanations of Bible and church words: covenant, grace, sacrament, justification, deuterocanon and more."
+  width="reading"
+>
+  <h1 class="font-serif text-3xl font-semibold">Glossary</h1>
+  <p class="mt-2 text-ink-muted">
+    Short, plain explanations of words you’ll meet in the Bible and in churches. Where traditions use a word
+    differently, we say so. Underlined words around the site open these definitions.
+  </p>
+  <nav aria-label="Jump to letter" class="mt-4">
+    <ul class="flex flex-wrap gap-1">
+      {letters.map((l) => (
+        <li>
+          <a
+            href={`#letter-${l}`}
+            class="inline-flex size-11 items-center justify-center rounded-lg bg-surface-2 text-ink no-underline"
+          >
+            {l}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+  {letters.map((l) => (
+    <section id={`letter-${l}`} class="mt-8 scroll-mt-20" aria-label={l}>
+      <h2 class="text-xl font-semibold text-accent">{l}</h2>
+      <dl class="mt-2 divide-y divide-line">
+        {glossary
+          .filter((g) => g.term[0]!.toUpperCase() === l)
+          .map((g) => (
+            <div id={g.slug} class="scroll-mt-20 py-3 target:rounded-lg target:bg-accent-soft target:px-3">
+              <dt class="font-semibold">{g.term}</dt>
+              <dd class="mt-1 text-ink-muted">{g.definition}</dd>
+            </div>
+          ))}
+      </dl>
+    </section>
+  ))}
+</BaseLayout>

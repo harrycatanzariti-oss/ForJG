@@ -1,0 +1,34 @@
+{
+  "book": "2-thessalonians",
+  "chapter": 2,
+  "notes": [
+    {
+      "id": "hold-to-traditions",
+      "verses": "15",
+      "title": "“Hold to the traditions we taught you”",
+      "intro": "Paul tells believers to keep the teachings passed on “by word of mouth or by letter.”",
+      "views": [
+        {
+          "label": "Oral Tradition alongside written Scripture",
+          "summary": "Catholic and Orthodox Christians see here authority for apostolic Tradition handed down alongside Scripture.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "Catechism of the Catholic Church 76–82"
+        },
+        {
+          "label": "The apostles’ teaching, now found in Scripture",
+          "summary": "Protestants hold that the apostolic teaching Paul refers to is preserved in the New Testament, which is the final authority.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anglican"
+          ],
+          "source": "Westminster Confession 1.6"
+        }
+      ]
+    }
+  ]
+}

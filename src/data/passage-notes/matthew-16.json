@@ -1,0 +1,41 @@
+{
+  "book": "matthew",
+  "chapter": 16,
+  "notes": [
+    {
+      "id": "peter-rock",
+      "verses": "18-19",
+      "title": "“On this rock I will build My church”",
+      "intro": "Jesus gives Simon the name Peter (Greek petros, “rock”) and promises him “the keys of the kingdom.” This is central to debates about church leadership.",
+      "views": [
+        {
+          "label": "Peter is the rock, and his successors the Popes continue his role",
+          "summary": "Catholics understand Jesus to have made Peter the visible foundation and leader of the Church, a ministry continued by the Bishop of Rome.",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 552–553, 881"
+        },
+        {
+          "label": "The rock is Peter’s faith, shared by all bishops",
+          "summary": "Orthodox Christians honour Peter as first among the apostles, but see the rock as the faith he confessed, held by all bishops; the Bishop of Rome had a primacy of honour, not universal authority.",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "St John Chrysostom, Homily 54 on Matthew; Orthodox teaching on primacy"
+        },
+        {
+          "label": "The rock is Peter’s confession of Christ, or Christ himself",
+          "summary": "Many Protestants read the rock as the truth Peter confessed (“You are the Christ”), or as Peter in his role as first preacher, without a continuing office of successors.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "anglican",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical"
+          ],
+          "source": "Treatise on the Power and Primacy of the Pope (1537), 25–29"
+        }
+      ],
+      "common": "All agree Peter had a special role among the apostles and that the church is built on Christ."
+    }
+  ]
+}

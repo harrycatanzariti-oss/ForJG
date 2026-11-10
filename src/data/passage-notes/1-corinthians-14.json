@@ -1,0 +1,32 @@
+{
+  "book": "1-corinthians",
+  "chapter": 14,
+  "notes": [
+    {
+      "id": "women-silent",
+      "verses": "34-35",
+      "title": "“Women should be silent in the churches”",
+      "intro": "These verses are central to debates about women’s roles in church leadership.",
+      "views": [
+        {
+          "label": "Women are not ordained as priests or pastors",
+          "summary": "Catholic and Orthodox churches, and many conservative Protestant churches, reserve ordained leadership for men, though they read this passage in its context of disorderly worship.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "churches-of-christ"],
+          "source": "Pope John Paul II, Ordinatio Sacerdotalis (1994); 1 Timothy 2:12"
+        },
+        {
+          "label": "About disruption in that church, not a universal ban",
+          "summary": "Many churches note that Paul expects women to pray and prophesy (11:5) and read this as addressing specific disorder; they ordain women.",
+          "heldBy": ["anglican", "methodist", "lutheran", "pentecostal", "quaker"],
+          "source": "United Methodist Book of Discipline; Margaret Fell, Women’s Speaking Justified (1666)"
+        },
+        {
+          "label": "Practice varies by church",
+          "summary": "Baptist and non-denominational churches vary: some have women pastors, others do not.",
+          "heldBy": ["baptist", "charismatic-evangelical"],
+          "source": "Baptist Faith and Message (2000), Article VI"
+        }
+      ]
+    }
+  ]
+}

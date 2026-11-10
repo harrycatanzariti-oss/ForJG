@@ -1,0 +1,40 @@
+{
+  "book": "john",
+  "chapter": 16,
+  "notes": [
+    {
+      "id": "guide-into-truth",
+      "verses": "13",
+      "title": "“He will guide you into all truth”",
+      "intro": "Jesus promises the Spirit of truth to his disciples.",
+      "views": [
+        {
+          "label": "The Spirit guides the Church through its tradition and teaching office",
+          "summary": "Catholics see this promise fulfilled as the Spirit preserves the Church’s teaching through the bishops in union with the Pope.",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 91–93, 889"
+        },
+        {
+          "label": "The Spirit guides the whole Church through its councils and Tradition",
+          "summary": "Orthodox Christians see the Spirit guiding the Church as a whole, expressed in the Ecumenical Councils and the consensus of the faithful.",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "Encyclical of the Eastern Patriarchs (1848), 17"
+        },
+        {
+          "label": "The Spirit guided the apostles to write Scripture and helps believers understand it",
+          "summary": "Protestants usually see this first as a promise to the apostles, fulfilled in the New Testament, and the Spirit illuminating Scripture for believers today.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "anglican",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical"
+          ],
+          "source": "Westminster Confession 1.5–6"
+        }
+      ]
+    }
+  ]
+}

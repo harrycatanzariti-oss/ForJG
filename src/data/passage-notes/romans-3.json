@@ -1,0 +1,41 @@
+{
+  "book": "romans",
+  "chapter": 3,
+  "notes": [
+    {
+      "id": "faith-apart-from-works",
+      "verses": "28",
+      "title": "Justified by faith “apart from works of the law”",
+      "intro": "Paul says a person is justified by faith apart from works of the law. This verse was at the heart of the Reformation.",
+      "views": [
+        {
+          "label": "By faith alone",
+          "summary": "Lutheran and Reformed Christians read Paul as teaching that people are declared righteous by faith alone, not by any works; good works follow as fruit.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "anglican",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical"
+          ],
+          "source": "Augsburg Confession, Article IV; Westminster Confession 11"
+        },
+        {
+          "label": "Not by works of the Mosaic law, but by grace that transforms",
+          "summary": "Catholic teaching agrees that justification cannot be earned, but understands it as including inner renewal through faith and baptism, with grace bearing fruit in love.",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 1987–1992, 2010"
+        },
+        {
+          "label": "Part of a lifelong process of union with God",
+          "summary": "Orthodox Christians tend to read Paul’s words within the larger picture of salvation as healing and union with God (theosis).",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox"],
+          "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4"
+        }
+      ],
+      "common": "In 1999 the Lutheran World Federation and the Catholic Church signed a Joint Declaration on the Doctrine of Justification, finding a “consensus in basic truths.”"
+    }
+  ]
+}

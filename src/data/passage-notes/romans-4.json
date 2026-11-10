@@ -1,0 +1,32 @@
+{
+  "book": "romans",
+  "chapter": 4,
+  "notes": [
+    {
+      "id": "abraham-credited",
+      "verses": "3-5",
+      "title": "Abraham’s faith “credited as righteousness”",
+      "intro": "Paul uses Abraham to show that God counts faith as righteousness.",
+      "views": [
+        {
+          "label": "Righteousness is credited (imputed) to believers",
+          "summary": "Many Protestants see here God crediting Christ’s righteousness to those who believe, apart from their works.",
+          "heldBy": ["lutheran", "reformed", "baptist", "anglican"],
+          "source": "Westminster Confession 11.1"
+        },
+        {
+          "label": "God both declares and makes righteous",
+          "summary": "Catholic and Orthodox Christians read the crediting of righteousness alongside real transformation of the believer by grace.",
+          "heldBy": ["catholic", "eastern-orthodox"],
+          "source": "Catechism of the Catholic Church 1989–1991"
+        },
+        {
+          "label": "Faith as trust that leads to obedience",
+          "summary": "Methodists and others emphasise that justifying faith is living trust that grows into holiness.",
+          "heldBy": ["methodist", "pentecostal"],
+          "source": "John Wesley, sermon “Justification by Faith” (1746)"
+        }
+      ]
+    }
+  ]
+}

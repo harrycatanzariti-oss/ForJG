@@ -1,0 +1,42 @@
+{
+  "book": "revelation",
+  "chapter": 20,
+  "notes": [
+    {
+      "id": "millennium",
+      "verses": "1-6",
+      "title": "The thousand years",
+      "intro": "John sees Satan bound and the faithful reigning with Christ for a thousand years.",
+      "views": [
+        {
+          "label": "A symbol of Christ’s present reign (amillennial)",
+          "summary": "Catholic, Orthodox, Lutheran, Reformed and many others read the thousand years as symbolic of the present age between Christ’s first and second comings.",
+          "heldBy": [
+            "catholic",
+            "eastern-orthodox",
+            "oriental-orthodox",
+            "lutheran",
+            "reformed",
+            "anglican",
+            "methodist",
+            "churches-of-christ"
+          ],
+          "source": "Catechism of the Catholic Church 676; Augsburg Confession, Article XVII"
+        },
+        {
+          "label": "A future reign of Christ on earth (premillennial)",
+          "summary": "Many Pentecostals and evangelicals expect Christ to return and reign on earth for a literal thousand years.",
+          "heldBy": ["pentecostal", "charismatic-evangelical", "baptist", "latter-day-saints"],
+          "source": "Assemblies of God, Statement of Fundamental Truths, 14"
+        },
+        {
+          "label": "The saints reign in heaven while the earth lies desolate",
+          "summary": "Seventh-day Adventists teach that during the thousand years the redeemed are in heaven and the earth is empty, before final judgement.",
+          "heldBy": ["seventh-day-adventist"],
+          "source": "Seventh-day Adventist Fundamental Beliefs, 27"
+        }
+      ],
+      "common": "All agree Christ will return and defeat evil for good."
+    }
+  ]
+}

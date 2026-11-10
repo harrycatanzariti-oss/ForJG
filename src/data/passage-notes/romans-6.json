@@ -1,0 +1,39 @@
+{
+  "book": "romans",
+  "chapter": 6,
+  "notes": [
+    {
+      "id": "buried-with-christ",
+      "verses": "3-4",
+      "title": "Baptised into Christ’s death",
+      "intro": "Paul describes baptism as being buried with Christ and raised to new life.",
+      "views": [
+        {
+          "label": "Baptism truly unites us with Christ’s death and resurrection",
+          "summary": "Sacramental traditions see baptism as the act by which God joins a person to Christ.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "lutheran", "anglican"],
+          "source": "Catechism of the Catholic Church 1214, 1227"
+        },
+        {
+          "label": "Baptism signifies and seals union with Christ",
+          "summary": "Reformed Christians see baptism as a sign and seal of union with Christ, received by faith.",
+          "heldBy": ["reformed", "methodist"],
+          "source": "Westminster Confession 28.1"
+        },
+        {
+          "label": "Immersion pictures burial and resurrection",
+          "summary": "Baptists and others see the burial imagery as showing that baptism should be by immersion, symbolising a change already received by faith.",
+          "heldBy": [
+            "baptist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anabaptist",
+            "churches-of-christ",
+            "seventh-day-adventist"
+          ],
+          "source": "Baptist Faith and Message (2000), Article VII"
+        }
+      ]
+    }
+  ]
+}

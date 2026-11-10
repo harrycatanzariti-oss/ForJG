@@ -1,0 +1,43 @@
+{
+  "book": "matthew",
+  "chapter": 28,
+  "notes": [
+    {
+      "id": "great-commission-baptism",
+      "verses": "19-20",
+      "title": "Baptising the nations",
+      "intro": "Jesus sends his followers to make disciples, baptising and teaching. Churches agree on the command but differ on who should be baptised.",
+      "views": [
+        {
+          "label": "Baptise believers and their children",
+          "summary": "Many churches baptise infants of Christian families as part of making disciples, followed by teaching.",
+          "heldBy": [
+            "catholic",
+            "eastern-orthodox",
+            "oriental-orthodox",
+            "church-of-the-east",
+            "lutheran",
+            "reformed",
+            "anglican",
+            "methodist"
+          ],
+          "source": "Catechism of the Catholic Church 1250–1252; Westminster Confession 28.4"
+        },
+        {
+          "label": "Baptise those who have become disciples",
+          "summary": "Others note that the order is “make disciples… baptising them,” and baptise only those who profess faith.",
+          "heldBy": [
+            "baptist",
+            "anabaptist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "churches-of-christ",
+            "seventh-day-adventist"
+          ],
+          "source": "Baptist Faith and Message (2000), Article VII"
+        }
+      ],
+      "common": "Almost all churches baptise in the name of the Father, Son and Holy Spirit, as here."
+    }
+  ]
+}

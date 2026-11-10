@@ -1,0 +1,32 @@
+{
+  "book": "john",
+  "chapter": 20,
+  "notes": [
+    {
+      "id": "forgive-sins",
+      "verses": "22-23",
+      "title": "“If you forgive anyone’s sins, they are forgiven”",
+      "intro": "The risen Jesus breathes the Spirit on the disciples and speaks of forgiving and retaining sins.",
+      "views": [
+        {
+          "label": "Priests absolve sins in the sacrament of confession",
+          "summary": "Catholic and Orthodox Christians see here the authority given to the apostles and their successors to pronounce forgiveness in the sacrament of Reconciliation (Confession).",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "Catechism of the Catholic Church 1441–1445, 1461"
+        },
+        {
+          "label": "Ministers declare forgiveness; private confession is valued",
+          "summary": "Lutherans and Anglicans keep confession and absolution as a valued practice, though not required of everyone.",
+          "heldBy": ["lutheran", "anglican"],
+          "source": "Augsburg Confession, Article XI; Book of Common Prayer"
+        },
+        {
+          "label": "The church announces forgiveness through preaching the gospel",
+          "summary": "Many Protestants understand this as the authority to proclaim that sins are forgiven to those who believe.",
+          "heldBy": ["reformed", "baptist", "methodist", "pentecostal", "charismatic-evangelical"],
+          "source": "Heidelberg Catechism Q&A 83–84"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "book": "matthew",
+  "chapter": 26,
+  "notes": [
+    {
+      "id": "this-is-my-body",
+      "verses": "26-28",
+      "title": "“This is My body… this is My blood”",
+      "intro": "At the Last Supper Jesus gives bread and wine with these words. Christians have understood them in different ways.",
+      "views": [
+        {
+          "label": "The bread and wine become Christ’s body and blood",
+          "summary": "Catholic and Orthodox Christians take Jesus’ words as making the bread and wine truly his body and blood.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "Catechism of the Catholic Church 1374–1376; Confession of Dositheus, Decree 17"
+        },
+        {
+          "label": "Christ’s body and blood are present in, with and under the bread and wine",
+          "summary": "Lutherans take the words literally while holding that the bread and wine remain.",
+          "heldBy": ["lutheran"],
+          "source": "Augsburg Confession, Article X"
+        },
+        {
+          "label": "Christ is spiritually present and received by faith",
+          "summary": "Reformed, Anglican and Methodist Christians affirm a real spiritual presence without a change in the elements.",
+          "heldBy": ["reformed", "anglican", "methodist"],
+          "source": "Westminster Confession 29.7"
+        },
+        {
+          "label": "The bread and wine represent his body and blood",
+          "summary": "Many evangelical churches read “is” as “represents,” and see the meal as a memorial.",
+          "heldBy": [
+            "baptist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anabaptist",
+            "churches-of-christ",
+            "seventh-day-adventist"
+          ],
+          "source": "Baptist Faith and Message (2000), Article VII"
+        }
+      ],
+      "common": "See the Big Question “What happens at Communion?”"
+    }
+  ]
+}

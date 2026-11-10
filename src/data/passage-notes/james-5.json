@@ -1,0 +1,32 @@
+{
+  "book": "james",
+  "chapter": 5,
+  "notes": [
+    {
+      "id": "anointing-confession",
+      "verses": "14-16",
+      "title": "Anointing the sick and confessing sins",
+      "intro": "James tells the sick to call the elders to pray and anoint them, and believers to confess sins to one another.",
+      "views": [
+        {
+          "label": "The sacraments of Anointing and Confession",
+          "summary": "Catholic and Orthodox Christians see here the sacrament of Anointing of the Sick, and a basis for confession.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "Catechism of the Catholic Church 1510–1513"
+        },
+        {
+          "label": "Prayer for healing today",
+          "summary": "Pentecostals and charismatics practise anointing with oil and prayer for healing as a regular ministry.",
+          "heldBy": ["pentecostal", "charismatic-evangelical"],
+          "source": "Assemblies of God, Statement of Fundamental Truths, 12"
+        },
+        {
+          "label": "Pastoral prayer and mutual confession",
+          "summary": "Many Protestants practise prayer and anointing as pastoral care, and mutual confession among believers, not as sacraments.",
+          "heldBy": ["lutheran", "anglican", "reformed", "baptist", "methodist", "anabaptist"],
+          "source": "Common Protestant practice"
+        }
+      ]
+    }
+  ]
+}

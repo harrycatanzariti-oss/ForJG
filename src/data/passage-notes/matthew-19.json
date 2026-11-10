@@ -1,0 +1,32 @@
+{
+  "book": "matthew",
+  "chapter": 19,
+  "notes": [
+    {
+      "id": "divorce",
+      "verses": "3-9",
+      "title": "Marriage and divorce",
+      "intro": "Jesus teaches that marriage is a lifelong union, with an exception “for sexual immorality” in Matthew’s account. Churches apply this differently.",
+      "views": [
+        {
+          "label": "A valid sacramental marriage cannot be dissolved",
+          "summary": "Catholic teaching holds that a consummated sacramental marriage lasts until death; a declaration of nullity (annulment) may find that a valid marriage never existed.",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 1640, 1650, 1629"
+        },
+        {
+          "label": "Divorce is tragic, but remarriage may be allowed in mercy",
+          "summary": "Orthodox churches may permit a second (and rarely third) marriage after divorce, with a penitential service, as an act of pastoral mercy (oikonomia).",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox"],
+          "source": "Orthodox Church in America, “Marriage, Divorce and Remarriage” (guidelines)"
+        },
+        {
+          "label": "Divorce and remarriage are permitted in some circumstances",
+          "summary": "Many Protestant churches allow divorce for adultery or desertion, and remarriage, while upholding marriage as lifelong.",
+          "heldBy": ["reformed", "lutheran", "baptist", "methodist", "anglican", "pentecostal"],
+          "source": "Westminster Confession 24.5–6"
+        }
+      ]
+    }
+  ]
+}

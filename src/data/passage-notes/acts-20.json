@@ -1,0 +1,42 @@
+{
+  "book": "acts",
+  "chapter": 20,
+  "notes": [
+    {
+      "id": "first-day",
+      "verses": "7",
+      "title": "Breaking bread on the first day of the week",
+      "intro": "Believers in Troas gather on the first day of the week to break bread.",
+      "views": [
+        {
+          "label": "Evidence for Sunday worship",
+          "summary": "Most churches see here early Christian gathering on Sunday, the day of resurrection.",
+          "heldBy": [
+            "catholic",
+            "eastern-orthodox",
+            "lutheran",
+            "reformed",
+            "anglican",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical"
+          ],
+          "source": "Catechism of the Catholic Church 2177–2178"
+        },
+        {
+          "label": "The pattern for weekly Communion",
+          "summary": "Churches of Christ take this as the New Testament pattern for celebrating the Lord’s Supper every Sunday.",
+          "heldBy": ["churches-of-christ"],
+          "source": "Common teaching in Churches of Christ"
+        },
+        {
+          "label": "A special meeting, not a change of Sabbath",
+          "summary": "Seventh-day Adventists read it as a one-off evening gathering (by Jewish reckoning, Saturday night) that does not change the Sabbath.",
+          "heldBy": ["seventh-day-adventist"],
+          "source": "Seventh-day Adventists Believe (2018), on the Sabbath"
+        }
+      ]
+    }
+  ]
+}

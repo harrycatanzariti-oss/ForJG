@@ -1,0 +1,34 @@
+{
+  "book": "1-timothy",
+  "chapter": 3,
+  "notes": [
+    {
+      "id": "pillar-of-truth",
+      "verses": "15",
+      "title": "“The pillar and foundation of the truth”",
+      "intro": "Paul calls the church of the living God the pillar and foundation of the truth.",
+      "views": [
+        {
+          "label": "The Church teaches with authority",
+          "summary": "Catholic and Orthodox Christians see the Church as entrusted with guarding and teaching the truth authoritatively.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox"],
+          "source": "Catechism of the Catholic Church 171, 2032"
+        },
+        {
+          "label": "The church upholds the truth of Scripture",
+          "summary": "Protestants read the church as supporting and proclaiming the truth, which Scripture defines.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anglican"
+          ],
+          "source": "Westminster Confession 1.10"
+        }
+      ]
+    }
+  ]
+}

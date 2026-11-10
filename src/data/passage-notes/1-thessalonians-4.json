@@ -1,0 +1,35 @@
+{
+  "book": "1-thessalonians",
+  "chapter": 4,
+  "notes": [
+    {
+      "id": "caught-up",
+      "verses": "16-17",
+      "title": "“Caught up… to meet the Lord in the air”",
+      "intro": "Paul describes believers, living and dead, meeting the Lord at his coming.",
+      "views": [
+        {
+          "label": "A rapture of the church before a time of tribulation",
+          "summary": "Many Pentecostals and some evangelicals expect believers to be taken up to meet Christ before a final tribulation and his visible return.",
+          "heldBy": ["pentecostal", "charismatic-evangelical", "baptist"],
+          "source": "Assemblies of God, Statement of Fundamental Truths, 13"
+        },
+        {
+          "label": "Part of one visible return of Christ",
+          "summary": "Most Christians read this as believers going out to welcome Christ at his single, visible return, as citizens welcomed a visiting king.",
+          "heldBy": [
+            "catholic",
+            "eastern-orthodox",
+            "lutheran",
+            "reformed",
+            "anglican",
+            "methodist",
+            "churches-of-christ",
+            "seventh-day-adventist"
+          ],
+          "source": "Catechism of the Catholic Church 1001; Augsburg Confession, Article XVII"
+        }
+      ]
+    }
+  ]
+}

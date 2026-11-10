@@ -1,0 +1,34 @@
+{
+  "book": "hebrews",
+  "chapter": 10,
+  "notes": [
+    {
+      "id": "once-for-all",
+      "verses": "10-14",
+      "title": "“Once for all”",
+      "intro": "Hebrews stresses that Christ offered himself once for all, unlike repeated sacrifices.",
+      "views": [
+        {
+          "label": "The Mass makes present the one sacrifice",
+          "summary": "Catholic and Orthodox Christians agree Christ’s sacrifice was once for all, and teach that the Eucharist makes that same sacrifice present, not a new one.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox"],
+          "source": "Catechism of the Catholic Church 1366–1367"
+        },
+        {
+          "label": "The Supper remembers a finished sacrifice",
+          "summary": "Protestants stress that Christ’s sacrifice is finished; the Lord’s Supper is a thanksgiving and remembrance, not a sacrifice for sins.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "anglican",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical"
+          ],
+          "source": "Thirty-Nine Articles, Article XXXI; Westminster Confession 29.2"
+        }
+      ]
+    }
+  ]
+}

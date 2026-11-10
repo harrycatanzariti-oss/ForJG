@@ -1,0 +1,39 @@
+{
+  "book": "luke",
+  "chapter": 22,
+  "notes": [
+    {
+      "id": "remembrance",
+      "verses": "19-20",
+      "title": "“Do this in remembrance of Me”",
+      "intro": "Luke’s account of the Last Supper includes Jesus’ command to repeat the meal.",
+      "views": [
+        {
+          "label": "Remembrance that makes Christ’s sacrifice present",
+          "summary": "Catholic and Orthodox Christians understand “remembrance” (anamnesis) as more than recalling: the one sacrifice of Christ is made present in the Eucharist.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "Catechism of the Catholic Church 1362–1367"
+        },
+        {
+          "label": "A memorial in which Christ is truly given",
+          "summary": "Lutherans, Anglicans and Reformed Christians speak of a memorial in which Christ himself is present and received.",
+          "heldBy": ["lutheran", "anglican", "reformed", "methodist"],
+          "source": "Augsburg Confession, Article X; Westminster Confession 29"
+        },
+        {
+          "label": "A memorial and proclamation",
+          "summary": "Many evangelicals see the Supper chiefly as remembering Christ’s death and proclaiming it until he comes.",
+          "heldBy": [
+            "baptist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anabaptist",
+            "churches-of-christ",
+            "seventh-day-adventist"
+          ],
+          "source": "Baptist Faith and Message (2000), Article VII"
+        }
+      ]
+    }
+  ]
+}

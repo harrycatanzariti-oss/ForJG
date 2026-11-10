@@ -1,0 +1,32 @@
+{
+  "book": "luke",
+  "chapter": 1,
+  "notes": [
+    {
+      "id": "full-of-grace",
+      "verses": "28",
+      "title": "“Greetings, you who are highly favored”",
+      "intro": "The angel’s greeting to Mary (translated “full of grace” in older versions) is a key text for teaching about Mary.",
+      "views": [
+        {
+          "label": "Mary was uniquely filled with grace from her conception",
+          "summary": "Catholics read the greeting (Greek kecharitōmenē) as pointing to Mary’s being preserved from sin from the first moment of her existence (the Immaculate Conception).",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 490–492"
+        },
+        {
+          "label": "Mary was all-holy, prepared by God to be the Theotokos",
+          "summary": "Orthodox Christians call Mary “all-holy” and “full of grace,” without the Catholic definition of the Immaculate Conception.",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+          "source": "Orthodox Akathist Hymn to the Theotokos"
+        },
+        {
+          "label": "Mary received God’s favour for her calling",
+          "summary": "Most Protestants read the word as Mary being greatly favoured by God’s grace for her role, without further doctrines.",
+          "heldBy": ["lutheran", "reformed", "baptist", "methodist", "pentecostal", "charismatic-evangelical"],
+          "source": "Common Protestant interpretation"
+        }
+      ]
+    }
+  ]
+}

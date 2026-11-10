@@ -1,0 +1,41 @@
+{
+  "book": "james",
+  "chapter": 2,
+  "notes": [
+    {
+      "id": "justified-by-works",
+      "verses": "24",
+      "title": "“Justified by works and not by faith alone”",
+      "intro": "James says a person is justified by what he does and not by faith alone, which seems to contrast with Paul.",
+      "views": [
+        {
+          "label": "James shows that real faith works",
+          "summary": "Protestants read James as describing faith that is genuine because it produces works; Paul and James address different problems.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anglican"
+          ],
+          "source": "Formula of Concord, Epitome IV; Calvin, Commentary on James"
+        },
+        {
+          "label": "Faith and works together in justification",
+          "summary": "Catholics see James as confirming that justification includes faith working through love.",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 1815, 2010–2011"
+        },
+        {
+          "label": "Faith and life cannot be separated",
+          "summary": "Orthodox and Anabaptist Christians emphasise that true faith is lived out in obedience and love.",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox", "anabaptist"],
+          "source": "Confession of Faith in a Mennonite Perspective, Article 17"
+        }
+      ],
+      "common": "All agree that true faith shows itself in love."
+    }
+  ]
+}

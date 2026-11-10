@@ -1,0 +1,43 @@
+{
+  "book": "exodus",
+  "chapter": 20,
+  "notes": [
+    {
+      "id": "sabbath",
+      "verses": "8-11",
+      "title": "Which day is the Sabbath for Christians?",
+      "intro": "The fourth commandment sets apart the seventh day for rest. Christians differ on how it applies today.",
+      "views": [
+        {
+          "label": "Sunday, the Lord’s Day, fulfils the Sabbath",
+          "summary": "Most churches worship on Sunday, the day of Jesus’ resurrection, seeing it as the Christian fulfilment of the Sabbath principle of rest and worship.",
+          "heldBy": [
+            "catholic",
+            "eastern-orthodox",
+            "lutheran",
+            "reformed",
+            "anglican",
+            "methodist",
+            "baptist",
+            "pentecostal",
+            "charismatic-evangelical"
+          ],
+          "source": "Catechism of the Catholic Church 2174–2176; Westminster Confession 21.7"
+        },
+        {
+          "label": "The seventh day (Saturday) is still the Sabbath",
+          "summary": "Seventh-day Adventists keep the Sabbath from Friday sunset to Saturday sunset as a permanent command and a sign of loyalty to the Creator.",
+          "heldBy": ["seventh-day-adventist"],
+          "source": "Seventh-day Adventist Fundamental Beliefs, 20"
+        },
+        {
+          "label": "All days are equally holy",
+          "summary": "Quakers traditionally treated every day as holy rather than setting one apart.",
+          "heldBy": ["quaker"],
+          "source": "Robert Barclay, Apology (1676), Proposition 11"
+        }
+      ],
+      "common": "Christians agree that rest and worship are God’s gifts, and that Jesus is “Lord of the Sabbath.”"
+    }
+  ]
+}

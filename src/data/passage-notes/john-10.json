@@ -1,0 +1,27 @@
+{
+  "book": "john",
+  "chapter": 10,
+  "notes": [
+    {
+      "id": "no-one-can-snatch",
+      "verses": "27-29",
+      "title": "“No one can snatch them out of My hand”",
+      "intro": "Jesus promises that his sheep will never perish.",
+      "views": [
+        {
+          "label": "True believers are kept to the end",
+          "summary": "Reformed Christians and many Baptists see here a promise that those Christ saves will persevere.",
+          "heldBy": ["reformed", "baptist"],
+          "source": "Westminster Confession 17.1"
+        },
+        {
+          "label": "No outside power can snatch them, but people can walk away",
+          "summary": "Others hold that the promise protects believers from outside forces, while they remain free to turn away from Christ.",
+          "heldBy": ["methodist", "pentecostal", "lutheran", "catholic", "eastern-orthodox", "churches-of-christ"],
+          "source": "Methodist Articles of Religion, Article XII"
+        }
+      ],
+      "common": "See the Big Question “Can you lose your salvation?”"
+    }
+  ]
+}

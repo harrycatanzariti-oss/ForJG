@@ -1,0 +1,26 @@
+{
+  "book": "acts",
+  "chapter": 16,
+  "notes": [
+    {
+      "id": "household-baptism",
+      "verses": "31-33",
+      "title": "A whole household is baptised",
+      "intro": "The Philippian jailer and his household are baptised at once.",
+      "views": [
+        {
+          "label": "Supports baptising children with their parents",
+          "summary": "Those who baptise infants note that whole households, presumably including children, were baptised.",
+          "heldBy": ["catholic", "eastern-orthodox", "lutheran", "reformed", "anglican", "methodist"],
+          "source": "Westminster Confession 28.4"
+        },
+        {
+          "label": "Those baptised had heard and believed",
+          "summary": "Others note that the household heard the word and believed (vv. 32, 34), so it does not prove infants were baptised.",
+          "heldBy": ["baptist", "anabaptist", "pentecostal", "charismatic-evangelical", "churches-of-christ"],
+          "source": "Baptist Faith and Message (2000), Article VII"
+        }
+      ]
+    }
+  ]
+}

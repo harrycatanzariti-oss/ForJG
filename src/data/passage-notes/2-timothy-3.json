@@ -1,0 +1,36 @@
+{
+  "book": "2-timothy",
+  "chapter": 3,
+  "notes": [
+    {
+      "id": "god-breathed",
+      "verses": "16-17",
+      "title": "“All Scripture is God-breathed”",
+      "intro": "Paul says all Scripture is inspired by God and equips believers for every good work.",
+      "views": [
+        {
+          "label": "Scripture alone is the final authority",
+          "summary": "Protestants see this as supporting “Scripture alone” (sola scriptura): Scripture is sufficient as the supreme rule of faith.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "churches-of-christ",
+            "anglican"
+          ],
+          "source": "Westminster Confession 1.6; Formula of Concord, Rule and Norm"
+        },
+        {
+          "label": "Scripture is inspired, and read within the Church’s Tradition",
+          "summary": "Catholic and Orthodox Christians fully affirm Scripture’s inspiration but note the verse does not say “Scripture alone”; Scripture is interpreted within Tradition.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox"],
+          "source": "Catechism of the Catholic Church 105–108"
+        }
+      ],
+      "common": "All agree the Bible is inspired by God."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "book": "1-peter",
+  "chapter": 3,
+  "notes": [
+    {
+      "id": "baptism-now-saves",
+      "verses": "21",
+      "title": "“Baptism now saves you”",
+      "intro": "Peter says baptism saves, “not the removal of dirt from the body, but the pledge of a clear conscience toward God.”",
+      "views": [
+        {
+          "label": "Baptism is a means of salvation",
+          "summary": "Sacramental traditions take this as God saving through baptism.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "lutheran", "churches-of-christ"],
+          "source": "Catechism of the Catholic Church 1257"
+        },
+        {
+          "label": "Saves as the outward sign of inward faith",
+          "summary": "Baptists and many evangelicals stress the second half: it is the pledge toward God through the resurrection, not the water itself, that saves.",
+          "heldBy": ["baptist", "pentecostal", "charismatic-evangelical", "anabaptist"],
+          "source": "Baptist Faith and Message (2000), Article VII"
+        }
+      ]
+    }
+  ]
+}

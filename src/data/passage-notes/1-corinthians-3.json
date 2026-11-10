@@ -1,0 +1,40 @@
+{
+  "book": "1-corinthians",
+  "chapter": 3,
+  "notes": [
+    {
+      "id": "tested-by-fire",
+      "verses": "13-15",
+      "title": "Saved “as through fire”",
+      "intro": "Paul says each person’s work will be tested by fire; some will be saved, “but only as through fire.”",
+      "views": [
+        {
+          "label": "A biblical basis for purgatory",
+          "summary": "Catholics see here a hint of a purifying process after death for those saved but not yet fully purified.",
+          "heldBy": ["catholic"],
+          "source": "Catechism of the Catholic Church 1031"
+        },
+        {
+          "label": "About the judgement of teachers’ work at the last day",
+          "summary": "Most Protestants read it as Christ testing the work of church leaders at the final judgement, not a place after death.",
+          "heldBy": [
+            "lutheran",
+            "reformed",
+            "baptist",
+            "methodist",
+            "pentecostal",
+            "charismatic-evangelical",
+            "anglican"
+          ],
+          "source": "Thirty-Nine Articles, Article XXII"
+        },
+        {
+          "label": "A purifying fire, without defining purgatory",
+          "summary": "Orthodox Christians speak of the purifying encounter with God’s love but generally do not accept purgatory as defined by Rome.",
+          "heldBy": ["eastern-orthodox", "oriental-orthodox"],
+          "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4"
+        }
+      ]
+    }
+  ]
+}

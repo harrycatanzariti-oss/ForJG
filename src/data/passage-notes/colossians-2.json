@@ -1,0 +1,26 @@
+{
+  "book": "colossians",
+  "chapter": 2,
+  "notes": [
+    {
+      "id": "circumcision-baptism",
+      "verses": "11-12",
+      "title": "Baptism and circumcision",
+      "intro": "Paul links a spiritual circumcision with being buried with Christ in baptism.",
+      "views": [
+        {
+          "label": "Baptism is the new covenant sign, like circumcision, so it is given to children",
+          "summary": "Reformed and other paedobaptist Christians see baptism replacing circumcision as the covenant sign, given to children of believers.",
+          "heldBy": ["reformed", "anglican", "methodist", "lutheran", "catholic"],
+          "source": "Westminster Confession 28; Heidelberg Catechism Q&A 74"
+        },
+        {
+          "label": "The new circumcision is of the heart, through faith",
+          "summary": "Baptists stress that the circumcision Paul describes is spiritual and “through faith” (v. 12), so baptism is for believers.",
+          "heldBy": ["baptist", "anabaptist", "pentecostal", "churches-of-christ"],
+          "source": "Second London Baptist Confession (1689), Chapter 29"
+        }
+      ]
+    }
+  ]
+}

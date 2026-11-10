@@ -1,0 +1,26 @@
+{
+  "book": "john",
+  "chapter": 19,
+  "notes": [
+    {
+      "id": "behold-your-mother",
+      "verses": "26-27",
+      "title": "“Here is your mother”",
+      "intro": "From the cross, Jesus entrusts his mother and the beloved disciple to each other.",
+      "views": [
+        {
+          "label": "Mary is given as mother to all disciples",
+          "summary": "Catholic and Orthodox Christians often read the beloved disciple as representing all believers, so Mary becomes a spiritual mother to the Church.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox"],
+          "source": "Catechism of the Catholic Church 964, 968–970"
+        },
+        {
+          "label": "Jesus provides for his mother’s care",
+          "summary": "Many Protestants read this as Jesus lovingly arranging for Mary to be cared for by John.",
+          "heldBy": ["lutheran", "reformed", "baptist", "methodist", "pentecostal", "charismatic-evangelical"],
+          "source": "Common Protestant interpretation"
+        }
+      ]
+    }
+  ]
+}

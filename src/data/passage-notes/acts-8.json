@@ -1,0 +1,32 @@
+{
+  "book": "acts",
+  "chapter": 8,
+  "notes": [
+    {
+      "id": "laying-on-of-hands",
+      "verses": "14-17",
+      "title": "The Samaritans receive the Spirit",
+      "intro": "Samaritans who had been baptised receive the Holy Spirit when Peter and John lay hands on them.",
+      "views": [
+        {
+          "label": "A basis for confirmation (chrismation)",
+          "summary": "Catholic and Orthodox Christians see here the roots of confirmation or chrismation, completing baptism with the gift of the Spirit.",
+          "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "anglican"],
+          "source": "Catechism of the Catholic Church 1288"
+        },
+        {
+          "label": "Evidence of a distinct baptism in the Spirit",
+          "summary": "Pentecostals see a pattern of receiving the Spirit as a further experience after conversion.",
+          "heldBy": ["pentecostal"],
+          "source": "Assemblies of God, Statement of Fundamental Truths, 7"
+        },
+        {
+          "label": "A special moment uniting Samaritans with the Jerusalem church",
+          "summary": "Many evangelicals see this as unique to the gospel crossing into Samaria, not a pattern for every believer.",
+          "heldBy": ["reformed", "baptist"],
+          "source": "Common evangelical interpretation"
+        }
+      ]
+    }
+  ]
+}
