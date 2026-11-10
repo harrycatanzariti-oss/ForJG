@@ -1,0 +1,12 @@
+---
+import SettingsForm from '~/components/SettingsForm';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Settings" description="Theme, text size, translation and your saved data." width="reading">
+  <h1 class="mb-6 font-serif text-3xl font-semibold">Settings</h1>
+  <SettingsForm client:load />
+  <noscript>
+    <p class="mt-4">Settings need JavaScript to be turned on.</p>
+  </noscript>
+</BaseLayout>

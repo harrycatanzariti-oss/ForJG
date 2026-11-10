@@ -1,0 +1,61 @@
+---
+import ContinueReading from '~/components/ContinueReading';
+import Icon from '~/components/ui/Icon.astro';
+import { SITE_NAME, SITE_TAGLINE } from '~/config';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { books } from '~/lib/bible';
+import { url } from '~/lib/url';
+
+const names = Object.fromEntries(books.map((b) => [b.id, b.name]));
+---
+
+<BaseLayout>
+  <section class="py-6 sm:py-12">
+    <h1 class="max-w-xl font-serif text-4xl leading-tight font-semibold sm:text-5xl">{SITE_TAGLINE}</h1>
+    <p class="mt-4 max-w-prose text-lg text-ink-muted">
+      {SITE_NAME} lets you read every chapter of the Bible at the level that suits you, from the classic King James
+      wording to a plain-English summary. It is free, has no ads, and needs no account.
+    </p>
+  </section>
+
+  <div class="grid gap-4 sm:grid-cols-2">
+    <ContinueReading client:idle names={names} />
+    <a href={url('/bible')} class="card flex items-start gap-4 p-5 text-ink no-underline hover:border-accent">
+      <Icon name="book" class="mt-1 size-7 shrink-0 text-accent" />
+      <span>
+        <span class="block font-serif text-xl font-semibold">Start reading</span>
+        <span class="mt-1 block text-ink-muted">
+          Pick any of the 66 books. A good first choice is Mark, the shortest Gospel.
+        </span>
+      </span>
+    </a>
+    <div class="card flex items-start gap-4 p-5 opacity-80">
+      <Icon name="compass" class="mt-1 size-7 shrink-0 text-accent" />
+      <span>
+        <span class="block font-serif text-xl font-semibold">Explore traditions</span>
+        <span class="mt-1 block text-ink-muted">
+          How Catholic, Orthodox, Protestant and other churches read the Bible differently. Coming soon.
+        </span>
+      </span>
+    </div>
+  </div>
+
+  <section class="mt-12 max-w-prose">
+    <h2 class="text-lg font-semibold">How the reading levels work</h2>
+    <ol class="mt-3 list-decimal space-y-2 pl-5 text-ink-muted">
+      <li>
+        <strong class="text-ink">Original</strong>: the King James Version of 1611.
+      </li>
+      <li>
+        <strong class="text-ink">Modern</strong>: the Berean Standard Bible (or World English Bible) in today's English.
+      </li>
+      <li>
+        <strong class="text-ink">Plain</strong>: a simple retelling of the chapter in short paragraphs.
+      </li>
+      <li>
+        <strong class="text-ink">Summary</strong>: the big idea, key points and a question to reflect on.
+      </li>
+    </ol>
+    <p class="mt-3 text-sm text-ink-muted">Plain and Summary levels are being written book by book.</p>
+  </section>
+</BaseLayout>
