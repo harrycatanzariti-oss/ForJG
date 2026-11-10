@@ -239,7 +239,7 @@ const colourScript = `(function(){${liturgicalSource.replace(/^export /gm, '')}
     <!-- Fill in today's season name wherever it appears. -->
     <script is:inline>
       (function () {
-        var d = window.__liturgicalDay;
+        const d = window.__liturgicalDay;
         if (!d) return;
         document.querySelectorAll('[data-season-label]').forEach(function (el) {
           el.textContent = d.day || d.season;
