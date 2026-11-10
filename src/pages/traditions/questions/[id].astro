@@ -1,0 +1,72 @@
+---
+import Gloss from '~/components/Gloss.astro';
+import PassageLinks from '~/components/PassageLinks.astro';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { bigQuestions, traditionNames } from '~/lib/content';
+import { url } from '~/lib/url';
+
+export function getStaticPaths() {
+  return bigQuestions.map((q) => ({ params: { id: q.id }, props: { q } }));
+}
+const { q } = Astro.props;
+const names = traditionNames();
+const seen = new Set<string>();
+const related = q.related.map((id) => bigQuestions.find((x) => x.id === id)).filter(Boolean);
+---
+
+<BaseLayout title={q.title} description={q.intro.slice(0, 155)} width="reading">
+  <nav aria-label="Breadcrumb" class="mb-1 text-sm">
+    <a href={url('/traditions/questions')} class="text-ink-muted">
+      Big questions
+    </a>
+  </nav>
+  <h1 class="font-serif text-3xl font-semibold">{q.title}</h1>
+  <p class="mt-3 text-lg leading-relaxed">
+    <Gloss text={q.intro} seen={seen} />
+  </p>
+  <div class="mt-3">
+    <PassageLinks refs={q.keyPassages} label="Key passages:" />
+  </div>
+
+  <h2 class="mt-8 text-xl font-semibold">The main views</h2>
+  <ol class="mt-3 space-y-4">
+    {q.views.map((v) => (
+      <li class="card p-5">
+        <h3 class="text-lg font-semibold">{v.label}</h3>
+        <p class="mt-2 leading-relaxed">
+          <Gloss text={v.summary} seen={seen} />
+        </p>
+        <p class="mt-3 text-sm">
+          <span class="text-ink-muted">Held by: </span>
+          {v.heldBy.map((id, i) => (
+            <>
+              {i > 0 && ', '}
+              <a href={url(`/traditions/${id}`)}>{names[id] ?? id}</a>
+            </>
+          ))}
+        </p>
+        <div class="mt-1">
+          <PassageLinks refs={v.passages} label="Passages often cited:" />
+        </div>
+        <p class="mt-1 text-xs text-ink-muted">Source: {v.source}</p>
+      </li>
+    ))}
+  </ol>
+  {q.common && (
+    <p class="mt-6 rounded-xl bg-accent-soft p-4">
+      <strong>Common ground:</strong> {q.common}
+    </p>
+  )}
+  <p class="mt-6 text-sm text-ink-muted">
+    Views are listed without ranking. Within each tradition, individual churches and Christians may vary.
+  </p>
+  {related.length > 0 && (
+    <p class="mt-6 flex flex-wrap gap-2">
+      {related.map((r) => (
+        <a href={url(`/traditions/questions/${r!.id}`)} class="btn btn-secondary text-sm">
+          {r!.title}
+        </a>
+      ))}
+    </p>
+  )}
+</BaseLayout>

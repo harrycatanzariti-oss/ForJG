@@ -1,0 +1,121 @@
+{
+  "id": "anabaptist",
+  "name": "Anabaptists (Mennonite, Amish, Hutterite and Brethren)",
+  "shortName": "Anabaptist",
+  "family": "protestant",
+  "foundedApprox": "1525 (Zurich), spreading in the 1520s–30s",
+  "keyFigures": ["Conrad Grebel", "Felix Manz", "Michael Sattler", "Menno Simons", "Jakob Ammann"],
+  "originSummary": "In January 1525 in Zurich, a group of young reformers baptised one another as believing adults, rejecting the infant baptism they had received. Opponents called them Anabaptists (“re-baptisers”). They called for a church of committed disciples, separate from the state, who would not take up the sword. Thousands were executed by both Catholic and Protestant authorities. Followers of the Dutch leader Menno Simons became known as Mennonites; the Amish split from Mennonites in 1693 under Jakob Ammann.",
+  "globalSizeApprox": {
+    "figure": "About 2.1 million baptised members in Mennonite World Conference churches; about 400,000 Amish",
+    "year": "2022 (MWC) and 2024 (Amish)",
+    "source": "Mennonite World Conference census; Young Center for Anabaptist and Pietist Studies, Elizabethtown College",
+    "note": "Anabaptists baptise only believers, so children are not counted."
+  },
+  "whereCommon": [
+    "the United States",
+    "Canada",
+    "Democratic Republic of the Congo",
+    "Ethiopia",
+    "India",
+    "Indonesia",
+    "Paraguay"
+  ],
+  "diversity": "Anabaptists range from Old Order Amish who avoid cars and electricity, to conservative Mennonites in plain dress, to modern Mennonite churches indistinguishable in appearance from other churches. Hutterites share goods in common; Church of the Brethren also has Anabaptist roots.",
+  "beliefs": {
+    "authority": {
+      "summary": "Scripture, especially the teaching and example of Jesus, interpreted together by the gathered church.",
+      "detail": "Anabaptists read the whole Bible through Jesus Christ and stress obeying the Sermon on the Mount. Scripture is interpreted in community.",
+      "source": "Confession of Faith in a Mennonite Perspective (1995), Article 4"
+    },
+    "salvation": {
+      "summary": "Salvation is by grace through faith in Christ, shown by a transformed life of discipleship.",
+      "detail": "Anabaptists emphasise that faith and following Jesus cannot be separated: salvation includes new life, obedience and belonging to the church community.",
+      "source": "Confession of Faith in a Mennonite Perspective (1995), Articles 8 and 17"
+    },
+    "baptism": {
+      "summary": "Believers only, upon confession of faith; usually by pouring (Mennonite, Amish) or immersion (Brethren).",
+      "detail": "Baptism “shall be given to all those who have learned repentance and amendment of life” and believe; infant baptism is rejected. Among the Amish, young adults choose baptism, often in their late teens or early twenties.",
+      "source": "Schleitheim Confession (1527), Article 1"
+    },
+    "communion": {
+      "summary": "The Lord’s Supper is a memorial and a sign of the church’s unity, shared by baptised members.",
+      "detail": "The Supper remembers Christ’s death and renews the covenant of the community. Many Anabaptist groups also practise foot washing as an ordinance.",
+      "source": "Schleitheim Confession (1527), Article 3; Dordrecht Confession (1632), Article 11"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the mother of Jesus and a faithful disciple; she is not prayed to.",
+      "detail": "Anabaptist confessions affirm the virgin birth and focus on Mary as a faithful follower of God.",
+      "source": "Dordrecht Confession (1632), Article 4"
+    },
+    "saints": {
+      "summary": "All believers are saints; prayer is to God alone.",
+      "detail": "Anabaptists remember their martyrs (recorded in the Martyrs Mirror, 1660) as examples, but do not invoke saints.",
+      "source": "Martyrs Mirror (1660)"
+    },
+    "churchGovernance": {
+      "summary": "Congregational, with ministers and elders chosen from the community; Amish choose ministers by lot.",
+      "detail": "Congregations are largely self-governing and often belong to conferences. Among the Amish, the Ordnung (community rules) is agreed by members.",
+      "source": "Schleitheim Confession (1527), Article 5"
+    },
+    "clergy": {
+      "summary": "Pastors or ministers chosen by the congregation, often unpaid in conservative groups; many Mennonite churches ordain women.",
+      "detail": "Amish and conservative groups have bishops, ministers and deacons chosen from among the men by lot. Mennonite Church USA and many others ordain women.",
+      "source": "Confession of Faith in a Mennonite Perspective (1995), Article 15"
+    },
+    "afterlife": {
+      "summary": "Heaven for the faithful and judgement for the wicked; no purgatory.",
+      "detail": "Anabaptist confessions affirm the resurrection of the dead and final judgement.",
+      "source": "Dordrecht Confession (1632), Article 18"
+    },
+    "spiritualGifts": {
+      "summary": "The Spirit gives gifts to every member for the body of Christ; practices vary.",
+      "detail": "Many Anabaptist churches in Africa and elsewhere are charismatic in style; traditional groups are more reserved.",
+      "source": "Confession of Faith in a Mennonite Perspective (1995), Article 3"
+    },
+    "endTimes": {
+      "summary": "Christ will return; the church lives now as a sign of God’s coming peaceable kingdom.",
+      "detail": "Anabaptists emphasise living by the values of the coming kingdom now, especially peace (non-violence) and simplicity, rather than detailed predictions.",
+      "source": "Confession of Faith in a Mennonite Perspective (1995), Article 24"
+    }
+  },
+  "worship": {
+    "style": "Simple, congregational and participatory",
+    "typicalService": "Hymns (often a cappella), Scripture, sermon and prayer. Amish worship takes place in members’ homes, about three hours, every other Sunday.",
+    "calendar": "Christmas, Easter and Pentecost; plain groups keep a simple calendar.",
+    "music": "Four-part a cappella hymn singing is a treasured tradition; the Amish sing slow hymns from the Ausbund, the oldest Protestant hymnal in continuous use."
+  },
+  "firstVisit": {
+    "expect": "Modern Mennonite churches welcome visitors like most churches. Amish services are usually for members and invited guests.",
+    "wear": "Modest, simple clothing; no need for plain dress.",
+    "etiquette": [
+      "Communion is for baptised members, often held only twice a year.",
+      "Peace and service are central; churches often run relief work (e.g. Mennonite Central Committee)."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "Schleitheim Confession (1527)",
+      "note": "Early Swiss Anabaptist articles."
+    },
+    {
+      "title": "Dordrecht Confession (1632)",
+      "note": "Still used by Amish and conservative Mennonites."
+    },
+    {
+      "title": "Martyrs Mirror (1660)",
+      "note": "Stories of Anabaptist and early Christian martyrs."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "The Naked Anabaptist",
+      "author": "Stuart Murray"
+    },
+    {
+      "title": "Anabaptist History and Theology",
+      "author": "C. Arnold Snyder"
+    }
+  ],
+  "otherGroup": false
+}

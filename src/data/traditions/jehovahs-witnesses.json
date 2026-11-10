@@ -1,0 +1,109 @@
+{
+  "id": "jehovahs-witnesses",
+  "name": "Jehovah’s Witnesses",
+  "shortName": "Jehovah’s Witnesses",
+  "family": "other",
+  "otherGroup": true,
+  "foundedApprox": "1870s (Bible Student movement); the name Jehovah’s Witnesses adopted in 1931",
+  "keyFigures": ["Charles Taze Russell", "Joseph F. Rutherford", "Nathan H. Knorr"],
+  "originSummary": "Jehovah’s Witnesses grew from the Bible Student movement begun by Charles Taze Russell in Pittsburgh in the 1870s, which published The Watchtower magazine from 1879. Under Joseph Rutherford the group took the name Jehovah’s Witnesses in 1931, from Isaiah 43:10. Witnesses see themselves as restoring first-century Christianity. They are known for their door-to-door ministry, their own New World Translation of the Bible, political neutrality and refusal of blood transfusions. Mainstream Catholic, Orthodox and Protestant churches do not consider this group part of historic Trinitarian Christianity, chiefly because of differences in teaching about God, Jesus and Scripture. The group itself understands itself as Christian.",
+  "globalSizeApprox": {
+    "figure": "About 8.8 million active “publishers”; about 20 million attended the annual Memorial",
+    "year": "2024",
+    "source": "Jehovah’s Witnesses, 2024 Service Year Report",
+    "note": "Witnesses count active preachers rather than members of record."
+  },
+  "whereCommon": ["the United States", "Mexico", "Brazil", "Nigeria", "Italy", "Japan", "the Philippines"],
+  "diversity": "Witnesses are organised worldwide under one Governing Body and share the same literature and meeting programme, so teaching and practice are highly uniform.",
+  "beliefs": {
+    "authority": {
+      "summary": "The Bible (usually in the New World Translation), as explained by the Governing Body.",
+      "detail": "Witnesses believe the Bible is God’s inspired Word and that Jehovah provides understanding through “the faithful and discreet slave,” identified as the Governing Body.",
+      "source": "jw.org, “What Do Jehovah’s Witnesses Believe?”; Matthew 24:45 as understood by Witnesses"
+    },
+    "salvation": {
+      "summary": "Through faith in Jesus’ ransom sacrifice and obedience to Jehovah; most of the saved will live forever on a paradise earth.",
+      "detail": "Witnesses believe Jesus is God’s Son and the first of his creations, not God Almighty, and they do not accept the Trinity. A limited number (144,000) go to heaven to rule with Christ; others look forward to everlasting life on earth.",
+      "source": "jw.org, “What Do Jehovah’s Witnesses Believe?”; Revelation 7 and 14 as understood by Witnesses"
+    },
+    "baptism": {
+      "summary": "Believers by full immersion, as a symbol of dedication to Jehovah.",
+      "detail": "Baptism follows study and is a public symbol of dedication; it is not done for infants.",
+      "source": "jw.org, “Why Are Jehovah’s Witnesses Baptized?”"
+    },
+    "communion": {
+      "summary": "The Memorial of Christ’s death is held once a year; only those who believe they are anointed for heaven partake.",
+      "detail": "The bread and wine are symbols. Most attendees observe without partaking.",
+      "source": "jw.org, “Why Do Jehovah’s Witnesses Celebrate the Lord’s Supper Differently?”"
+    },
+    "mary": {
+      "summary": "Mary was a faithful servant of God and the mother of Jesus; she is not venerated.",
+      "detail": "Witnesses believe Mary had other children after Jesus and do not call her Mother of God.",
+      "source": "jw.org, “Was Mary the Mother of God?”"
+    },
+    "saints": {
+      "summary": "No saints are venerated; prayer is to Jehovah through Jesus.",
+      "detail": "Witnesses do not use images or crosses in worship; they believe Jesus died on a stake.",
+      "source": "jw.org, “Why Don’t Jehovah’s Witnesses Use the Cross?”"
+    },
+    "churchGovernance": {
+      "summary": "Led by the Governing Body; local congregations are led by elders.",
+      "detail": "Congregations meet in Kingdom Halls; elders and ministerial servants are appointed rather than elected.",
+      "source": "jw.org, “How Are Jehovah’s Witnesses Organized?”"
+    },
+    "clergy": {
+      "summary": "No paid clergy; all baptised members are ministers; elders are men.",
+      "detail": "Every baptised Witness takes part in the preaching work.",
+      "source": "jw.org, “Do Jehovah’s Witnesses Have Paid Clergy?”"
+    },
+    "afterlife": {
+      "summary": "The dead are unconscious; there is no hellfire; the dead will be resurrected to life on earth.",
+      "detail": "Witnesses teach that the soul is the person, not an immortal part; those finally rejecting God are destroyed, not tormented.",
+      "source": "jw.org, “What Happens at Death?”"
+    },
+    "spiritualGifts": {
+      "summary": "Miraculous gifts ceased after the apostles; holy spirit is God’s active force, not a person.",
+      "detail": "Witnesses see the holy spirit as God’s power at work, not a person of a Trinity.",
+      "source": "jw.org, “What Is the Holy Spirit?”"
+    },
+    "endTimes": {
+      "summary": "We are living in the “last days” since 1914; God’s Kingdom will soon end the present system at Armageddon and restore paradise on earth.",
+      "detail": "Witnesses believe Christ began ruling invisibly in heaven in 1914.",
+      "source": "jw.org, “When Will the End Come?”"
+    }
+  },
+  "worship": {
+    "style": "Bible study and teaching meetings",
+    "typicalService": "Weekend meeting: a 30-minute public Bible talk and a one-hour study of a Watchtower article; a midweek meeting with ministry training.",
+    "calendar": "The annual Memorial of Christ’s death (on Nisan 14 of the Jewish calendar). Witnesses do not celebrate Christmas, Easter or birthdays.",
+    "music": "Songs from their own songbook, with recorded music."
+  },
+  "firstVisit": {
+    "expect": "Kingdom Halls welcome visitors; there is no collection. Meetings are interactive Bible studies where members may raise hands to comment.",
+    "wear": "Smart: men usually in suits and ties, women in dresses or skirts.",
+    "etiquette": [
+      "You don’t need to participate in answering questions.",
+      "Witnesses may offer you a free Bible study."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "New World Translation of the Holy Scriptures",
+      "note": "The Witnesses’ own Bible translation."
+    },
+    {
+      "title": "The Watchtower",
+      "note": "The main study magazine."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Official website",
+      "url": "https://www.jw.org"
+    },
+    {
+      "title": "Apocalypse Delayed: The Story of Jehovah’s Witnesses",
+      "author": "M. James Penton"
+    }
+  ]
+}

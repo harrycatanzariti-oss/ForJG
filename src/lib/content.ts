@@ -43,3 +43,9 @@ export const getTradition = (id: string) => traditions.find((t) => t.id === id);
 
 export const traditionNames = (): Record<string, string> =>
   Object.fromEntries(traditions.map((t) => [t.id, t.shortName]));
+
+import { bigQuestionSchema, type BigQuestion } from './schemas';
+const questionFiles = import.meta.glob<unknown>('/src/data/questions/*.json', { eager: true, import: 'default' });
+export const bigQuestions: BigQuestion[] = Object.values(questionFiles)
+  .map((r) => bigQuestionSchema.parse(r))
+  .sort((a, b) => a.title.localeCompare(b.title));

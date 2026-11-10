@@ -1,0 +1,123 @@
+{
+  "id": "church-of-the-east",
+  "name": "Church of the East (Assyrian and Ancient Churches)",
+  "shortName": "Church of the East",
+  "family": "eastern",
+  "foundedApprox": "Traces itself to the apostles Thomas and Addai (Thaddeus) in Mesopotamia, 1st century AD",
+  "keyFigures": [
+    "St Thomas the Apostle",
+    "Mar Addai and Mar Mari",
+    "Theodore of Mopsuestia",
+    "Mar Dinkha IV",
+    "Mar Awa III"
+  ],
+  "originSummary": "The Church of the East grew in the Persian Empire, outside the Roman world, using the Syriac language. In the 5th century it did not accept the Council of Ephesus (431) and its title for Mary, Theotokos, and it honoured teachers such as Theodore of Mopsuestia; its opponents called it “Nestorian”, a name it rejects. Its missionaries reached Central Asia, India and China by the 7th century. Today it exists mainly as the Assyrian Church of the East and the Ancient Church of the East (which separated in 1968 over the calendar and leadership). In 1994 the Assyrian Church of the East and the Catholic Church signed a Common Christological Declaration saying they share the same faith in Christ.",
+  "globalSizeApprox": {
+    "figure": "A few hundred thousand (estimates range from about 300,000 to 500,000)",
+    "year": "2020s",
+    "source": "Various estimates; see the World Council of Churches member profile of the Assyrian Church of the East",
+    "note": "Many members live in diaspora communities after decades of war and persecution in Iraq and Syria."
+  },
+  "whereCommon": [
+    "Iraq",
+    "Iran",
+    "Syria",
+    "India (Kerala, the Chaldean Syrian Church)",
+    "the United States",
+    "Australia",
+    "Europe"
+  ],
+  "diversity": "The Assyrian Church of the East and the Ancient Church of the East share their faith and liturgy but have separate leadership. Related communities that entered communion with Rome (the Chaldean Catholic and Syro-Malabar Churches) share the same heritage.",
+  "beliefs": {
+    "authority": {
+      "summary": "Scripture (the Peshitta, the Syriac Bible) and the Church’s apostolic tradition, including its own synods and Fathers.",
+      "detail": "The Peshitta is the traditional Bible; its New Testament historically had 22 books, omitting 2 Peter, 2–3 John, Jude and Revelation, though these are accepted today in modern usage. The councils of Nicaea (325) and Constantinople (381) and the Church’s own synods are authoritative.",
+      "source": "Assyrian Church of the East, synod of 1997; The Peshitta"
+    },
+    "salvation": {
+      "summary": "Salvation through Christ, received by faith and the sacraments, leading to new life in the Spirit.",
+      "detail": "The Church of the East emphasises Christ’s full humanity and his victory as the second Adam, through which humanity is renewed and raised to immortality.",
+      "source": "Theodore of Mopsuestia, Catechetical Homilies"
+    },
+    "baptism": {
+      "summary": "Infants and adults are baptised, with anointing.",
+      "detail": "Baptism is the gateway to the Christian life and is usually given to infants, followed by anointing with holy oil.",
+      "source": "Assyrian Church of the East, list of the seven sacraments (Mar Abdisho bar Brikha, Marganitha, 1298)"
+    },
+    "communion": {
+      "summary": "The Eucharist is the true body and blood of Christ.",
+      "detail": "The Church uses the Anaphora of Addai and Mari, one of the oldest Christian Eucharistic prayers, which traditionally has no words of institution; the Catholic Church recognised it as valid in 2001. The Holy Leaven (Malka), believed to be handed down from the apostles, is added to the bread.",
+      "source": "Marganitha of Mar Abdisho (1298); Pontifical Council for Promoting Christian Unity, Guidelines for Admission to the Eucharist between the Chaldean Church and the Assyrian Church of the East (2001)"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the Mother of Christ; the Church now also recognises the meaning of “Mother of God” as used by others.",
+      "detail": "Historically the Church of the East preferred the title Christotokos (Mother of Christ). The 1994 Common Christological Declaration with the Catholic Church accepted that both expressions, rightly understood, confess the same faith.",
+      "source": "Common Christological Declaration between the Catholic Church and the Assyrian Church of the East (1994)"
+    },
+    "saints": {
+      "summary": "Saints and martyrs are honoured and remembered in the liturgy.",
+      "detail": "The Church remembers many martyrs from centuries of persecution in Persia. Images are less prominent than in other Eastern churches; the cross has the central place in the church building.",
+      "source": "Liturgical calendar of the Assyrian Church of the East"
+    },
+    "churchGovernance": {
+      "summary": "Episcopal, led by the Catholicos-Patriarch with a synod of bishops.",
+      "detail": "For centuries the patriarchate was hereditary within one family; this practice ended in the 20th century. The Assyrian Church of the East is now led by Mar Awa III (since 2021).",
+      "source": "Holy Synod of the Assyrian Church of the East"
+    },
+    "clergy": {
+      "summary": "Bishops, priests and deacons; priests may marry, bishops are celibate.",
+      "detail": "Historically the Church of the East allowed priests to marry even after ordination. Only men are ordained.",
+      "source": "Synod of Mar Aqaq (486), canons on clerical marriage"
+    },
+    "afterlife": {
+      "summary": "The dead rest awaiting the resurrection; the Church prays for them.",
+      "detail": "The Church of the East traditionally teaches that the souls of the dead are in a state of rest or sleep until the resurrection.",
+      "source": "Liturgical prayers for the departed in the East Syriac rite"
+    },
+    "spiritualGifts": {
+      "summary": "God continues to work through prayer, saints and holy places; charismatic practices are not part of worship.",
+      "detail": "The emphasis is on liturgical prayer and the sacraments.",
+      "source": "East Syriac liturgical tradition"
+    },
+    "endTimes": {
+      "summary": "Christ will return to raise the dead and judge, bringing the new age.",
+      "detail": "Teaching follows the Nicene Creed. The Church emphasises the resurrection of the body and the renewal of creation.",
+      "source": "The Nicene Creed (in its East Syriac form)"
+    }
+  },
+  "worship": {
+    "style": "Ancient East Syriac liturgy",
+    "typicalService": "The Holy Qurbana (Eucharist), mostly in Syriac with modern Assyrian or English, about 1.5–2 hours.",
+    "calendar": "Its own liturgical year, divided into seven-week periods, with the Rogation of the Ninevites, a three-day fast recalling Jonah.",
+    "music": "Syriac chant."
+  },
+  "firstVisit": {
+    "expect": "Churches have a raised altar area behind a curtain and a prominent cross. Much of the service is in Syriac, and families often attend together.",
+    "wear": "Modest clothing; women often cover their heads.",
+    "etiquette": [
+      "Communion is normally for members of the Church.",
+      "Visitors are usually warmly welcomed, often with food after the service."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The Peshitta",
+      "note": "The Syriac Bible."
+    },
+    {
+      "title": "The Anaphora of Addai and Mari",
+      "note": "An ancient Eucharistic prayer."
+    },
+    {
+      "title": "The Marganitha (The Pearl)",
+      "note": "A summary of the faith by Mar Abdisho bar Brikha, 1298."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "The Church of the East: A Concise History",
+      "author": "Wilhelm Baum and Dietmar W. Winkler"
+    }
+  ],
+  "otherGroup": false
+}

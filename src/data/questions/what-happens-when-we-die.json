@@ -1,0 +1,56 @@
+{
+  "id": "what-happens-when-we-die",
+  "title": "What happens when we die?",
+  "intro": "Christians share the hope of resurrection: because Jesus rose from the dead, death is not the end. They differ on what happens between death and the final resurrection, and on purgatory and prayer for the dead.",
+  "keyPassages": [
+    "John 11:25-26",
+    "Luke 23:42-43",
+    "2 Corinthians 5:6-8",
+    "Philippians 1:21-23",
+    "1 Thessalonians 4:13-17",
+    "1 Corinthians 15:51-55",
+    "Revelation 21:1-4"
+  ],
+  "views": [
+    {
+      "label": "Heaven, hell, and purification for some",
+      "summary": "Catholics believe each person is judged at death. Those who die in God’s friendship but are not yet fully purified pass through purgatory, a final cleansing, before heaven. The living can pray for them. Catholics also point to 2 Maccabees 12:46, a deuterocanonical book, for prayer for the dead.",
+      "heldBy": ["catholic"],
+      "passages": ["1 Corinthians 3:13-15"],
+      "source": "Catechism of the Catholic Church 1021–1032"
+    },
+    {
+      "label": "The soul awaits the resurrection; we pray for the departed",
+      "summary": "Orthodox and other Eastern churches pray for the dead and believe the soul experiences a foretaste of heaven or separation from God while awaiting the resurrection, without defining purgatory.",
+      "heldBy": ["eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+      "passages": ["Luke 16:19-31"],
+      "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4"
+    },
+    {
+      "label": "Believers go immediately to be with Christ",
+      "summary": "Most Protestants believe that at death believers go straight into Christ’s presence (“to be away from the body and at home with the Lord”), awaiting the resurrection of the body. There is no purgatory.",
+      "heldBy": [
+        "lutheran",
+        "reformed",
+        "anglican",
+        "baptist",
+        "methodist",
+        "pentecostal",
+        "charismatic-evangelical",
+        "anabaptist",
+        "churches-of-christ"
+      ],
+      "passages": ["2 Corinthians 5:6-8", "Philippians 1:21-23", "Luke 23:42-43"],
+      "source": "Westminster Confession, Chapter 32; Baptist Faith and Message, Article X"
+    },
+    {
+      "label": "The dead sleep until the resurrection",
+      "summary": "Seventh-day Adventists teach that the dead are unconscious, “asleep,” until Christ returns and raises them.",
+      "heldBy": ["seventh-day-adventist"],
+      "passages": ["1 Thessalonians 4:13-17", "Ecclesiastes 9:5"],
+      "source": "Seventh-day Adventist Fundamental Beliefs, 26"
+    }
+  ],
+  "common": "All these traditions look forward to the resurrection of the body, Christ’s final judgement, and God making all things new, when “there will be no more death or mourning.”",
+  "related": []
+}

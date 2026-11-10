@@ -1,0 +1,109 @@
+{
+  "id": "pentecostal",
+  "name": "Pentecostal Churches",
+  "shortName": "Pentecostal",
+  "family": "protestant",
+  "foundedApprox": "1901 (Topeka) and 1906 (Azusa Street Revival, Los Angeles)",
+  "keyFigures": ["Charles Parham", "William J. Seymour", "Aimee Semple McPherson", "Smith Wigglesworth"],
+  "originSummary": "Pentecostalism grew from the Holiness movement. In 1901 students of Charles Parham in Kansas spoke in tongues, and from 1906 the Azusa Street Revival in Los Angeles, led by the African American preacher William J. Seymour, drew people of many races and nations. Pentecostals teach that believers can receive a “baptism in the Holy Spirit,” often marked by speaking in tongues, as on the day of Pentecost (Acts 2). Denominations such as the Assemblies of God (1914) and the Church of God in Christ formed, and the movement spread rapidly worldwide.",
+  "globalSizeApprox": {
+    "figure": "About 644 million Pentecostals and Charismatics together",
+    "year": "2020",
+    "source": "Center for the Study of Global Christianity, Gordon-Conwell Theological Seminary",
+    "note": "This figure combines classical Pentecostals, charismatics in other churches and independent charismatic churches; definitions vary."
+  },
+  "whereCommon": ["Brazil", "Nigeria", "the United States", "South Korea", "Ghana", "Guatemala", "India", "Indonesia"],
+  "diversity": "Pentecostal churches vary from large denominations to independent churches. Most are Trinitarian, but Oneness Pentecostals (such as the United Pentecostal Church) baptise in Jesus’ name and reject the doctrine of the Trinity. Some emphasise prosperity teaching, which others strongly reject.",
+  "beliefs": {
+    "authority": {
+      "summary": "The Bible is the inspired, infallible Word of God.",
+      "detail": "The Scriptures are “the infallible, authoritative rule of faith and conduct.” Many Pentecostals also expect God to speak today through prophecy, always tested by Scripture.",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 1"
+    },
+    "salvation": {
+      "summary": "By grace through faith in Jesus Christ, through repentance and new birth.",
+      "detail": "Salvation is received through repentance toward God and faith in the Lord Jesus Christ; the inward evidence is the witness of the Spirit, and the outward evidence a life of righteousness. Many Pentecostals believe salvation can be lost.",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 5"
+    },
+    "baptism": {
+      "summary": "Believers by full immersion.",
+      "detail": "Water baptism by immersion is commanded for all who repent and believe; it is an ordinance, a public declaration of faith.",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 6"
+    },
+    "communion": {
+      "summary": "The Lord’s Supper is a memorial and a sharing in Christ, by faith.",
+      "detail": "The Lord’s Supper is a symbol of Christ’s suffering and death and a prophecy of his return, enjoined on all believers.",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 6"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the virgin mother of Jesus; she is not venerated.",
+      "detail": "Pentecostals affirm the virgin birth.",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 2"
+    },
+    "saints": {
+      "summary": "All believers are saints; prayer is to God through Jesus.",
+      "detail": "There is no veneration of saints.",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 2 (Jesus as mediator)"
+    },
+    "churchGovernance": {
+      "summary": "Mixed: often cooperative fellowships of self-governing churches; some have bishops.",
+      "detail": "The Assemblies of God combines local church autonomy with district and national councils; the Church of God in Christ has bishops.",
+      "source": "Constitution and Bylaws of the General Council of the Assemblies of God"
+    },
+    "clergy": {
+      "summary": "Pastors (credentialed ministers); many Pentecostal churches have ordained women since the early days.",
+      "detail": "Women preached at Azusa Street, and the Assemblies of God has credentialed women ministers since 1935, though many congregations still have male senior pastors.",
+      "source": "Assemblies of God position paper, “The Role of Women in Ministry” (2010)"
+    },
+    "afterlife": {
+      "summary": "Heaven for the saved, eternal punishment for those who reject Christ.",
+      "detail": "There will be a final judgement in which the wicked dead will be judged; the saved will live forever with God.",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 15"
+    },
+    "spiritualGifts": {
+      "summary": "All the gifts of the Spirit continue today; the baptism in the Holy Spirit is evidenced by speaking in tongues.",
+      "detail": "All believers are entitled to and should seek the baptism in the Holy Spirit, a distinct experience after new birth. Its initial physical evidence is speaking in other tongues. Divine healing is “an integral part of the gospel.”",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 7, 8 and 12"
+    },
+    "endTimes": {
+      "summary": "Christ’s return is imminent: the rapture of the church, then a literal thousand-year reign.",
+      "detail": "The “blessed hope” is the rapture of believers, followed by Christ’s visible return and millennial reign on earth.",
+      "source": "Assemblies of God, Statement of Fundamental Truths, 13 and 14"
+    }
+  },
+  "worship": {
+    "style": "Expressive and Spirit-led",
+    "typicalService": "Extended worship with lively music, raised hands, prayer (sometimes in tongues), testimonies, a passionate sermon, and prayer for healing or response at the front.",
+    "calendar": "Christmas, Easter and Pentecost; few other set seasons.",
+    "music": "Contemporary worship bands and gospel choirs."
+  },
+  "firstVisit": {
+    "expect": "Worship can be loud and emotional, with people praying aloud at the same time or speaking in tongues. Services may last two hours or more.",
+    "wear": "Anything from Sunday best to casual.",
+    "etiquette": [
+      "You are free to participate as much or as little as you like.",
+      "There may be an invitation to come forward for prayer; it’s optional."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "Statement of Fundamental Truths (Assemblies of God)",
+      "note": "16 core beliefs."
+    },
+    {
+      "title": "The Book of Acts",
+      "note": "Especially chapter 2."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Statement of Fundamental Truths",
+      "url": "https://ag.org/Beliefs/Statement-of-Fundamental-Truths"
+    },
+    {
+      "title": "An Introduction to Pentecostalism",
+      "author": "Allan Anderson"
+    }
+  ],
+  "otherGroup": false
+}

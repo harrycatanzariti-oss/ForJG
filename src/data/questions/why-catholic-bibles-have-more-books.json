@@ -1,0 +1,31 @@
+{
+  "id": "why-catholic-bibles-have-more-books",
+  "title": "Why do Catholic Bibles have more books?",
+  "intro": "Catholic Bibles have 73 books and Orthodox Bibles a few more, while Protestant Bibles have 66. The difference is in the Old Testament: books such as Tobit, Judith, 1–2 Maccabees, Wisdom, Sirach and Baruch (plus additions to Esther and Daniel). Catholics call them deuterocanonical (“second canon”); Protestants usually call them the Apocrypha.",
+  "keyPassages": ["Luke 24:44", "2 Timothy 3:15-17", "Romans 3:1-2"],
+  "views": [
+    {
+      "label": "Part of the Old Testament",
+      "summary": "These books were in the Greek translation of the Old Testament (the Septuagint) used by many early Christians, and were affirmed by regional councils such as Hippo (393) and Carthage (397) and later by the Council of Trent (1546). Catholics read them as fully inspired Scripture.",
+      "heldBy": ["catholic"],
+      "passages": [],
+      "source": "Council of Trent, Session IV (1546); Catechism of the Catholic Church 120"
+    },
+    {
+      "label": "Part of the Old Testament (with a slightly larger list)",
+      "summary": "Orthodox churches follow the Septuagint and include these books and a few others (such as 1 Esdras, 3 Maccabees and Psalm 151). The Ethiopian Orthodox canon is the largest, including 1 Enoch and Jubilees.",
+      "heldBy": ["eastern-orthodox", "oriental-orthodox"],
+      "passages": [],
+      "source": "Synod of Jerusalem (1672); Ethiopian Orthodox Tewahedo Church canon"
+    },
+    {
+      "label": "Valuable, but not Scripture",
+      "summary": "Protestants follow the Hebrew Bible used by Jews, which does not include these books. Reformers such as Luther printed them separately as useful to read; the Anglican Articles say they may be read “for example of life” but not to establish doctrine. Many Protestant Bibles today omit them.",
+      "heldBy": ["lutheran", "anglican", "reformed", "baptist", "methodist", "pentecostal", "charismatic-evangelical"],
+      "passages": [],
+      "source": "Thirty-Nine Articles, Article VI; Westminster Confession 1.3"
+    }
+  ],
+  "common": "All Christians accept the same 27 books of the New Testament and the books of the Hebrew Bible. This site’s reader currently uses the 66-book Protestant canon, but its data is designed so the deuterocanonical books can be added later.",
+  "related": []
+}

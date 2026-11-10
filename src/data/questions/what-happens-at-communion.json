@@ -1,0 +1,51 @@
+{
+  "id": "what-happens-at-communion",
+  "title": "What happens at Communion?",
+  "intro": "Jesus took bread and wine at the Last Supper and said, “This is My body… this is My blood.” Almost all Christians share this meal (called the Eucharist, Mass, Divine Liturgy, Holy Communion or the Lord’s Supper), but they understand Jesus’ words in different ways.",
+  "keyPassages": [
+    "Matthew 26:26-28",
+    "Luke 22:19-20",
+    "John 6:53-58",
+    "1 Corinthians 10:16-17",
+    "1 Corinthians 11:23-29"
+  ],
+  "views": [
+    {
+      "label": "The bread and wine become Christ’s body and blood",
+      "summary": "Catholics teach transubstantiation: the substance of the bread and wine becomes Christ’s body and blood while their appearance remains. The Orthodox and other ancient Eastern churches also teach a real change, but prefer not to define how. The Eucharist also makes present Christ’s one sacrifice.",
+      "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+      "passages": ["John 6:53-58", "Matthew 26:26-28"],
+      "source": "Catechism of the Catholic Church 1374–1376; Confession of Dositheus, Decree 17"
+    },
+    {
+      "label": "Christ is truly present in, with and under the bread and wine",
+      "summary": "Lutherans teach that Christ’s true body and blood are present together with the bread and wine, which remain bread and wine, and are received by all who eat and drink.",
+      "heldBy": ["lutheran"],
+      "passages": ["1 Corinthians 10:16-17", "1 Corinthians 11:27-29"],
+      "source": "Augsburg Confession, Article X; Luther’s Small Catechism"
+    },
+    {
+      "label": "Christ is present spiritually, received by faith",
+      "summary": "In the Reformed view, held also by many Anglicans and Methodists, believers truly feed on Christ by faith through the Holy Spirit, but the bread and wine are not changed.",
+      "heldBy": ["reformed", "anglican", "methodist"],
+      "passages": ["1 Corinthians 10:16-17", "John 6:63"],
+      "source": "Westminster Confession 29.7; Thirty-Nine Articles, Article XXVIII"
+    },
+    {
+      "label": "A memorial and proclamation of Christ’s death",
+      "summary": "Many Baptists, Pentecostals, Anabaptists and others see the Supper as a symbolic act of remembrance and obedience, proclaiming Christ’s death until he comes.",
+      "heldBy": [
+        "baptist",
+        "pentecostal",
+        "charismatic-evangelical",
+        "anabaptist",
+        "churches-of-christ",
+        "seventh-day-adventist"
+      ],
+      "passages": ["Luke 22:19-20", "1 Corinthians 11:23-26"],
+      "source": "Baptist Faith and Message (2000), Article VII"
+    }
+  ],
+  "common": "All these traditions agree that Jesus commanded this meal, that it remembers his death, and that it is deeply important. Quakers observe no outward Communion, seeking inward communion with Christ.",
+  "related": ["who-should-be-baptised"]
+}

@@ -1,0 +1,38 @@
+---
+import CompareTool from '~/components/CompareTool';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { traditions } from '~/lib/content';
+import { BELIEF_TOPICS, BELIEF_TOPIC_LABELS } from '~/lib/schemas';
+import { NEUTRALITY_NOTE } from '~/lib/traditions-meta';
+import { url } from '~/lib/url';
+
+const compact = traditions.map((t) => ({
+  id: t.id,
+  name: t.name,
+  shortName: t.shortName,
+  family: t.family,
+  otherGroup: t.otherGroup,
+  beliefs: Object.fromEntries(
+    BELIEF_TOPICS.map((k) => [k, { summary: t.beliefs[k].summary, source: t.beliefs[k].source }]),
+  ),
+}));
+const topics = BELIEF_TOPICS.map((id) => ({ id, label: BELIEF_TOPIC_LABELS[id] }));
+---
+
+<BaseLayout
+  title="Compare traditions"
+  description="Compare what Christian traditions believe, side by side, on 11 topics."
+>
+  <nav aria-label="Breadcrumb" class="mb-1 text-sm">
+    <a href={url('/traditions')} class="text-ink-muted">
+      Traditions
+    </a>
+  </nav>
+  <h1 class="font-serif text-3xl font-semibold">Compare traditions</h1>
+  <p class="mt-2 max-w-prose text-ink-muted">
+    {NEUTRALITY_NOTE} Each summary is short; open a tradition’s profile for detail and sources.
+  </p>
+  <div class="mt-6">
+    <CompareTool client:load traditions={compact} topics={topics} />
+  </div>
+</BaseLayout>

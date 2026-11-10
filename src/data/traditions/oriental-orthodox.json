@@ -1,0 +1,128 @@
+{
+  "id": "oriental-orthodox",
+  "name": "Oriental Orthodox Churches",
+  "shortName": "Oriental Orthodox",
+  "family": "eastern",
+  "foundedApprox": "Ancient churches tracing to the apostles; separate communion since the Council of Chalcedon (451)",
+  "keyFigures": [
+    "St Mark (Alexandria)",
+    "St Cyril of Alexandria",
+    "St Gregory the Illuminator (Armenia)",
+    "St Frumentius (Ethiopia)",
+    "Pope Shenouda III"
+  ],
+  "originSummary": "The Oriental Orthodox family includes the Coptic Orthodox (Egypt), Armenian Apostolic, Syriac Orthodox, Ethiopian Orthodox Tewahedo, Eritrean Orthodox Tewahedo and Malankara Orthodox (India) churches. They accept the first three Ecumenical Councils but did not accept the Council of Chalcedon (451), holding to St Cyril of Alexandria’s formula of “one incarnate nature of God the Word.” They describe their belief as miaphysite (one united nature, both divine and human, without mixture) and reject the label “monophysite.” Since the 1960s, dialogues with the Eastern Orthodox and Catholic churches have concluded that the disagreement was largely over words.",
+  "globalSizeApprox": {
+    "figure": "About 60 million",
+    "year": "2020s",
+    "source": "Commonly cited estimate; see World Council of Churches member church profiles",
+    "note": "Most belong to the Ethiopian Orthodox Tewahedo Church."
+  },
+  "whereCommon": [
+    "Ethiopia",
+    "Egypt",
+    "Armenia",
+    "Eritrea",
+    "India (Kerala)",
+    "Syria, Lebanon and Iraq",
+    "diaspora communities"
+  ],
+  "diversity": "The churches share one faith and are in communion, but each has its own language (Coptic, Ge’ez, Armenian, Syriac, Malayalam), liturgy and customs. The Ethiopian and Eritrean churches keep some distinctive practices such as observing a Saturday Sabbath alongside Sunday, and a broader biblical canon.",
+  "beliefs": {
+    "authority": {
+      "summary": "Holy Tradition, including Scripture, the first three Ecumenical Councils and the Church Fathers.",
+      "detail": "Scripture is read within the Church’s Tradition and liturgy. The canons differ slightly between churches; the Ethiopian Orthodox canon is the largest of any church, including books such as 1 Enoch and Jubilees.",
+      "source": "Common Declaration of Pope Shenouda III and Pope Paul VI (1973); Ethiopian Orthodox Tewahedo Church, canon of 81 books"
+    },
+    "salvation": {
+      "summary": "Salvation is union with God through Christ, received by faith, the sacraments and a life of repentance and love.",
+      "detail": "As in Eastern Orthodoxy, salvation is understood as a lifelong process of healing and growing in holiness by grace, in which people cooperate with God.",
+      "source": "Pope Shenouda III, Salvation in the Orthodox Concept"
+    },
+    "baptism": {
+      "summary": "Infants and adults are baptised by triple immersion, with chrismation (confirmation) and Communion.",
+      "detail": "Baptism is the new birth by water and the Spirit. Infants receive full initiation. In the Coptic tradition, boys are customarily baptised at 40 days and girls at 80 days.",
+      "source": "Pope Shenouda III, Comparative Theology (on baptism)"
+    },
+    "communion": {
+      "summary": "The bread and wine become the true body and blood of Christ.",
+      "detail": "The Eucharist is the centre of worship, celebrated with ancient liturgies such as those of St Basil, St Gregory and St Cyril (Coptic) or St James (Syriac). Communicants prepare by fasting and confession.",
+      "source": "Coptic Liturgy of St Basil; Pope Shenouda III, Comparative Theology"
+    },
+    "mary": {
+      "summary": "Mary is the Theotokos, ever-virgin, deeply honoured with many feasts and fasts.",
+      "detail": "Oriental Orthodox churches give Mary great honour: the Ethiopian church has dozens of Marian feasts each year, and the Coptic church keeps a Fast of the Virgin in August.",
+      "source": "Council of Ephesus (431); Coptic Orthodox liturgical hymns (Theotokia)"
+    },
+    "saints": {
+      "summary": "The saints and martyrs intercede for the faithful and are honoured with icons and feasts.",
+      "detail": "Martyrs have a special place, especially in the Coptic Church, whose calendar counts years from the persecution under Diocletian (Era of the Martyrs).",
+      "source": "Coptic Synaxarium (book of saints’ lives)"
+    },
+    "churchGovernance": {
+      "summary": "Bishops in synods under patriarchs or catholicoi; each church is self-governing.",
+      "detail": "Leaders include the Coptic Pope of Alexandria, the Catholicos of All Armenians, the Syriac Patriarch of Antioch and the Ethiopian Patriarch. The churches are in communion with each other.",
+      "source": "Common declaration of the heads of the Oriental Orthodox Churches (Addis Ababa, 1965)"
+    },
+    "clergy": {
+      "summary": "Bishops, priests and deacons; priests may be married before ordination; bishops are monastics.",
+      "detail": "Bishops are chosen from monks. Only men are ordained as priests. Some churches have deaconesses in non-sacramental roles; the Armenian Church has ordained a few women as deacons.",
+      "source": "Pope Shenouda III, The Priesthood"
+    },
+    "afterlife": {
+      "summary": "The faithful departed are prayed for and await the resurrection and final judgement.",
+      "detail": "Prayers for the departed are a regular part of worship. Like the Eastern Orthodox, these churches generally do not teach purgatory as defined by the Catholic Church.",
+      "source": "Pope Shenouda III, Comparative Theology (on purgatory)"
+    },
+    "spiritualGifts": {
+      "summary": "God works miracles today, especially through saints, relics and prayer; tongues-speaking is not part of worship.",
+      "detail": "Healings and miracles connected with saints and holy places are widely reported and honoured, for example at Marian apparition sites in Egypt.",
+      "source": "Coptic Orthodox Church, statement on the Zeitoun apparitions (1968)"
+    },
+    "endTimes": {
+      "summary": "Christ will return to judge the living and the dead; the dead will be raised.",
+      "detail": "These churches affirm the Nicene Creed and do not teach detailed end-times timelines.",
+      "source": "The Nicene Creed (325/381)"
+    }
+  },
+  "worship": {
+    "style": "Ancient liturgies, often long and sung, with incense, icons and processions",
+    "typicalService": "Sunday Eucharistic liturgy, often 2–3 hours, in an ancient language mixed with local languages (e.g. Coptic and Arabic or English).",
+    "calendar": "Own ancient calendars (Coptic, Ethiopian) with many feast days and frequent fasting (in some traditions over 180 fast days a year).",
+    "music": "Chant, often with cymbals and triangle (Coptic) or drums and sistrum (Ethiopian)."
+  },
+  "firstVisit": {
+    "expect": "In many churches men and women sit or stand on different sides. Shoes may be removed (Ethiopian, Eritrean). Services are long and people may come and go.",
+    "wear": "Modest clothing; women often cover their heads, and in Ethiopian churches many wear white shawls.",
+    "etiquette": [
+      "Only members of the Oriental Orthodox churches receive Communion.",
+      "Avoid eating before the liturgy if you hope to receive blessed bread afterwards (customs vary).",
+      "It’s polite to greet the priest by asking for a blessing or simply shaking hands."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The Nicene Creed",
+      "note": "Without the filioque."
+    },
+    {
+      "title": "Writings of St Cyril of Alexandria",
+      "note": "Especially on the unity of Christ."
+    },
+    {
+      "title": "The Coptic, Armenian, Syriac and Ethiopian liturgies",
+      "note": "Among the oldest Christian liturgies still in use."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "The Oriental Orthodox Churches",
+      "author": "Christine Chaillot (ed.)"
+    },
+    {
+      "title": "The Nature of Christ",
+      "author": "Pope Shenouda III"
+    }
+  ],
+  "otherGroup": false
+}

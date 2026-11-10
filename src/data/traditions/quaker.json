@@ -1,0 +1,113 @@
+{
+  "id": "quaker",
+  "name": "Religious Society of Friends (Quakers)",
+  "shortName": "Quaker",
+  "family": "protestant",
+  "foundedApprox": "1650s (England)",
+  "keyFigures": ["George Fox", "Margaret Fell", "William Penn", "Elizabeth Fry"],
+  "originSummary": "The Quaker movement began in England in the 1650s with George Fox, who taught that everyone can experience Christ directly, without priests or rituals: “there is one, even Christ Jesus, that can speak to thy condition.” Early Friends were persecuted for refusing oaths and tithes and for their plain speech. They became known for peace, honesty, simplicity and equality, and for work such as the abolition of slavery and prison reform.",
+  "globalSizeApprox": {
+    "figure": "About 377,000",
+    "year": "2017",
+    "source": "Friends World Committee for Consultation",
+    "note": "About half live in Africa, especially Kenya."
+  },
+  "whereCommon": ["Kenya", "the United States", "Bolivia", "Burundi", "the United Kingdom", "Guatemala"],
+  "diversity": "Quakers vary greatly. “Unprogrammed” liberal Friends (common in Britain) meet in silence and hold a wide range of beliefs, some not explicitly Christian. “Programmed” and evangelical Friends (common in Africa, Latin America and parts of the US) have pastors, sermons and hymns and hold evangelical Christian beliefs.",
+  "beliefs": {
+    "authority": {
+      "summary": "The Inward Light of Christ (the Spirit within), tested by Scripture and the gathered community.",
+      "detail": "Friends emphasise direct experience of God. Liberal Quakers see Scripture as a precious record of others’ experience; evangelical Friends hold the Bible as the inspired, authoritative Word of God.",
+      "source": "Quaker faith & practice, 5th edition (Britain Yearly Meeting), Chapter 27; Richmond Declaration of Faith (1887)"
+    },
+    "salvation": {
+      "summary": "Liberal Friends speak of responding to the Light within; evangelical Friends teach salvation through faith in Jesus Christ.",
+      "detail": "The Richmond Declaration affirms salvation through Christ’s death and the work of the Holy Spirit. Many liberal Quakers avoid doctrinal statements, emphasising the transformed life.",
+      "source": "Richmond Declaration of Faith (1887); Advices and queries (Britain Yearly Meeting)"
+    },
+    "baptism": {
+      "summary": "No outward baptism; Friends seek the inward baptism of the Spirit.",
+      "detail": "Quakers traditionally believe that outward rituals are not necessary, because Christ baptises with the Spirit inwardly. Some evangelical Friends allow outward baptism.",
+      "source": "Robert Barclay, An Apology for the True Christian Divinity (1676), Proposition 12"
+    },
+    "communion": {
+      "summary": "No outward Communion; Friends seek inward communion with Christ, especially in silent worship.",
+      "detail": "The whole of life can be sacramental, so early Friends set aside outward bread and wine. Meeting for worship is a form of communion.",
+      "source": "Robert Barclay, Apology (1676), Proposition 13"
+    },
+    "mary": {
+      "summary": "Mary is respected as the mother of Jesus; there is no special doctrine or devotion.",
+      "detail": "Quakers have no creeds about Mary.",
+      "source": "No formal statement (Quakers avoid creeds)"
+    },
+    "saints": {
+      "summary": "No saints are venerated; Friends honour those whose lives showed the Light.",
+      "detail": "Quakers remember examples such as George Fox and Elizabeth Fry without any formal veneration.",
+      "source": "No formal statement (Quakers avoid creeds)"
+    },
+    "churchGovernance": {
+      "summary": "Decisions made by the whole meeting, seeking unity under God’s guidance, without voting.",
+      "detail": "Business meetings seek the “sense of the meeting,” recorded by a clerk. Local meetings belong to regional and yearly meetings.",
+      "source": "Quaker faith & practice, 5th edition (Britain Yearly Meeting), Chapter 3"
+    },
+    "clergy": {
+      "summary": "No clergy among unprogrammed Friends (all are ministers); programmed Friends have pastors. Women and men have always ministered equally.",
+      "detail": "Early Friends rejected a paid clergy. Women preached from the beginning; Margaret Fell defended women’s ministry in Women’s Speaking Justified (1666).",
+      "source": "Quaker faith & practice, 5th edition (Britain Yearly Meeting), Chapter 2; Margaret Fell, Women’s Speaking Justified (1666)"
+    },
+    "afterlife": {
+      "summary": "Views vary widely; many Friends focus on this life, while evangelical Friends affirm heaven and judgement.",
+      "detail": "The Richmond Declaration affirms the resurrection and final judgement; liberal Friends hold diverse views and seldom speculate.",
+      "source": "Richmond Declaration of Faith (1887)"
+    },
+    "spiritualGifts": {
+      "summary": "Spoken ministry rises from the Spirit in silent worship; evangelical Friends may also be charismatic.",
+      "detail": "In unprogrammed meetings, anyone may stand and speak if moved by the Spirit. Early Quakers were known for trembling (“quaking”) under the power of God.",
+      "source": "Quaker faith & practice, 5th edition (Britain Yearly Meeting), Chapter 2.55–2.72"
+    },
+    "endTimes": {
+      "summary": "Little emphasis on end-times timelines; many Friends emphasise God’s kingdom being lived now.",
+      "detail": "Early Friends spoke of Christ having come to teach his people himself. Evangelical Friends affirm Christ’s return.",
+      "source": "Richmond Declaration of Faith (1887)"
+    }
+  },
+  "worship": {
+    "style": "Silent waiting (unprogrammed) or pastor-led (programmed)",
+    "typicalService": "Unprogrammed: about an hour of shared silence, broken occasionally by someone who feels moved to speak. Programmed: hymns, Bible reading, a sermon and a time of open worship.",
+    "calendar": "Traditionally Friends do not keep holy days, holding all days alike; many now mark Christmas and Easter.",
+    "music": "None in unprogrammed worship; hymns in programmed meetings."
+  },
+  "firstVisit": {
+    "expect": "In an unprogrammed meeting, sit anywhere in the circle and settle into silence. The meeting ends when people shake hands.",
+    "wear": "Anything; simplicity is valued.",
+    "etiquette": [
+      "There is no Communion or collection during worship.",
+      "If you feel moved to speak, keep it brief and leave silence after others speak."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "Quaker faith & practice",
+      "note": "A book of discipline from Britain Yearly Meeting (and similar books elsewhere)."
+    },
+    {
+      "title": "Advices and queries",
+      "note": "Short reflections read in meetings."
+    },
+    {
+      "title": "The Journal of George Fox",
+      "note": "The founder’s own account."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Quaker faith & practice (online)",
+      "url": "https://qfp.quaker.org.uk"
+    },
+    {
+      "title": "An Introduction to Quakerism",
+      "author": "Pink Dandelion"
+    }
+  ],
+  "otherGroup": false
+}

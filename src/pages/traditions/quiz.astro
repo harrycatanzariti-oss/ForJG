@@ -1,0 +1,39 @@
+---
+import Quiz from '~/components/Quiz';
+import quizJson from '~/data/quiz.json';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { traditions } from '~/lib/content';
+import { quizSchema } from '~/lib/schemas';
+import { url } from '~/lib/url';
+
+const questions = quizSchema.parse(quizJson);
+const list = traditions.map((t) => ({
+  id: t.id,
+  name: t.name,
+  shortName: t.shortName,
+  otherGroup: t.otherGroup,
+  family: t.family,
+}));
+---
+
+<BaseLayout
+  title="Belief explorer"
+  description="Answer 18 questions to see which Christian traditions are closest to your views. A starting point, not a verdict."
+  width="reading"
+>
+  <nav aria-label="Breadcrumb" class="mb-1 text-sm">
+    <a href={url('/traditions')} class="text-ink-muted">
+      Traditions
+    </a>
+  </nav>
+  <h1 class="font-serif text-3xl font-semibold">Belief explorer</h1>
+  <p class="mt-2 mb-6 text-ink-muted">
+    Find out which traditions’ teaching is closest to what you believe. Your answers stay on this device.
+  </p>
+  <Quiz client:load questions={questions} traditions={list} />
+  <noscript>
+    <p>
+      The quiz needs JavaScript. You can <a href={url('/traditions/compare')}>compare traditions</a> instead.
+    </p>
+  </noscript>
+</BaseLayout>

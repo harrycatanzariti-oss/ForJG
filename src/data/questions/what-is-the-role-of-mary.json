@@ -1,0 +1,31 @@
+{
+  "id": "what-is-the-role-of-mary",
+  "title": "What is the role of Mary?",
+  "intro": "Mary, the mother of Jesus, is honoured by all Christians. The first councils called her Theotokos (God-bearer) to affirm that her son is God. Traditions differ on what else should be believed about her and how she should be honoured.",
+  "keyPassages": ["Luke 1:26-38", "Luke 1:46-55", "John 2:1-11", "John 19:25-27", "Acts 1:14", "Galatians 4:4"],
+  "views": [
+    {
+      "label": "Mother of God, Immaculate and Assumed",
+      "summary": "Catholics believe Mary was preserved from original sin from her conception (the Immaculate Conception), remained ever-virgin, and was taken body and soul into heaven (the Assumption). She is honoured above all saints and Catholics ask her prayers, but she is not worshipped.",
+      "heldBy": ["catholic"],
+      "passages": ["Luke 1:28", "Luke 1:48"],
+      "source": "Catechism of the Catholic Church 490–493, 966–971"
+    },
+    {
+      "label": "Theotokos, ever-virgin, most holy",
+      "summary": "Orthodox and Oriental Orthodox Christians venerate Mary in nearly every service, celebrate her falling asleep (Dormition) and believe she is in heaven, but generally do not accept the Catholic definition of the Immaculate Conception.",
+      "heldBy": ["eastern-orthodox", "oriental-orthodox", "church-of-the-east"],
+      "passages": ["Luke 1:42-43"],
+      "source": "Council of Ephesus (431); Orthodox liturgical texts"
+    },
+    {
+      "label": "Honoured as mother of Jesus and model of faith",
+      "summary": "Most Protestants honour Mary as the virgin mother of Jesus and a model of faith and obedience, but do not pray to her or accept doctrines not found in Scripture. Lutherans and Anglicans also use the title Mother of God; Anglo-Catholics may share Catholic devotions.",
+      "heldBy": ["lutheran", "anglican", "reformed", "methodist", "baptist", "pentecostal", "charismatic-evangelical"],
+      "passages": ["Luke 1:38", "John 2:5"],
+      "source": "Formula of Concord, Solid Declaration VIII.24; Westminster Confession 8.2"
+    }
+  ],
+  "common": "All these traditions affirm that Jesus was born of the virgin Mary and that she said “yes” to God with remarkable faith.",
+  "related": []
+}

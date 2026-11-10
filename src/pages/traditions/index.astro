@@ -1,0 +1,93 @@
+---
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { traditions } from '~/lib/content';
+import { FAMILY_LABELS, NEUTRALITY_NOTE, OTHER_GROUPS_NOTE } from '~/lib/traditions-meta';
+import { url } from '~/lib/url';
+
+const main = traditions.filter((t) => !t.otherGroup);
+const other = traditions.filter((t) => t.otherGroup);
+const families = [...new Set(main.map((t) => t.family))];
+const tools = [
+  {
+    href: '/traditions/tree',
+    title: 'Family tree',
+    text: 'How the traditions branched from the early church, and why.',
+  },
+  { href: '/traditions/compare', title: 'Compare', text: 'Two or three traditions side by side, topic by topic.' },
+  {
+    href: '/traditions/quiz',
+    title: 'Belief explorer',
+    text: '18 questions to find traditions closest to your views.',
+  },
+  {
+    href: '/traditions/questions',
+    title: 'Big questions',
+    text: 'Communion, baptism, Mary and more: every view, fairly.',
+  },
+];
+---
+
+<BaseLayout
+  title="Christian traditions"
+  description="Catholic, Orthodox, Protestant and other Christian traditions explained fairly, in their own words, with sources."
+>
+  <h1 class="font-serif text-3xl font-semibold">Christian traditions</h1>
+  <p class="mt-2 max-w-prose text-ink-muted">
+    Christians share faith in Jesus and the Bible, but have different traditions of belief and worship.{' '}
+    {NEUTRALITY_NOTE}
+  </p>
+
+  <ul class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    {tools.map((t) => (
+      <li>
+        <a href={url(t.href)} class="card block h-full p-4 text-ink no-underline hover:border-accent">
+          <span class="block font-semibold">{t.title}</span>
+          <span class="mt-1 block text-sm text-ink-muted">{t.text}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  {families.map((f) => (
+    <section class="mt-8" aria-labelledby={`fam-${f}`}>
+      <h2 id={`fam-${f}`} class="flex items-center gap-2 text-xl font-semibold">
+        <span class="size-3 rounded-full" style={`background: var(--f-${f})`} aria-hidden="true" />
+        {FAMILY_LABELS[f]}
+      </h2>
+      <ul class="mt-3 grid gap-3 sm:grid-cols-2">
+        {main
+          .filter((t) => t.family === f)
+          .map((t) => (
+            <li>
+              <a
+                href={url(`/traditions/${t.id}`)}
+                class="card block h-full border-l-4 p-4 text-ink no-underline hover:bg-surface-2"
+                style={`border-left-color: var(--f-${t.family})`}
+              >
+                <span class="block font-semibold">{t.name}</span>
+                <span class="mt-1 block text-sm text-ink-muted">{t.foundedApprox}</span>
+                <span class="mt-1 block text-sm text-ink-muted">{t.globalSizeApprox.figure}</span>
+              </a>
+            </li>
+          ))}
+      </ul>
+    </section>
+  ))}
+
+  <section class="mt-10 rounded-2xl border border-line bg-surface-2 p-5" aria-labelledby="other-groups">
+    <h2 id="other-groups" class="text-xl font-semibold">
+      {FAMILY_LABELS.other}
+    </h2>
+    <p class="mt-2 max-w-prose text-ink-muted">{OTHER_GROUPS_NOTE}</p>
+    <ul class="mt-3 grid gap-3 sm:grid-cols-2">
+      {other.map((t) => (
+        <li>
+          <a href={url(`/traditions/${t.id}`)} class="card block p-4 text-ink no-underline hover:border-accent">
+            <span class="block font-semibold">{t.name}</span>
+            <span class="mt-1 block text-sm text-ink-muted">{t.foundedApprox}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

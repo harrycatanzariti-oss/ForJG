@@ -1,0 +1,221 @@
+{
+  "events": [
+    {
+      "id": "pentecost",
+      "year": 30,
+      "label": "c. 30",
+      "title": "The church begins",
+      "why": "After Jesus’ death and resurrection, his followers received the Holy Spirit at Pentecost in Jerusalem (Acts 2). The church spread across the Roman Empire and beyond, sharing one faith but in many languages and cultures."
+    },
+    {
+      "id": "ephesus",
+      "year": 431,
+      "label": "431",
+      "title": "Council of Ephesus",
+      "why": "The council affirmed that Mary is Theotokos (God-bearer), stressing that Jesus is one person. Churches in the Persian Empire, using Syriac and outside Roman rule, did not accept the council and its condemnation of Nestorius, and developed separately as the Church of the East. Both sides have since said in 1994 that they share the same faith in Christ, despite different words."
+    },
+    {
+      "id": "chalcedon",
+      "year": 451,
+      "label": "451",
+      "title": "Council of Chalcedon",
+      "why": "Chalcedon defined Christ as one person “in two natures,” divine and human. Many Christians in Egypt, Syria and Armenia held to St Cyril’s phrase “one incarnate nature of God the Word” and rejected the council, forming the Oriental Orthodox churches. Modern dialogues have found the disagreement was largely about terms."
+    },
+    {
+      "id": "schism",
+      "year": 1054,
+      "label": "1054",
+      "title": "The Great Schism (East and West)",
+      "why": "The Greek-speaking East and Latin West had grown apart over centuries: in language, culture, the authority of the Pope, and the Western addition of “and the Son” (filioque) to the Creed. In 1054 representatives of Rome and Constantinople excommunicated each other. The split hardened after the crusaders sacked Constantinople in 1204. The excommunications were lifted in 1965."
+    },
+    {
+      "id": "reformation",
+      "year": 1517,
+      "label": "1517",
+      "title": "The Protestant Reformation",
+      "why": "Martin Luther’s 95 Theses (1517) challenged indulgences and led to deeper disputes about salvation by faith, the authority of Scripture and of the Pope. Luther was excommunicated in 1521. Reformers in Zurich (Zwingli, from 1519) and Geneva (Calvin, from 1536) developed the Reformed tradition. Catholic reform followed at the Council of Trent."
+    },
+    {
+      "id": "anabaptists",
+      "year": 1525,
+      "label": "1525",
+      "title": "The Anabaptists",
+      "why": "Some of Zwingli’s followers in Zurich believed the Reformation had not gone far enough: they rejected infant baptism, baptised one another as believers in January 1525, and called for a church separate from the state that would not use the sword. Both Catholics and Protestants persecuted them."
+    },
+    {
+      "id": "english-reformation",
+      "year": 1534,
+      "label": "1534",
+      "title": "The English Reformation",
+      "why": "When the Pope would not annul Henry VIII’s marriage, Parliament declared the King head of the Church of England (1534). Under Edward VI and Elizabeth I, Thomas Cranmer’s prayer book and the Thirty-Nine Articles shaped a church that was Reformed in doctrine but kept bishops and much traditional liturgy."
+    },
+    {
+      "id": "baptists",
+      "year": 1609,
+      "label": "1609",
+      "title": "The first Baptists",
+      "why": "English Separatists, who believed the Church of England was not reformed enough, went into exile in Amsterdam. There John Smyth concluded that baptism should be for believers only and began a new church in 1609; Thomas Helwys brought the movement back to England in 1612."
+    },
+    {
+      "id": "quakers",
+      "year": 1652,
+      "label": "1650s",
+      "title": "The Quakers",
+      "why": "In the turmoil of the English Civil War, George Fox taught that Christ can be known directly by everyone through the Inward Light, without clergy or outward sacraments. His followers became the Religious Society of Friends."
+    },
+    {
+      "id": "methodism",
+      "year": 1739,
+      "label": "1739",
+      "title": "The Methodist revival",
+      "why": "John and Charles Wesley began a renewal movement within the Church of England, preaching in the open air and forming small groups for disciplined spiritual growth. In America, Methodists formed their own church in 1784; in Britain they separated from the Church of England after Wesley’s death."
+    },
+    {
+      "id": "restoration",
+      "year": 1832,
+      "label": "1830s",
+      "title": "The Restoration Movement",
+      "why": "Barton Stone and Thomas and Alexander Campbell, from Presbyterian backgrounds, called Christians to unite by leaving creeds and denominational names and restoring the New Testament church. Their movements joined in 1832. The a cappella Churches of Christ became a distinct body by the early 1900s."
+    },
+    {
+      "id": "lds",
+      "year": 1830,
+      "label": "1830",
+      "title": "The Latter Day Saint movement",
+      "why": "Joseph Smith, in New York, taught that God had called him to restore the church of Christ, and published the Book of Mormon in 1830. The movement grew from 19th-century American religious revival but taught new scripture and a different understanding of God, so mainstream churches regard it as outside historic Trinitarian Christianity."
+    },
+    {
+      "id": "adventism",
+      "year": 1863,
+      "label": "1863",
+      "title": "Seventh-day Adventism",
+      "why": "William Miller, a Baptist preacher, predicted Christ’s return in 1844. After the “Great Disappointment,” some of his followers concluded that 1844 marked the start of Christ’s ministry in the heavenly sanctuary, adopted the Saturday Sabbath, and organised the Seventh-day Adventist Church in 1863."
+    },
+    {
+      "id": "jw",
+      "year": 1879,
+      "label": "1870s",
+      "title": "The Bible Students (Jehovah’s Witnesses)",
+      "why": "Charles Taze Russell, influenced by Adventist preachers, began a Bible study group in Pittsburgh and in 1879 started publishing what became The Watchtower. The group rejected the doctrine of the Trinity and took the name Jehovah’s Witnesses in 1931."
+    },
+    {
+      "id": "azusa",
+      "year": 1906,
+      "label": "1906",
+      "title": "Azusa Street and Pentecostalism",
+      "why": "From the Holiness movement (which grew out of Methodism), revival broke out in 1906 at Azusa Street, Los Angeles, led by William J. Seymour. People experienced speaking in tongues, which they saw as the baptism in the Holy Spirit described in Acts 2. Pentecostal churches formed and spread worldwide."
+    },
+    {
+      "id": "charismatic",
+      "year": 1960,
+      "label": "1960",
+      "title": "The charismatic movement",
+      "why": "Pentecostal experience spread into older churches from 1960 (Episcopal, Lutheran, and from 1967 Catholic). In the following decades many independent, non-denominational evangelical and charismatic churches formed."
+    }
+  ],
+  "branches": [
+    {
+      "id": "church-of-the-east",
+      "label": "Church of the East",
+      "start": 431,
+      "parent": "catholic",
+      "event": "ephesus",
+      "lane": 0
+    },
+    {
+      "id": "oriental-orthodox",
+      "label": "Oriental Orthodox",
+      "start": 451,
+      "parent": "catholic",
+      "event": "chalcedon",
+      "lane": 1
+    },
+    {
+      "id": "eastern-orthodox",
+      "label": "Eastern Orthodox",
+      "start": 1054,
+      "parent": "catholic",
+      "event": "schism",
+      "lane": 2
+    },
+    {
+      "id": "catholic",
+      "label": "Catholic",
+      "start": 30,
+      "parent": null,
+      "event": "pentecost",
+      "lane": 3,
+      "earlyLabel": "The early church",
+      "earlyUntil": 1054
+    },
+    { "id": "lutheran", "label": "Lutheran", "start": 1517, "parent": "catholic", "event": "reformation", "lane": 4 },
+    {
+      "id": "reformed",
+      "label": "Reformed / Presbyterian",
+      "start": 1523,
+      "parent": "catholic",
+      "event": "reformation",
+      "lane": 5
+    },
+    {
+      "id": "anabaptist",
+      "label": "Anabaptist",
+      "start": 1525,
+      "parent": "reformed",
+      "event": "anabaptists",
+      "lane": 6
+    },
+    {
+      "id": "churches-of-christ",
+      "label": "Churches of Christ",
+      "start": 1832,
+      "parent": "reformed",
+      "event": "restoration",
+      "lane": 7
+    },
+    {
+      "id": "anglican",
+      "label": "Anglican",
+      "start": 1534,
+      "parent": "catholic",
+      "event": "english-reformation",
+      "lane": 8
+    },
+    { "id": "baptist", "label": "Baptist", "start": 1609, "parent": "anglican", "event": "baptists", "lane": 9 },
+    {
+      "id": "seventh-day-adventist",
+      "label": "Seventh-day Adventist",
+      "start": 1863,
+      "parent": "baptist",
+      "event": "adventism",
+      "lane": 10
+    },
+    { "id": "quaker", "label": "Quaker", "start": 1652, "parent": "anglican", "event": "quakers", "lane": 11 },
+    { "id": "methodist", "label": "Methodist", "start": 1739, "parent": "anglican", "event": "methodism", "lane": 12 },
+    { "id": "pentecostal", "label": "Pentecostal", "start": 1906, "parent": "methodist", "event": "azusa", "lane": 13 },
+    {
+      "id": "charismatic-evangelical",
+      "label": "Charismatic / Non-denom.",
+      "start": 1960,
+      "parent": "pentecostal",
+      "event": "charismatic",
+      "lane": 14
+    },
+    {
+      "id": "latter-day-saints",
+      "label": "Latter-day Saints",
+      "start": 1830,
+      "parent": null,
+      "event": "lds",
+      "lane": 15
+    },
+    {
+      "id": "jehovahs-witnesses",
+      "label": "Jehovah’s Witnesses",
+      "start": 1879,
+      "parent": null,
+      "event": "jw",
+      "lane": 16
+    }
+  ]
+}

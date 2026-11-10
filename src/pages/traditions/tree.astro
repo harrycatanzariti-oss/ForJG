@@ -1,0 +1,67 @@
+---
+import FamilyTree from '~/components/FamilyTree';
+import treeJson from '~/data/tree.json';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { traditions } from '~/lib/content';
+import { treeSchema } from '~/lib/schemas';
+import { url } from '~/lib/url';
+
+const tree = treeSchema.parse(treeJson);
+const families = Object.fromEntries(traditions.map((t) => [t.id, t.family]));
+const names = Object.fromEntries(traditions.map((t) => [t.id, t.shortName]));
+const events = [...tree.events].sort((a, b) => a.year - b.year);
+---
+
+<BaseLayout
+  title="Family tree of traditions"
+  description="How Christian traditions branched from the early church, and why each split happened."
+>
+  <nav aria-label="Breadcrumb" class="mb-1 text-sm">
+    <a href={url('/traditions')} class="text-ink-muted">
+      Traditions
+    </a>
+  </nav>
+  <h1 class="font-serif text-3xl font-semibold">Family tree</h1>
+  <p class="mt-2 max-w-prose text-ink-muted">
+    From the first church in Jerusalem to today. The lines show where traditions grew from, not which is right. Dashed
+    lines are groups that emerged separately and are not part of historic Trinitarian Christianity. Dates are
+    approximate.
+  </p>
+  <div class="mt-6">
+    <FamilyTree client:visible tree={tree} families={families} names={names} />
+  </div>
+
+  <section class="mt-12" aria-labelledby="timeline-list">
+    <h2 id="timeline-list" class="text-xl font-semibold">
+      Timeline (list view)
+    </h2>
+    <ol class="mt-4 space-y-4 border-l-2 border-line pl-5">
+      {events.map((e) => {
+        const started = tree.branches.filter((b) => b.event === e.id);
+        return (
+          <li class="relative">
+            <span
+              class="absolute top-1.5 -left-[27px] size-3 rounded-full border-2 border-accent bg-paper"
+              aria-hidden="true"
+            />
+            <h3 class="font-semibold">
+              <span class="text-ink-muted">{e.label}:</span> {e.title}
+            </h3>
+            <p class="mt-1 text-ink-muted">{e.why}</p>
+            {started.length > 0 && (
+              <p class="mt-1 text-sm">
+                Began:{' '}
+                {started.map((b, i) => (
+                  <>
+                    {i > 0 && ', '}
+                    <a href={url(`/traditions/${b.id}`)}>{names[b.id] ?? b.label}</a>
+                  </>
+                ))}
+              </p>
+            )}
+          </li>
+        );
+      })}
+    </ol>
+  </section>
+</BaseLayout>

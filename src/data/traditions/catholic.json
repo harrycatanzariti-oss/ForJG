@@ -1,0 +1,114 @@
+{
+  "id": "catholic",
+  "name": "Catholic Church",
+  "shortName": "Catholic",
+  "family": "catholic",
+  "foundedApprox": "Traces itself to Jesus and the apostles (1st century AD)",
+  "keyFigures": ["St Peter", "St Paul", "St Augustine of Hippo", "St Thomas Aquinas", "Pope Francis", "Pope Leo XIV"],
+  "originSummary": "The Catholic Church understands itself as the one Church founded by Jesus Christ on the apostles, with Peter as its first leader, continued through the bishops in communion with the Bishop of Rome (the Pope). It came through the early councils, the separation from the Eastern churches (traditionally dated 1054) and the Reformation (16th century), and renewed its teaching at councils such as Trent (1545–63) and the Second Vatican Council (1962–65). It includes the Latin (Roman) Church and 23 Eastern Catholic Churches with their own liturgies.",
+  "globalSizeApprox": {
+    "figure": "About 1.4 billion baptised members",
+    "year": "2023",
+    "source": "Annuarium Statisticum Ecclesiae (Vatican statistical yearbook), reported in 2025",
+    "note": "Counts baptised Catholics; practice levels vary widely by country."
+  },
+  "whereCommon": ["Latin America", "Europe", "Central Africa", "the Philippines", "the United States"],
+  "diversity": "Catholics share one body of official teaching, but practice and emphasis vary widely: from traditional Latin Mass communities to charismatic renewal groups, and across 24 churches with different liturgical traditions (Latin, Byzantine, Maronite, Syro-Malabar and others).",
+  "beliefs": {
+    "authority": {
+      "summary": "Scripture and Sacred Tradition together, interpreted by the Church’s teaching office (the Magisterium).",
+      "detail": "Catholics believe God’s revelation is handed on through both Scripture and Tradition, which “flow from the same divine wellspring.” The bishops in communion with the Pope serve this word of God by authentically interpreting it. The Catholic Bible has 73 books, including the deuterocanonical books.",
+      "source": "Catechism of the Catholic Church, paragraphs 80–85 and 120"
+    },
+    "salvation": {
+      "summary": "Salvation is God’s free gift of grace in Christ, received through faith and baptism, and lived out in love and good works.",
+      "detail": "Justification is understood both as forgiveness of sins and inner renewal by the Holy Spirit. It is “conferred in Baptism” and begins by God’s grace, which people freely cooperate with. Mortal sin can destroy this grace, and it is restored through the sacrament of Reconciliation.",
+      "source": "Catechism of the Catholic Church, paragraphs 1987–2005"
+    },
+    "baptism": {
+      "summary": "Infants and adults are baptised; baptism removes original sin and gives new birth.",
+      "detail": "Baptism is the first of seven sacraments, usually by pouring water (immersion is also used) in the name of the Father, Son and Holy Spirit. Infants are baptised because salvation is a gift of grace, not earned. Catholics recognise baptisms done with water and the Trinitarian formula in other churches.",
+      "source": "Catechism of the Catholic Church, paragraphs 1213, 1250–1252, 1271"
+    },
+    "communion": {
+      "summary": "The Eucharist is the real body and blood of Christ: the bread and wine become him (transubstantiation).",
+      "detail": "At the consecration, the whole substance of bread and wine becomes the body and blood of Christ, while their appearances remain. The Mass makes present the one sacrifice of Christ on the cross. Catholics are expected to attend Mass on Sundays; normally only Catholics in a state of grace receive Communion.",
+      "source": "Catechism of the Catholic Church, paragraphs 1366–1367, 1374–1376, 1385"
+    },
+    "mary": {
+      "summary": "Mary is the Mother of God, conceived without sin, ever-virgin, and taken body and soul into heaven.",
+      "detail": "Catholics honour (but do not worship) Mary as the greatest of the saints and mother of the Church. The dogmas of the Immaculate Conception (1854) and the Assumption (1950) are official teaching. Many Catholics ask her prayers, for example in the Rosary.",
+      "source": "Catechism of the Catholic Church, paragraphs 487–511, 966–971"
+    },
+    "saints": {
+      "summary": "The saints in heaven pray for us, and believers may ask for their prayers.",
+      "detail": "The Church canonises some people as saints after investigation. Catholics believe in the “communion of saints”: believers on earth, those being purified, and those in heaven are united, and the saints intercede for the living. Images and relics are venerated, not worshipped.",
+      "source": "Catechism of the Catholic Church, paragraphs 946–962, 2683"
+    },
+    "churchGovernance": {
+      "summary": "Episcopal: bishops in communion with the Pope, the successor of Peter.",
+      "detail": "The Pope, as Bishop of Rome, has full, supreme and universal authority over the Church; the college of bishops shares this authority with him. When the Pope or an ecumenical council defines a doctrine of faith or morals in a solemn way, Catholics believe it is protected from error (infallibility).",
+      "source": "Catechism of the Catholic Church, paragraphs 880–892"
+    },
+    "clergy": {
+      "summary": "Bishops, priests and deacons, ordained in apostolic succession; priests and bishops are men.",
+      "detail": "Holy Orders is a sacrament. In the Latin Church, priests are normally celibate; married men may be ordained deacons, and some Eastern Catholic Churches ordain married men as priests. The Church teaches it has no authority to ordain women as priests.",
+      "source": "Catechism of the Catholic Church, paragraphs 1536–1600; Pope John Paul II, Ordinatio Sacerdotalis (1994)"
+    },
+    "afterlife": {
+      "summary": "Heaven, hell, and purgatory as a final purification for those who die in God’s friendship.",
+      "detail": "Each person faces a particular judgement at death. Those who die in God’s grace but still need purification pass through purgatory before heaven; prayers for the dead help them. Hell is eternal separation from God, freely chosen by refusing his love.",
+      "source": "Catechism of the Catholic Church, paragraphs 1021–1037"
+    },
+    "spiritualGifts": {
+      "summary": "The Holy Spirit gives gifts (charisms) today, to be discerned by the Church.",
+      "detail": "The Catechism describes charisms, “extraordinary or simple and humble,” as graces of the Holy Spirit for building up the Church. The Catholic Charismatic Renewal, which began in 1967, is an approved movement in which some Catholics practise gifts such as tongues and healing prayer.",
+      "source": "Catechism of the Catholic Church, paragraphs 799–801, 2003"
+    },
+    "endTimes": {
+      "summary": "Christ will return in glory to judge the living and the dead; God will make a new heaven and new earth.",
+      "detail": "The Church does not set dates and rejects the idea of a literal earthly thousand-year reign before the end (millenarianism). The Last Judgement and the resurrection of the body will complete God’s plan.",
+      "source": "Catechism of the Catholic Church, paragraphs 668–682, 676, 1038–1050"
+    }
+  },
+  "worship": {
+    "style": "Liturgical and sacramental",
+    "typicalService": "The Mass: the Liturgy of the Word (readings, homily, creed, prayers) followed by the Liturgy of the Eucharist (offertory, Eucharistic prayer, Communion), about 45–75 minutes.",
+    "calendar": "Full church year: Advent, Christmas, Lent, Easter, Pentecost, Ordinary Time, with feasts of Mary and the saints.",
+    "music": "Everything from Gregorian chant and choirs to contemporary worship bands, depending on the parish."
+  },
+  "firstVisit": {
+    "expect": "People may dip a finger in holy water and make the sign of the cross on entering, and genuflect (bend the knee) before sitting. There is a pattern of standing, sitting and kneeling. You are welcome to follow along with a missal or simply watch.",
+    "wear": "Whatever is respectful; many people wear smart-casual clothes.",
+    "etiquette": [
+      "Communion is normally received only by Catholics; others are welcome to come forward with arms crossed for a blessing, or to remain seated.",
+      "Mobile phones off; silence is kept before Mass.",
+      "You will not be singled out as a visitor."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "Catechism of the Catholic Church (1992)",
+      "note": "The official summary of Catholic teaching."
+    },
+    {
+      "title": "Documents of the Second Vatican Council",
+      "note": "Including Lumen Gentium (the Church) and Dei Verbum (revelation)."
+    },
+    {
+      "title": "The Nicene Creed",
+      "note": "Professed at Sunday Mass."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Catechism of the Catholic Church (online)",
+      "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
+    },
+    {
+      "title": "Compendium of the Catechism of the Catholic Church",
+      "author": "Holy See (2005)"
+    }
+  ],
+  "otherGroup": false
+}

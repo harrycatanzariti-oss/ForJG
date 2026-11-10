@@ -1,0 +1,109 @@
+{
+  "id": "lutheran",
+  "name": "Lutheran Churches",
+  "shortName": "Lutheran",
+  "family": "protestant",
+  "foundedApprox": "1517 onward (the Reformation in Germany)",
+  "keyFigures": ["Martin Luther", "Philip Melanchthon", "Johann Sebastian Bach", "Dietrich Bonhoeffer"],
+  "originSummary": "The Lutheran tradition began with Martin Luther, a German monk and professor who in 1517 challenged the sale of indulgences in his 95 Theses. His conviction that people are made right with God by grace through faith alone, not by their works, led to his excommunication and to reformed churches across Germany and Scandinavia. Lutherans see themselves as a reform movement within the one catholic Church, keeping much of the historic liturgy.",
+  "globalSizeApprox": {
+    "figure": "About 78 million in Lutheran World Federation member churches, plus others outside it",
+    "year": "2023",
+    "source": "Lutheran World Federation membership statistics",
+    "note": "Churches such as the Lutheran Church–Missouri Synod are not LWF members."
+  },
+  "whereCommon": ["Germany", "Scandinavia", "the United States", "Ethiopia", "Tanzania", "Indonesia", "Madagascar"],
+  "diversity": "Lutheran churches range from more traditional, confessional bodies (such as the Lutheran Church–Missouri Synod) to more theologically progressive churches (such as the Evangelical Lutheran Church in America and many European state churches). They differ on issues such as women’s ordination and how strictly to hold the confessions.",
+  "beliefs": {
+    "authority": {
+      "summary": "Scripture alone is the final rule of faith; the Lutheran Confessions are a faithful explanation of it.",
+      "detail": "Lutherans hold that Scripture is “the only rule and norm” by which all teachers and teachings are judged. The creeds and the Book of Concord (1580) are accepted because they agree with Scripture. Protestant Bibles with 66 books are used; Luther included the Apocrypha in a separate section as useful to read.",
+      "source": "Formula of Concord (1577), Epitome, Rule and Norm, 1"
+    },
+    "salvation": {
+      "summary": "Justification by grace alone, through faith alone, because of Christ alone.",
+      "detail": "People cannot be justified by their own strength or works, but are freely justified for Christ’s sake through faith. Good works follow as the fruit of faith, not as its cause. Lutherans usually say that a believer can fall away from faith.",
+      "source": "Augsburg Confession (1530), Articles IV and VI"
+    },
+    "baptism": {
+      "summary": "Infants and adults are baptised; baptism is God’s work that gives forgiveness and new birth.",
+      "detail": "Baptism is “necessary to salvation” as the means by which God offers grace, and infants should be baptised. It is usually done by pouring or sprinkling.",
+      "source": "Augsburg Confession (1530), Article IX; Luther’s Small Catechism, “The Sacrament of Holy Baptism”"
+    },
+    "communion": {
+      "summary": "Christ’s true body and blood are present “in, with and under” the bread and wine.",
+      "detail": "Lutherans teach the real presence of Christ’s body and blood in the Lord’s Supper, received by all who eat and drink, for forgiveness of sins. They do not use the term transubstantiation; the bread and wine remain. Practice on who may receive varies (some churches practise “close communion”).",
+      "source": "Augsburg Confession (1530), Article X; Small Catechism, “The Sacrament of the Altar”"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the Mother of God and a model of faith, but not prayed to.",
+      "detail": "The Lutheran Confessions call Mary the Mother of God and “most worthy of the most ample honours,” while teaching that Christians should not invoke her or the saints.",
+      "source": "Formula of Concord, Solid Declaration VIII.24; Apology of the Augsburg Confession, Article XXI"
+    },
+    "saints": {
+      "summary": "The saints are remembered as examples of faith, but are not invoked in prayer.",
+      "detail": "Saints are honoured by thanking God for them and imitating their faith. Scripture does not teach asking the saints for help, because Christ is the one mediator.",
+      "source": "Augsburg Confession (1530), Article XXI"
+    },
+    "churchGovernance": {
+      "summary": "Varies: bishops in Scandinavia and some other churches; synods and congregations elsewhere.",
+      "detail": "Lutherans consider the form of church government a matter of human arrangement as long as the Word is purely preached and the sacraments rightly given. Some churches (e.g. in Sweden) retain bishops in historic succession.",
+      "source": "Augsburg Confession (1530), Articles VII and XXVIII"
+    },
+    "clergy": {
+      "summary": "Pastors are called and ordained to preach and administer the sacraments; most Lutheran churches ordain women, some do not.",
+      "detail": "No one should publicly teach or administer the sacraments without being “rightly called.” Pastors may marry. The Evangelical Lutheran Church in America and most European Lutheran churches ordain women; the Lutheran Church–Missouri Synod does not.",
+      "source": "Augsburg Confession (1530), Articles V and XIV"
+    },
+    "afterlife": {
+      "summary": "Heaven and hell; no purgatory. Believers are with Christ at death and will be raised.",
+      "detail": "Lutherans reject purgatory and indulgences. At the end Christ will raise the dead, give eternal life to believers and condemn the ungodly.",
+      "source": "Augsburg Confession (1530), Article XVII; Smalcald Articles II.ii"
+    },
+    "spiritualGifts": {
+      "summary": "The Spirit works chiefly through Word and sacrament; views on miraculous gifts vary.",
+      "detail": "Lutheran teaching stresses that the Holy Spirit comes through the preached Word and the sacraments, not apart from them. Some Lutherans are open to charismatic gifts; many are cautious.",
+      "source": "Augsburg Confession (1530), Article V"
+    },
+    "endTimes": {
+      "summary": "Christ will return visibly to judge; Lutherans reject the idea of an earthly millennium before the end.",
+      "detail": "The Augsburg Confession rejects “Jewish opinions” that the godly will rule an earthly kingdom before the resurrection of the dead.",
+      "source": "Augsburg Confession (1530), Article XVII"
+    }
+  },
+  "worship": {
+    "style": "Liturgical, with the sermon and the Lord’s Supper at the centre",
+    "typicalService": "The Divine Service: confession, readings, sermon, creed, prayers and Holy Communion, often about 60–75 minutes.",
+    "calendar": "Full church year (Advent to Pentecost) with festivals such as Reformation Day (31 October).",
+    "music": "Strong hymn tradition (Luther’s “A Mighty Fortress”, Bach), choirs and organ; contemporary music in some churches."
+  },
+  "firstVisit": {
+    "expect": "A printed order of service or hymnbook guides you through standing, sitting and responses.",
+    "wear": "Smart-casual is common.",
+    "etiquette": [
+      "Some Lutheran churches invite all baptised Christians to Communion; others ask you to speak with the pastor first. Check the bulletin.",
+      "It’s fine to sit and listen without joining in."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The Book of Concord (1580)",
+      "note": "Includes the Augsburg Confession and Luther’s Small and Large Catechisms."
+    },
+    {
+      "title": "Luther’s Small Catechism",
+      "note": "A short teaching summary used in confirmation classes."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "The Book of Concord (online)",
+      "url": "https://bookofconcord.org"
+    },
+    {
+      "title": "Here I Stand: A Life of Martin Luther",
+      "author": "Roland Bainton"
+    }
+  ],
+  "otherGroup": false
+}

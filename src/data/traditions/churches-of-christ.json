@@ -1,0 +1,105 @@
+{
+  "id": "churches-of-christ",
+  "name": "Churches of Christ",
+  "shortName": "Churches of Christ",
+  "family": "restorationist",
+  "foundedApprox": "Early 1800s (the American Restoration Movement)",
+  "keyFigures": ["Barton W. Stone", "Thomas Campbell", "Alexander Campbell", "David Lipscomb"],
+  "originSummary": "The Restoration Movement, led by Barton Stone and Thomas and Alexander Campbell, sought to unite Christians by restoring the church of the New Testament and leaving behind human creeds and denominational names. Thomas Campbell’s principle was “Where the Scriptures speak, we speak; where the Scriptures are silent, we are silent.” In the late 1800s the movement divided over instrumental music and missionary societies; the a cappella congregations became known as the Churches of Christ, distinct from the Christian Church (Disciples of Christ).",
+  "globalSizeApprox": {
+    "figure": "Roughly 2 million worldwide, about 1 million in the United States",
+    "year": "2020s",
+    "source": "Estimates from Churches of Christ in the United States (21st Century Christian directory)",
+    "note": "There is no central body, so figures are approximate. Not to be confused with the United Church of Christ."
+  },
+  "whereCommon": ["the southern United States", "Nigeria", "Ghana", "Kenya", "India", "Malawi"],
+  "diversity": "Congregations are independent and vary from conservative (including “non-institutional” and “one-cup” churches) to progressive ones that welcome women in more roles. They do not see themselves as a denomination.",
+  "beliefs": {
+    "authority": {
+      "summary": "The Bible alone, especially the New Testament as the pattern for the church; no creeds.",
+      "detail": "Churches of Christ seek to follow the New Testament’s commands, examples and necessary inferences. They hold no creed other than the Bible.",
+      "source": "Thomas Campbell, Declaration and Address (1809)"
+    },
+    "salvation": {
+      "summary": "Salvation by grace through faith, expressed by hearing, believing, repenting, confessing Christ and being baptised.",
+      "detail": "Churches of Christ teach that baptism of believers by immersion is the point at which sins are forgiven (Acts 2:38), as part of an obedient faith, not a meritorious work. Many teach that a Christian can fall away.",
+      "source": "Common teaching in Churches of Christ, based on Acts 2:38 and Mark 16:16; see Everett Ferguson, The Church of Christ: A Biblical Ecclesiology for Today (1996)"
+    },
+    "baptism": {
+      "summary": "Believers only, by full immersion, for the forgiveness of sins.",
+      "detail": "Baptism is understood as essential to salvation and done soon after a person comes to faith.",
+      "source": "Everett Ferguson, Baptism in the Early Church (2009) and The Church of Christ (1996)"
+    },
+    "communion": {
+      "summary": "The Lord’s Supper is a memorial shared every Sunday.",
+      "detail": "Following Acts 20:7, Communion with unleavened bread and grape juice is taken every Lord’s Day as a memorial of Jesus’ death.",
+      "source": "Acts 20:7; common practice in Churches of Christ"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the virgin mother of Jesus; no further doctrines.",
+      "detail": "Teaching about Mary is limited to what the New Testament says.",
+      "source": "No formal statement (no creeds)"
+    },
+    "saints": {
+      "summary": "All Christians are saints; prayer is to God through Jesus.",
+      "detail": "There is no veneration of saints.",
+      "source": "No formal statement (no creeds)"
+    },
+    "churchGovernance": {
+      "summary": "Each congregation is self-governing, led by a group of elders.",
+      "detail": "There are no denominational headquarters or conferences. Congregations cooperate voluntarily, for example in missions and colleges.",
+      "source": "Acts 14:23; Titus 1:5; common practice"
+    },
+    "clergy": {
+      "summary": "Elders (shepherds), deacons and evangelists/ministers; leadership roles are reserved for men in most congregations.",
+      "detail": "Ministers are not called “Reverend.” Most congregations do not allow women to lead public worship, though some progressive congregations do.",
+      "source": "1 Timothy 2–3; Everett Ferguson, Women in the Church (2003)"
+    },
+    "afterlife": {
+      "summary": "Heaven and hell after the final judgement.",
+      "detail": "Churches of Christ affirm the resurrection and judgement as taught in the New Testament.",
+      "source": "No formal statement (no creeds)"
+    },
+    "spiritualGifts": {
+      "summary": "Most teach that miraculous gifts ended once the New Testament was complete.",
+      "detail": "This view is based on readings of 1 Corinthians 13:8–10.",
+      "source": "Common teaching in Churches of Christ"
+    },
+    "endTimes": {
+      "summary": "Christ will return; most reject premillennial timelines.",
+      "detail": "Most congregations are amillennial and reject speculation about a rapture or earthly millennium.",
+      "source": "Common teaching in Churches of Christ"
+    }
+  },
+  "worship": {
+    "style": "Simple New Testament pattern",
+    "typicalService": "A cappella singing, prayer, Scripture, sermon, the Lord’s Supper and a collection, every Sunday.",
+    "calendar": "No special holy days required, though many mark Christmas and Easter informally.",
+    "music": "Congregational singing without instruments, often in four-part harmony."
+  },
+  "firstVisit": {
+    "expect": "Warm welcome; everyone sings without instruments. Communion trays are passed along the rows.",
+    "wear": "Smart-casual to Sunday best.",
+    "etiquette": [
+      "You may let the Communion trays pass if you are not a believer.",
+      "There may be an invitation to be baptised at the end."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The Bible (especially the New Testament)",
+      "note": "Churches of Christ have no other official text."
+    },
+    {
+      "title": "Declaration and Address (1809)",
+      "note": "Thomas Campbell’s call for Christian unity."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Reviving the Ancient Faith: The Story of Churches of Christ in America",
+      "author": "Richard T. Hughes"
+    }
+  ],
+  "otherGroup": false
+}

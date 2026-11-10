@@ -1,0 +1,119 @@
+{
+  "id": "anglican",
+  "name": "Anglican Communion and Episcopal Churches",
+  "shortName": "Anglican / Episcopal",
+  "family": "protestant",
+  "foundedApprox": "1534 (break with Rome under Henry VIII), with reforms through 1559",
+  "keyFigures": [
+    "Thomas Cranmer",
+    "Elizabeth I",
+    "Richard Hooker",
+    "John Henry Newman (later Catholic)",
+    "Desmond Tutu"
+  ],
+  "originSummary": "The Church of England separated from the authority of the Pope in 1534, when Parliament declared King Henry VIII its Supreme Head. Under Edward VI and Elizabeth I, Archbishop Thomas Cranmer’s Book of Common Prayer and the Thirty-Nine Articles shaped a church that is both Reformed in doctrine and catholic in its bishops, liturgy and sacraments, often called a “middle way.” Through British history it spread worldwide; the Episcopal Church is its American branch.",
+  "globalSizeApprox": {
+    "figure": "About 85 million",
+    "year": "2020s",
+    "source": "Anglican Communion Office",
+    "note": "Includes churches in more than 165 countries; the largest provinces are in Africa."
+  },
+  "whereCommon": ["England", "Nigeria", "Uganda", "Kenya", "Australia", "the United States", "Canada", "South Africa"],
+  "diversity": "Anglicans range widely: Anglo-Catholics with incense and devotion to Mary, evangelical Anglicans who emphasise preaching and Reformed theology, broad and liberal churches, and charismatic congregations. Since the 2000s there are deep divisions over sexuality, and some conservative churches (GAFCON, the Anglican Church in North America) have distanced themselves from Canterbury.",
+  "beliefs": {
+    "authority": {
+      "summary": "Scripture contains all things necessary for salvation; tradition and reason help interpret it.",
+      "detail": "Article VI says nothing is to be required as necessary to salvation that cannot be read in or proved by Scripture. The Apocrypha may be read “for example of life” but not to establish doctrine. Richard Hooker’s emphasis on Scripture, tradition and reason is widely cited.",
+      "source": "Thirty-Nine Articles of Religion (1571), Articles VI and XX"
+    },
+    "salvation": {
+      "summary": "Justified by faith in Christ, not by our own works or deserving.",
+      "detail": "“We are accounted righteous before God, only for the merit of our Lord and Saviour Jesus Christ by Faith, and not for our own works or deservings.” Anglo-Catholics may describe salvation in more sacramental terms.",
+      "source": "Thirty-Nine Articles of Religion (1571), Article XI"
+    },
+    "baptism": {
+      "summary": "Infants and adults are baptised; baptism is a sign of regeneration.",
+      "detail": "Baptism is a sacrament and a sign of new birth by which people are grafted into the Church; the baptism of young children is to be retained.",
+      "source": "Thirty-Nine Articles of Religion (1571), Article XXVII; Book of Common Prayer baptism services"
+    },
+    "communion": {
+      "summary": "Christ is truly present; views range from real spiritual presence to Anglo-Catholic belief close to the Catholic view.",
+      "detail": "Article XXVIII rejects transubstantiation but affirms that the body of Christ is “given, taken, and eaten in the Supper, only after an heavenly and spiritual manner.” Anglo-Catholics often hold a stronger view of real presence. Most Anglican churches welcome all baptised Christians to receive.",
+      "source": "Thirty-Nine Articles of Religion (1571), Article XXVIII"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the Mother of God (Theotokos); devotion varies widely.",
+      "detail": "Anglicans affirm the creeds and the title Theotokos. Anglo-Catholics may pray the Rosary; many evangelicals avoid Marian devotion.",
+      "source": "Anglican–Roman Catholic International Commission, “Mary: Grace and Hope in Christ” (2005)"
+    },
+    "saints": {
+      "summary": "Saints are commemorated in the calendar; invocation of saints is accepted by some and rejected by others.",
+      "detail": "The Articles reject the “invocation of saints” as Roman doctrine; Anglo-Catholics may ask for the saints’ prayers. The Church of England’s calendar includes many saints’ days.",
+      "source": "Thirty-Nine Articles of Religion (1571), Article XXII"
+    },
+    "churchGovernance": {
+      "summary": "Episcopal: bishops, priests and deacons, with synods including lay people; the Archbishop of Canterbury is a focus of unity, not a ruler.",
+      "detail": "Each national church (province) is self-governing. In England the monarch is Supreme Governor of the Church of England, and bishops sit in the House of Lords.",
+      "source": "Thirty-Nine Articles of Religion (1571), Article XXXVI; Lambeth Conference resolutions"
+    },
+    "clergy": {
+      "summary": "Bishops, priests and deacons in historic succession; clergy may marry; many provinces ordain women.",
+      "detail": "The Church of England has ordained women as priests since 1994 and as bishops since 2014; some provinces do not ordain women.",
+      "source": "Thirty-Nine Articles of Religion (1571), Articles XXIII, XXXII and XXXVI"
+    },
+    "afterlife": {
+      "summary": "Heaven and hell; the Articles reject purgatory, though prayers for the dead are practised by some.",
+      "detail": "Article XXII calls the “Romish doctrine” of purgatory “a fond thing, vainly invented.” Prayers for the departed appear in some modern Anglican liturgies.",
+      "source": "Thirty-Nine Articles of Religion (1571), Article XXII"
+    },
+    "spiritualGifts": {
+      "summary": "Varied: many Anglicans are open to the gifts of the Spirit, and the charismatic movement is strong in parts of the Communion.",
+      "detail": "Charismatic renewal has been influential in the Church of England (for example in churches associated with the Alpha course).",
+      "source": "Church of England report, “The Charismatic Movement in the Church of England” (1981)"
+    },
+    "endTimes": {
+      "summary": "Christ will come again to judge the living and the dead.",
+      "detail": "Anglicans affirm the creeds and do not hold an official position on the details of the end times.",
+      "source": "The Nicene and Apostles’ Creeds; Book of Common Prayer"
+    }
+  },
+  "worship": {
+    "style": "Liturgical, using a Book of Common Prayer or modern equivalent (e.g. Common Worship)",
+    "typicalService": "Holy Communion (Eucharist) or Morning Prayer: confession, readings, sermon, creed, prayers and Communion, about an hour.",
+    "calendar": "Full church year with saints’ days.",
+    "music": "From cathedral choirs and organ to contemporary worship bands."
+  },
+  "firstVisit": {
+    "expect": "A printed service sheet or prayer book guides you. Anglo-Catholic churches may use incense and bells; evangelical ones may be informal.",
+    "wear": "Smart-casual is common.",
+    "etiquette": [
+      "Most Anglican churches welcome baptised Christians to Communion; others can come forward for a blessing.",
+      "It’s fine to sit quietly and observe."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The Book of Common Prayer (1662)",
+      "note": "The historic prayer book."
+    },
+    {
+      "title": "The Thirty-Nine Articles of Religion",
+      "note": "A 16th-century statement of doctrine."
+    },
+    {
+      "title": "The creeds",
+      "note": "Apostles’, Nicene and (historically) Athanasian."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "The Anglican Communion",
+      "url": "https://www.anglicancommunion.org"
+    },
+    {
+      "title": "Anglicanism: A Very Short Introduction",
+      "author": "Mark Chapman"
+    }
+  ],
+  "otherGroup": false
+}

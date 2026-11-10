@@ -1,0 +1,122 @@
+{
+  "id": "reformed",
+  "name": "Reformed and Presbyterian Churches",
+  "shortName": "Reformed / Presbyterian",
+  "family": "protestant",
+  "foundedApprox": "1520s onward (Zurich and Geneva)",
+  "keyFigures": ["Ulrich Zwingli", "John Calvin", "John Knox", "Heinrich Bullinger"],
+  "originSummary": "The Reformed tradition grew from the reforms of Ulrich Zwingli in Zurich (from 1519) and John Calvin in Geneva (from 1536). It spread to France, the Netherlands, Hungary and Scotland, where John Knox founded the Presbyterian Church of Scotland. It emphasises God’s sovereignty, the authority of Scripture, and worship simplified to what Scripture commands. Presbyterian churches take their name from government by elders (presbyters).",
+  "globalSizeApprox": {
+    "figure": "About 100 million in member churches of the World Communion of Reformed Churches",
+    "year": "2020s",
+    "source": "World Communion of Reformed Churches",
+    "note": "Includes Presbyterian, Reformed, Congregational and United churches."
+  },
+  "whereCommon": [
+    "Scotland",
+    "the Netherlands",
+    "Switzerland",
+    "South Korea",
+    "the United States",
+    "Hungary",
+    "Indonesia",
+    "southern Africa"
+  ],
+  "diversity": "Reformed churches range from conservative, confessional bodies (such as the Presbyterian Church in America) to mainline churches that interpret the confessions more loosely (such as the Presbyterian Church (USA) or the Church of Scotland). Some Baptists and many evangelicals share Reformed views of salvation.",
+  "beliefs": {
+    "authority": {
+      "summary": "Scripture alone is the supreme authority, interpreted by Scripture itself.",
+      "detail": "The Westminster Confession says the whole counsel of God is “expressly set down in Scripture,” and the supreme judge of all controversies is “the Holy Spirit speaking in the Scripture.” The Apocrypha are not part of the canon.",
+      "source": "Westminster Confession of Faith (1646), Chapter 1"
+    },
+    "salvation": {
+      "summary": "By grace alone through faith alone; God chooses (elects) those he saves, and they will persevere to the end.",
+      "detail": "Reformed theology emphasises God’s sovereign choice (predestination) and that true believers cannot finally fall away. These points are often summarised as the “doctrines of grace” from the Synod of Dort (1619).",
+      "source": "Westminster Confession of Faith (1646), Chapters 3, 11 and 17; Canons of Dort (1619)"
+    },
+    "baptism": {
+      "summary": "Infants of believers and adult converts are baptised, as a sign and seal of the covenant.",
+      "detail": "Baptism is a sign and seal of the covenant of grace, like circumcision in the Old Testament, so the children of believers are baptised. It is usually by sprinkling or pouring.",
+      "source": "Westminster Confession of Faith (1646), Chapter 28; Heidelberg Catechism (1563), Q&A 69–74"
+    },
+    "communion": {
+      "summary": "Christ is spiritually present; believers truly feed on him by faith.",
+      "detail": "In the Lord’s Supper, believers receive and feed on Christ “not carnally and corporally, but spiritually,” by faith. The bread and wine are not changed. Zwingli’s followers emphasised the Supper as a memorial; Calvin’s view of real spiritual presence became the standard Reformed position.",
+      "source": "Westminster Confession of Faith (1646), Chapter 29.7"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the mother of Jesus and a believer, but not venerated or prayed to.",
+      "detail": "Reformed Christians affirm the virgin birth and that Jesus was “conceived by the power of the Holy Spirit, in the womb of the virgin Mary.” They do not accept later Marian doctrines or prayers to her.",
+      "source": "Westminster Confession of Faith (1646), Chapter 8.2"
+    },
+    "saints": {
+      "summary": "All believers are saints; prayer is offered to God alone through Christ.",
+      "detail": "Reformed churches teach that worship and prayer are to be given to God alone, through Christ, “and not to angels, saints, or any other creature.”",
+      "source": "Westminster Confession of Faith (1646), Chapter 21.2"
+    },
+    "churchGovernance": {
+      "summary": "Presbyterian: churches led by elders, in a structure of local sessions, presbyteries and general assemblies.",
+      "detail": "Each congregation is governed by elected elders; groups of congregations form presbyteries, and higher courts handle wider matters. Some Reformed churches are congregational.",
+      "source": "Westminster Confession of Faith (1646), Chapters 30–31"
+    },
+    "clergy": {
+      "summary": "Ministers (teaching elders) with ruling elders and deacons; many churches ordain women, some do not.",
+      "detail": "Ministers are ordained by the presbytery after study and examination, and may marry. Mainline churches such as PC(USA) and the Church of Scotland ordain women; conservative ones such as the PCA do not.",
+      "source": "Book of Church Order of the relevant church (e.g. PC(USA) Book of Order; PCA Book of Church Order)"
+    },
+    "afterlife": {
+      "summary": "At death believers go to be with Christ; unbelievers face judgement; no purgatory.",
+      "detail": "The souls of the righteous are “made perfect in holiness” and received into heaven; Scripture acknowledges no other place for souls after death besides heaven and hell.",
+      "source": "Westminster Confession of Faith (1646), Chapter 32"
+    },
+    "spiritualGifts": {
+      "summary": "Traditionally, the miraculous gifts (tongues, prophecy) ceased with the apostles; some Reformed Christians today are open to them.",
+      "detail": "The Westminster Confession says the former ways of God revealing his will “are now ceased.” Most confessional Reformed churches are cessationist, though a growing “Reformed charismatic” movement exists.",
+      "source": "Westminster Confession of Faith (1646), Chapter 1.1"
+    },
+    "endTimes": {
+      "summary": "Christ will return to judge the world; Reformed Christians hold various millennial views, most often amillennial.",
+      "detail": "The confession affirms a day of judgement but does not settle the millennium. Amillennial and postmillennial views have been most common.",
+      "source": "Westminster Confession of Faith (1646), Chapter 33"
+    }
+  },
+  "worship": {
+    "style": "Word-centred, simple and orderly",
+    "typicalService": "Call to worship, prayers, psalms or hymns, Scripture readings and a substantial sermon; the Lord’s Supper monthly or quarterly in many churches.",
+    "calendar": "Some churches follow the Christian year; strictly traditional churches mark only Sundays.",
+    "music": "Psalms and hymns; some churches sing only psalms without instruments; many use contemporary music."
+  },
+  "firstVisit": {
+    "expect": "The building is often simple. The sermon is usually the longest part of the service.",
+    "wear": "From suits to jeans, depending on the church.",
+    "etiquette": [
+      "Communion is usually open to baptised believers in good standing in any church; the minister will explain.",
+      "Visitors may be invited to fill in a welcome card."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "Westminster Confession and Catechisms (1646–47)",
+      "note": "The standard for Presbyterians."
+    },
+    {
+      "title": "Heidelberg Catechism (1563)",
+      "note": "Widely used in Dutch and German Reformed churches."
+    },
+    {
+      "title": "Calvin’s Institutes of the Christian Religion",
+      "note": "Classic Reformed theology."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Calvin",
+      "author": "Bruce Gordon"
+    },
+    {
+      "title": "Reformed Theology",
+      "author": "Michael Allen"
+    }
+  ],
+  "otherGroup": false
+}

@@ -1,0 +1,116 @@
+{
+  "id": "seventh-day-adventist",
+  "name": "Seventh-day Adventist Church",
+  "shortName": "Seventh-day Adventist",
+  "family": "restorationist",
+  "foundedApprox": "1863 (organised in Battle Creek, Michigan)",
+  "keyFigures": ["Ellen G. White", "James White", "Joseph Bates", "William Miller (forerunner)"],
+  "originSummary": "The Adventist movement grew from William Miller’s preaching in the 1840s that Christ would return in 1844. After the “Great Disappointment” when that did not happen, a group concluded that 1844 marked the beginning of Christ’s ministry in the heavenly sanctuary. Through the influence of Joseph Bates they adopted the seventh-day Sabbath. Ellen G. White, regarded as having the gift of prophecy, guided the church, which was organised in 1863 and emphasises health, education and mission.",
+  "globalSizeApprox": {
+    "figure": "About 22.7 million baptised members",
+    "year": "2023",
+    "source": "Seventh-day Adventist Office of Archives, Statistics, and Research",
+    "note": ""
+  },
+  "whereCommon": [
+    "Africa (especially Kenya, Zambia and Rwanda)",
+    "Brazil",
+    "India",
+    "the Philippines",
+    "the United States",
+    "Papua New Guinea"
+  ],
+  "diversity": "Adventists share the 28 Fundamental Beliefs, but emphasis varies between more traditional and more progressive members, for example on women’s ordination and the role of Ellen White’s writings.",
+  "beliefs": {
+    "authority": {
+      "summary": "The Bible is the only rule of faith; Ellen White’s writings are respected as prophetic guidance subordinate to Scripture.",
+      "detail": "The Holy Scriptures are “the infallible revelation of His will” and the standard by which all teaching must be tested. Ellen White’s writings are “a continuing and authoritative source of truth,” which make clear that the Bible is the standard.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 1 (Holy Scriptures) and 18 (Gift of Prophecy)"
+    },
+    "salvation": {
+      "summary": "By grace through faith in Jesus, shown in obedience to God’s law, including the Sabbath.",
+      "detail": "Justification comes through faith in Christ alone; obedience to the Ten Commandments is the fruit of salvation, not its cause.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 10 (Experience of Salvation) and 19 (Law of God)"
+    },
+    "baptism": {
+      "summary": "Believers by full immersion, after instruction.",
+      "detail": "Baptism by immersion follows repentance, faith and instruction in the church’s teachings.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 15 (Baptism)"
+    },
+    "communion": {
+      "summary": "The Lord’s Supper, with foot washing beforehand, is a memorial and open to all believers.",
+      "detail": "The Communion service, usually quarterly, begins with the Ordinance of Humility (foot washing) and uses unleavened bread and unfermented grape juice.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 16 (Lord’s Supper)"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the virgin mother of Jesus; no further doctrines.",
+      "detail": "Adventists affirm the virgin birth.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 4 (The Son)"
+    },
+    "saints": {
+      "summary": "The dead are asleep until the resurrection, so they cannot pray for us; prayer is to God alone.",
+      "detail": "Because the dead are unconscious until the resurrection, Adventists do not pray to saints.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 26 (Death and Resurrection)"
+    },
+    "churchGovernance": {
+      "summary": "Representative: local churches, conferences, unions and a world General Conference.",
+      "detail": "Members elect representatives at each level; the General Conference in session is the highest authority.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 12 (Church); Seventh-day Adventist Church Manual"
+    },
+    "clergy": {
+      "summary": "Ordained pastors, elders and deacons; women serve as elders and pastors in many regions, but the world church has not approved ordaining women as pastors.",
+      "detail": "The 2015 General Conference voted not to allow regional bodies to ordain women as pastors, although some do commission women.",
+      "source": "General Conference Session vote (2015)"
+    },
+    "afterlife": {
+      "summary": "At death people sleep until the resurrection; the wicked are ultimately destroyed, not eternally tormented.",
+      "detail": "Adventists teach that humans do not have an immortal soul; the righteous are raised at Christ’s return, and after the millennium the wicked are destroyed.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 7 (Nature of Humanity), 26 (Death and Resurrection) and 27 (Millennium)"
+    },
+    "spiritualGifts": {
+      "summary": "God gives spiritual gifts today, including prophecy (seen in Ellen White).",
+      "detail": "Adventists believe all gifts continue but practise them in an orderly way; speaking in tongues is understood mainly as known languages.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 17 (Spiritual Gifts and Ministries) and 18 (Gift of Prophecy)"
+    },
+    "endTimes": {
+      "summary": "Jesus’ return is soon, literal and visible; the righteous will reign with him in heaven for 1,000 years, then the earth will be made new.",
+      "detail": "Since 1844 Christ has been carrying out a pre-advent judgement in the heavenly sanctuary. The Sabbath is a sign of loyalty in the last days.",
+      "source": "Seventh-day Adventist Fundamental Beliefs, 24 (Christ’s Ministry in the Heavenly Sanctuary), 25 (Second Coming), 27 and 28 (New Earth)"
+    }
+  },
+  "worship": {
+    "style": "Sabbath-centred, Bible-teaching worship",
+    "typicalService": "On Saturday: Sabbath School (Bible study groups), then a worship service with hymns, prayer and a sermon.",
+    "calendar": "The weekly Sabbath from Friday sunset to Saturday sunset; Christmas and Easter are not required feasts.",
+    "music": "Hymns, choirs and contemporary music."
+  },
+  "firstVisit": {
+    "expect": "Services are on Saturday. Visitors are often invited to join a Sabbath School class and stay for a vegetarian lunch.",
+    "wear": "Smart or Sunday-best clothing is common; jewellery is often minimal.",
+    "etiquette": [
+      "Many Adventists avoid alcohol, tobacco and pork, and many are vegetarian.",
+      "Communion is open to all believers."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The 28 Fundamental Beliefs",
+      "note": "The church’s statement of faith."
+    },
+    {
+      "title": "Writings of Ellen G. White",
+      "note": "E.g. Steps to Christ, The Desire of Ages, The Great Controversy."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Fundamental Beliefs (official site)",
+      "url": "https://www.adventist.org/beliefs/"
+    },
+    {
+      "title": "Seeking a Sanctuary: Seventh-day Adventism and the American Dream",
+      "author": "Malcolm Bull and Keith Lockhart"
+    }
+  ],
+  "otherGroup": false
+}

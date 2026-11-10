@@ -1,0 +1,117 @@
+{
+  "id": "charismatic-evangelical",
+  "name": "Charismatic and Non-denominational Evangelical Churches",
+  "shortName": "Charismatic / Non-denominational",
+  "family": "protestant",
+  "foundedApprox": "Charismatic renewal from 1960; non-denominational churches mainly from the 1970s",
+  "keyFigures": ["Dennis Bennett", "John Wimber", "Billy Graham (evangelical)", "John Stott (evangelical)"],
+  "originSummary": "The charismatic movement began around 1960, when Episcopal priest Dennis Bennett told his California congregation he had spoken in tongues; similar renewal spread into Anglican, Catholic, Lutheran and other churches. Alongside it, many independent “non-denominational” evangelical churches have formed, some growing into networks (such as Vineyard, Calvary Chapel, Hillsong or New Frontiers) and megachurches. They share evangelical convictions: the Bible’s authority, personal conversion, the cross and sharing the faith.",
+  "globalSizeApprox": {
+    "figure": "Part of about 644 million Pentecostals and Charismatics",
+    "year": "2020",
+    "source": "Center for the Study of Global Christianity, Gordon-Conwell Theological Seminary",
+    "note": "Independent churches are hard to count; the figure overlaps with the Pentecostal profile."
+  },
+  "whereCommon": [
+    "the United States",
+    "Brazil",
+    "Nigeria",
+    "China (house churches)",
+    "South Korea",
+    "the United Kingdom",
+    "Australia"
+  ],
+  "diversity": "This is the most varied group: churches range from charismatic to cessationist, from Calvinist to Arminian, from small house churches to megachurches. Each sets its own statement of faith, so it is always worth reading a specific church’s beliefs.",
+  "beliefs": {
+    "authority": {
+      "summary": "The Bible is the inspired, authoritative Word of God.",
+      "detail": "Evangelicals affirm “the divine inspiration, truthfulness and authority of both Old and New Testament Scriptures in their entirety as the only written word of God, without error in all that it affirms.”",
+      "source": "Lausanne Covenant (1974), Section 2"
+    },
+    "salvation": {
+      "summary": "By grace through faith in Jesus Christ; people are called to personal conversion (being “born again”).",
+      "detail": "Evangelicals stress that each person must personally repent and trust Christ. Views on whether salvation can be lost vary between churches.",
+      "source": "Lausanne Covenant (1974), Sections 3–4; National Association of Evangelicals, Statement of Faith"
+    },
+    "baptism": {
+      "summary": "Usually believers by immersion, though some baptise infants.",
+      "detail": "Most non-denominational churches practise believer’s baptism by immersion as a public declaration of faith; charismatics in older denominations follow their church’s practice.",
+      "source": "Typical church statements of faith (e.g. Vineyard USA Statement of Faith)"
+    },
+    "communion": {
+      "summary": "Usually a memorial and celebration of Christ’s death, open to all believers.",
+      "detail": "Communion frequency varies from weekly to occasional; most see the bread and wine (or juice) as symbols through which believers remember and encounter Christ.",
+      "source": "Typical church statements of faith (e.g. Vineyard USA Statement of Faith)"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the virgin mother of Jesus; she is not venerated.",
+      "detail": "Evangelicals affirm the virgin birth.",
+      "source": "National Association of Evangelicals, Statement of Faith"
+    },
+    "saints": {
+      "summary": "All believers are saints; prayer is to God alone.",
+      "detail": "There is no veneration of saints.",
+      "source": "National Association of Evangelicals, Statement of Faith"
+    },
+    "churchGovernance": {
+      "summary": "Mostly independent: led by pastors and elders, sometimes within a network.",
+      "detail": "Some are elder-led, some pastor-led, some congregational. Networks provide support but rarely control local churches.",
+      "source": "Varies by church"
+    },
+    "clergy": {
+      "summary": "Pastors and elders; practice on women in leadership varies widely.",
+      "detail": "Some networks (such as Vineyard) affirm women as pastors; many others reserve senior leadership for men.",
+      "source": "Vineyard USA position on women in leadership (2006); varies by church"
+    },
+    "afterlife": {
+      "summary": "Heaven with God for believers; judgement for those who reject Christ.",
+      "detail": "Most hold traditional views of heaven and hell; a minority hold conditional immortality.",
+      "source": "Lausanne Covenant (1974), Section 15"
+    },
+    "spiritualGifts": {
+      "summary": "Charismatics believe all gifts (tongues, prophecy, healing) are for today; non-charismatic evangelicals may be cautious.",
+      "detail": "Unlike classical Pentecostals, many charismatics do not see tongues as the necessary evidence of Spirit baptism. John Wimber’s “signs and wonders” emphasis shaped the Vineyard movement.",
+      "source": "Vineyard USA Statement of Faith; John Wimber, Power Evangelism (1986)"
+    },
+    "endTimes": {
+      "summary": "Christ will return personally and visibly; millennial views vary.",
+      "detail": "Many are premillennial, but positions differ between churches.",
+      "source": "Lausanne Covenant (1974), Section 15"
+    }
+  },
+  "worship": {
+    "style": "Contemporary and informal",
+    "typicalService": "Around 30 minutes of contemporary worship songs led by a band, a practical Bible-based talk, prayer ministry; often with children’s and youth programmes.",
+    "calendar": "Christmas and Easter; series of talks rather than set readings.",
+    "music": "Contemporary worship music (e.g. Hillsong, Bethel, Vineyard songs)."
+  },
+  "firstVisit": {
+    "expect": "Often held in modern buildings, schools or theatres, with coffee and a welcome team. Lights may be dimmed during worship; people may raise their hands.",
+    "wear": "Casual.",
+    "etiquette": [
+      "Communion, when offered, is usually open to all believers.",
+      "No one expects you to join in anything you’re not comfortable with."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The Lausanne Covenant (1974)",
+      "note": "A widely used evangelical statement."
+    },
+    {
+      "title": "Each church’s own statement of faith",
+      "note": "Usually on its website."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "The Lausanne Covenant",
+      "url": "https://lausanne.org/statement/lausanne-covenant"
+    },
+    {
+      "title": "Evangelicalism in Modern Britain",
+      "author": "David Bebbington"
+    }
+  ],
+  "otherGroup": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "latter-day-saints",
+  "name": "The Church of Jesus Christ of Latter-day Saints",
+  "shortName": "Latter-day Saints",
+  "family": "other",
+  "otherGroup": true,
+  "foundedApprox": "1830 (Fayette, New York)",
+  "keyFigures": ["Joseph Smith", "Brigham Young", "Russell M. Nelson"],
+  "originSummary": "Joseph Smith taught that in 1820 God the Father and Jesus Christ appeared to him in answer to prayer (the First Vision), and that an angel later led him to golden plates which he translated as the Book of Mormon. Latter-day Saints believe the church Jesus established was restored through him, including priesthood authority. Facing persecution, the Saints moved west; after Smith’s death in 1844 most followed Brigham Young to Utah. The Church asks to be called by its full name and its members “Latter-day Saints.” Mainstream Catholic, Orthodox and Protestant churches do not consider this group part of historic Trinitarian Christianity, chiefly because of differences in teaching about God, Jesus and Scripture. The group itself understands itself as Christian.",
+  "globalSizeApprox": {
+    "figure": "About 17.5 million members",
+    "year": "2024",
+    "source": "The Church of Jesus Christ of Latter-day Saints, statistical report (April 2025)",
+    "note": "Counts members of record; activity rates vary."
+  },
+  "whereCommon": ["the United States (especially Utah)", "Mexico", "Brazil", "the Philippines", "Peru", "Chile"],
+  "diversity": "Most Latter-day Saints belong to this Church. Other groups trace to Joseph Smith, such as the Community of Christ (formerly RLDS), which has become closer to mainline Protestantism.",
+  "beliefs": {
+    "authority": {
+      "summary": "The Bible “as far as it is translated correctly,” the Book of Mormon, the Doctrine and Covenants, the Pearl of Great Price, and continuing revelation through living prophets.",
+      "detail": "Latter-day Saints believe God continues to reveal his will through the President of the Church, sustained as a prophet, seer and revelator.",
+      "source": "Articles of Faith 8 and 9"
+    },
+    "salvation": {
+      "summary": "Through the Atonement of Jesus Christ, by faith, repentance, baptism, receiving the Holy Ghost and enduring to the end, including temple covenants.",
+      "detail": "Latter-day Saints believe Christ’s grace saves, and that obedience to gospel ordinances and covenants is necessary to receive the fullness of salvation (exaltation).",
+      "source": "Articles of Faith 3 and 4; Book of Mormon, 2 Nephi 25:23"
+    },
+    "baptism": {
+      "summary": "By immersion from age 8, by someone holding priesthood authority; also proxy baptism for the dead in temples.",
+      "detail": "Children are not baptised before eight, the age of accountability. Members perform baptisms on behalf of deceased ancestors, which those people may accept or reject in the spirit world.",
+      "source": "Doctrine and Covenants 68:27 and 128; Article of Faith 4"
+    },
+    "communion": {
+      "summary": "The sacrament of bread and water, taken weekly to renew baptismal covenants.",
+      "detail": "Blessed by priesthood holders and passed to the congregation each Sunday; water is used instead of wine.",
+      "source": "Doctrine and Covenants 20:75–79 and 27:2"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the virgin mother of Jesus.",
+      "detail": "Latter-day Saints revere Mary as “a precious and chosen vessel.”",
+      "source": "Book of Mormon, Alma 7:10"
+    },
+    "saints": {
+      "summary": "All members are “saints”; prayer is to Heavenly Father in the name of Jesus Christ.",
+      "detail": "Saints are not venerated.",
+      "source": "Article of Faith 1; Church practice"
+    },
+    "churchGovernance": {
+      "summary": "Led by a President (prophet), the First Presidency and the Quorum of the Twelve Apostles; local wards led by lay bishops.",
+      "detail": "Leadership is hierarchical. Local leaders are unpaid volunteers called to serve for a period.",
+      "source": "Doctrine and Covenants 107"
+    },
+    "clergy": {
+      "summary": "A lay priesthood: worthy male members are ordained to the Aaronic and Melchizedek priesthood; women lead organisations such as the Relief Society.",
+      "detail": "There is no paid local clergy. Women are not ordained to priesthood offices but serve in leadership, teaching and missionary roles.",
+      "source": "Doctrine and Covenants 107; General Handbook of the Church"
+    },
+    "afterlife": {
+      "summary": "After death, a spirit world; then resurrection and judgement into degrees of glory (celestial, terrestrial, telestial).",
+      "detail": "Nearly everyone receives a kingdom of glory; a very few who reject God after full knowledge face outer darkness.",
+      "source": "Doctrine and Covenants 76"
+    },
+    "spiritualGifts": {
+      "summary": "All spiritual gifts continue, including prophecy, revelation, healing and tongues.",
+      "detail": "Members give priesthood blessings for healing and comfort.",
+      "source": "Article of Faith 7"
+    },
+    "endTimes": {
+      "summary": "Christ will return to reign personally on earth for a thousand years; the earth will be renewed.",
+      "detail": "Latter-day Saints believe the gathering of Israel and building of Zion prepare for the Second Coming.",
+      "source": "Article of Faith 10"
+    }
+  },
+  "worship": {
+    "style": "Simple, lay-led sacrament meetings; temples for sacred ordinances",
+    "typicalService": "A 60-minute sacrament meeting with hymns, the sacrament and talks given by members, followed by Sunday School or other classes.",
+    "calendar": "Christmas and Easter; General Conference broadcasts twice a year.",
+    "music": "Hymns with organ or piano; choirs."
+  },
+  "firstVisit": {
+    "expect": "Visitors are welcome at Sunday meetings in meetinghouses. Temples are open only to members with a temple recommend (except at open houses before dedication).",
+    "wear": "Sunday best: men often wear white shirts and ties; women dresses or skirts.",
+    "etiquette": [
+      "Visitors may let the sacrament trays pass.",
+      "Missionaries may offer to visit you; you can politely decline."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The Book of Mormon",
+      "note": "Subtitled “Another Testament of Jesus Christ.”"
+    },
+    {
+      "title": "The Doctrine and Covenants",
+      "note": "Revelations mostly to Joseph Smith."
+    },
+    {
+      "title": "The Articles of Faith",
+      "note": "13 short statements of belief."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Official website",
+      "url": "https://www.churchofjesuschrist.org"
+    },
+    {
+      "title": "Mormonism: A Very Short Introduction",
+      "author": "Richard Lyman Bushman"
+    }
+  ]
+}

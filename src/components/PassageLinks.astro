@@ -1,0 +1,29 @@
+---
+/** Renders a list of Bible references as links into the reader. */
+import { books } from '~/lib/bible';
+import { formatReference, parseReference, referenceUrl } from '~/lib/reference';
+import { url } from '~/lib/url';
+
+interface Props {
+  refs: string[];
+  label?: string;
+}
+const { refs, label } = Astro.props;
+const parsed = refs.map((r) => {
+  const p = parseReference(r, books);
+  if (!p) throw new Error(`Unknown Bible reference "${r}"`);
+  return p;
+});
+---
+
+{parsed.length > 0 && (
+  <p class="text-sm">
+    {label && <span class="text-ink-muted">{label} </span>}
+    {parsed.map((p, i) => (
+      <>
+        {i > 0 && ' · '}
+        <a href={url(referenceUrl(p))}>{formatReference(p)}</a>
+      </>
+    ))}
+  </p>
+)}

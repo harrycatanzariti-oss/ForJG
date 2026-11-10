@@ -1,0 +1,45 @@
+{
+  "id": "are-the-gifts-of-the-spirit-for-today",
+  "title": "Are the gifts of the Spirit for today?",
+  "intro": "The New Testament describes gifts of the Holy Spirit such as prophecy, speaking in tongues and healing (1 Corinthians 12–14). Christians agree the Spirit is active today, but disagree about whether these particular gifts continue in the same way.",
+  "keyPassages": [
+    "Acts 2:1-21",
+    "1 Corinthians 12:4-11",
+    "1 Corinthians 13:8-10",
+    "1 Corinthians 14:1-5",
+    "Ephesians 2:19-20",
+    "Hebrews 2:3-4"
+  ],
+  "views": [
+    {
+      "label": "All the gifts continue, including tongues as a sign of Spirit baptism",
+      "summary": "Pentecostals teach that every believer should seek the baptism in the Holy Spirit, a distinct experience usually marked by speaking in tongues, and that all gifts, including healing and prophecy, are for today.",
+      "heldBy": ["pentecostal"],
+      "passages": ["Acts 2:1-4", "Acts 19:6"],
+      "source": "Assemblies of God, Statement of Fundamental Truths, 7–8"
+    },
+    {
+      "label": "All the gifts continue, without tongues being required",
+      "summary": "Charismatics in many churches believe all the gifts are active today but do not see tongues as necessary evidence of the Spirit’s work.",
+      "heldBy": ["charismatic-evangelical", "anglican", "catholic", "methodist"],
+      "passages": ["1 Corinthians 12:7-11", "1 Corinthians 14:1"],
+      "source": "Vineyard USA Statement of Faith; Catechism of the Catholic Church 799–801"
+    },
+    {
+      "label": "The miraculous gifts ended with the apostles (cessationism)",
+      "summary": "Many Reformed Christians, Churches of Christ and some Baptists believe the miraculous gifts confirmed the apostles’ message and ceased once the New Testament was complete. The Spirit still works powerfully through Scripture, prayer and ordinary gifts.",
+      "heldBy": ["reformed", "churches-of-christ", "baptist"],
+      "passages": ["1 Corinthians 13:8-10", "Hebrews 2:3-4", "Ephesians 2:20"],
+      "source": "Westminster Confession 1.1"
+    },
+    {
+      "label": "God works miracles, especially through saints and sacraments",
+      "summary": "Orthodox and other ancient churches recognise miracles and healing today, especially through prayer, sacraments and the saints, but tongues-speaking is not part of their worship.",
+      "heldBy": ["eastern-orthodox", "oriental-orthodox"],
+      "passages": ["James 5:14-15"],
+      "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4"
+    }
+  ],
+  "common": "All agree that the Holy Spirit gives every believer gifts to serve others, and that the greatest of all is love (1 Corinthians 13).",
+  "related": []
+}

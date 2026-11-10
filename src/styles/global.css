@@ -295,3 +295,21 @@ mark {
   color: inherit;
   border-radius: 2px;
 }
+
+/* One colour per family of traditions (tree, cards). */
+:root {
+  --f-catholic: #9b2c2c;
+  --f-orthodox: #7a4a12;
+  --f-eastern: #6b5b16;
+  --f-protestant: #2f5f9e;
+  --f-restorationist: #2f7a5b;
+  --f-other: #6a4f8f;
+}
+.dark {
+  --f-catholic: #f08a8a;
+  --f-orthodox: #e0a96a;
+  --f-eastern: #d6c46a;
+  --f-protestant: #8fb3ea;
+  --f-restorationist: #7fd0ac;
+  --f-other: #c2a8e8;
+}

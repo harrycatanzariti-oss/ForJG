@@ -1,0 +1,125 @@
+{
+  "id": "eastern-orthodox",
+  "name": "Eastern Orthodox Church",
+  "shortName": "Eastern Orthodox",
+  "family": "orthodox",
+  "foundedApprox": "Traces itself to Jesus and the apostles (1st century AD)",
+  "keyFigures": ["The apostles", "St Athanasius", "St Basil the Great", "St John Chrysostom", "St Gregory Palamas"],
+  "originSummary": "The Orthodox Church understands itself as the one, holy, catholic and apostolic Church, preserving the faith of the apostles and the seven Ecumenical Councils (325–787) without change. It grew in the Greek-speaking East of the Roman Empire, centred on Constantinople. Tensions with the Latin West over the authority of the Pope and the wording of the Creed (the filioque) led to the mutual excommunications of 1054, usually called the Great Schism. Orthodoxy spread to the Slavic peoples and today is a family of self-governing churches (Greek, Russian, Serbian, Romanian, Antiochian and others) in communion with each other.",
+  "globalSizeApprox": {
+    "figure": "Roughly 220 million",
+    "year": "2017",
+    "source": "Pew Research Center, “Orthodox Christianity in the 21st Century” (2017), which counted about 260 million Orthodox including the Oriental Orthodox",
+    "note": "Estimates vary widely depending on whether nominal members are counted."
+  },
+  "whereCommon": [
+    "Russia",
+    "Ukraine",
+    "Romania",
+    "Greece",
+    "Serbia",
+    "Georgia",
+    "Bulgaria",
+    "the Middle East",
+    "diaspora communities worldwide"
+  ],
+  "diversity": "The churches share one faith and worship but are organised by nation or region, each with its own leader and customs, and sometimes in dispute with one another. Practice ranges from monastic devotion to occasional attendance.",
+  "beliefs": {
+    "authority": {
+      "summary": "Holy Tradition, of which Scripture is the heart, interpreted by the Church through the councils and the Fathers.",
+      "detail": "Orthodox Christians speak of one Holy Tradition, the life of the Holy Spirit in the Church, which includes Scripture, the Creed, the Ecumenical Councils, the writings of the Church Fathers, the liturgy and icons. The Old Testament follows the Greek Septuagint and includes the books Catholics call deuterocanonical, and a few more.",
+      "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 1 “Doctrine and Scripture” (Orthodox Church in America); Confession of Dositheus (1672), Decree 2"
+    },
+    "salvation": {
+      "summary": "Salvation is theosis: being united with God and transformed by his grace, through Christ, in the life of the Church.",
+      "detail": "Salvation is a lifelong process of healing and transformation, cooperating with God’s grace (synergy), through faith, the sacraments, prayer and love. Orthodox theology generally does not use the Western categories of “faith alone” or of satisfying God’s justice, emphasising instead Christ’s victory over sin and death.",
+      "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4 “Spirituality”; St Athanasius, On the Incarnation 54"
+    },
+    "baptism": {
+      "summary": "Infants and adults are baptised by triple immersion, followed immediately by chrismation and first Communion.",
+      "detail": "Baptism is death and resurrection with Christ and the beginning of new life. Even infants receive all three sacraments of initiation together, so baptised babies receive Communion.",
+      "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 2 “Worship: Baptism; Chrismation”"
+    },
+    "communion": {
+      "summary": "The bread and wine truly become the body and blood of Christ, a mystery not explained in detail.",
+      "detail": "In the Divine Liturgy, the priest asks the Holy Spirit to come upon the gifts (the epiclesis), and they become the true body and blood of Christ. Orthodox writers usually speak of a “change” and prefer not to define how. Communion is received only by Orthodox Christians who have prepared, usually by fasting and confession.",
+      "source": "Confession of Dositheus (1672), Decree 17; Divine Liturgy of St John Chrysostom"
+    },
+    "mary": {
+      "summary": "Mary is the Theotokos (God-bearer), ever-virgin and most holy, and is honoured above all saints.",
+      "detail": "Mary is honoured in nearly every service. The Orthodox celebrate her falling asleep (Dormition) and believe she was taken into heaven, but generally do not accept the Catholic definition of the Immaculate Conception.",
+      "source": "Council of Ephesus (431); Fr Thomas Hopko, The Orthodox Faith, vol. 1 “The Virgin Mary”"
+    },
+    "saints": {
+      "summary": "The saints are alive in Christ and pray for us; they are honoured through icons and feasts.",
+      "detail": "Orthodox Christians ask the saints for their prayers and venerate icons, which the Seventh Ecumenical Council (787) defended: honour shown to an icon passes to the person depicted. Worship (latreia) belongs to God alone.",
+      "source": "Seventh Ecumenical Council (Nicaea II, 787), Definition"
+    },
+    "churchGovernance": {
+      "summary": "Bishops in councils; a family of self-governing (autocephalous) churches without a single head.",
+      "detail": "Each church is led by its synod of bishops, often under a patriarch or archbishop. The Ecumenical Patriarch of Constantinople has a primacy of honour (“first among equals”) but not jurisdiction over the other churches.",
+      "source": "Canon 28 of the Council of Chalcedon (451); Fr Thomas Hopko, The Orthodox Faith, vol. 1 “The Church”"
+    },
+    "clergy": {
+      "summary": "Bishops, priests and deacons in apostolic succession; priests may marry before ordination; bishops are celibate (from the monastic clergy).",
+      "detail": "Married men may be ordained deacons and priests, but a priest may not marry after ordination. Bishops are chosen from celibate monastic clergy. Only men are ordained to these orders.",
+      "source": "Canons of the Council in Trullo (692), canons 6, 12–13"
+    },
+    "afterlife": {
+      "summary": "At death the soul awaits the final resurrection and judgement; the Church prays for the departed.",
+      "detail": "Orthodox Christians pray for the dead and believe in heaven and hell as the experience of God’s love by those who accept or reject it. Most Orthodox theologians do not accept the Catholic doctrine of purgatory, while affirming that prayer helps the departed.",
+      "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4 “Death”; Orthodox memorial service (Panikhida)"
+    },
+    "spiritualGifts": {
+      "summary": "The Holy Spirit works in the Church today, especially through the sacraments, saints and holy elders; miracles are recognised.",
+      "detail": "Miracles, healing and spiritual discernment are associated especially with saints, monastics and icons. Organised charismatic practices such as speaking in tongues in services are not part of Orthodox worship.",
+      "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4 “Spirituality”"
+    },
+    "endTimes": {
+      "summary": "Christ will come again in glory to judge the living and the dead; his kingdom will have no end.",
+      "detail": "Orthodox teaching follows the Nicene Creed and does not speculate about detailed end-times timelines. The liturgy is often described as a foretaste of the coming kingdom.",
+      "source": "The Nicene–Constantinopolitan Creed (381)"
+    }
+  },
+  "worship": {
+    "style": "Liturgical, sacramental and richly sensory: icons, incense, chant and candles",
+    "typicalService": "The Divine Liturgy (usually of St John Chrysostom) on Sunday morning, about 1.5–2 hours, mostly sung; often preceded by Matins or Vespers the evening before.",
+    "calendar": "Full church year with twelve great feasts; Pascha (Easter) is the feast of feasts and often falls on a different date from Western Easter. Many churches use the older Julian calendar for fixed feasts.",
+    "music": "Unaccompanied chant or choral singing in Byzantine, Slavic or other traditions."
+  },
+  "firstVisit": {
+    "expect": "Many people stand throughout the service (there may be few seats). Worshippers light candles and kiss icons. It is fine to arrive and leave quietly and simply watch.",
+    "wear": "Modest clothing. In some parishes women cover their heads and wear skirts; men remove hats.",
+    "etiquette": [
+      "Only Orthodox Christians receive Communion, but at the end everyone may usually come forward to receive blessed bread (antidoron).",
+      "Don’t cross your legs or keep hands in pockets during services in traditional parishes.",
+      "Ask a greeter for a service book in your language."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "The Nicene–Constantinopolitan Creed",
+      "note": "Recited at every Divine Liturgy (without the filioque)."
+    },
+    {
+      "title": "Decrees of the seven Ecumenical Councils",
+      "note": "325–787."
+    },
+    {
+      "title": "The Philokalia",
+      "note": "A collection of writings on prayer from the 4th–15th centuries."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "The Orthodox Church",
+      "author": "Timothy (Kallistos) Ware"
+    },
+    {
+      "title": "The Orthodox Faith (online)",
+      "author": "Fr Thomas Hopko",
+      "url": "https://www.oca.org/orthodoxy/the-orthodox-faith"
+    }
+  ],
+  "otherGroup": false
+}

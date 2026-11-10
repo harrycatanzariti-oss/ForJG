@@ -1,0 +1,45 @@
+{
+  "id": "can-you-lose-your-salvation",
+  "title": "Can you lose your salvation?",
+  "intro": "The Bible contains both strong promises that God keeps his people and serious warnings against falling away. Traditions weigh these differently.",
+  "keyPassages": [
+    "John 10:27-29",
+    "Romans 8:38-39",
+    "Philippians 1:6",
+    "Hebrews 6:4-6",
+    "Hebrews 10:26-27",
+    "Galatians 5:4"
+  ],
+  "views": [
+    {
+      "label": "True believers will persevere",
+      "summary": "Reformed Christians and many Baptists teach that those God has truly saved will be kept by him and persevere to the end (“once saved, always saved” in popular form). Those who fall away completely show they were never truly born again.",
+      "heldBy": ["reformed", "baptist"],
+      "passages": ["John 10:27-29", "Philippians 1:6", "1 John 2:19"],
+      "source": "Westminster Confession, Chapter 17; Baptist Faith and Message, Article V"
+    },
+    {
+      "label": "A believer can fall away",
+      "summary": "Methodists, Pentecostals, Lutherans and many others teach that a real believer can turn away from God and lose salvation, though God’s grace invites them back. The warnings of Hebrews are real.",
+      "heldBy": ["methodist", "pentecostal", "lutheran", "churches-of-christ", "seventh-day-adventist", "anabaptist"],
+      "passages": ["Hebrews 6:4-6", "Galatians 5:4"],
+      "source": "Methodist Articles of Religion, Article XII; Augsburg Confession, Article XII"
+    },
+    {
+      "label": "Grace can be lost by grave sin and restored",
+      "summary": "Catholic teaching holds that mortal sin destroys sanctifying grace, which can be restored through repentance and the sacrament of Reconciliation.",
+      "heldBy": ["catholic"],
+      "passages": ["1 John 5:16-17", "James 5:19-20"],
+      "source": "Catechism of the Catholic Church 1855–1861"
+    },
+    {
+      "label": "Salvation is a lifelong journey",
+      "summary": "Orthodox Christians usually avoid speaking of salvation as a finished possession; it is a lifelong process of growing in God by grace, in which people freely cooperate. One may stray and return.",
+      "heldBy": ["eastern-orthodox", "oriental-orthodox"],
+      "passages": ["Philippians 2:12-13", "Matthew 24:13"],
+      "source": "Fr Thomas Hopko, The Orthodox Faith, vol. 4"
+    }
+  ],
+  "common": "All agree that salvation depends on God’s grace, that God is faithful, and that Christians are called to keep trusting and following Christ.",
+  "related": ["who-should-be-baptised"]
+}

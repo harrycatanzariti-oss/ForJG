@@ -266,3 +266,58 @@ export const planSpecsSchema = z.array(
   }),
 );
 export const chronologicalSchema = z.object({ note: z.string(), segments: z.array(z.string()).min(1) });
+
+export const treeSchema = z.object({
+  events: z.array(
+    z.object({ id: z.string(), year: z.number().int(), label: z.string(), title: z.string(), why: z.string().min(40) }),
+  ),
+  branches: z.array(
+    z.object({
+      id: z.string(),
+      label: z.string(),
+      start: z.number().int(),
+      parent: z.string().nullable(),
+      event: z.string(),
+      lane: z.number().int().nonnegative(),
+      earlyLabel: z.string().optional(),
+      earlyUntil: z.number().int().optional(),
+    }),
+  ),
+});
+export type Tree = z.infer<typeof treeSchema>;
+
+export const quizSchema = z.array(
+  z.object({
+    id: z.string(),
+    topic: z.string(),
+    question: z.string(),
+    help: z.string(),
+    options: z
+      .array(
+        z.object({ id: z.string(), label: z.string(), weights: z.record(z.string(), z.number().int().min(0).max(3)) }),
+      )
+      .min(2),
+  }),
+);
+export type QuizQuestion = z.infer<typeof quizSchema>[number];
+
+export const bigQuestionSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  title: z.string(),
+  intro: z.string().min(40),
+  keyPassages: z.array(z.string()),
+  views: z
+    .array(
+      z.object({
+        label: z.string(),
+        summary: z.string().min(20),
+        heldBy: z.array(z.string()).min(1),
+        passages: z.array(z.string()),
+        source: z.string().min(3),
+      }),
+    )
+    .min(2),
+  common: z.string().optional(),
+  related: z.array(z.string()),
+});
+export type BigQuestion = z.infer<typeof bigQuestionSchema>;

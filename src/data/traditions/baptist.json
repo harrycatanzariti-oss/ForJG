@@ -1,0 +1,117 @@
+{
+  "id": "baptist",
+  "name": "Baptist Churches",
+  "shortName": "Baptist",
+  "family": "protestant",
+  "foundedApprox": "1609 (Amsterdam), 1612 (England)",
+  "keyFigures": ["John Smyth", "Thomas Helwys", "Roger Williams", "Charles Spurgeon", "Martin Luther King Jr."],
+  "originSummary": "Baptists began among English Separatists who concluded that baptism should be for believers only. John Smyth baptised himself and others in Amsterdam in 1609, and Thomas Helwys founded the first Baptist church in England in 1612, also pleading for religious freedom for all. Baptists grew rapidly in America and, through missions, worldwide. They are known for believer’s baptism by immersion, the independence of each local church, and religious liberty.",
+  "globalSizeApprox": {
+    "figure": "About 47 million baptised members in Baptist World Alliance churches; many more attend",
+    "year": "2020s",
+    "source": "Baptist World Alliance",
+    "note": "Many Baptist churches, including the Southern Baptist Convention since 2004, are not BWA members."
+  },
+  "whereCommon": [
+    "the United States",
+    "Nigeria",
+    "India (north-east)",
+    "the Democratic Republic of the Congo",
+    "Brazil",
+    "the United Kingdom",
+    "Myanmar"
+  ],
+  "diversity": "Baptists vary widely; many but not all are evangelical. There are Reformed (Calvinist) Baptists, General (Arminian) Baptists, progressive Baptist unions, and historic Black Baptist conventions. Because each church is independent, beliefs and practices differ from congregation to congregation.",
+  "beliefs": {
+    "authority": {
+      "summary": "The Bible alone is the supreme authority for faith and practice.",
+      "detail": "The Bible “has God for its author, salvation for its end, and truth, without any mixture of error, for its matter,” in the words of the Southern Baptist confession. Other Baptists express inspiration differently. Baptists have often been wary of creeds, preferring voluntary confessions.",
+      "source": "Baptist Faith and Message (2000), Article I; Second London Baptist Confession (1689), Chapter 1"
+    },
+    "salvation": {
+      "summary": "By grace through personal faith in Jesus Christ; many Baptists believe a true believer cannot lose salvation.",
+      "detail": "Salvation involves regeneration, justification, sanctification and glorification, and is offered freely to all who accept Jesus as Lord and Saviour. Many Baptists hold “once saved, always saved”; General and Free Will Baptists believe a believer can fall away.",
+      "source": "Baptist Faith and Message (2000), Articles IV and V"
+    },
+    "baptism": {
+      "summary": "Believers only, by full immersion, as a public sign of faith.",
+      "detail": "Baptism is the immersion of a believer in water as an act of obedience, symbolising death to sin and new life in Christ. It does not itself save. Infants are not baptised but may be dedicated.",
+      "source": "Baptist Faith and Message (2000), Article VII"
+    },
+    "communion": {
+      "summary": "The Lord’s Supper is a memorial of Christ’s death; the bread and juice are symbols.",
+      "detail": "The Lord’s Supper is a “symbolic act of obedience” in which believers memorialise Jesus’ death and anticipate his return. Many churches use grape juice. Practice varies from open to closed communion.",
+      "source": "Baptist Faith and Message (2000), Article VII"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the virgin mother of Jesus and a model of faith; she is not venerated.",
+      "detail": "Baptists affirm the virgin birth of Jesus and do not accept Marian doctrines beyond Scripture or prayers to her.",
+      "source": "Baptist Faith and Message (2000), Article II.B"
+    },
+    "saints": {
+      "summary": "All believers are saints; Christians pray directly to God through Jesus, the one mediator.",
+      "detail": "Baptists do not have a calendar of saints or ask for saints’ prayers.",
+      "source": "Baptist Faith and Message (2000), Article II.B (Christ as mediator)"
+    },
+    "churchGovernance": {
+      "summary": "Congregational: each local church is self-governing under Christ; churches cooperate voluntarily.",
+      "detail": "Each congregation operates “under the Lordship of Christ through democratic processes,” choosing its own pastor and making its own decisions. Associations and conventions coordinate missions but do not rule local churches.",
+      "source": "Baptist Faith and Message (2000), Article VI"
+    },
+    "clergy": {
+      "summary": "Pastors and deacons; many Baptist bodies have women pastors, others (such as the SBC) reserve the role of pastor for men.",
+      "detail": "Pastors may marry. Ordination is by the local church. The Southern Baptist Convention’s confession states that the office of pastor is limited to men; American Baptist Churches USA and many others ordain women.",
+      "source": "Baptist Faith and Message (2000), Article VI"
+    },
+    "afterlife": {
+      "summary": "At death believers go to heaven and unbelievers to hell; no purgatory.",
+      "detail": "God will bring the world to its end, the dead will be raised, and Christ will judge all people: the unrighteous to hell, the righteous to heaven.",
+      "source": "Baptist Faith and Message (2000), Article X"
+    },
+    "spiritualGifts": {
+      "summary": "Views vary: many traditional Baptists believe miraculous gifts ceased; others are open or charismatic.",
+      "detail": "Some Baptist bodies have discouraged practices such as public speaking in tongues; Baptist churches in Africa and Latin America are often charismatic in style.",
+      "source": "Southern Baptist International Mission Board guidelines (2005, revised 2015) show the range of views"
+    },
+    "endTimes": {
+      "summary": "Jesus will return personally and visibly; many Baptists hold premillennial views, but positions vary.",
+      "detail": "The confession affirms that Christ will return in glory “in His own time and in His own way” and does not require a millennial view.",
+      "source": "Baptist Faith and Message (2000), Article X"
+    }
+  },
+  "worship": {
+    "style": "Informal to traditional, centred on preaching",
+    "typicalService": "Hymns or worship songs, prayer, Bible reading and a sermon of 30–45 minutes; often an invitation to respond. Lord’s Supper monthly or quarterly.",
+    "calendar": "Christmas and Easter; many don’t follow the full church year.",
+    "music": "Gospel, hymns, choirs or contemporary worship bands."
+  },
+  "firstVisit": {
+    "expect": "Greeters will welcome you. The sermon is central. Baptisms happen in a pool (baptistery) at the front.",
+    "wear": "Anything from Sunday best to casual, depending on the church.",
+    "etiquette": [
+      "The Lord’s Supper is often passed along the rows; you can let it pass if you prefer.",
+      "You might be invited to come forward at the end; there’s no pressure."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "Baptist Faith and Message (2000)",
+      "note": "Southern Baptist Convention."
+    },
+    {
+      "title": "Second London Baptist Confession (1689)",
+      "note": "Used by Reformed Baptists."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Baptist Faith and Message 2000 (online)",
+      "url": "https://bfm.sbc.net"
+    },
+    {
+      "title": "The Baptists",
+      "author": "David Bebbington"
+    }
+  ],
+  "otherGroup": false
+}

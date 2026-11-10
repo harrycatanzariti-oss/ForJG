@@ -1,0 +1,45 @@
+{
+  "id": "who-should-be-baptised",
+  "title": "Who should be baptised?",
+  "intro": "Jesus told his followers to make disciples, “baptizing them in the name of the Father and of the Son and of the Holy Spirit.” Christians disagree about whether babies should be baptised, how (sprinkling, pouring or immersion), and what baptism does.",
+  "keyPassages": [
+    "Matthew 28:18-20",
+    "Acts 2:38-39",
+    "Acts 16:30-34",
+    "Romans 6:3-4",
+    "Colossians 2:11-12",
+    "Mark 16:16"
+  ],
+  "views": [
+    {
+      "label": "Babies and believers: baptism gives new birth",
+      "summary": "Catholic, Orthodox and Lutheran churches baptise infants because baptism is God’s gift of grace, washing away sin and bringing new birth, not something earned by understanding. The promise is “for you and your children” (Acts 2:39).",
+      "heldBy": ["catholic", "eastern-orthodox", "oriental-orthodox", "church-of-the-east", "lutheran"],
+      "passages": ["Acts 2:38-39", "John 3:5", "Titus 3:5"],
+      "source": "Catechism of the Catholic Church 1250–1252; Augsburg Confession, Article IX"
+    },
+    {
+      "label": "Babies and believers: a sign of the covenant",
+      "summary": "Reformed, Anglican and Methodist churches baptise the children of believers as members of God’s covenant people, as circumcision was given to infants in the Old Testament. Whole households were baptised in Acts.",
+      "heldBy": ["reformed", "anglican", "methodist"],
+      "passages": ["Colossians 2:11-12", "Acts 16:30-34", "Genesis 17:7-12"],
+      "source": "Westminster Confession, Chapter 28; Thirty-Nine Articles, Article XXVII"
+    },
+    {
+      "label": "Believers only, usually by immersion",
+      "summary": "Baptists, Anabaptists, Pentecostals and many others baptise only those who personally confess faith. In the New Testament, they argue, people believed and then were baptised. Immersion pictures burial and resurrection with Christ.",
+      "heldBy": ["baptist", "anabaptist", "pentecostal", "charismatic-evangelical", "seventh-day-adventist"],
+      "passages": ["Acts 8:36-38", "Romans 6:3-4", "Mark 16:16"],
+      "source": "Baptist Faith and Message (2000), Article VII; Schleitheim Confession, Article 1"
+    },
+    {
+      "label": "Believers only, for the forgiveness of sins",
+      "summary": "Churches of Christ teach that believers are baptised by immersion for the forgiveness of sins (Acts 2:38), as part of an obedient faith.",
+      "heldBy": ["churches-of-christ"],
+      "passages": ["Acts 2:38", "Acts 22:16"],
+      "source": "Everett Ferguson, The Church of Christ (1996)"
+    }
+  ],
+  "common": "Almost all Christians baptise with water in the name of the Father, Son and Holy Spirit, and many recognise each other’s baptisms. Quakers practise no outward baptism, seeking the inward baptism of the Spirit.",
+  "related": ["what-happens-at-communion"]
+}

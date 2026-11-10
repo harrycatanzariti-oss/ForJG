@@ -1,0 +1,122 @@
+{
+  "id": "methodist",
+  "name": "Methodist and Wesleyan Churches",
+  "shortName": "Methodist / Wesleyan",
+  "family": "protestant",
+  "foundedApprox": "1730s–1740s (England); a separate church in America from 1784",
+  "keyFigures": ["John Wesley", "Charles Wesley", "Francis Asbury", "Phoebe Palmer"],
+  "originSummary": "Methodism began as a renewal movement within the Church of England led by the brothers John and Charles Wesley. After John Wesley felt his “heart strangely warmed” in 1738, he preached to crowds in the open air and organised converts into small groups for mutual accountability; their disciplined “method” earned them the name Methodists. In America the Methodist Episcopal Church formed in 1784. The Wesleyan holiness tradition later gave rise to the Holiness movement, the Salvation Army and, indirectly, Pentecostalism.",
+  "globalSizeApprox": {
+    "figure": "About 80 million",
+    "year": "2020s",
+    "source": "World Methodist Council",
+    "note": "Includes Methodist, Wesleyan, Holiness and united churches."
+  },
+  "whereCommon": [
+    "the United States",
+    "Korea",
+    "Nigeria",
+    "Ghana",
+    "Zimbabwe",
+    "the United Kingdom",
+    "the Philippines",
+    "Tonga"
+  ],
+  "diversity": "Methodists range from progressive to conservative. In 2019–2024 about a quarter of United Methodist congregations in the US left the United Methodist Church, many joining the Global Methodist Church, mostly over sexuality. Holiness and African Methodist churches (such as the AME Church) are distinct denominations.",
+  "beliefs": {
+    "authority": {
+      "summary": "Scripture is primary, understood with tradition, reason and experience (the “Wesleyan quadrilateral”).",
+      "detail": "Scripture “containeth all things necessary to salvation.” The term “quadrilateral” was coined by the scholar Albert Outler to summarise Wesley’s approach; Scripture is first among the four.",
+      "source": "Methodist Articles of Religion (1784), Article V; United Methodist Book of Discipline, ¶105"
+    },
+    "salvation": {
+      "summary": "By grace through faith; God’s grace goes before us, so everyone can respond. Believers can grow in holiness and can fall away.",
+      "detail": "Methodists teach prevenient grace (God’s grace enabling all to respond), justification by faith, assurance by the Spirit, and sanctification towards “Christian perfection” in love. Believers can fall from grace.",
+      "source": "Methodist Articles of Religion (1784), Articles VIII–XII; John Wesley, “A Plain Account of Christian Perfection” (1766)"
+    },
+    "baptism": {
+      "summary": "Infants and believers are baptised; baptism is a sign of new birth and God’s grace.",
+      "detail": "Baptism may be by sprinkling, pouring or immersion. Infants are baptised and later confirmed.",
+      "source": "Methodist Articles of Religion (1784), Article XVII; United Methodist Church, “By Water and the Spirit” (1996)"
+    },
+    "communion": {
+      "summary": "Christ is truly present in a spiritual way; the table is open to all who seek him.",
+      "detail": "Methodists reject transubstantiation and affirm Christ’s real, spiritual presence. Wesley called the Supper a “converting ordinance,” and most Methodist churches invite all who love Christ to receive. Many use grape juice.",
+      "source": "Methodist Articles of Religion (1784), Article XVIII; United Methodist Church, “This Holy Mystery” (2004)"
+    },
+    "mary": {
+      "summary": "Mary is honoured as the mother of Jesus and a model of faith; she is not prayed to.",
+      "detail": "Methodists affirm the virgin birth and the creeds. Wesley believed in Mary’s perpetual virginity, but Methodism has no Marian devotions.",
+      "source": "Methodist Articles of Religion (1784), Article II"
+    },
+    "saints": {
+      "summary": "Saints are remembered (especially on All Saints’ Day) but not invoked.",
+      "detail": "The Articles reject the “invocation of saints” along with purgatory and the veneration of images and relics.",
+      "source": "Methodist Articles of Religion (1784), Article XIV"
+    },
+    "churchGovernance": {
+      "summary": "Connectional: churches linked in conferences, with bishops (in the US) or a president and conference (in Britain).",
+      "detail": "In United Methodism, bishops appoint pastors to local churches, and the General Conference sets church law. British Methodism has no bishops; the Conference is the governing body.",
+      "source": "United Methodist Book of Discipline; British Methodist Constitutional Practice and Discipline"
+    },
+    "clergy": {
+      "summary": "Elders (ordained ministers) and deacons; most Methodist churches ordain women.",
+      "detail": "Ministers may marry. Women have been ordained as elders in the US since 1956; some holiness churches have ordained women since the 19th century.",
+      "source": "United Methodist Book of Discipline, Part VI"
+    },
+    "afterlife": {
+      "summary": "Heaven and hell; no purgatory.",
+      "detail": "Methodists affirm the resurrection and final judgement and reject purgatory as unscriptural.",
+      "source": "Methodist Articles of Religion (1784), Article XIV"
+    },
+    "spiritualGifts": {
+      "summary": "The Spirit gives gifts to all believers; many Methodists are open to charismatic expression.",
+      "detail": "Early Methodism was known for heartfelt, sometimes dramatic experiences. Charismatic renewal is present in parts of world Methodism.",
+      "source": "United Methodist Church, “Guidelines: The United Methodist Church and the Charismatic Movement” (1976)"
+    },
+    "endTimes": {
+      "summary": "Christ will return to judge; no official millennial view.",
+      "detail": "Methodists affirm the creeds and leave details of the end times open.",
+      "source": "Methodist Articles of Religion (1784), Article III"
+    }
+  },
+  "worship": {
+    "style": "Varied: liturgical, traditional hymn-based, or contemporary",
+    "typicalService": "Hymns, prayers, Scripture readings, sermon and offering; Holy Communion monthly or more often.",
+    "calendar": "Full church year in many churches; Wesley’s Covenant Service at New Year.",
+    "music": "Rich hymn tradition (Charles Wesley wrote over 6,000 hymns, such as “And Can It Be”)."
+  },
+  "firstVisit": {
+    "expect": "A friendly welcome and a service sheet or hymnbook.",
+    "wear": "Smart-casual or casual.",
+    "etiquette": [
+      "Communion is usually open to all; you can also come forward for a blessing or remain seated.",
+      "Many churches have tea or coffee afterwards."
+    ]
+  },
+  "keyTexts": [
+    {
+      "title": "Articles of Religion (1784)",
+      "note": "Wesley’s abridgement of the Anglican articles."
+    },
+    {
+      "title": "Wesley’s Standard Sermons",
+      "note": "Foundational teaching."
+    },
+    {
+      "title": "The Book of Discipline (United Methodist)",
+      "note": "Church law and doctrine."
+    }
+  ],
+  "furtherReading": [
+    {
+      "title": "Methodism: Empire of the Spirit",
+      "author": "David Hempton"
+    },
+    {
+      "title": "John Wesley’s Sermons: An Anthology",
+      "author": "Albert Outler and Richard Heitzenrater (eds)"
+    }
+  ],
+  "otherGroup": false
+}

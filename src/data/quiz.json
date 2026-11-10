@@ -1,0 +1,983 @@
+[
+  {
+    "id": "authority",
+    "topic": "authority",
+    "question": "Where does final authority in matters of faith lie?",
+    "help": "Christians all value the Bible, but differ on how it relates to church tradition and teaching.",
+    "options": [
+      {
+        "id": "a",
+        "label": "Scripture and Church tradition together, interpreted by the Church’s teaching authority",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 2,
+          "oriental-orthodox": 2,
+          "church-of-the-east": 2,
+          "anglican": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "Holy Tradition as a whole, with Scripture at its heart, as the Church has always lived it",
+        "weights": {
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 3,
+          "catholic": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "The Bible alone is the final authority; creeds and tradition are useful but under it",
+        "weights": {
+          "lutheran": 3,
+          "reformed": 3,
+          "baptist": 3,
+          "anglican": 2,
+          "methodist": 2,
+          "pentecostal": 3,
+          "charismatic-evangelical": 3,
+          "anabaptist": 2,
+          "churches-of-christ": 3,
+          "seventh-day-adventist": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "The Bible together with continuing revelation through living prophets",
+        "weights": {
+          "latter-day-saints": 3,
+          "seventh-day-adventist": 1
+        }
+      },
+      {
+        "id": "e",
+        "label": "The inward guidance of the Spirit, tested by Scripture and the community",
+        "weights": {
+          "quaker": 3,
+          "charismatic-evangelical": 1
+        }
+      },
+      {
+        "id": "f",
+        "label": "The Bible, as explained by a central body of trusted teachers",
+        "weights": {
+          "jehovahs-witnesses": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "god",
+    "topic": "authority",
+    "question": "How do you understand God?",
+    "help": "Most Christians confess the Trinity; some groups with Christian roots understand God differently.",
+    "options": [
+      {
+        "id": "a",
+        "label": "One God in three persons: Father, Son and Holy Spirit (the Trinity)",
+        "weights": {
+          "catholic": 2,
+          "eastern-orthodox": 2,
+          "oriental-orthodox": 2,
+          "church-of-the-east": 2,
+          "lutheran": 2,
+          "reformed": 2,
+          "anglican": 2,
+          "anabaptist": 2,
+          "baptist": 2,
+          "methodist": 2,
+          "churches-of-christ": 2,
+          "seventh-day-adventist": 2,
+          "pentecostal": 2,
+          "charismatic-evangelical": 2,
+          "quaker": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "Father, Son and Holy Ghost are three distinct beings, one in purpose",
+        "weights": {
+          "latter-day-saints": 3
+        }
+      },
+      {
+        "id": "c",
+        "label": "Jehovah alone is God; Jesus is his Son, the first of his creations",
+        "weights": {
+          "jehovahs-witnesses": 3
+        }
+      },
+      {
+        "id": "d",
+        "label": "God is beyond our definitions; I focus on experiencing God",
+        "weights": {
+          "quaker": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "salvation",
+    "topic": "salvation",
+    "question": "How are people made right with God?",
+    "help": "Every tradition says salvation comes by God’s grace in Christ. They describe how it is received differently.",
+    "options": [
+      {
+        "id": "a",
+        "label": "By grace through faith alone; good works follow as fruit",
+        "weights": {
+          "lutheran": 3,
+          "reformed": 3,
+          "baptist": 3,
+          "anglican": 2,
+          "charismatic-evangelical": 3,
+          "pentecostal": 2,
+          "methodist": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "By grace, received through faith and the sacraments, and lived out in love",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 2,
+          "oriental-orthodox": 2,
+          "church-of-the-east": 2,
+          "anglican": 1,
+          "methodist": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "A lifelong journey of being healed and united with God (theosis)",
+        "weights": {
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "By grace through faith, expressed in obedience, including baptism",
+        "weights": {
+          "churches-of-christ": 3,
+          "seventh-day-adventist": 2,
+          "anabaptist": 2,
+          "jehovahs-witnesses": 1
+        }
+      },
+      {
+        "id": "e",
+        "label": "Through Christ’s atonement, with ordinances and covenants, enduring to the end",
+        "weights": {
+          "latter-day-saints": 3
+        }
+      },
+      {
+        "id": "f",
+        "label": "Through faith in Jesus’ ransom and faithful obedience to Jehovah",
+        "weights": {
+          "jehovahs-witnesses": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "assurance",
+    "topic": "salvation",
+    "question": "Can a true believer lose their salvation?",
+    "help": "Christians disagree about whether those who truly believe will always persevere.",
+    "options": [
+      {
+        "id": "a",
+        "label": "No: those God truly saves will persevere to the end",
+        "weights": {
+          "reformed": 3,
+          "baptist": 2,
+          "charismatic-evangelical": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "Yes: a believer can fall away by turning from God",
+        "weights": {
+          "methodist": 3,
+          "pentecostal": 2,
+          "catholic": 2,
+          "lutheran": 2,
+          "churches-of-christ": 2,
+          "seventh-day-adventist": 2,
+          "anabaptist": 1,
+          "jehovahs-witnesses": 1,
+          "eastern-orthodox": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "Salvation is a journey; I wouldn’t call it a finished possession",
+        "weights": {
+          "eastern-orthodox": 2,
+          "oriental-orthodox": 2,
+          "church-of-the-east": 2,
+          "catholic": 1,
+          "quaker": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "baptism-who",
+    "topic": "baptism",
+    "question": "Who should be baptised?",
+    "help": "Some churches baptise babies of believing families; others baptise only those who can profess faith.",
+    "options": [
+      {
+        "id": "a",
+        "label": "Babies of believing families, as well as adults who come to faith",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 3,
+          "lutheran": 3,
+          "reformed": 3,
+          "anglican": 3,
+          "methodist": 3
+        }
+      },
+      {
+        "id": "b",
+        "label": "Only people old enough to profess faith for themselves",
+        "weights": {
+          "baptist": 3,
+          "anabaptist": 3,
+          "pentecostal": 3,
+          "charismatic-evangelical": 2,
+          "churches-of-christ": 3,
+          "seventh-day-adventist": 3,
+          "jehovahs-witnesses": 3,
+          "latter-day-saints": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Outward baptism isn’t necessary; the Spirit baptises inwardly",
+        "weights": {
+          "quaker": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "baptism-meaning",
+    "topic": "baptism",
+    "question": "What does baptism do?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "It truly washes away sin and gives new birth by God’s grace",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 2,
+          "lutheran": 3,
+          "anglican": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "It’s a sign and seal of God’s covenant promise",
+        "weights": {
+          "reformed": 3,
+          "anglican": 2,
+          "methodist": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "It’s a public declaration of faith and obedience; it doesn’t itself save",
+        "weights": {
+          "baptist": 3,
+          "pentecostal": 3,
+          "charismatic-evangelical": 3,
+          "anabaptist": 2,
+          "seventh-day-adventist": 2,
+          "jehovahs-witnesses": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "It’s when a believer’s sins are forgiven, as part of an obedient response",
+        "weights": {
+          "churches-of-christ": 3,
+          "latter-day-saints": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "communion",
+    "topic": "communion",
+    "question": "What happens at Communion (the Lord’s Supper)?",
+    "help": "This is one of the biggest differences between traditions.",
+    "options": [
+      {
+        "id": "a",
+        "label": "The bread and wine become Christ’s body and blood",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 3,
+          "anglican": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "Christ’s body and blood are truly present “in, with and under” the bread and wine",
+        "weights": {
+          "lutheran": 3,
+          "anglican": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "Christ is truly present spiritually and received by faith",
+        "weights": {
+          "reformed": 3,
+          "anglican": 3,
+          "methodist": 3
+        }
+      },
+      {
+        "id": "d",
+        "label": "It’s a memorial of his death, using symbols",
+        "weights": {
+          "baptist": 3,
+          "pentecostal": 2,
+          "charismatic-evangelical": 2,
+          "anabaptist": 3,
+          "churches-of-christ": 3,
+          "seventh-day-adventist": 2
+        }
+      },
+      {
+        "id": "e",
+        "label": "No outward Communion; I seek inward communion with Christ",
+        "weights": {
+          "quaker": 3
+        }
+      },
+      {
+        "id": "f",
+        "label": "A yearly memorial, where only a few partake",
+        "weights": {
+          "jehovahs-witnesses": 3
+        }
+      },
+      {
+        "id": "g",
+        "label": "Bread and water each week to renew my covenants",
+        "weights": {
+          "latter-day-saints": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "worship",
+    "topic": "communion",
+    "question": "What kind of worship draws you?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Ancient liturgy with chant, incense and icons",
+        "weights": {
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 3,
+          "catholic": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "Structured liturgy with Communion at the centre",
+        "weights": {
+          "catholic": 3,
+          "anglican": 2,
+          "lutheran": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Hymns, Bible reading and a solid sermon",
+        "weights": {
+          "reformed": 3,
+          "baptist": 2,
+          "methodist": 2,
+          "lutheran": 1
+        }
+      },
+      {
+        "id": "d",
+        "label": "Contemporary music and expressive praise",
+        "weights": {
+          "charismatic-evangelical": 3,
+          "pentecostal": 3,
+          "baptist": 1,
+          "methodist": 1
+        }
+      },
+      {
+        "id": "e",
+        "label": "Silence and waiting on God together",
+        "weights": {
+          "quaker": 3
+        }
+      },
+      {
+        "id": "f",
+        "label": "Simple unaccompanied singing in a plain setting",
+        "weights": {
+          "churches-of-christ": 3,
+          "anabaptist": 3
+        }
+      },
+      {
+        "id": "g",
+        "label": "Bible study and teaching meetings",
+        "weights": {
+          "jehovahs-witnesses": 3,
+          "seventh-day-adventist": 1
+        }
+      },
+      {
+        "id": "h",
+        "label": "Talks given by ordinary members, with a short sacrament",
+        "weights": {
+          "latter-day-saints": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "mary",
+    "topic": "mary",
+    "question": "How should Christians relate to Mary, the mother of Jesus?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Honour her as Mother of God, ask her prayers; conceived without sin and taken into heaven",
+        "weights": {
+          "catholic": 3
+        }
+      },
+      {
+        "id": "b",
+        "label": "Venerate her as Theotokos and ever-virgin, without some later Western definitions",
+        "weights": {
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 2,
+          "anglican": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "Respect her as Jesus’ mother and a model of faith, but not pray to her",
+        "weights": {
+          "lutheran": 2,
+          "reformed": 2,
+          "baptist": 2,
+          "methodist": 2,
+          "anglican": 2,
+          "pentecostal": 2,
+          "charismatic-evangelical": 2,
+          "anabaptist": 2,
+          "churches-of-christ": 2,
+          "seventh-day-adventist": 2,
+          "quaker": 1,
+          "latter-day-saints": 2,
+          "jehovahs-witnesses": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "saints",
+    "topic": "saints",
+    "question": "Can we ask saints in heaven to pray for us?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Yes: the saints are alive in Christ and pray for us",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 2,
+          "anglican": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "We remember them as examples, but pray only to God",
+        "weights": {
+          "lutheran": 3,
+          "reformed": 3,
+          "baptist": 3,
+          "methodist": 3,
+          "anglican": 2,
+          "pentecostal": 3,
+          "charismatic-evangelical": 3,
+          "anabaptist": 3,
+          "churches-of-christ": 3,
+          "quaker": 2,
+          "latter-day-saints": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "The dead are asleep until the resurrection",
+        "weights": {
+          "seventh-day-adventist": 3,
+          "jehovahs-witnesses": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "governance",
+    "topic": "churchGovernance",
+    "question": "How should the church be led?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "By bishops in succession from the apostles, in communion with the Pope",
+        "weights": {
+          "catholic": 3
+        }
+      },
+      {
+        "id": "b",
+        "label": "By bishops in succession from the apostles, in self-governing churches",
+        "weights": {
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 3,
+          "anglican": 3,
+          "lutheran": 1,
+          "methodist": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "By elders, linked in regional bodies such as presbyteries or conferences",
+        "weights": {
+          "reformed": 3,
+          "methodist": 2,
+          "seventh-day-adventist": 2,
+          "lutheran": 1
+        }
+      },
+      {
+        "id": "d",
+        "label": "Each local congregation governs itself",
+        "weights": {
+          "baptist": 3,
+          "churches-of-christ": 3,
+          "anabaptist": 2,
+          "charismatic-evangelical": 3,
+          "pentecostal": 2
+        }
+      },
+      {
+        "id": "e",
+        "label": "By the whole community seeking unity together, without clergy",
+        "weights": {
+          "quaker": 3
+        }
+      },
+      {
+        "id": "f",
+        "label": "By a central leadership of prophets, apostles or a governing body",
+        "weights": {
+          "latter-day-saints": 3,
+          "jehovahs-witnesses": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "ministry",
+    "topic": "clergy",
+    "question": "What kind of ministers should a church have?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Bishops, priests and deacons ordained in apostolic succession",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 3,
+          "anglican": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Ordained pastors who preach and lead the sacraments, but not as sacrificing priests",
+        "weights": {
+          "lutheran": 2,
+          "reformed": 3,
+          "baptist": 2,
+          "methodist": 3,
+          "pentecostal": 2,
+          "charismatic-evangelical": 2,
+          "seventh-day-adventist": 2,
+          "anglican": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "Every believer is a minister; leaders are lay elders",
+        "weights": {
+          "churches-of-christ": 3,
+          "anabaptist": 2,
+          "quaker": 3,
+          "jehovahs-witnesses": 3
+        }
+      },
+      {
+        "id": "d",
+        "label": "A lay priesthood held by worthy members",
+        "weights": {
+          "latter-day-saints": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "gifts",
+    "topic": "spiritualGifts",
+    "question": "Are gifts like speaking in tongues, prophecy and healing for today?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Yes, and I’d expect to see them regularly in worship",
+        "weights": {
+          "pentecostal": 3,
+          "charismatic-evangelical": 3,
+          "latter-day-saints": 1
+        }
+      },
+      {
+        "id": "b",
+        "label": "Yes, the Spirit still gives gifts, but usually in quieter or orderly ways",
+        "weights": {
+          "catholic": 2,
+          "eastern-orthodox": 2,
+          "oriental-orthodox": 2,
+          "anglican": 2,
+          "methodist": 2,
+          "lutheran": 1,
+          "seventh-day-adventist": 2,
+          "latter-day-saints": 2,
+          "quaker": 2,
+          "anabaptist": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "Miraculous gifts ended with the apostles",
+        "weights": {
+          "reformed": 2,
+          "churches-of-christ": 3,
+          "baptist": 1,
+          "jehovahs-witnesses": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "afterlife",
+    "topic": "afterlife",
+    "question": "What happens after we die?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Heaven or hell; some may need final purification (purgatory) first",
+        "weights": {
+          "catholic": 3
+        }
+      },
+      {
+        "id": "b",
+        "label": "The soul awaits the resurrection, and the Church prays for the departed",
+        "weights": {
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 2,
+          "anglican": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "Believers go to be with Christ; there is no purgatory",
+        "weights": {
+          "lutheran": 3,
+          "reformed": 3,
+          "baptist": 3,
+          "methodist": 3,
+          "pentecostal": 3,
+          "charismatic-evangelical": 3,
+          "anabaptist": 3,
+          "churches-of-christ": 3,
+          "anglican": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "The dead sleep until the resurrection",
+        "weights": {
+          "seventh-day-adventist": 3,
+          "jehovahs-witnesses": 3,
+          "church-of-the-east": 2
+        }
+      },
+      {
+        "id": "e",
+        "label": "A spirit world, then resurrection into degrees of glory",
+        "weights": {
+          "latter-day-saints": 3
+        }
+      },
+      {
+        "id": "f",
+        "label": "I focus on this life more than on what comes after",
+        "weights": {
+          "quaker": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "end-times",
+    "topic": "endTimes",
+    "question": "How do you think about the end times?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Christ will return to judge; I don’t speculate about timelines",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 3,
+          "lutheran": 3,
+          "anglican": 3,
+          "methodist": 3,
+          "reformed": 2,
+          "churches-of-christ": 2,
+          "anabaptist": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "A rapture of believers, then a literal 1,000-year reign on earth",
+        "weights": {
+          "pentecostal": 3,
+          "charismatic-evangelical": 2,
+          "baptist": 2
+        }
+      },
+      {
+        "id": "c",
+        "label": "Christ’s return is soon, and a judgement is already under way in heaven",
+        "weights": {
+          "seventh-day-adventist": 3
+        }
+      },
+      {
+        "id": "d",
+        "label": "We have been in the last days since 1914; paradise on earth is coming soon",
+        "weights": {
+          "jehovahs-witnesses": 3
+        }
+      },
+      {
+        "id": "e",
+        "label": "Christ will reign on earth for a thousand years after Zion is built",
+        "weights": {
+          "latter-day-saints": 3
+        }
+      },
+      {
+        "id": "f",
+        "label": "God’s kingdom is to be lived now; I don’t focus on timelines",
+        "weights": {
+          "quaker": 3,
+          "anabaptist": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sabbath",
+    "topic": "communion",
+    "question": "Which day should Christians set apart for worship and rest?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Sunday, the Lord’s Day of the resurrection",
+        "weights": {
+          "catholic": 2,
+          "eastern-orthodox": 2,
+          "oriental-orthodox": 2,
+          "church-of-the-east": 2,
+          "lutheran": 2,
+          "reformed": 3,
+          "anglican": 2,
+          "baptist": 2,
+          "methodist": 2,
+          "pentecostal": 2,
+          "charismatic-evangelical": 2,
+          "anabaptist": 2,
+          "churches-of-christ": 3,
+          "latter-day-saints": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Saturday, the seventh-day Sabbath",
+        "weights": {
+          "seventh-day-adventist": 3
+        }
+      },
+      {
+        "id": "c",
+        "label": "All days are equally holy",
+        "weights": {
+          "quaker": 3,
+          "jehovahs-witnesses": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "peace",
+    "topic": "clergy",
+    "question": "Can a follower of Jesus serve in the military or use force?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Yes, force can sometimes be just (for example, defending the innocent)",
+        "weights": {
+          "catholic": 2,
+          "eastern-orthodox": 1,
+          "lutheran": 2,
+          "reformed": 2,
+          "anglican": 2,
+          "baptist": 2,
+          "methodist": 1,
+          "pentecostal": 1,
+          "charismatic-evangelical": 1,
+          "latter-day-saints": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "No: followers of Jesus should be non-violent",
+        "weights": {
+          "anabaptist": 3,
+          "quaker": 3,
+          "jehovahs-witnesses": 2,
+          "churches-of-christ": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "It’s a matter of personal conscience",
+        "weights": {
+          "methodist": 2,
+          "pentecostal": 1,
+          "charismatic-evangelical": 1,
+          "seventh-day-adventist": 2,
+          "churches-of-christ": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "creeds",
+    "topic": "authority",
+    "question": "How important are the historic creeds, like the Nicene Creed?",
+    "help": "",
+    "options": [
+      {
+        "id": "a",
+        "label": "Essential: they define the faith and belong in worship",
+        "weights": {
+          "catholic": 3,
+          "eastern-orthodox": 3,
+          "oriental-orthodox": 3,
+          "church-of-the-east": 3,
+          "lutheran": 3,
+          "anglican": 3,
+          "methodist": 2,
+          "reformed": 2
+        }
+      },
+      {
+        "id": "b",
+        "label": "Valuable summaries, but secondary to Scripture",
+        "weights": {
+          "baptist": 2,
+          "pentecostal": 2,
+          "charismatic-evangelical": 2,
+          "reformed": 1,
+          "seventh-day-adventist": 1,
+          "anabaptist": 1
+        }
+      },
+      {
+        "id": "c",
+        "label": "No creed but the Bible",
+        "weights": {
+          "churches-of-christ": 3,
+          "baptist": 1,
+          "anabaptist": 1,
+          "seventh-day-adventist": 2
+        }
+      },
+      {
+        "id": "d",
+        "label": "Creeds can get in the way of direct experience of God",
+        "weights": {
+          "quaker": 3
+        }
+      },
+      {
+        "id": "e",
+        "label": "They reflect later ideas that differ from the original teaching",
+        "weights": {
+          "latter-day-saints": 3,
+          "jehovahs-witnesses": 3
+        }
+      }
+    ]
+  }
+]
