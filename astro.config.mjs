@@ -3,6 +3,7 @@ import { defineConfig } from 'astro/config';
 import preact from '@astrojs/preact';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import serviceWorker from './integrations/service-worker.mjs';
 
 // The public URL of the site. Change this to your own domain before deploying.
 // It is used for the sitemap and for absolute links in social previews.
@@ -16,7 +17,11 @@ export default defineConfig({
   base: BASE,
   output: 'static',
   trailingSlash: 'ignore',
-  integrations: [preact(), sitemap()],
+  integrations: [
+    preact(),
+    sitemap({ filter: (page) => !page.includes('/offline') }),
+    serviceWorker(),
+  ],
   vite: {
     plugins: [tailwindcss()],
   },

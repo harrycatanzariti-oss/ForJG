@@ -18,6 +18,7 @@ const chapterWord = book.id === 'psalms' ? 'Psalm' : 'Chapter';
 ---
 
 <BaseLayout
+  og={`bible/${book.id}`}
   title={book.name}
   description={intro?.overview ?? `Read ${book.name}, all ${book.chapters} chapters, at the level that suits you.`}
 >

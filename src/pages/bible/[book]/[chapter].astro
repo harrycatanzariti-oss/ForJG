@@ -34,7 +34,7 @@ const firstVerse = initial.verses[0]?.text ?? '';
 const description = `Read ${title} in the KJV, BSB or WEB, with a plain-English option. "${firstVerse.slice(0, 110)}${firstVerse.length > 110 ? '…' : ''}"`;
 ---
 
-<BaseLayout title={title} description={description} width="reading">
+<BaseLayout og={`bible/${book.id}`} title={title} description={description} width="reading">
   <nav aria-label="Breadcrumb" class="mb-1 text-sm text-ink-muted">
     <a href={url('/bible')} class="text-ink-muted">
       Bible

@@ -15,9 +15,12 @@ interface Props {
   description?: string;
   /** Use a narrower column for reading pages. */
   width?: 'reading' | 'wide';
+  /** Social preview image slug under /og/, e.g. "bible/john". */
+  og?: string;
 }
 
-const { title, description = SITE_DESCRIPTION, width = 'wide' } = Astro.props;
+const { title, description = SITE_DESCRIPTION, width = 'wide', og = 'default' } = Astro.props;
+const ogImage = Astro.site ? new URL(url(`/og/${og}.png`), Astro.site).href : url(`/og/${og}.png`);
 const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} · Read the Bible, understand the traditions`;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
@@ -40,11 +43,17 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     {canonical && <meta property="og:url" content={canonical} />}
     <meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#171513" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
     <link rel="sitemap" href={url('/sitemap-index.xml')} />
+    <link rel="manifest" href={url('/manifest.webmanifest')} />
+    <link rel="apple-touch-icon" href={url('/icons/apple-touch-icon.png')} />
     <!--
       Runs before the page is drawn so the right theme and text size are used
       immediately (no flash of the light theme for dark-mode readers).
@@ -68,6 +77,14 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
       })();
     </script>
     <slot name="head" />
+    {import.meta.env.PROD && <script is:inline define:vars={{ swUrl: url('/sw.js'), scope: url('/') }}>
+      // Register the service worker (offline support) once the page has loaded.
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register(swUrl, { scope: scope }).catch(function () {});
+        });
+      }
+    </script>}
   </head>
   <body class="flex flex-col">
     <a href="#main" class="sr-only-focusable fixed top-2 left-2 z-50 rounded-lg bg-surface px-4 py-2 shadow">

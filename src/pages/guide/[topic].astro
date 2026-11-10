@@ -14,7 +14,7 @@ const { topic } = Astro.props;
 const related = topic.related.map((id) => guideTopics.find((t) => t.id === id)!).filter(Boolean);
 ---
 
-<BaseLayout title={topic.title} description={topic.message.slice(0, 155)} width="reading">
+<BaseLayout og={`guide/${topic.id}`} title={topic.title} description={topic.message.slice(0, 155)} width="reading">
   <nav aria-label="Breadcrumb" class="mb-3 text-sm">
     <a href={url('/guide')} class="text-ink-muted">
       Guide

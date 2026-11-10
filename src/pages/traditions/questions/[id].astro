@@ -14,7 +14,7 @@ const seen = new Set<string>();
 const related = q.related.map((id) => bigQuestions.find((x) => x.id === id)).filter(Boolean);
 ---
 
-<BaseLayout title={q.title} description={q.intro.slice(0, 155)} width="reading">
+<BaseLayout og={`questions/${q.id}`} title={q.title} description={q.intro.slice(0, 155)} width="reading">
   <nav aria-label="Breadcrumb" class="mb-1 text-sm">
     <a href={url('/traditions/questions')} class="text-ink-muted">
       Big questions

@@ -26,7 +26,7 @@ const sections = [
 ];
 ---
 
-<BaseLayout title={t.name} description={t.originSummary.slice(0, 155)} width="reading">
+<BaseLayout og={`traditions/${t.id}`} title={t.name} description={t.originSummary.slice(0, 155)} width="reading">
   <nav aria-label="Breadcrumb" class="mb-1 text-sm">
     <a href={url('/traditions')} class="text-ink-muted">
       Traditions

@@ -14,7 +14,7 @@ const names = Object.fromEntries(books.map((b) => [b.id, b.name]));
 const otherNames = Object.fromEntries(plans.map((p) => [p.id, p.name]));
 ---
 
-<BaseLayout title={plan.name} description={plan.description} width="reading">
+<BaseLayout og={`plans/${plan.id}`} title={plan.name} description={plan.description} width="reading">
   <nav aria-label="Breadcrumb" class="mb-1 text-sm">
     <a href={url('/plans')} class="text-ink-muted">
       Plans
