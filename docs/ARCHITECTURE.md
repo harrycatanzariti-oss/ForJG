@@ -134,9 +134,16 @@ jump straight to the verse.
    counts once. Longer, unfamiliar words forgive one typo ("greiving").
    Negation ("not afraid") counts against groups marked `negatable`. Some
    topics add a bonus when two groups appear together (death + fear).
-4. **Decide**: a clear winner is answered (plus a strong second topic as "you
-   also mentioned"); close or weak matches get a "which did you mean?"
-   question; nothing matched shows the topic list.
+4. **Specific phrases win**: a word inside a longer phrase another topic
+   matched ("job" in "got the job") counts for half elsewhere.
+5. **Decide**: a clear winner is answered, and every other topic the message
+   touched (money, illness, family...) is listed under "You also mentioned";
+   close or weak matches get a "which did you mean?" question; nothing matched
+   shows the topic list.
+
+Each topic has well over a thousand words and phrases between them: everyday
+words ("landlord", "vaping", "gloomy", "diagnosed") as well as the obvious ones,
+so people can write naturally.
 
 **Safety first**: phrases suggesting self-harm or abuse always show help
 resources (`data/guide/safety.json`) before anything else.

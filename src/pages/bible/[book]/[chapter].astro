@@ -4,7 +4,6 @@
  */
 import BookIntro from '~/components/BookIntro.astro';
 import ChapterReader from '~/components/reader/ChapterReader';
-import Icon from '~/components/ui/Icon.astro';
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import { books, getChapter, getIntro, getSimplified, neighbours } from '~/lib/bible';
 import { getPassageNotes, traditionNames } from '~/lib/content';
@@ -72,31 +71,8 @@ const description = `Read ${title} in the KJV, BSB or WEB, with a plain-English 
       traditionNames={passageNotes ? traditionNames() : undefined}
       prevHref={prevHref}
       nextHref={nextHref}
+      prevLabel={prev ? `${prev.book.abbr} ${prev.chapter}` : undefined}
+      nextLabel={next ? `${next.book.abbr} ${next.chapter}` : undefined}
     />
   </div>
-
-  <nav aria-label="Chapters" class="mt-10 flex items-stretch justify-between gap-3">
-    {prev ? (
-      <a href={prevHref} class="btn btn-secondary" rel="prev">
-        <Icon name="chevron-left" />
-        <span>
-          <span class="sr-only">Previous: </span>
-          {prev.book.abbr} {prev.chapter}
-        </span>
-      </a>
-    ) : (
-      <span />
-    )}
-    {next ? (
-      <a href={nextHref} class="btn btn-primary" rel="next">
-        <span>
-          <span class="sr-only">Next: </span>
-          {next.book.abbr} {next.chapter}
-        </span>
-        <Icon name="chevron-right" />
-      </a>
-    ) : (
-      <span />
-    )}
-  </nav>
 </BaseLayout>

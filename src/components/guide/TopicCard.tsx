@@ -19,6 +19,15 @@ interface Props {
 export default function TopicCard({ topic, matched, careNote, onChoose, headingLevel = 2 }: Props) {
   const H = headingLevel === 2 ? 'h2' : 'h3';
   const Sub = headingLevel === 2 ? 'h3' : 'h4';
+  const passage = (p: ResolvedTopic['passages'][number]) => (
+    <li key={p.href + p.label}>
+      <a href={url(p.href)} class="block rounded-xl bg-surface-2 p-3 text-ink no-underline hover:bg-accent-soft">
+        <span class="font-semibold text-accent">{p.label}</span>
+        <span class="mt-0.5 block text-sm">{p.why}</span>
+        <span class="scripture mt-1 block text-[0.95rem] text-ink-muted">{p.excerpt}</span>
+      </a>
+    </li>
+  );
   return (
     <article class="card p-5" aria-label={topic.title}>
       <H class="text-2xl font-semibold tracking-tight" tabIndex={-1} data-topic-heading>
@@ -35,49 +44,45 @@ export default function TopicCard({ topic, matched, careNote, onChoose, headingL
       </div>
 
       <Sub class="mt-6 text-sm font-semibold tracking-wide text-ink-muted uppercase">Passages to read</Sub>
-      <ul class="mt-2 space-y-2">
-        {topic.passages.map((p) => (
-          <li key={p.href + p.label}>
-            <a
-              href={url(p.href)}
-              class="block rounded-xl border border-line bg-paper p-3 text-ink no-underline hover:border-accent"
-            >
-              <span class="font-semibold text-accent">{p.label}</span>
-              <span class="mt-0.5 block text-sm">{p.why}</span>
-              <span class="scripture mt-1 block text-[0.95rem] text-ink-muted">{p.excerpt}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
+      <ul class="mt-2 space-y-2">{topic.passages.slice(0, 3).map(passage)}</ul>
+      {topic.passages.length > 3 && (
+        <details class="mt-2">
+          <summary class="cursor-pointer py-2 text-sm text-accent">
+            {topic.passages.length - 3} more {topic.passages.length - 3 === 1 ? 'passage' : 'passages'}
+          </summary>
+          <ul class="mt-1 space-y-2">{topic.passages.slice(3).map(passage)}</ul>
+        </details>
+      )}
 
       {topic.links.length > 0 && (
-        <>
-          <Sub class="mt-6 text-sm font-semibold tracking-wide text-ink-muted uppercase">Explore more</Sub>
-          <ul class="mt-2 flex flex-wrap gap-2">
-            {topic.links.map((l) => (
-              <li key={l.href}>
-                <a href={url(l.href)} class="btn btn-secondary text-sm">
-                  {l.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </>
+        <p class="mt-5 text-sm">
+          <span class="text-ink-muted">Explore more: </span>
+          {topic.links.map((l, i) => (
+            <span key={l.href}>
+              {i > 0 && <span class="text-ink-muted"> · </span>}
+              <a href={url(l.href)}>{l.label}</a>
+            </span>
+          ))}
+        </p>
       )}
 
       {topic.followUp && (
-        <div class="mt-6 border-t border-line pt-4">
+        <div class="mt-5 border-t border-line pt-4">
           <p class="font-medium">{topic.followUp.question}</p>
-          <ul class="mt-2 flex flex-wrap gap-2">
+          <ul class="mt-1">
             {topic.followUp.options.map((o) => (
               <li key={o.topic}>
                 {onChoose ? (
-                  <button type="button" class="btn btn-secondary text-sm" onClick={() => onChoose(o.topic)}>
-                    {o.label}
+                  <button
+                    type="button"
+                    class="min-h-10 text-left text-accent underline-offset-4 hover:underline"
+                    onClick={() => onChoose(o.topic)}
+                  >
+                    {o.label} ›
                   </button>
                 ) : (
-                  <a href={url(`/guide/${o.topic}`)} class="btn btn-secondary text-sm">
-                    {o.label}
+                  <a href={url(`/guide/${o.topic}`)} class="inline-flex min-h-10 items-center">
+                    {o.label} ›
                   </a>
                 )}
               </li>

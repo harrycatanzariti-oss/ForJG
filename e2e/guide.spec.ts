@@ -15,7 +15,7 @@ test('the examples from the brief go to the right place', async ({ page }) => {
 
   await ask(page, "I'm mourning and I just feel like I've lost connection to god");
   await expect(page.getByRole('heading', { name: 'Grieving someone' })).toBeVisible();
-  await page.getByRole('button', { name: 'Show that too' }).click();
+  await page.getByRole('button', { name: /God feels far away/ }).click();
   await expect(page.getByRole('heading', { name: 'God feels far away' })).toBeVisible();
 
   await ask(page, 'I know nothing about god. Whew first');

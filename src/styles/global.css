@@ -286,24 +286,24 @@
  * the thumb's centre lines up with the centre of each of the 4 level labels.
  */
 .level-slider {
-  --thumb: 28px;
+  --thumb: 22px;
   appearance: none;
   -webkit-appearance: none;
   display: block;
   width: calc(75% + var(--thumb));
   margin-left: calc(12.5% - var(--thumb) / 2);
-  height: 44px; /* tall hit area, the visible track is drawn below */
+  height: 30px; /* hit area; the visible track is drawn inside */
   background: transparent;
   cursor: pointer;
   touch-action: pan-y;
 }
 .level-slider::-webkit-slider-runnable-track {
-  height: 6px;
+  height: 4px;
   border-radius: 999px;
   background: var(--line);
 }
 .level-slider::-moz-range-track {
-  height: 6px;
+  height: 4px;
   border-radius: 999px;
   background: var(--line);
 }
@@ -311,7 +311,7 @@
   -webkit-appearance: none;
   width: var(--thumb);
   height: var(--thumb);
-  margin-top: calc(3px - var(--thumb) / 2);
+  margin-top: calc(2px - var(--thumb) / 2);
   border-radius: 50%;
   background: rgb(var(--vest));
   border: 3px solid var(--surface);

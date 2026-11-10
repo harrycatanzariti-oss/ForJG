@@ -11,7 +11,7 @@ test('the slider switches between the KJV and BSB and remembers the level', asyn
   await page.getByRole('slider', { name: 'Reading level' }).focus();
   await page.keyboard.press('ArrowLeft');
   await expect(page.locator('#v16')).toContainText('only begotten Son');
-  await expect(page.locator('#level-description')).toContainText('Original');
+  await expect(page.locator('#level-description')).toContainText('King James Version');
 
   await page.reload();
   await ready(page);
@@ -23,7 +23,7 @@ test('levels without written content say "coming soon" instead of breaking', asy
   await page.goto('/bible/obadiah/1');
   await ready(page);
   await page.getByRole('button', { name: /Summary/ }).click();
-  await expect(page.getByRole('status')).toContainText('coming soon');
+  await expect(page.locator('#level-description')).toContainText('coming soon');
   await expect(page.getByRole('slider', { name: 'Reading level' })).toHaveValue('2');
 });
 

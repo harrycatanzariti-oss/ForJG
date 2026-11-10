@@ -29,7 +29,6 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
   const byId = useMemo(() => new Map(topics.map((t) => [t.id, t])), [topics]);
   const [text, setText] = useState('');
   const [entries, setEntries] = useState<Entry[]>([]);
-  const [expanded, setExpanded] = useState<Set<number>>(new Set());
   const lastRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
@@ -109,7 +108,9 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
     }
     if (result.kind === 'match') {
       const primary = byId.get(result.primary.id)!;
-      const also = result.also ? byId.get(result.also.id) : undefined;
+      const more = [...(result.also ? [result.also] : []), ...result.others].filter(
+        (m) => byId.has(m.id) && !primary.followUp?.options.some((o) => o.topic === m.id),
+      );
       return (
         <div class="space-y-4">
           {safetyCards}
@@ -120,29 +121,24 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
             onChoose={(id) => showTopic(id, byId.get(id)?.chip)}
             headingLevel={2}
           />
-          {also &&
-            (expanded.has(entry.id) ? (
-              <TopicCard
-                topic={also}
-                matched={result.also!.matched}
-                careNote={safety.careNote}
-                onChoose={(id) => showTopic(id, byId.get(id)?.chip)}
-                headingLevel={2}
-              />
-            ) : (
-              <div class="card flex flex-wrap items-center justify-between gap-3 p-4">
-                <p>
-                  You also mentioned something about <strong>{also.title.toLowerCase()}</strong>.
-                </p>
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  onClick={() => setExpanded((s) => new Set(s).add(entry.id))}
-                >
-                  Show that too
-                </button>
-              </div>
-            ))}
+          {more.length > 0 && (
+            <div class="card p-4">
+              <p class="text-sm text-ink-muted">You also mentioned:</p>
+              <ul class="mt-1">
+                {more.map((m) => (
+                  <li key={m.id}>
+                    <button
+                      type="button"
+                      class="min-h-10 text-left text-accent underline-offset-4 hover:underline"
+                      onClick={() => showTopic(m.id, byId.get(m.id)?.chip)}
+                    >
+                      {byId.get(m.id)!.title} ›
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       );
     }
@@ -169,7 +165,13 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
                 <button
                   type="button"
                   class="btn btn-secondary"
-                  onClick={() => document.getElementById('guide-browse')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => {
+                    const d = document.getElementById('guide-browse') as HTMLDetailsElement | null;
+                    if (d) {
+                      d.open = true;
+                      d.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                 >
                   Something else
                 </button>
@@ -238,7 +240,7 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
           <div class="mt-4">
             <p class="text-sm text-ink-muted">Or try one of these:</p>
             <ul class="mt-2 flex flex-wrap gap-2">
-              {examples.map((ex) => (
+              {examples.slice(0, 3).map((ex) => (
                 <li key={ex}>
                   <button
                     type="button"
@@ -284,17 +286,15 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
         })}
       </div>
 
-      <section id="guide-browse" class="mt-10" aria-labelledby="browse-heading">
-        <h2 id="browse-heading" class="text-lg font-semibold">
-          Or choose a topic
-        </h2>
+      <details id="guide-browse" class="card mt-10 p-4">
+        <summary class="cursor-pointer text-lg font-semibold">Or browse all topics</summary>
         {Object.entries(categories).map(([cat, label]) => (
           <div key={cat} class="mt-4">
             <h3 class="text-sm font-semibold tracking-wide text-ink-muted uppercase">{label}</h3>
             <div class="mt-2 flex flex-wrap gap-2">{topics.filter((t) => t.category === cat).map(chip)}</div>
           </div>
         ))}
-      </section>
+      </details>
     </div>
   );
 }

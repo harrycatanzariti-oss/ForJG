@@ -111,3 +111,28 @@ describe('topic data', () => {
     }
   });
 });
+
+describe('everyday words, not just the listed examples', () => {
+  const ask = (q: string) => guide(q, prepared, safety);
+  const top = (q: string) => {
+    const r = ask(q);
+    return r.kind === 'match' ? r.primary.id : `${r.kind}`;
+  };
+  it.each([
+    ['I got the job!', 'gratitude'],
+    ['I keep vaping and cannot stop', 'temptation'],
+    ['is the bible even true', 'doubt'],
+    ['my boyfriend dumped me', 'relationships'],
+    ['I just got diagnosed with cancer', 'illness'],
+    ['feeling really low and gloomy lately', 'depression'],
+    ['our landlord is evicting us', 'money'],
+  ])('%s → %s', (q, id) => expect(top(q)).toBe(id));
+
+  it('picks up every topic a long message touches', () => {
+    const r = ask("I'm stressed about bills and my landlord, and my mum is in hospital");
+    expect(r.kind).toBe('match');
+    if (r.kind !== 'match') return;
+    const all = [r.primary, r.also, ...r.others].map((s) => s?.id);
+    expect(all).toEqual(expect.arrayContaining(['anxiety', 'money', 'illness']));
+  });
+});

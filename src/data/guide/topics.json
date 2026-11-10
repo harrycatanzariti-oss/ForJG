@@ -55,6 +55,25 @@
           "do not want to die"
         ],
         "weight": 4
+      },
+      {
+        "terms": [
+          "scared of death",
+          "afraid of death",
+          "frightened of dying",
+          "terrified of dying",
+          "fear dying",
+          "dread dying",
+          "dying scares me",
+          "death scares me",
+          "thinking about death",
+          "my own death",
+          "when i die",
+          "not ready to die",
+          "going to die",
+          "might die"
+        ],
+        "weight": 2.5
       }
     ],
     "combos": [
@@ -176,6 +195,27 @@
           "understand death"
         ],
         "weight": 4
+      },
+      {
+        "terms": [
+          "what happens after we die",
+          "where do we go when we die",
+          "is there life after death",
+          "do we go to heaven",
+          "is hell real",
+          "what is heaven like",
+          "near death",
+          "why does everyone die",
+          "purpose of death",
+          "meaning of death",
+          "soul after death",
+          "resurrection of the dead"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["soul", "eternity", "eternal"],
+        "weight": 1.2
       }
     ],
     "combos": [
@@ -321,6 +361,42 @@
           "terminal"
         ],
         "weight": 1
+      },
+      {
+        "terms": [
+          "bereft",
+          "heartbroken",
+          "sorrow",
+          "sorrowful",
+          "devastated",
+          "gutted",
+          "condolences",
+          "loved one",
+          "passing",
+          "memorial",
+          "cremation",
+          "burial",
+          "has died",
+          "just died",
+          "lost a baby",
+          "lost my baby",
+          "lost my husband",
+          "lost my wife",
+          "lost my mum",
+          "lost my mom",
+          "lost my dad",
+          "lost my son",
+          "lost my daughter",
+          "lost my friend",
+          "miss them",
+          "anniversary of",
+          "rest in peace"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["missing", "gone", "tears", "crying"],
+        "weight": 1.2
       }
     ],
     "message": "I'm so sorry. Grief can feel overwhelming, and it often comes with anger, numbness or questions about God. The Bible gives words for all of it: whole psalms are laments, and Jesus wept with his friends at Lazarus's grave. Mourning is not a lack of faith; Jesus said, \"Blessed are those who mourn, for they will be comforted.\"",
@@ -426,6 +502,35 @@
       {
         "terms": ["relationship with god", "close to god", "closer to god", "feel god"],
         "weight": 1
+      },
+      {
+        "terms": [
+          "cannot pray",
+          "can not pray",
+          "prayers bounce",
+          "prayers feel empty",
+          "god does not answer",
+          "god never answers",
+          "god feels distant",
+          "god feels absent",
+          "god is absent",
+          "god abandoned me",
+          "god forgot me",
+          "where are you god",
+          "no longer feel god",
+          "feel far from god",
+          "drifted away",
+          "faith slipping",
+          "lost touch with god",
+          "god seems silent",
+          "silence of god",
+          "spiritually alone"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["absent", "silent", "silence", "far", "away", "alone"],
+        "weight": 1.2
       }
     ],
     "message": "Many faithful people have felt that God was distant or silent, and the Bible doesn't hide it. \"How long, O LORD? Will you forget me forever?\" is a prayer in Scripture. Jesus himself cried out on the cross, \"My God, my God, why have you forsaken me?\" Feeling far from God is not the same as God being far from you.",
@@ -522,6 +627,38 @@
       {
         "terms": ["warm", "cold", "flat", "meh", "lacking"],
         "weight": 1
+      },
+      {
+        "terms": [
+          "spiritually dry",
+          "spiritually numb",
+          "dry season",
+          "desert season",
+          "wilderness season",
+          "no desire to pray",
+          "no desire to read",
+          "bored of church",
+          "bored at church",
+          "church is boring",
+          "faith feels flat",
+          "faith feels dead",
+          "faith feels cold",
+          "faith is fading",
+          "on autopilot",
+          "half hearted",
+          "halfhearted",
+          "indifferent",
+          "complacent",
+          "burnt out on church",
+          "lost my fire",
+          "lost my zeal",
+          "no joy in faith"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["routine", "fading"],
+        "weight": 1.2
       }
     ],
     "message": "Seasons where faith feels flat, routine or \"lukewarm\" are common, even for people who have believed for years. The Bible speaks to this directly, not to shame but to invite: Jesus says, \"I stand at the door and knock.\" Thirst for God can itself be a sign that something is alive.",
@@ -617,6 +754,38 @@
       {
         "terms": ["warm"],
         "weight": 0.9
+      },
+      {
+        "terms": [
+          "insecure",
+          "insecurity",
+          "low self esteem",
+          "self esteem",
+          "no confidence",
+          "hate my body",
+          "i am ugly",
+          "i am stupid",
+          "i am useless",
+          "i am worthless",
+          "i am a failure",
+          "not worth anything",
+          "feel like nothing",
+          "feel invisible",
+          "imposter",
+          "impostor",
+          "inadequate",
+          "loser",
+          "nobody likes me",
+          "nobody wants me",
+          "everyone hates me",
+          "disappointment",
+          "a disappointment"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["stupid", "dumb", "fat", "nothing", "invisible"],
+        "weight": 1.2
       }
     ],
     "message": "If you feel worthless right now, you are in good company in the Bible. One psalm even says, \"I am a worm and not a man,\" and goes on to find that God has not turned away. The Bible's steady message is that your worth comes from being made and loved by God, not from what you achieve or how you feel today.",
@@ -715,6 +884,34 @@
       {
         "terms": ["start", "begin", "new", "first", "beginning", "basics", "learn", "curious"],
         "weight": 1
+      },
+      {
+        "terms": [
+          "no idea about god",
+          "never been religious",
+          "never read the bible",
+          "new christian",
+          "just became a christian",
+          "just started",
+          "starting out",
+          "newbie",
+          "seeker",
+          "searching for god",
+          "exploring faith",
+          "exploring christianity",
+          "explain christianity",
+          "introduction to christianity",
+          "what do christians believe",
+          "want to know god",
+          "know about god",
+          "learn the bible",
+          "clueless"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["explore", "exploring", "searching", "nothing"],
+        "weight": 1.2
       }
     ],
     "message": "Welcome. You don't need to know anything to start. The Bible is a library of 66 books, and you don't have to read it front to back. Many people begin with the Gospel of Mark, a short, fast-moving account of Jesus' life, because Christians believe Jesus is the clearest picture of who God is.",
@@ -801,6 +998,27 @@
       {
         "terms": ["jesus"],
         "weight": 1.5
+      },
+      {
+        "terms": [
+          "who was jesus really",
+          "was jesus god",
+          "was jesus real",
+          "jesus divine",
+          "historical jesus",
+          "life of jesus",
+          "what did jesus teach",
+          "jesus teachings",
+          "son of man",
+          "why did jesus die",
+          "why jesus died",
+          "jesus resurrection"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["nazareth"],
+        "weight": 1.2
       }
     ],
     "message": "Jesus was a Jewish teacher from Nazareth in the first century, who was crucified in Jerusalem. His followers proclaimed that he rose from the dead and that he is the Messiah, the Son of God. Jesus himself asked his friends, \"Who do you say I am?\" The Gospels were written so readers could answer that for themselves.",
@@ -889,6 +1107,28 @@
       {
         "terms": ["bible", "scripture", "read", "reading", "book"],
         "weight": 1
+      },
+      {
+        "terms": [
+          "where to read",
+          "which bible",
+          "bible translation",
+          "understand scripture",
+          "verses",
+          "passages",
+          "books of the bible",
+          "old and new testament",
+          "is the bible reliable",
+          "who wrote it",
+          "bible stories",
+          "how to study the bible",
+          "bible study"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["verse"],
+        "weight": 1.2
       }
     ],
     "message": "The Bible is a collection of 66 books written over about 1,500 years: stories, laws, poems, prophecy and letters. It tells one big story, from creation, through the history of Israel, to Jesus and the early church, and a hope for a renewed world. It helps to know what kind of writing you are reading, and to start with the Gospels.",
@@ -976,6 +1216,37 @@
         ],
         "weight": 3,
         "negatable": true
+      },
+      {
+        "terms": [
+          "jittery",
+          "edgy",
+          "uptight",
+          "freaking out",
+          "freaked out",
+          "worked up",
+          "stressing",
+          "stressed out",
+          "cannot relax",
+          "racing thoughts",
+          "racing mind",
+          "cannot sleep",
+          "can not sleep",
+          "insomnia",
+          "heart racing",
+          "dreading",
+          "dread",
+          "what if",
+          "worst case",
+          "nervous wreck",
+          "panicking",
+          "panic"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["pressure"],
+        "weight": 1.2
       }
     ],
     "message": "Anxiety can be exhausting, in your body as well as your mind. The Bible doesn't say anxious people are failing; it invites them to bring every worry to God, and promises a peace that \"surpasses all understanding.\" If anxiety is affecting your daily life, talking with a doctor or counsellor is wise and good.",
@@ -1041,6 +1312,29 @@
         "terms": ["afraid", "scared", "fear", "fearful", "frightened", "terrified", "fearing"],
         "weight": 3,
         "negatable": true
+      },
+      {
+        "terms": [
+          "spooked",
+          "horrified",
+          "alarmed",
+          "intimidated",
+          "shaken",
+          "trembling",
+          "petrified",
+          "scared stiff",
+          "frightening",
+          "terrifying",
+          "scary",
+          "phobia",
+          "nightmare",
+          "nightmares"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["threat", "danger"],
+        "weight": 1.2
       }
     ],
     "message": "\"Do not be afraid\" is one of the most repeated phrases in the Bible, and it is almost always said with a reason: \"for I am with you.\" Fear is not a sin; it's a signal. The Bible invites you to bring it to God rather than face it alone.",
@@ -1120,6 +1414,29 @@
         ],
         "weight": 3,
         "negatable": true
+      },
+      {
+        "terms": [
+          "friendless",
+          "no one cares",
+          "nobody cares",
+          "no one to turn to",
+          "nobody to turn to",
+          "unwanted",
+          "ignored",
+          "homesick",
+          "isolation",
+          "all alone",
+          "no family",
+          "nobody calls",
+          "no one calls",
+          "lonely at church"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["solitary", "single", "empty house"],
+        "weight": 1.2
       }
     ],
     "message": "Loneliness hurts, and the Bible takes it seriously: it says from the start that \"it is not good for the man to be alone.\" One psalm simply prays, \"Turn to me and be gracious, for I am lonely and afflicted.\" Jesus promised his friends, \"I am with you always,\" and called his followers to be a family for one another.",
@@ -1205,6 +1522,32 @@
           "conscience"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "remorse",
+          "remorseful",
+          "repentant",
+          "i lied",
+          "i stole",
+          "i cheated",
+          "i hurt someone",
+          "i did wrong",
+          "my fault",
+          "feel dirty",
+          "can god forgive me",
+          "will god forgive me",
+          "my past",
+          "past mistakes",
+          "secret sin",
+          "confess",
+          "confession"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["sorry", "mistake", "mistakes", "wrong", "sin", "sins", "fault", "past"],
+        "weight": 1.2
       }
     ],
     "message": "Guilt can be heavy. The Bible is honest that everyone has done wrong, and just as honest that God is \"compassionate and gracious... abounding in loving devotion.\" Psalm 51 was written after a terrible wrong, and it is full of hope. Christian traditions practise confession in different ways, but all of them speak of God's forgiveness through Jesus.",
@@ -1287,6 +1630,30 @@
           "let me down"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "hurt by",
+          "hurt me badly",
+          "betrayed me",
+          "stabbed in the back",
+          "they lied",
+          "they cheated",
+          "abused my trust",
+          "cannot let go",
+          "holding a grudge",
+          "want revenge",
+          "revenge",
+          "get even",
+          "wronged me",
+          "unfair to me",
+          "treated badly"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["hurt", "betray", "lied"],
+        "weight": 1.2
       }
     ],
     "message": "Being hurt by someone is painful, and forgiving can be one of the hardest things anyone is asked to do. The Bible is honest about betrayal, and it calls Christians to forgive as they have been forgiven. Forgiving is not pretending it didn't matter, and it does not mean staying somewhere unsafe. If someone is harming you, your safety comes first.",
@@ -1364,6 +1731,33 @@
         ],
         "weight": 3,
         "negatable": true
+      },
+      {
+        "terms": [
+          "livid",
+          "raging",
+          "pissed",
+          "pissed off",
+          "irate",
+          "outraged",
+          "seething",
+          "so annoyed",
+          "lose my temper",
+          "lost my temper",
+          "temper",
+          "shouting",
+          "yelled",
+          "snapped at",
+          "short fuse",
+          "hate everyone",
+          "hate him",
+          "hate her"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["mad", "hate", "cross"],
+        "weight": 1.2
       }
     ],
     "message": "Anger is a strong emotion, and the Bible doesn't call all anger wrong: Jesus was angry at injustice and hard hearts. It warns about anger that turns into harm or bitterness: \"Be angry, yet do not sin.\" Some of the psalms are even angry prayers, which shows you can bring your anger to God rather than hide it.",
@@ -1460,6 +1854,45 @@
           "believe in god"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "unsure god exists",
+          "not sure god exists",
+          "is christianity true",
+          "is it all made up",
+          "made up",
+          "fairy tale",
+          "myth",
+          "myths",
+          "contradictions",
+          "science and faith",
+          "science disproves",
+          "proof of god",
+          "no evidence",
+          "losing faith",
+          "stopped believing",
+          "crisis of faith",
+          "faith crisis",
+          "walk away from faith",
+          "leaving the faith"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["unsure", "uncertain", "proof", "science", "believe", "true"],
+        "weight": 1.2
+      },
+      {
+        "terms": [
+          "is the bible true",
+          "is the bible even true",
+          "is god real",
+          "is god even real",
+          "does god exist",
+          "is jesus real"
+        ],
+        "weight": 2.5
       }
     ],
     "message": "Doubt is part of many people's faith journey, and the Bible makes room for it. A desperate father said to Jesus, \"I do believe; help my unbelief!\" Thomas wouldn't believe until he saw for himself, and John the Baptist, in prison, sent to ask whether Jesus was really the one. Honest questions are welcome.",
@@ -1548,6 +1981,31 @@
           "innocent"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "why do bad things happen",
+          "why does god let",
+          "why would a loving god",
+          "problem of evil",
+          "innocent suffering",
+          "children suffering",
+          "tragedy",
+          "catastrophe",
+          "pandemic",
+          "famine",
+          "earthquake",
+          "shooting",
+          "genocide",
+          "cruelty",
+          "unfairness",
+          "life is unfair"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["pain", "evil", "why"],
+        "weight": 1.2
       }
     ],
     "message": "This is one of the oldest and hardest questions, and the Bible doesn't give a neat answer. Job's friends offered easy explanations and God said they were wrong. The Bible gives honest laments, the promise that God will one day end all suffering, and Jesus, who suffered with and for us.",
@@ -1638,6 +2096,33 @@
           "dementia"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "diagnosed with",
+          "test results",
+          "biopsy",
+          "chemotherapy",
+          "radiotherapy",
+          "covid",
+          "long covid",
+          "migraine",
+          "injury",
+          "injured",
+          "recovering",
+          "recovery",
+          "ill health",
+          "chronic pain",
+          "alzheimers",
+          "stroke",
+          "heart attack",
+          "mental illness"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["doctor", "heal"],
+        "weight": 1.2
       }
     ],
     "message": "Illness and pain can affect everything: your body, your mood, your faith. The Bible is full of people who cried out to God in sickness, and Jesus spent much of his time with the sick. Christians pray for healing, and also find that God's strength can be with them in weakness. Please keep following the care of your doctors too.",
@@ -1726,6 +2211,32 @@
         ],
         "weight": 3,
         "negatable": true
+      },
+      {
+        "terms": [
+          "feel low",
+          "feeling low",
+          "so low",
+          "feel down",
+          "feeling down",
+          "feeling blue",
+          "gloomy",
+          "despondent",
+          "joyless",
+          "bleak",
+          "in a dark place",
+          "cannot get up",
+          "stay in bed",
+          "no motivation",
+          "heavy heart",
+          "heavy hearted",
+          "crying all the time"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["dark", "numb"],
+        "weight": 1.2
       }
     ],
     "message": "I'm sorry you're feeling this way. Depression is real, and it is not a sign of weak faith. The prophet Elijah once lay down and said, \"I have had enough, LORD.\" God's first response was rest and food. Please consider talking to a doctor or someone you trust; reaching out for help is a good and faithful thing to do.",
@@ -1805,6 +2316,25 @@
         ],
         "weight": 3,
         "negatable": true
+      },
+      {
+        "terms": [
+          "sleepy",
+          "fatigued",
+          "wiped out",
+          "spent",
+          "frazzled",
+          "overstretched",
+          "stretched thin",
+          "need a break",
+          "cannot keep up",
+          "too much on"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["busy"],
+        "weight": 1.2
       }
     ],
     "message": "Being worn out is not a failure. God built rest into creation and gave it as a gift. Jesus told his tired disciples, \"Come with Me privately to a solitary place, and let us rest for a while,\" and invited the weary to come to him for rest.",
@@ -1893,6 +2423,28 @@
       {
         "terms": ["warm", "good", "great"],
         "weight": 1
+      },
+      {
+        "terms": [
+          "thanks",
+          "appreciative",
+          "delighted",
+          "excited",
+          "ecstatic",
+          "glad",
+          "content",
+          "so happy",
+          "really happy",
+          "promotion",
+          "got the job",
+          "passed my exam",
+          "graduated",
+          "engaged",
+          "married",
+          "healed",
+          "prayer answered"
+        ],
+        "weight": 2.5
       }
     ],
     "message": "Wonderful. The Bible is full of songs of thanks, and gratitude is one of the most natural responses to God. \"Give thanks to the LORD, for He is good; His loving devotion endures forever.\" Joy is worth savouring and sharing.",
@@ -1947,6 +2499,22 @@
           "our father"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "learn to pray",
+          "teach me to pray",
+          "words to pray",
+          "what to pray",
+          "prayer life",
+          "quiet time",
+          "devotional",
+          "devotions",
+          "worship",
+          "pray for",
+          "praying for"
+        ],
+        "weight": 2.5
       }
     ],
     "message": "Prayer is simply talking with God, honestly. There's no special language required. When his disciples asked, \"Lord, teach us to pray,\" Jesus gave them a short prayer we now call the Lord's Prayer. The Psalms are a whole book of prayers for every mood. Christian traditions pray in different ways, from set liturgies to silence to spontaneous words; all are welcome.",
@@ -2034,6 +2602,31 @@
           "plan for my life"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "aimless",
+          "what is my purpose",
+          "meaning of life",
+          "what should i do with my life",
+          "career change",
+          "university",
+          "college",
+          "which course",
+          "moving country",
+          "moving house",
+          "new job",
+          "job offer",
+          "life direction",
+          "big decision",
+          "making a decision",
+          "vocation"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["lost", "stuck", "confused"],
+        "weight": 1.2
       }
     ],
     "message": "Questions of purpose and direction are big ones. The Bible doesn't usually give a detailed map for each decision, but it does give a direction: love God, love your neighbour, act justly, love mercy, walk humbly. Many Christians also find wisdom in prayer, Scripture and the advice of trusted people.",
@@ -2116,6 +2709,25 @@
           "affair"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "crush",
+          "my ex",
+          "fiance",
+          "fiancee",
+          "spouse",
+          "romance",
+          "cheating",
+          "marriage problems",
+          "arguing with my",
+          "toxic relationship"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["love"],
+        "weight": 1.2
       }
     ],
     "message": "Relationships bring some of life's deepest joy and deepest pain. The Bible celebrates love (it even contains a book of love poetry) and gives a picture of love that is patient and kind. If a relationship involves abuse or control, please know that is never God's will for you, and reach out for help.",
@@ -2196,6 +2808,28 @@
           "father"
         ],
         "weight": 2
+      },
+      {
+        "terms": [
+          "newborn",
+          "my teen",
+          "adoption",
+          "adopted",
+          "foster",
+          "raising kids",
+          "my brother",
+          "my sister",
+          "family fight",
+          "family argument",
+          "estranged",
+          "in laws",
+          "in-laws"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["child", "kids", "son", "daughter"],
+        "weight": 1.2
       }
     ],
     "message": "Family life can be beautiful, messy and exhausting. The Bible is honest about families, including plenty of difficult ones, and returns again and again to God as a faithful parent. It encourages passing on faith in everyday life, and patience on all sides.",
@@ -2276,6 +2910,31 @@
           "craving"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "sex",
+          "masturbation",
+          "vape",
+          "vaping",
+          "smoking",
+          "weed",
+          "cannabis",
+          "drunk",
+          "binge",
+          "binging",
+          "overeating",
+          "betting",
+          "gaming addiction",
+          "phone addiction",
+          "sober",
+          "sobriety"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["habit"],
+        "weight": 1.2
       }
     ],
     "message": "Struggling with temptation or addiction is common, and nothing to hide from God. Paul wrote, \"I do not do the good I want to do.\" Jesus was tempted too, so he understands. Real change usually needs support: a trusted friend, a church, a support group, or professional help.",
@@ -2354,6 +3013,33 @@
           "pay"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "bankrupt",
+          "no money",
+          "in debt",
+          "savings",
+          "loan",
+          "loans",
+          "landlord",
+          "eviction",
+          "evicted",
+          "benefits",
+          "salary",
+          "wages",
+          "pay rise",
+          "cost of living",
+          "cannot pay",
+          "jobless",
+          "job hunting",
+          "job search"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["afford"],
+        "weight": 1.2
       }
     ],
     "message": "Money worries can keep you awake at night. Jesus spoke about money more than almost any other topic, and he spoke gently to worried people: God knows what you need. The Bible also calls God's people to help those in need, so it's okay to ask for help.",
@@ -2421,6 +3107,22 @@
           "when will"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "impatient",
+          "longing",
+          "waiting for god",
+          "unanswered prayers",
+          "infertility",
+          "infertile",
+          "trying for a baby",
+          "waiting for a baby",
+          "waiting to hear",
+          "waiting for results",
+          "no answer"
+        ],
+        "weight": 2.5
       }
     ],
     "message": "Waiting is hard, especially when you've prayed and nothing seems to change. The Bible is full of people who waited: Abraham and Sarah for a child, Israel in exile, the psalmists crying \"How long?\" Waiting on God is not passive; it's trusting him while you keep going.",
@@ -2494,6 +3196,26 @@
           "busy"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "serene",
+          "tranquil",
+          "peace of mind",
+          "calm down",
+          "calm my mind",
+          "quiet my mind",
+          "meditation",
+          "meditate",
+          "mindfulness",
+          "slow down",
+          "too noisy"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["still"],
+        "weight": 1.2
       }
     ],
     "message": "Jesus promised his friends a peace that is different from what the world gives. In the Bible, peace (shalom) means more than calm: it means wholeness, everything as it should be. Stillness before God is a good place to start.",
@@ -2569,6 +3291,28 @@
           "overcome"
         ],
         "weight": 2.5
+      },
+      {
+        "terms": [
+          "exams",
+          "job interview",
+          "speech",
+          "presentation",
+          "performance",
+          "audition",
+          "court case",
+          "trial",
+          "first day",
+          "new school",
+          "starting school",
+          "driving test",
+          "face it"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["hard"],
+        "weight": 1.2
       }
     ],
     "message": "Facing something hard takes courage, and the Bible's encouragement is not that you can do it on your own, but that you are not alone. Joshua, Esther and many others faced daunting challenges with that promise.",
@@ -2627,6 +3371,22 @@
       {
         "terms": ["love", "loved", "care"],
         "weight": 1
+      },
+      {
+        "terms": [
+          "god cares",
+          "god love me",
+          "am i loved",
+          "does god love",
+          "worthy of love",
+          "accepted",
+          "acceptance",
+          "belong",
+          "belonging",
+          "god likes me",
+          "god angry with me"
+        ],
+        "weight": 2.5
       }
     ],
     "message": "The Bible's answer is yes, more than you can imagine. \"God so loved the world that He gave His one and only Son.\" \"God proves His love for us in this: While we were still sinners, Christ died for us.\" God's love doesn't depend on how you feel or what you've done.",
@@ -2694,6 +3454,23 @@
           "light at the end"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "optimism",
+          "give me hope",
+          "something to hope for",
+          "light at the end of the tunnel",
+          "will it get better",
+          "get better",
+          "hold on",
+          "keep going"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["future", "tomorrow", "better"],
+        "weight": 1.2
       }
     ],
     "message": "Christian hope is not wishful thinking; it rests on God's faithfulness and on Jesus' resurrection. The Bible's story ends not in darkness but with God making all things new. Even in the middle of grief, the writer of Lamentations could say, \"His mercies never fail. They are new every morning.\"",
@@ -2770,6 +3547,25 @@
           "repent"
         ],
         "weight": 4
+      },
+      {
+        "terms": [
+          "becoming a christian",
+          "how to be saved",
+          "am i saved",
+          "will i go to heaven",
+          "accept christ",
+          "believe in jesus",
+          "give my life to jesus",
+          "follow christ",
+          "converted",
+          "conversion"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["heaven", "forgiven"],
+        "weight": 1.2
       }
     ],
     "message": "All Christian traditions agree that people are reconciled to God by his grace through Jesus Christ, and that this calls for faith and a changed life. They describe how that grace is received in different ways (for example, the roles of faith, baptism and the sacraments). The Bible passages below are ones all traditions treasure.",
@@ -2864,6 +3660,28 @@
           "why so many churches"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "churches",
+          "congregation",
+          "parish",
+          "which denomination",
+          "catholicism",
+          "protestantism",
+          "orthodoxy",
+          "church shopping",
+          "new church",
+          "church near me",
+          "worship style",
+          "different churches",
+          "why are there so many churches"
+        ],
+        "weight": 2.5
+      },
+      {
+        "terms": ["church"],
+        "weight": 1.2
       }
     ],
     "message": "There are many Christian traditions, from Catholic and Orthodox to many kinds of Protestant. They share a great deal (Jesus, the Bible, the creeds for most) and differ on questions like authority, baptism and Communion. Exploring them fairly, in their own words, can help you understand others and find where you belong.",
@@ -2943,6 +3761,18 @@
           "confirmation"
         ],
         "weight": 3
+      },
+      {
+        "terms": [
+          "holy communion",
+          "the eucharist",
+          "the mass",
+          "infant baptism",
+          "adult baptism",
+          "get baptised",
+          "get baptized"
+        ],
+        "weight": 2.5
       }
     ],
     "message": "Baptism and Communion (the Lord's Supper) were given by Jesus and are practised by almost all Christians, but traditions understand them differently. Who should be baptised, and how? Is Jesus present in the bread and wine, and how? The Big Questions pages lay out each view fairly.",
@@ -3005,6 +3835,10 @@
           "intercession"
         ],
         "weight": 3
+      },
+      {
+        "terms": ["mother mary", "blessed virgin", "our lady", "praying to mary"],
+        "weight": 2.5
       }
     ],
     "message": "Mary, the mother of Jesus, is honoured by all Christians as a woman of great faith. Traditions differ on how she should be honoured and whether believers can ask her and the saints to pray for them. The passages below are where she appears in the Gospels and Acts.",
@@ -3060,6 +3894,14 @@
           "filled with the spirit"
         ],
         "weight": 3
+      },
+      {
+        "terms": ["gift of tongues", "prophetic", "miracles today", "healing miracles"],
+        "weight": 2.5
+      },
+      {
+        "terms": ["miracle"],
+        "weight": 1.2
       }
     ],
     "message": "Christians believe the Holy Spirit is God, present with believers, giving life, comfort and gifts. Traditions agree on much of this, but differ on whether gifts like speaking in tongues, prophecy and healing continue in the same way today.",

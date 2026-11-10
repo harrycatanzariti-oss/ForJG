@@ -46,7 +46,13 @@ export interface Scored {
 }
 
 export type GuideResult =
-  | { kind: 'match'; primary: Scored; also?: Scored; safety: Safety[] }
+  | {
+      kind: 'match';
+      primary: Scored;
+      also?: Scored;
+      /** Other topics the message touched on, weaker. */ others: Scored[];
+      safety: Safety[];
+    }
   | { kind: 'clarify'; options: Scored[]; safety: Safety[] }
   | { kind: 'none'; safety: Safety[] };
 
@@ -192,7 +198,7 @@ function matchSignal(signal: PreparedSignal, raw: string[], stems: string[], voc
         break;
       }
       if (!ok) continue;
-      // Longer phrases are more specific, so slightly favour them.
+      // Longer phrases are more specific ("got the job" beats "job"), so favour them.
       const weight = signal.weight * factor * (n > 1 ? 1.1 : 1);
       if (!best || weight > best.weight) best = { weight, index: i, words: raw.slice(i, i + n) };
     }
@@ -208,19 +214,34 @@ function isNegated(raw: string[], index: number): boolean {
 export function scoreTopics(input: string, prepared: PreparedTopic[], vocab = vocabulary(prepared)): Scored[] {
   const raw = tokens(input);
   const stems = raw.map(stem);
+  // First find every topic's hits, so we can see which words a longer phrase "owns".
+  const found = prepared.map((topic) => ({
+    topic,
+    hits: topic.signals.map((signal) => matchSignal(signal, raw, stems, vocab)),
+  }));
+  // A single word inside a specific phrase another topic matched ("job" in
+  // "got the job") belongs to that phrase, so it only counts for half elsewhere.
+  // Loose two-word phrases like "anxious about" don't claim their words.
+  const owned = new Map<number, string>();
+  for (const { topic, hits } of found)
+    for (const hit of hits)
+      if (hit && (hit.words.length > 2 || (hit.words.length === 2 && !hit.words.some((w) => COMMON.has(w)))))
+        for (let k = 0; k < hit.words.length; k++) owned.set(hit.index + k, topic.id);
+
   const out: Scored[] = [];
-  for (const topic of prepared) {
+  for (const { topic, hits } of found) {
     let score = 0;
     const matched: string[] = [];
     const positive = new Set<number>();
     topic.signals.forEach((signal, i) => {
-      const hit = matchSignal(signal, raw, stems, vocab);
+      const hit = hits[i];
       if (!hit) return;
       if (signal.negatable && isNegated(raw, hit.index)) {
         score -= hit.weight * 0.5;
         return;
       }
-      score += hit.weight;
+      const owner = hit.words.length === 1 ? owned.get(hit.index) : undefined;
+      score += owner && owner !== topic.id ? hit.weight * 0.5 : hit.weight;
       positive.add(i);
       matched.push(hit.words.join(' '));
     });
@@ -262,11 +283,14 @@ export function guide(input: string, prepared: PreparedTopic[], rules: SafetyRul
     if (close.length >= 2 && top.score < STRONG * 1.5) {
       return { kind: 'clarify', options: [top, ...close].slice(0, 3), safety };
     }
-    return { kind: 'match', primary: top, also, safety };
+    const others = scored
+      .filter((s) => s !== top && s !== also && s.score >= Math.max(WEAK, top.score * 0.35))
+      .slice(0, 3);
+    return { kind: 'match', primary: top, also, others, safety };
   }
   if (top.score >= WEAK) {
     const close = scored.filter((s) => s !== top && s.score >= top.score * 0.75);
-    if (close.length === 0) return { kind: 'match', primary: top, safety };
+    if (close.length === 0) return { kind: 'match', primary: top, others: [], safety };
     return { kind: 'clarify', options: [top, ...close].slice(0, 3), safety };
   }
   return { kind: 'clarify', options: scored.slice(0, 3), safety };

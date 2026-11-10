@@ -44,6 +44,8 @@ interface Props {
   traditionNames?: Record<string, string>;
   prevHref?: string;
   nextHref?: string;
+  prevLabel?: string;
+  nextLabel?: string;
 }
 
 type Texts = Partial<Record<TranslationId, Chapter>>;
@@ -61,6 +63,8 @@ export default function ChapterReader({
   traditionNames = {},
   prevHref,
   nextHref,
+  prevLabel,
+  nextLabel,
 }: Props) {
   // Start with exactly what the server rendered (Level 2, BSB, verse numbers
   // on). Settings are applied in useEffect, after the page is interactive.
@@ -78,7 +82,7 @@ export default function ChapterReader({
   const [openNote, setOpenNote] = useState<string | null>(null);
   const [read, setRead] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
-  const endRef = useRef<HTMLDivElement>(null);
+  const endRef = useRef<HTMLElement>(null);
   const toastTimer = useRef<number>();
 
   const refName = bookId === 'psalms' ? 'Psalm' : bookName;
@@ -249,14 +253,14 @@ export default function ChapterReader({
 
   return (
     <div>
-      <div class="border-b border-line pb-3">
+      {/* The slider stays pinned at the top while you read (under the header
+          when it shows, at the very top when it slides away). */}
+      <div class="below-header sticky z-20 -mx-4 border-b border-black/5 bg-paper/95 px-4 pt-1 pb-1.5 backdrop-blur-xl backdrop-saturate-150 dark:border-white/5">
         <LevelSlider level={level} modern={settings.modernTranslation} available={available} onChange={choose} />
-        {notice && (
-          <p class="mt-1 text-sm text-ink-muted" role="status">
-            {notice}
-          </p>
-        )}
       </div>
+      <p id="level-description" class="mt-3 text-sm text-ink-muted" aria-live="polite">
+        {notice ?? LEVELS[level - 1]!.describe(settings.modernTranslation)}
+      </p>
 
       <div id="reader-swipe-area" class="mt-4" aria-live="polite" aria-busy={translation && !text ? 'true' : 'false'}>
         <p class="mb-3 flex items-center justify-between text-xs font-semibold tracking-wide text-ink-muted uppercase">
@@ -300,10 +304,24 @@ export default function ChapterReader({
         {level === 4 && simplified && <SummaryView simplified={simplified} />}
       </div>
 
-      <div ref={endRef} class="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4">
+      {/* One tidy row at the end: previous chapter, mark as read, next chapter. */}
+      <nav
+        aria-label="Chapters"
+        ref={endRef}
+        class="mt-10 grid grid-cols-[1fr_auto_1fr] items-center gap-2 border-t border-line pt-5"
+      >
+        {prevHref ? (
+          <a href={prevHref} rel="prev" class="justify-self-start text-sm text-ink-muted no-underline hover:text-ink">
+            <span aria-hidden="true">‹ </span>
+            <span class="sr-only">Previous: </span>
+            {prevLabel}
+          </a>
+        ) : (
+          <span />
+        )}
         <button
           type="button"
-          class={`btn ${read ? 'btn-secondary' : 'btn-primary'}`}
+          class={`btn min-h-10 px-4 text-sm ${read ? 'btn-secondary' : 'btn-primary'}`}
           aria-pressed={read}
           onClick={toggleRead}
           disabled={!hydrated}
@@ -311,11 +329,11 @@ export default function ChapterReader({
           {read ? (
             <>
               <svg
-                class="size-5"
+                class="size-4"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2.2"
+                stroke-width="2.4"
                 aria-hidden="true"
               >
                 <path d="m5 12 5 5L20 7" stroke-linecap="round" stroke-linejoin="round" />
@@ -326,10 +344,20 @@ export default function ChapterReader({
             'Mark as read'
           )}
         </button>
-        <a href={url('/progress')} class="text-sm">
-          See your progress
-        </a>
-      </div>
+        {nextHref ? (
+          <a
+            href={nextHref}
+            rel="next"
+            class="justify-self-end text-sm font-medium text-ink no-underline hover:text-accent"
+          >
+            <span class="sr-only">Next: </span>
+            {nextLabel}
+            <span aria-hidden="true"> ›</span>
+          </a>
+        ) : (
+          <span />
+        )}
+      </nav>
 
       {toast && (
         <div
