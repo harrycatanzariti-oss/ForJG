@@ -113,7 +113,15 @@ const colourScript = `(function(){${liturgicalSource.replace(/^export /gm, '')}
     <a href="#main" class="sr-only-focusable fixed top-2 left-2 z-50 rounded-lg bg-surface px-4 py-2 shadow">
       Skip to content
     </a>
-    <header class="sticky top-0 z-30 border-b border-black/5 bg-surface/75 backdrop-blur-xl backdrop-saturate-150 dark:border-white/5">
+    <!--
+      The header holds all navigation. It retracts (slides up out of the way)
+      while you scroll down to read, and comes back as soon as you scroll up.
+      See the script at the end of the page.
+    -->
+    <header
+      id="site-header"
+      class="site-header sticky top-0 z-30 border-b border-black/5 bg-surface/75 backdrop-blur-xl backdrop-saturate-150 dark:border-white/5"
+    >
       <div class="mx-auto flex h-14 max-w-5xl items-center gap-3 px-4">
         <a
           href={url('/')}
@@ -140,7 +148,7 @@ const colourScript = `(function(){${liturgicalSource.replace(/^export /gm, '')}
                 <a
                   href={url(item.href)}
                   aria-current={isActive(item.href) ? 'page' : undefined}
-                  class="rounded-full px-3 py-2 text-sm text-ink-muted no-underline hover:bg-surface-2 hover:text-ink aria-[current=page]:bg-accent-soft aria-[current=page]:text-ink"
+                  class="rounded-full px-3 py-2 text-sm text-ink-muted no-underline hover:bg-surface-2 hover:text-ink aria-[current=page]:bg-accent-fill aria-[current=page]:text-ink"
                 >
                   {item.label}
                 </a>
@@ -167,13 +175,29 @@ const colourScript = `(function(){${liturgicalSource.replace(/^export /gm, '')}
           </a>
         </div>
       </div>
+      <!-- On phones the links sit in a second row of pills (Otis style). -->
+      <nav aria-label="Main" class="sm:hidden">
+        <ul class="flex justify-between gap-0.5 overflow-x-auto px-2 pb-2 min-[360px]:px-3">
+          {NAV.map((item) => (
+            <li class="shrink-0">
+              <a
+                href={url(item.href)}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+                class="inline-flex min-h-11 items-center rounded-full px-2 text-sm text-ink-muted min-[360px]:px-2.5 no-underline hover:bg-surface-2 hover:text-ink aria-[current=page]:bg-accent-fill aria-[current=page]:font-medium aria-[current=page]:text-ink"
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </header>
 
     <main id="main" class={`mx-auto w-full ${container} flex-1 px-4 pt-6 pb-12`}>
       <slot />
     </main>
 
-    <footer class="border-t border-line pt-8 pb-28 text-sm text-ink-muted sm:pb-8">
+    <footer class="border-t border-line pt-8 pb-[calc(2rem+env(safe-area-inset-bottom))] text-sm text-ink-muted">
       <div class="mx-auto max-w-5xl px-4">
         <nav aria-label="More pages">
           <ul class="flex flex-wrap gap-x-5 gap-y-2">
@@ -216,26 +240,6 @@ const colourScript = `(function(){${liturgicalSource.replace(/^export /gm, '')}
       </div>
     </footer>
 
-    <!-- Bottom tab bar: easier to reach with a thumb on phones. -->
-    <nav
-      aria-label="Main"
-      class="fixed inset-x-0 bottom-0 z-30 border-t border-black/5 bg-surface/80 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl backdrop-saturate-150 sm:hidden dark:border-white/5"
-    >
-      <ul class="mx-auto flex max-w-md">
-        {NAV.map((item) => (
-          <li class="flex-1">
-            <a
-              href={url(item.href)}
-              aria-current={isActive(item.href) ? 'page' : undefined}
-              class="flex min-h-14 flex-col items-center justify-center gap-0.5 text-xs text-ink-muted no-underline aria-[current=page]:font-semibold aria-[current=page]:text-accent"
-            >
-              <Icon name={item.icon} class="size-6" />
-              {item.label}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </nav>
     <!-- Fill in today's season name wherever it appears. -->
     <script is:inline>
       (function () {
@@ -244,6 +248,58 @@ const colourScript = `(function(){${liturgicalSource.replace(/^export /gm, '')}
         document.querySelectorAll('[data-season-label]').forEach(function (el) {
           el.textContent = d.day || d.season;
         });
+      })();
+    </script>
+    <!--
+      Retracting header: hide on scroll down, show on scroll up.
+      It also publishes the header's height as CSS variables so sticky bars
+      and "jump to" links line up underneath it:
+        --header-h       full header height
+        --header-offset  how much of the header is showing right now (0 when hidden)
+    -->
+    <script is:inline>
+      (function () {
+        const header = document.getElementById('site-header');
+        if (!header) return;
+        const root = document.documentElement;
+        let lastY = window.scrollY;
+        let hidden = false;
+        let ticking = false;
+        const measure = function () {
+          root.style.setProperty('--header-h', header.offsetHeight + 'px');
+          root.style.setProperty('--header-offset', hidden ? '0px' : header.offsetHeight + 'px');
+        };
+        const setHidden = function (value) {
+          if (value === hidden) return;
+          hidden = value;
+          header.classList.toggle('is-retracted', hidden);
+          measure();
+        };
+        const update = function () {
+          ticking = false;
+          const y = window.scrollY;
+          const delta = y - lastY;
+          // Always show near the top, and never hide while something in the header has keyboard focus.
+          if (y < header.offsetHeight || header.contains(document.activeElement)) setHidden(false);
+          else if (delta > 6) setHidden(true);
+          else if (delta < -6) setHidden(false);
+          if (Math.abs(delta) > 6) lastY = y;
+        };
+        window.addEventListener(
+          'scroll',
+          function () {
+            if (!ticking) {
+              ticking = true;
+              requestAnimationFrame(update);
+            }
+          },
+          { passive: true },
+        );
+        header.addEventListener('focusin', function () {
+          setHidden(false);
+        });
+        if ('ResizeObserver' in window) new ResizeObserver(measure).observe(header);
+        measure();
       })();
     </script>
   </body>

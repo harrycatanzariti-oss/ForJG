@@ -119,14 +119,14 @@ export default function CompareTool({ traditions, topics }: Props) {
               <caption class="sr-only">Beliefs compared side by side</caption>
               <thead>
                 <tr>
-                  <th scope="col" class="sticky top-14 w-48 bg-paper p-3 text-sm text-ink-muted">
+                  <th scope="col" class="below-header sticky w-48 bg-paper p-3 text-sm text-ink-muted">
                     Topic
                   </th>
                   {selected.map((t) => (
                     <th
                       key={t.id}
                       scope="col"
-                      class="sticky top-14 border-b-4 bg-paper p-3"
+                      class="below-header sticky border-b-4 bg-paper p-3"
                       style={{ borderBottomColor: `var(--f-${t.family})` }}
                     >
                       <a href={url(`/traditions/${t.id}`)}>{t.shortName}</a>

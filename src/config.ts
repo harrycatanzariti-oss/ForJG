@@ -7,7 +7,7 @@ export const SITE_TAGLINE = 'Read the whole Bible, one clear step at a time.';
 export const SITE_DESCRIPTION =
   'A free, ad-free website for reading the Bible at your own level and understanding Christian traditions. No account needed.';
 
-/** Main navigation (also the bottom tab bar on phones, so keep it to 5). */
+/** Main navigation, shown in the header (a row of pills on phones, so keep it to 5). */
 export const NAV = [
   { href: '/', label: 'Home', icon: 'home' },
   { href: '/bible', label: 'Bible', icon: 'book' },

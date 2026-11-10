@@ -167,7 +167,9 @@ The site can be installed to a phone's home screen (`public/manifest.webmanifest
 The look is adapted from Otis: the Geist typeface for the interface (scripture
 stays in the Literata serif for comfortable reading), a light grey page with
 white cards that use soft layered shadows instead of hard borders, pill-shaped
-buttons, a frosted header and tab bar, and gentle "blur-in" entrances.
+buttons, a frosted header that holds all the navigation and retracts while you
+read (it slides away as you scroll down and returns when you scroll up), and
+gentle "blur-in" entrances.
 
 The accent colour follows the **church year**. `src/lib/liturgical.js` works
 out the season and the colour of the vestments for any date: green (Ordinary

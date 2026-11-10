@@ -30,13 +30,13 @@ const letters = [...new Set(glossary.map((g) => g.term[0]!.toUpperCase()))];
     </ul>
   </nav>
   {letters.map((l) => (
-    <section id={`letter-${l}`} class="mt-8 scroll-mt-20" aria-label={l}>
+    <section id={`letter-${l}`} class="mt-8 anchor-target" aria-label={l}>
       <h2 class="text-xl font-semibold text-accent">{l}</h2>
       <dl class="mt-2 divide-y divide-line">
         {glossary
           .filter((g) => g.term[0]!.toUpperCase() === l)
           .map((g) => (
-            <div id={g.slug} class="scroll-mt-20 py-3 target:rounded-lg target:bg-accent-soft target:px-3">
+            <div id={g.slug} class="anchor-target py-3 target:rounded-lg target:bg-accent-soft target:px-3">
               <dt class="font-semibold">{g.term}</dt>
               <dd class="mt-1 text-ink-muted">{g.definition}</dd>
             </div>

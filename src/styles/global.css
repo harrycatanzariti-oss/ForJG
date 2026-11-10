@@ -473,3 +473,24 @@ mark {
   ascent-override: 92%;
   descent-override: 24%;
 }
+
+/* The retracting header: slides up out of view while reading, back on scroll up. */
+:root {
+  --header-h: 3.5rem;
+  --header-offset: var(--header-h);
+}
+.site-header {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.site-header.is-retracted {
+  transform: translateY(-100%);
+}
+/* Sticky bars sit just under the header and follow it as it moves. */
+.below-header {
+  top: var(--header-offset);
+  transition: top 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+/* Links that jump to a spot on the page leave room for the header. */
+.anchor-target {
+  scroll-margin-top: calc(var(--header-h) + 0.75rem);
+}

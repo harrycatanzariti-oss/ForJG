@@ -77,7 +77,7 @@ export default function ScriptureText({
           const ann = annotations[verse.v];
           const markers = noteMarkers.filter((m) => m.firstVerse === verse.v);
           const classes = [
-            'scroll-mt-20 rounded-sm',
+            'anchor-target rounded-sm',
             block.poetry ? 'block -indent-4 pl-4' : '',
             ann?.colour ? `hl-${ann.colour}` : '',
             selectedVerse === verse.v ? 'verse-selected' : '',

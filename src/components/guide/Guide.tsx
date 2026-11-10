@@ -259,7 +259,7 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
           const isLast = i === entries.length - 1 || (entry.from === 'you' && i === entries.length - 2);
           if (entry.from === 'you') {
             return (
-              <div key={entry.id} class="flex scroll-mt-20 justify-end" ref={isLast ? lastRef : undefined}>
+              <div key={entry.id} class="anchor-target flex justify-end" ref={isLast ? lastRef : undefined}>
                 <p class="max-w-[85%] rounded-2xl rounded-br-sm bg-accent-fill px-4 py-2 text-accent-ink">
                   <span class="sr-only">You: </span>
                   {entry.text}
