@@ -1,5 +1,6 @@
 ---
 import ContinueReading from '~/components/ContinueReading';
+import TodayReading from '~/components/TodayReading';
 import Icon from '~/components/ui/Icon.astro';
 import { SITE_NAME, SITE_TAGLINE } from '~/config';
 import BaseLayout from '~/layouts/BaseLayout.astro';
@@ -7,19 +8,56 @@ import { books } from '~/lib/bible';
 import { url } from '~/lib/url';
 
 const names = Object.fromEntries(books.map((b) => [b.id, b.name]));
+const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away', 'Where do I start?'];
 ---
 
 <BaseLayout>
-  <section class="py-6 sm:py-12">
+  <section class="py-4 sm:py-10">
     <h1 class="max-w-xl font-serif text-4xl leading-tight font-semibold sm:text-5xl">{SITE_TAGLINE}</h1>
     <p class="mt-4 max-w-prose text-lg text-ink-muted">
-      {SITE_NAME} lets you read every chapter of the Bible at the level that suits you, from the classic King James
-      wording to a plain-English summary. It is free, has no ads, and needs no account.
+      Read every chapter at the level that suits you, from the classic King James wording to a plain-English summary,
+      and understand how Christian traditions read it. Free, no ads, no account.
     </p>
   </section>
 
-  <div class="grid gap-4 sm:grid-cols-2">
+  <!-- A plain HTML form: it works even before any JavaScript has loaded. -->
+  <form action={url('/guide')} method="get" class="card p-5">
+    <label for="home-guide" class="block font-serif text-xl font-semibold">
+      Where are you today?
+    </label>
+    <p class="mt-1 text-sm text-ink-muted">
+      Tell us in your own words and we’ll point you to passages and next steps. Nothing you type leaves your device.
+    </p>
+    <div class="mt-3 flex flex-col gap-2 sm:flex-row">
+      <input
+        id="home-guide"
+        name="q"
+        type="text"
+        autocomplete="off"
+        placeholder="e.g. I’m mourning and God feels far away"
+        class="min-h-12 w-full flex-1 rounded-xl border border-line bg-paper px-4 text-lg text-ink"
+      />
+      <button type="submit" class="btn btn-primary min-h-12">
+        Guide me
+      </button>
+    </div>
+    <ul class="mt-3 flex flex-wrap gap-2">
+      {examples.map((e) => (
+        <li>
+          <a
+            href={`${url('/guide')}?q=${encodeURIComponent(e)}`}
+            class="inline-flex min-h-11 items-center rounded-full bg-surface-2 px-4 text-sm text-ink no-underline hover:bg-accent-soft"
+          >
+            {e}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </form>
+
+  <div class="mt-4 grid gap-4 sm:grid-cols-2">
     <ContinueReading client:idle names={names} />
+    <TodayReading client:idle names={names} />
     <a href={url('/bible')} class="card flex items-start gap-4 p-5 text-ink no-underline hover:border-accent">
       <Icon name="book" class="mt-1 size-7 shrink-0 text-accent" />
       <span>
@@ -29,15 +67,16 @@ const names = Object.fromEntries(books.map((b) => [b.id, b.name]));
         </span>
       </span>
     </a>
-    <div class="card flex items-start gap-4 p-5 opacity-80">
+    <a href={url('/traditions')} class="card flex items-start gap-4 p-5 text-ink no-underline hover:border-accent">
       <Icon name="compass" class="mt-1 size-7 shrink-0 text-accent" />
       <span>
         <span class="block font-serif text-xl font-semibold">Explore traditions</span>
         <span class="mt-1 block text-ink-muted">
-          How Catholic, Orthodox, Protestant and other churches read the Bible differently. Coming soon.
+          How Catholic, Orthodox, Protestant and other churches believe and worship, described fairly in their own
+          words.
         </span>
       </span>
-    </div>
+    </a>
   </div>
 
   <section class="mt-12 max-w-prose">
@@ -56,6 +95,9 @@ const names = Object.fromEntries(books.map((b) => [b.id, b.name]));
         <strong class="text-ink">Summary</strong>: the big idea, key points and a question to reflect on.
       </li>
     </ol>
-    <p class="mt-3 text-sm text-ink-muted">Plain and Summary levels are being written book by book.</p>
+    <p class="mt-3 text-sm text-ink-muted">
+      Plain and Summary are written by hand and are available so far for Genesis, Psalms 1–23, Mark, John, Acts and
+      Romans. <a href={url('/about')}>How they were written</a>.
+    </p>
   </section>
 </BaseLayout>

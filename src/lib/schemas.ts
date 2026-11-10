@@ -253,3 +253,16 @@ export const guideSafetySchema = z.object({
   careNote: z.string(),
 });
 export type GuideSafety = z.infer<typeof guideSafetySchema>;
+
+export const planSpecsSchema = z.array(
+  z.object({
+    id: z.string().regex(/^[a-z0-9-]+$/),
+    name: z.string(),
+    short: z.string(),
+    description: z.string(),
+    stages: z
+      .array(z.object({ days: z.number().int().positive(), tracks: z.array(z.array(z.string()).min(1)).min(1) }))
+      .min(1),
+  }),
+);
+export const chronologicalSchema = z.object({ note: z.string(), segments: z.array(z.string()).min(1) });

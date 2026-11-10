@@ -1,0 +1,53 @@
+[
+  {
+    "id": "whole-bible-year",
+    "name": "Whole Bible in a year",
+    "short": "Genesis to Revelation, about 3–4 chapters a day.",
+    "description": "Read every chapter of the Bible in order over 365 days. Each day is balanced by length, so long chapters (like Psalm 119) get a day to themselves.",
+    "stages": [{ "days": 365, "tracks": [["genesis..revelation"]] }]
+  },
+  {
+    "id": "new-testament-90",
+    "name": "New Testament in 90 days",
+    "short": "Matthew to Revelation, about 3 chapters a day.",
+    "description": "The life of Jesus, the early church, the letters and Revelation in three months.",
+    "stages": [{ "days": 90, "tracks": [["matthew..revelation"]] }]
+  },
+  {
+    "id": "gospels-30",
+    "name": "Gospels in 30 days",
+    "short": "Matthew, Mark, Luke and John in a month.",
+    "description": "The four accounts of Jesus' life, death and resurrection, about 3 chapters a day.",
+    "stages": [{ "days": 30, "tracks": [["matthew..john"]] }]
+  },
+  {
+    "id": "psalms-proverbs-60",
+    "name": "Psalms and Proverbs in 60 days",
+    "short": "A few psalms each day, with a chapter of Proverbs on most days.",
+    "description": "The Bible's songbook and its book of everyday wisdom, read side by side over two months.",
+    "stages": [{ "days": 60, "tracks": [["psalms"], ["proverbs"]] }]
+  },
+  {
+    "id": "first-steps",
+    "name": "First steps",
+    "short": "21 days: Mark, then some well-loved Psalms, then Genesis 1–12.",
+    "description": "A gentle start for anyone new to the Bible. Meet Jesus in Mark, pray with some of the best-known Psalms, then go back to the beginning.",
+    "stages": [
+      { "days": 8, "tracks": [["mark"]] },
+      {
+        "days": 6,
+        "tracks": [
+          ["psalms 1", "psalms 23", "psalms 27", "psalms 46", "psalms 91", "psalms 103", "psalms 121", "psalms 139"]
+        ]
+      },
+      { "days": 7, "tracks": [["genesis 1-12"]] }
+    ]
+  },
+  {
+    "id": "chronological-year",
+    "name": "Chronological Bible in a year",
+    "short": "The whole Bible in the approximate order events happened.",
+    "description": "Read the Bible in roughly historical order: Job alongside Genesis, the prophets alongside the kings they spoke to, and Paul's letters alongside Acts. The order is approximate: scholars date some books differently, and the Psalms are read by collection.",
+    "stages": [{ "days": 365, "tracks": [["@chronological"]] }]
+  }
+]

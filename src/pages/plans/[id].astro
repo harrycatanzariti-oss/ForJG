@@ -1,0 +1,32 @@
+---
+import PlanDetail from '~/components/PlanDetail';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { books } from '~/lib/bible';
+import { chronologicalNote, planData, plans, planStats } from '~/lib/plans-data';
+import { url } from '~/lib/url';
+
+export function getStaticPaths() {
+  return plans.map((plan) => ({ params: { id: plan.id }, props: { plan } }));
+}
+const { plan } = Astro.props;
+const stats = planStats(plan);
+const names = Object.fromEntries(books.map((b) => [b.id, b.name]));
+const otherNames = Object.fromEntries(plans.map((p) => [p.id, p.name]));
+---
+
+<BaseLayout title={plan.name} description={plan.description} width="reading">
+  <nav aria-label="Breadcrumb" class="mb-1 text-sm">
+    <a href={url('/plans')} class="text-ink-muted">
+      Plans
+    </a>
+  </nav>
+  <h1 class="font-serif text-3xl font-semibold">{plan.name}</h1>
+  <p class="mt-2 text-ink-muted">{plan.description}</p>
+  <p class="mt-2 text-sm text-ink-muted">
+    {stats.days} days · {stats.chapters} chapters · about {stats.minutesPerDay} minutes a day
+  </p>
+  {plan.id === 'chronological-year' && <p class="mt-2 text-sm text-ink-muted">{chronologicalNote}</p>}
+  <div class="mt-6">
+    <PlanDetail client:load data={planData(plan)} names={names} otherNames={otherNames} />
+  </div>
+</BaseLayout>
