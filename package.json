@@ -1,0 +1,48 @@
+{
+  "name": "open-bible-traditions",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A free, static, interactive website for reading the Bible in digestible form and understanding Christian traditions.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run validate && astro build",
+    "preview": "astro preview",
+    "validate": "node scripts/validate-content.ts",
+    "bible:fetch": "NODE_USE_ENV_PROXY=1 node scripts/fetch-bible.ts",
+    "bible:build": "node scripts/build-bible.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test --trace off",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/preact": "6.1.1",
+    "@astrojs/sitemap": "3.7.4",
+    "@fontsource-variable/inter": "5.3.0",
+    "@fontsource-variable/literata": "5.3.0",
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "7.4.2",
+    "preact": "10.29.8",
+    "tailwindcss": "4.3.3",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@playwright/test": "1.63.0",
+    "eslint": "10.13.0",
+    "eslint-plugin-astro": "3.2.1",
+    "fflate": "0.8.2",
+    "prettier": "3.9.10",
+    "prettier-plugin-astro": "1.1.2",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.1",
+    "vitest": "4.1.12"
+  }
+}

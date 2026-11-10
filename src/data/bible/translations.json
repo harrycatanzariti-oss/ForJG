@@ -1,0 +1,29 @@
+[
+  {
+    "id": "kjv",
+    "label": "KJV",
+    "name": "King James Version",
+    "licence": "Public domain (outside the United Kingdom, where it is under Crown patent). Text from eBible.org.",
+    "sourceUrl": "https://ebible.org/Scriptures/eng-kjv2006_usfm.zip",
+    "sha256": "dce1ec3ea45a155ac05e975fc8d817da403a817713d554eb9cc3a2177a6cfd1c",
+    "downloaded": "2026-11-10T12:16:13.470Z"
+  },
+  {
+    "id": "bsb",
+    "label": "BSB",
+    "name": "Berean Standard Bible",
+    "licence": "Dedicated to the public domain by Bible Hub and the Berean Bible translation committee (2023).",
+    "sourceUrl": "https://ebible.org/Scriptures/engbsb_usfm.zip",
+    "sha256": "75ca91d5a5c69ca4cbdeabdb03ea1a458db20cf3966abe15d86df086acf7fbc4",
+    "downloaded": "2026-11-10T12:16:14.232Z"
+  },
+  {
+    "id": "web",
+    "label": "WEB",
+    "name": "World English Bible",
+    "licence": "Public domain. \"World English Bible\" is a trademark of eBible.org.",
+    "sourceUrl": "https://ebible.org/Scriptures/engwebp_usfm.zip",
+    "sha256": "a155940bdba087cdbccb0f6737c036de9884bc5a3b8da2e82c2970d8ed26c1ba",
+    "downloaded": "2026-11-10T12:16:14.610Z"
+  }
+]
