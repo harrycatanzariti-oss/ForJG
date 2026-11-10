@@ -1,0 +1,46 @@
+---
+/**
+ * /bible/{book} — a book's chapter list. (Phase 2 adds the book intro card.)
+ */
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { books, GENRE_LABELS } from '~/lib/bible';
+import { url } from '~/lib/url';
+
+export function getStaticPaths() {
+  return books.map((book) => ({ params: { book: book.id }, props: { book } }));
+}
+
+const { book } = Astro.props;
+const chapterWord = book.id === 'psalms' ? 'Psalm' : 'Chapter';
+---
+
+<BaseLayout
+  title={book.name}
+  description={`Read ${book.name}, all ${book.chapters} chapters, at the level that suits you.`}
+>
+  <nav aria-label="Breadcrumb" class="mb-1 text-sm text-ink-muted">
+    <a href={url('/bible')} class="text-ink-muted">
+      Bible
+    </a>
+  </nav>
+  <h1 class="font-serif text-3xl font-semibold">{book.name}</h1>
+  <p class="mt-1 text-ink-muted">
+    {book.testament === 'old' ? 'Old Testament' : 'New Testament'} · {GENRE_LABELS[book.genre]} · {book.chapters}
+    {book.chapters === 1 ? 'chapter' : 'chapters'}
+  </p>
+
+  <h2 class="mt-8 mb-3 text-lg font-semibold">{chapterWord === 'Psalm' ? 'Psalms' : 'Chapters'}</h2>
+  <ol class="grid grid-cols-5 gap-2 sm:grid-cols-8 md:grid-cols-10">
+    {Array.from({ length: book.chapters }, (_, i) => (
+      <li>
+        <a
+          href={url(`/bible/${book.id}/${i + 1}`)}
+          class="flex aspect-square min-h-11 items-center justify-center rounded-xl border border-line bg-surface text-ink no-underline hover:border-accent hover:bg-accent-soft"
+          aria-label={`${chapterWord} ${i + 1}`}
+        >
+          {i + 1}
+        </a>
+      </li>
+    ))}
+  </ol>
+</BaseLayout>

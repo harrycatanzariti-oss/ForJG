@@ -1,0 +1,86 @@
+---
+/**
+ * /bible/{book}/{chapter} — one page per chapter (1,189 pages in total).
+ */
+import ChapterReader from '~/components/reader/ChapterReader';
+import Icon from '~/components/ui/Icon.astro';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { books, getChapter, getSimplified, neighbours } from '~/lib/bible';
+import { url } from '~/lib/url';
+
+export function getStaticPaths() {
+  return books.flatMap((book) =>
+    Array.from({ length: book.chapters }, (_, i) => ({
+      params: { book: book.id, chapter: String(i + 1) },
+      props: { bookId: book.id, chapter: i + 1 },
+    })),
+  );
+}
+
+const { bookId, chapter } = Astro.props;
+const book = books.find((b) => b.id === bookId)!;
+const initial = getChapter('bsb', bookId, chapter);
+const simplified = getSimplified(bookId, chapter);
+const { prev, next } = neighbours(bookId, chapter);
+const unit = book.id === 'psalms' ? 'Psalm' : `${book.name}`;
+const title = book.id === 'psalms' ? `Psalm ${chapter}` : `${book.name} ${chapter}`;
+const firstVerse = initial.verses[0]?.text ?? '';
+const description = `Read ${title} in the KJV, BSB or WEB, with a plain-English option. "${firstVerse.slice(0, 110)}${firstVerse.length > 110 ? '…' : ''}"`;
+---
+
+<BaseLayout title={title} description={description} width="reading">
+  <nav aria-label="Breadcrumb" class="mb-1 text-sm text-ink-muted">
+    <a href={url('/bible')} class="text-ink-muted">
+      Bible
+    </a>
+    <span aria-hidden="true"> / </span>
+    <a href={url(`/bible/${book.id}`)} class="text-ink-muted">
+      {book.name}
+    </a>
+  </nav>
+  <h1 class="font-serif text-3xl font-semibold">
+    {book.id === 'psalms' ? (
+      `Psalm ${chapter}`
+    ) : (
+      <>
+        {unit} <span class="text-ink-muted">{chapter}</span>
+      </>
+    )}
+  </h1>
+
+  <div class="mt-4">
+    <ChapterReader
+      client:load
+      bookId={book.id}
+      bookName={book.name}
+      chapter={chapter}
+      initial={initial}
+      simplified={simplified}
+    />
+  </div>
+
+  <nav aria-label="Chapters" class="mt-10 flex items-stretch justify-between gap-3">
+    {prev ? (
+      <a href={url(`/bible/${prev.book.id}/${prev.chapter}`)} class="btn btn-secondary" rel="prev">
+        <Icon name="chevron-left" />
+        <span>
+          <span class="sr-only">Previous: </span>
+          {prev.book.abbr} {prev.chapter}
+        </span>
+      </a>
+    ) : (
+      <span />
+    )}
+    {next ? (
+      <a href={url(`/bible/${next.book.id}/${next.chapter}`)} class="btn btn-primary" rel="next">
+        <span>
+          <span class="sr-only">Next: </span>
+          {next.book.abbr} {next.chapter}
+        </span>
+        <Icon name="chevron-right" />
+      </a>
+    ) : (
+      <span />
+    )}
+  </nav>
+</BaseLayout>

@@ -1,0 +1,52 @@
+---
+/**
+ * /bible — all 66 books grouped by testament and genre.
+ * (Phase 2 turns this into the colour-coded grid with progress rings.)
+ */
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { books, GENRE_LABELS } from '~/lib/bible';
+import { url } from '~/lib/url';
+
+const testaments = [
+  { id: 'old', name: 'Old Testament' },
+  { id: 'new', name: 'New Testament' },
+] as const;
+const groups = (testament: 'old' | 'new') => {
+  const inT = books.filter((b) => b.testament === testament);
+  const genres = [...new Set(inT.map((b) => b.genre))];
+  return genres.map((g) => ({ genre: g, books: inT.filter((b) => b.genre === g) }));
+};
+---
+
+<BaseLayout title="Bible" description="All 66 books of the Bible, grouped by testament and type of writing.">
+  <h1 class="font-serif text-3xl font-semibold">The Bible</h1>
+  <p class="mt-2 max-w-prose text-ink-muted">
+    66 books written over roughly 1,500 years. Pick any book to start; you can change how simple the text is on every
+    chapter.
+  </p>
+  {testaments.map((t) => (
+    <section class="mt-8" aria-labelledby={`t-${t.id}`}>
+      <h2 id={`t-${t.id}`} class="text-xl font-semibold">
+        {t.name}
+      </h2>
+      {groups(t.id).map((g) => (
+        <div class="mt-4">
+          <h3 class="mb-2 text-sm font-semibold tracking-wide text-ink-muted uppercase">{GENRE_LABELS[g.genre]}</h3>
+          <ul class="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
+            {g.books.map((b) => (
+              <li>
+                <a
+                  href={url(`/bible/${b.id}`)}
+                  class="flex min-h-12 items-center justify-between rounded-xl border border-line bg-surface px-3 text-ink no-underline hover:border-accent"
+                >
+                  <span>{b.name}</span>
+                  <span class="text-xs text-ink-muted">{b.chapters}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+  ))}
+</BaseLayout>
