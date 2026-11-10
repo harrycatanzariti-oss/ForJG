@@ -69,6 +69,5 @@ export const VERSIFICATION_ALLOW_LIST: VersificationDifference[] = [
 
 /** Looks up a note explaining why a verse is missing, for the reader UI. */
 export function omittedNote(translation: string, bookId: string, chapter: number): string | undefined {
-  return VERSIFICATION_ALLOW_LIST.find((a) => a.translation === translation && a.ref === `${bookId} ${chapter}`)
-    ?.note;
+  return VERSIFICATION_ALLOW_LIST.find((a) => a.translation === translation && a.ref === `${bookId} ${chapter}`)?.note;
 }

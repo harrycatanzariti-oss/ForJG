@@ -69,7 +69,10 @@ export function stripInline(raw: string): string {
   s = s.replace(/\|[^\\|]*?(?=\\\+?[a-z0-9]+\*)/g, '');
   // Opening and closing character markers (\add, \nd, \wj, \+w, \w*, \add* ...).
   s = s.replace(/\\\+?[a-z]+[0-9]?\*/g, '');
-  s = s.replace(/\\\+?(w|add|nd|wj|tl|k|bk|qs|qac|it|bd|bdit|em|sc|no|sig|pn|png|addpn|ord|dc|rq|ior|lik|liv|litl)\s/g, '');
+  s = s.replace(
+    /\\\+?(w|add|nd|wj|tl|k|bk|qs|qac|it|bd|bdit|em|sc|no|sig|pn|png|addpn|ord|dc|rq|ior|lik|liv|litl)\s/g,
+    '',
+  );
   // The KJV marks old paragraph breaks with a pilcrow.
   s = s.replace(/¶/g, ' ');
   return s;

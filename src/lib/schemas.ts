@@ -14,16 +14,7 @@ export const TRANSLATION_IDS = ['kjv', 'bsb', 'web'] as const;
 export const translationIdSchema = z.enum(TRANSLATION_IDS);
 export type TranslationId = z.infer<typeof translationIdSchema>;
 
-export const GENRES = [
-  'law',
-  'history',
-  'wisdom',
-  'prophets',
-  'gospels',
-  'acts',
-  'letters',
-  'apocalyptic',
-] as const;
+export const GENRES = ['law', 'history', 'wisdom', 'prophets', 'gospels', 'acts', 'letters', 'apocalyptic'] as const;
 
 export const bookSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
@@ -70,7 +61,7 @@ export const translationInfoSchema = z.array(
     label: z.string(),
     name: z.string(),
     licence: z.string(),
-    sourceUrl: z.string().url(),
+    sourceUrl: z.url(),
     sha256: z.string().nullable(),
     downloaded: z.string().nullable(),
   }),

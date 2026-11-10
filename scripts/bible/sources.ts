@@ -21,8 +21,7 @@ export const SOURCES: TranslationSource[] = [
     name: 'King James Version',
     ebibleId: 'eng-kjv2006',
     url: 'https://ebible.org/Scriptures/eng-kjv2006_usfm.zip',
-    licence:
-      'Public domain (outside the United Kingdom, where it is under Crown patent). Text from eBible.org.',
+    licence: 'Public domain (outside the United Kingdom, where it is under Crown patent). Text from eBible.org.',
   },
   {
     id: 'bsb',

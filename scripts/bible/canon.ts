@@ -13,15 +13,7 @@
 
 export type Testament = 'old' | 'new';
 export type Canon = 'protestant' | 'deuterocanon';
-export type Genre =
-  | 'law'
-  | 'history'
-  | 'wisdom'
-  | 'prophets'
-  | 'gospels'
-  | 'acts'
-  | 'letters'
-  | 'apocalyptic';
+export type Genre = 'law' | 'history' | 'wisdom' | 'prophets' | 'gospels' | 'acts' | 'letters' | 'apocalyptic';
 
 export interface CanonBook {
   /** USFM book code used by the source files, e.g. "JHN". */
@@ -71,12 +63,7 @@ export const CANON: CanonBook[] = [
   b('PSA', 'psalms', 'Psalms', 'Ps', 'old', 'wisdom', ['psalm', 'psa', 'pss', 'psm']),
   b('PRO', 'proverbs', 'Proverbs', 'Prov', 'old', 'wisdom', ['pr', 'prv', 'pro']),
   b('ECC', 'ecclesiastes', 'Ecclesiastes', 'Eccl', 'old', 'wisdom', ['ecc', 'qoh']),
-  b('SNG', 'song-of-songs', 'Song of Songs', 'Song', 'old', 'wisdom', [
-    'song of solomon',
-    'sos',
-    'canticles',
-    'sng',
-  ]),
+  b('SNG', 'song-of-songs', 'Song of Songs', 'Song', 'old', 'wisdom', ['song of solomon', 'sos', 'canticles', 'sng']),
   b('ISA', 'isaiah', 'Isaiah', 'Isa', 'old', 'prophets', ['is']),
   b('JER', 'jeremiah', 'Jeremiah', 'Jer', 'old', 'prophets', ['je', 'jr']),
   b('LAM', 'lamentations', 'Lamentations', 'Lam', 'old', 'prophets', ['la']),

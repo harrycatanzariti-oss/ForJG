@@ -38,9 +38,7 @@ describe.each(TRANSLATION_IDS)('%s chapters', (t) => {
     const problems: string[] = [];
     for (const book of books) {
       for (let c = 1; c <= book.chapters; c++) {
-        const data = chapterSchema.parse(
-          JSON.parse(readFileSync(`src/data/bible/${t}/${book.id}/${c}.json`, 'utf8')),
-        );
+        const data = chapterSchema.parse(JSON.parse(readFileSync(`src/data/bible/${t}/${book.id}/${c}.json`, 'utf8')));
         expect(data.book).toBe(book.id);
         expect(data.chapter).toBe(c);
         const numbers = data.verses.map((v) => v.v);
