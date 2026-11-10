@@ -1,0 +1,197 @@
+@import 'tailwindcss';
+
+/*
+ * Design tokens.
+ *
+ * Colours are CSS variables so light and dark mode only need to swap values
+ * here; components use Tailwind classes like `bg-paper` and `text-ink`.
+ * Every text/background pair below meets WCAG AA contrast (4.5:1) in both themes.
+ */
+
+/* Dark mode follows the `dark` class on <html> (set by settings), not just the OS. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --paper: #faf7f2; /* page background: warm off-white */
+  --surface: #ffffff; /* cards */
+  --surface-2: #f2ede4; /* subtle fills, hover */
+  --ink: #26221e; /* main text */
+  --ink-muted: #5f574e; /* secondary text, 6.6:1 on paper */
+  --line: #e2dacd; /* borders */
+  --accent: #8a3f17; /* links and buttons: warm terracotta, 7:1 on paper */
+  --accent-ink: #ffffff; /* text on accent */
+  --accent-soft: #f6e7dc;
+  --focus: #1d5fd1;
+
+  --scripture-size: 1.1875rem;
+  --scripture-leading: 1.75;
+}
+
+.dark {
+  --paper: #171513;
+  --surface: #211e1b;
+  --surface-2: #2b2723;
+  --ink: #ece6dc;
+  --ink-muted: #b4aa9c; /* 7.9:1 on paper */
+  --line: #3a352f;
+  --accent: #f0a46c; /* 8.6:1 on paper */
+  --accent-ink: #1b120b;
+  --accent-soft: #3a2a1e;
+  --focus: #8ab4ff;
+}
+
+/* Four reading sizes, chosen in Settings. */
+:root[data-text-size='1'] {
+  --scripture-size: 1.0625rem;
+}
+:root[data-text-size='2'] {
+  --scripture-size: 1.1875rem;
+}
+:root[data-text-size='3'] {
+  --scripture-size: 1.375rem;
+}
+:root[data-text-size='4'] {
+  --scripture-size: 1.625rem;
+  --scripture-leading: 1.7;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-focus: var(--focus);
+
+  --font-serif: 'Literata Variable', Georgia, 'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    background: var(--paper);
+    color: var(--ink);
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+    min-height: 100dvh;
+  }
+  a {
+    color: var(--accent);
+  }
+  /* A clear, consistent keyboard focus ring everywhere. */
+  :focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: var(--accent-soft);
+  }
+}
+
+@layer components {
+  .scripture {
+    font-family: var(--font-serif);
+    font-size: var(--scripture-size);
+    line-height: var(--scripture-leading);
+  }
+  .card {
+    @apply rounded-2xl border border-line bg-surface;
+  }
+  .btn {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-base font-medium no-underline transition-colors;
+  }
+  /* Use together: class="btn btn-primary" */
+  .btn-primary {
+    @apply bg-accent text-accent-ink hover:opacity-90;
+  }
+  .btn-secondary {
+    @apply border border-line bg-surface text-ink hover:bg-surface-2;
+  }
+  .sr-only-focusable:not(:focus) {
+    @apply sr-only;
+  }
+}
+
+/* Respect people who ask their device for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*
+ * The Simplify slider. A native range input, restyled with a large thumb
+ * (28px) that is easy to grab with a thumb on a phone. The input is sized so
+ * the thumb's centre lines up with the centre of each of the 4 level labels.
+ */
+.level-slider {
+  --thumb: 28px;
+  appearance: none;
+  -webkit-appearance: none;
+  display: block;
+  width: calc(75% + var(--thumb));
+  margin-left: calc(12.5% - var(--thumb) / 2);
+  height: 44px; /* tall hit area, the visible track is drawn below */
+  background: transparent;
+  cursor: pointer;
+  touch-action: pan-y;
+}
+.level-slider::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--line);
+}
+.level-slider::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--line);
+}
+.level-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: var(--thumb);
+  height: var(--thumb);
+  margin-top: calc(3px - var(--thumb) / 2);
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--paper);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.3);
+}
+.level-slider::-moz-range-thumb {
+  width: var(--thumb);
+  height: var(--thumb);
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--paper);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.3);
+}
+.level-slider:focus-visible {
+  outline: none;
+}
+.level-slider:focus-visible::-webkit-slider-thumb {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+.level-slider:focus-visible::-moz-range-thumb {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* A verse opened from a link like /bible/john/3#v16 is gently highlighted. */
+[data-verse]:target {
+  background: var(--accent-soft);
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}

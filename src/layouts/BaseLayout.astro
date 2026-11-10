@@ -1,0 +1,137 @@
+---
+/**
+ * The frame around every page: <head> tags, header, navigation and footer.
+ */
+import '@fontsource-variable/literata/wght.css';
+import '~/styles/global.css';
+import Icon from '~/components/ui/Icon.astro';
+import ThemeToggle from '~/components/ui/ThemeToggle';
+import { NAV, SITE_DESCRIPTION, SITE_NAME } from '~/config';
+import { url } from '~/lib/url';
+
+interface Props {
+  /** Page title; the site name is added automatically. */
+  title?: string;
+  description?: string;
+  /** Use a narrower column for reading pages. */
+  width?: 'reading' | 'wide';
+}
+
+const { title, description = SITE_DESCRIPTION, width = 'wide' } = Astro.props;
+const fullTitle = title ? `${title} · ${SITE_NAME}` : `${SITE_NAME} · Read the Bible, understand the traditions`;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : undefined;
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isActive = (href: string) => {
+  const target = url(href).replace(/\/$/, '') || '/';
+  // Home is only "current" on the home page itself, not on every page below it.
+  return href === '/' ? path === target : path === target || path.startsWith(`${target}/`);
+};
+const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#171513" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
+    <link rel="sitemap" href={url('/sitemap-index.xml')} />
+    <!--
+      Runs before the page is drawn so the right theme and text size are used
+      immediately (no flash of the light theme for dark-mode readers).
+      Keep in sync with applySettings() in src/lib/settings.ts.
+    -->
+    <script is:inline>
+      /* eslint-disable no-var -- plain old JavaScript so it runs in every browser */
+      (function () {
+        var s = {};
+        try {
+          s = JSON.parse(localStorage.getItem('lamplight:settings') || '{}') || {};
+        } catch (_e) {
+          /* storage blocked: use defaults */
+        }
+        var theme = s.theme || 'system';
+        var dark = theme === 'dark' || (theme === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
+        var root = document.documentElement;
+        if (dark) root.classList.add('dark');
+        root.style.colorScheme = dark ? 'dark' : 'light';
+        root.dataset.textSize = String([1, 2, 3, 4].indexOf(s.textSize) >= 0 ? s.textSize : 2);
+      })();
+    </script>
+    <slot name="head" />
+  </head>
+  <body class="flex flex-col">
+    <a href="#main" class="sr-only-focusable fixed top-2 left-2 z-50 rounded-lg bg-surface px-4 py-2 shadow">
+      Skip to content
+    </a>
+    <header class="sticky top-0 z-30 border-b border-line bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/75">
+      <div class="mx-auto flex h-14 max-w-5xl items-center gap-3 px-4">
+        <a href={url('/')} class="flex items-center gap-2 font-serif text-lg font-semibold text-ink no-underline">
+          <Icon name="lamp" class="size-6 text-accent" />
+          {SITE_NAME}
+        </a>
+        <nav aria-label="Main" class="ml-auto hidden sm:block">
+          <ul class="flex items-center gap-1">
+            {NAV.map((item) => (
+              <li>
+                <a
+                  href={url(item.href)}
+                  aria-current={isActive(item.href) ? 'page' : undefined}
+                  class="rounded-full px-3 py-2 text-sm text-ink-muted no-underline hover:bg-surface-2 hover:text-ink aria-[current=page]:bg-accent-soft aria-[current=page]:text-ink"
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <div class="ml-auto sm:ml-0">
+          <ThemeToggle client:idle />
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class={`mx-auto w-full ${container} flex-1 px-4 pt-6 pb-28 sm:pb-12`}>
+      <slot />
+    </main>
+
+    <footer class="hidden border-t border-line py-8 text-sm text-ink-muted sm:block">
+      <div class="mx-auto max-w-5xl px-4">
+        <p>
+          {SITE_NAME} is free, has no ads and no tracking. Your reading data stays in this browser. Bible text: KJV, BSB
+          and WEB (public domain).
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bottom tab bar: easier to reach with a thumb on phones. -->
+    <nav
+      aria-label="Main"
+      class="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur sm:hidden"
+    >
+      <ul class="mx-auto flex max-w-md">
+        {NAV.map((item) => (
+          <li class="flex-1">
+            <a
+              href={url(item.href)}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+              class="flex min-h-14 flex-col items-center justify-center gap-0.5 text-xs text-ink-muted no-underline aria-[current=page]:font-semibold aria-[current=page]:text-accent"
+            >
+              <Icon name={item.icon} class="size-6" />
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </body>
+</html>
