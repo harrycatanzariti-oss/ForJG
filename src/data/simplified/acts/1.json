@@ -1,0 +1,28 @@
+{
+  "book": "acts",
+  "chapter": 1,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-5",
+      "text": "Luke writes to Theophilus. In his first book (the Gospel of Luke), he wrote about all that Jesus did and taught until he was taken up to heaven. After his suffering, Jesus showed himself alive to the apostles in many convincing ways over forty days, and spoke about God's kingdom. He told them to wait in Jerusalem for the gift the Father had promised: \"John baptised with water, but in a few days you will be baptised with the Holy Spirit.\""
+    },
+    {
+      "verses": "6-11",
+      "text": "The apostles asked, \"Lord, are you now going to restore the kingdom to Israel?\" Jesus said it was not for them to know times set by the Father. \"But you will receive power when the Holy Spirit comes on you, and you will be my witnesses in Jerusalem, in all Judea and Samaria, and to the ends of the earth.\" Then he was taken up before their eyes, and a cloud hid him. Two men dressed in white said, \"Why do you stand here looking into the sky? This same Jesus will come back in the same way you have seen him go.\""
+    },
+    {
+      "verses": "12-26",
+      "text": "The apostles returned to Jerusalem and gathered in an upstairs room. They all joined together constantly in prayer, along with the women, Mary the mother of Jesus, and his brothers. About 120 believers were there. Peter said that, as Scripture foretold, someone must replace Judas, who had guided those who arrested Jesus and had died. It had to be someone who had been with them from John's baptism to the resurrection. They proposed two men, Joseph called Barsabbas and Matthias. They prayed and cast lots, and Matthias was added to the eleven apostles."
+    }
+  ],
+  "summary": {
+    "bigIdea": "The risen Jesus promises the Holy Spirit, sends his followers to be his witnesses everywhere, and is taken up to heaven.",
+    "points": [
+      "Jesus spends forty days with his apostles after rising.",
+      "\"You will be my witnesses... to the ends of the earth.\"",
+      "Jesus ascends, and the believers pray together and choose Matthias."
+    ],
+    "reflection": "Jesus said his followers would be witnesses \"to the ends of the earth\". Who has been a witness to you?"
+  }
+}

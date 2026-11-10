@@ -1,0 +1,32 @@
+{
+  "book": "acts",
+  "chapter": 2,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-13",
+      "text": "On the day of Pentecost, the believers were all together. Suddenly a sound like a violent wind came from heaven and filled the house. They saw what looked like tongues of fire resting on each of them. All of them were filled with the Holy Spirit and began to speak in other languages as the Spirit enabled them. Jews from many nations were staying in Jerusalem. Each heard them speaking in his own language and was amazed: \"Aren't all these men Galileans? How do we each hear them in our own language, telling the wonders of God?\" Some made fun of them: \"They've had too much wine.\""
+    },
+    {
+      "verses": "14-36",
+      "text": "Peter stood up and spoke to the crowd. \"These people are not drunk; it's only nine in the morning! This is what the prophet Joel spoke about: God said, 'In the last days, I will pour out my Spirit on all people... and everyone who calls on the name of the Lord will be saved.'\" Peter told them about Jesus of Nazareth, whom God had shown to them by miracles and signs. They had put him to death by nailing him to a cross, but God raised him from the dead, because it was impossible for death to keep its hold on him. Peter quoted David's psalms to show the Messiah would not be abandoned to the grave. \"God has raised this Jesus to life, and we are all witnesses.\" Jesus, exalted to God's right hand, had poured out the Spirit. \"God has made this Jesus, whom you crucified, both Lord and Christ.\""
+    },
+    {
+      "verses": "37-41",
+      "text": "The people were cut to the heart and asked, \"What shall we do?\" Peter replied, \"Repent and be baptised, every one of you, in the name of Jesus Christ for the forgiveness of your sins. And you will receive the gift of the Holy Spirit. The promise is for you and your children and for all who are far off.\" Those who accepted his message were baptised, and about three thousand were added to their number that day."
+    },
+    {
+      "verses": "42-47",
+      "text": "The believers devoted themselves to the apostles' teaching, to fellowship, to the breaking of bread and to prayer. Many wonders and signs were done by the apostles. All the believers were together and shared everything. They sold property and gave to anyone who had need. Every day they met in the temple courts and broke bread in their homes, eating together with glad and sincere hearts, praising God and enjoying the favour of all the people. And the Lord added to their number daily those who were being saved."
+    }
+  ],
+  "summary": {
+    "bigIdea": "At Pentecost the Holy Spirit is poured out, Peter preaches about the risen Jesus, and the church is born.",
+    "points": [
+      "The Holy Spirit comes like wind and fire, and the believers speak in other languages.",
+      "Peter preaches that God raised Jesus and made him Lord and Christ.",
+      "About 3,000 are baptised, and the believers share their lives, meals and prayers."
+    ],
+    "reflection": "The first believers devoted themselves to teaching, fellowship, breaking bread and prayer. Which of these would you like more of?"
+  }
+}
