@@ -1,0 +1,44 @@
+---
+/**
+ * /guide/{topic} — a shareable, printable page for each Guide topic.
+ */
+import TopicCard from '~/components/guide/TopicCard';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { guideSafety, guideTopics } from '~/lib/guide-data';
+import { url } from '~/lib/url';
+
+export function getStaticPaths() {
+  return guideTopics.map((topic) => ({ params: { topic: topic.id }, props: { topic } }));
+}
+const { topic } = Astro.props;
+const related = topic.related.map((id) => guideTopics.find((t) => t.id === id)!).filter(Boolean);
+---
+
+<BaseLayout title={topic.title} description={topic.message.slice(0, 155)} width="reading">
+  <nav aria-label="Breadcrumb" class="mb-3 text-sm">
+    <a href={url('/guide')} class="text-ink-muted">
+      Guide
+    </a>
+  </nav>
+  <h1 class="sr-only">{topic.title}</h1>
+  <TopicCard topic={topic} careNote={guideSafety.careNote} />
+  {related.length > 0 && (
+    <section class="mt-8">
+      <h2 class="text-lg font-semibold">Related</h2>
+      <ul class="mt-2 flex flex-wrap gap-2">
+        {related.map((r) => (
+          <li>
+            <a href={url(`/guide/${r.id}`)} class="btn btn-secondary text-sm">
+              {r.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+  <p class="mt-8">
+    <a href={url('/guide')} class="btn btn-primary">
+      Ask the Guide something else
+    </a>
+  </p>
+</BaseLayout>

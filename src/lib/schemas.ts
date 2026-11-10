@@ -206,3 +206,50 @@ export const glossarySchema = z.array(
   }),
 );
 export type GlossaryEntry = z.infer<typeof glossarySchema>[number];
+
+export const guideTopicSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  title: z.string(),
+  chip: z.string(),
+  category: z.enum(['feelings', 'faith', 'life', 'questions']),
+  signals: z
+    .array(
+      z.object({
+        terms: z.array(z.string().min(1)).min(1),
+        weight: z.number().positive(),
+        negatable: z.boolean().optional(),
+      }),
+    )
+    .min(1),
+  combos: z.array(z.object({ signals: z.array(z.number().int().nonnegative()), bonus: z.number() })).optional(),
+  message: z.string().min(40),
+  step: z.string().min(10),
+  passages: z.array(z.object({ ref: z.string(), why: z.string() })).min(3),
+  links: z.array(z.object({ label: z.string(), href: z.string().startsWith('/') })),
+  followUp: z
+    .object({ question: z.string(), options: z.array(z.object({ label: z.string(), topic: z.string() })).min(1) })
+    .optional(),
+  care: z.boolean().optional(),
+  related: z.array(z.string()),
+});
+export const guideTopicsSchema = z.array(guideTopicSchema);
+export type GuideTopic = z.infer<typeof guideTopicSchema>;
+
+const resourceSchema = z.object({ region: z.string(), name: z.string(), contact: z.string(), href: z.string() });
+export const guideSafetySchema = z.object({
+  crisis: z.object({
+    title: z.string(),
+    message: z.string(),
+    phrases: z.array(z.string()),
+    negatedPhrases: z.array(z.string()),
+    resources: z.array(resourceSchema),
+  }),
+  abuse: z.object({
+    title: z.string(),
+    message: z.string(),
+    phrases: z.array(z.string()),
+    resources: z.array(resourceSchema),
+  }),
+  careNote: z.string(),
+});
+export type GuideSafety = z.infer<typeof guideSafetySchema>;

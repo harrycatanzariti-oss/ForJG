@@ -1,0 +1,42 @@
+---
+/**
+ * /guide — tell the site what's on your heart and it suggests where to go.
+ */
+import Guide from '~/components/guide/Guide';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { CATEGORY_LABELS, guideSafety, guideTopics } from '~/lib/guide-data';
+import { url } from '~/lib/url';
+
+const examples = [
+  'I’m afraid of dying',
+  'I can’t understand death',
+  'I’m mourning and feel I’ve lost connection to God',
+  'My faith feels lukewarm',
+  'I know nothing about God. Where do I start?',
+];
+---
+
+<BaseLayout
+  title="Guide"
+  description="Tell us what's on your heart and find Bible passages and next steps for where you are. No sign-up, nothing leaves your device."
+  width="reading"
+>
+  <h1 class="font-serif text-3xl font-semibold">Where are you today?</h1>
+  <p class="mt-2 text-ink-muted">
+    Grieving, afraid, curious, doubting, thankful? Describe it and the Guide will point you to passages and next steps.
+    It uses simple rules, not AI, and it is not a substitute for talking with someone you trust.
+  </p>
+  <div class="mt-6">
+    <Guide client:load topics={guideTopics} safety={guideSafety} categories={CATEGORY_LABELS} examples={examples} />
+  </div>
+  <noscript>
+    <h2 class="mt-8 text-lg font-semibold">Topics</h2>
+    <ul class="mt-2 list-disc pl-5">
+      {guideTopics.map((t) => (
+        <li>
+          <a href={url(`/guide/${t.id}`)}>{t.title}</a>
+        </li>
+      ))}
+    </ul>
+  </noscript>
+</BaseLayout>

@@ -1,0 +1,3097 @@
+[
+  {
+    "id": "fear-of-death",
+    "title": "Afraid of dying",
+    "chip": "Afraid of dying",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "death",
+          "die",
+          "dying",
+          "died",
+          "dead",
+          "mortality",
+          "mortal",
+          "end of life",
+          "afterlife",
+          "after life",
+          "funeral",
+          "grave",
+          "terminal"
+        ],
+        "weight": 2
+      },
+      {
+        "terms": [
+          "fear",
+          "afraid",
+          "scared",
+          "terrified",
+          "frightened",
+          "dread",
+          "fright",
+          "panic",
+          "anxious about",
+          "worried about",
+          "nervous",
+          "petrified",
+          "fearing"
+        ],
+        "weight": 2,
+        "negatable": true
+      },
+      {
+        "terms": [
+          "fear death",
+          "fear of death",
+          "afraid of dying",
+          "afraid to die",
+          "scared of dying",
+          "scared to die",
+          "fear of dying",
+          "terrified of death",
+          "do not want to die"
+        ],
+        "weight": 4
+      }
+    ],
+    "combos": [
+      {
+        "signals": [0, 1],
+        "bonus": 3
+      }
+    ],
+    "message": "Fear of death is one of the most human feelings there is, and the Bible does not tell you to pretend otherwise. Jesus himself wept at a friend's grave. The New Testament speaks of Jesus breaking the power of death and freeing \"those who all their lives were held in slavery by their fear of death.\"",
+    "step": "Read Psalm 23 slowly. Notice that the valley is still dark, but you are not alone in it.",
+    "passages": [
+      {
+        "ref": "Psalm 23",
+        "why": "\"Even though I walk through the valley of the shadow of death, I will fear no evil.\""
+      },
+      {
+        "ref": "John 11:25-26",
+        "why": "Jesus at his friend Lazarus's grave: \"I am the resurrection and the life.\""
+      },
+      {
+        "ref": "John 14:1-3",
+        "why": "\"Do not let your hearts be troubled... In my Father's house are many rooms.\""
+      },
+      {
+        "ref": "Hebrews 2:14-15",
+        "why": "Jesus came to free people held captive by the fear of death."
+      },
+      {
+        "ref": "1 Corinthians 15:54-57",
+        "why": "\"Where, O death, is your sting?\""
+      },
+      {
+        "ref": "Romans 8:38-39",
+        "why": "Nothing, not even death, can separate us from God's love."
+      }
+    ],
+    "links": [
+      {
+        "label": "What happens when we die?",
+        "href": "/traditions/questions/what-happens-when-we-die"
+      }
+    ],
+    "followUp": {
+      "question": "What would help most?",
+      "options": [
+        {
+          "label": "I want to understand what happens",
+          "topic": "understanding-death"
+        },
+        {
+          "label": "I'm anxious in general",
+          "topic": "anxiety"
+        },
+        {
+          "label": "I'm facing illness",
+          "topic": "illness"
+        }
+      ]
+    },
+    "related": ["understanding-death", "anxiety", "hope"]
+  },
+  {
+    "id": "understanding-death",
+    "title": "Trying to understand death",
+    "chip": "Understanding death",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "death",
+          "die",
+          "dying",
+          "died",
+          "dead",
+          "mortality",
+          "mortal",
+          "end of life",
+          "afterlife",
+          "after life",
+          "funeral",
+          "grave",
+          "terminal"
+        ],
+        "weight": 2
+      },
+      {
+        "terms": [
+          "understand",
+          "make sense",
+          "confused",
+          "confusing",
+          "why do we",
+          "why do people",
+          "what happens",
+          "explain",
+          "meaning of",
+          "what is",
+          "where do we go",
+          "where do people go",
+          "is there life",
+          "heaven",
+          "hell",
+          "after we",
+          "how can"
+        ],
+        "weight": 2
+      },
+      {
+        "terms": [
+          "what happens when we die",
+          "what happens when you die",
+          "what happens after death",
+          "life after death",
+          "is there an afterlife",
+          "is heaven real",
+          "why do we die",
+          "why do people die",
+          "why did god let",
+          "understand death"
+        ],
+        "weight": 4
+      }
+    ],
+    "combos": [
+      {
+        "signals": [0, 1],
+        "bonus": 3
+      }
+    ],
+    "message": "People have always asked why we die and what comes after. The Bible treats death as real and painful, something that was not part of God's good beginning. It also holds out the hope that, because Jesus rose from the dead, death is not the end of the story. Christian traditions explain the details in different ways.",
+    "step": "Read 1 Corinthians 15:20-22 and 1 Thessalonians 4:13-14, then write down one question you still have.",
+    "passages": [
+      {
+        "ref": "Genesis 3:17-19",
+        "why": "Where death enters the Bible's story: \"for dust you are, and to dust you shall return.\""
+      },
+      {
+        "ref": "Ecclesiastes 3:1-2",
+        "why": "\"A time to be born and a time to die.\""
+      },
+      {
+        "ref": "Psalm 90:10-12",
+        "why": "\"Teach us to number our days, that we may present a heart of wisdom.\""
+      },
+      {
+        "ref": "1 Corinthians 15:20-22",
+        "why": "Christ raised as the \"firstfruits\" of all who have died."
+      },
+      {
+        "ref": "1 Thessalonians 4:13-14",
+        "why": "Grieving, but not \"like the rest, who are without hope.\""
+      },
+      {
+        "ref": "Revelation 21:3-4",
+        "why": "A future where \"there will be no more death or mourning.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "What happens when we die? How traditions answer",
+        "href": "/traditions/questions/what-happens-when-we-die"
+      },
+      {
+        "label": "Compare beliefs about the afterlife",
+        "href": "/traditions/compare?a=catholic&b=eastern-orthodox&c=baptist"
+      }
+    ],
+    "followUp": {
+      "question": "Is something else behind your question?",
+      "options": [
+        {
+          "label": "I'm afraid of dying",
+          "topic": "fear-of-death"
+        },
+        {
+          "label": "I've lost someone",
+          "topic": "grief"
+        },
+        {
+          "label": "Why is there suffering?",
+          "topic": "suffering"
+        }
+      ]
+    },
+    "related": ["fear-of-death", "grief", "hope"]
+  },
+  {
+    "id": "grief",
+    "title": "Grieving someone",
+    "chip": "Grieving",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "mourning",
+          "mourn",
+          "grieving",
+          "grief",
+          "grieve",
+          "bereaved",
+          "bereavement",
+          "passed away",
+          "funeral",
+          "widow",
+          "widowed",
+          "miss my",
+          "miss him",
+          "miss her",
+          "miscarriage",
+          "stillborn",
+          "died last",
+          "death of my"
+        ],
+        "weight": 3.5
+      },
+      {
+        "terms": ["lost my", "lost our", "loss of", "loss", "lost someone"],
+        "weight": 1.5
+      },
+      {
+        "terms": [
+          "lost someone",
+          "someone died",
+          "someone passed",
+          "death of",
+          "my mum",
+          "my mom",
+          "my dad",
+          "my father",
+          "my mother",
+          "my husband",
+          "my wife",
+          "my son",
+          "my daughter",
+          "my friend",
+          "my brother",
+          "my sister",
+          "my baby",
+          "my child",
+          "my grandma",
+          "my grandmother",
+          "my grandfather",
+          "my grandpa",
+          "my pet",
+          "my dog",
+          "my cat"
+        ],
+        "weight": 1
+      },
+      {
+        "terms": [
+          "death",
+          "die",
+          "dying",
+          "died",
+          "dead",
+          "mortality",
+          "mortal",
+          "end of life",
+          "afterlife",
+          "after life",
+          "funeral",
+          "grave",
+          "terminal"
+        ],
+        "weight": 1
+      }
+    ],
+    "message": "I'm so sorry. Grief can feel overwhelming, and it often comes with anger, numbness or questions about God. The Bible gives words for all of it: whole psalms are laments, and Jesus wept with his friends at Lazarus's grave. Mourning is not a lack of faith; Jesus said, \"Blessed are those who mourn, for they will be comforted.\"",
+    "step": "Read Psalm 34:18. You don't need to find the right words; you can simply tell God what you miss.",
+    "passages": [
+      {
+        "ref": "Psalm 34:18",
+        "why": "\"The LORD is near to the brokenhearted.\""
+      },
+      {
+        "ref": "John 11:32-36",
+        "why": "\"Jesus wept.\" He grieved with Mary and Martha."
+      },
+      {
+        "ref": "Matthew 5:4",
+        "why": "\"Blessed are those who mourn, for they will be comforted.\""
+      },
+      {
+        "ref": "Psalm 42",
+        "why": "An honest prayer: \"Why are you downcast, O my soul?\""
+      },
+      {
+        "ref": "Lamentations 3:19-24",
+        "why": "Grief and hope side by side: \"His mercies never fail.\""
+      },
+      {
+        "ref": "Revelation 21:4",
+        "why": "\"He will wipe away every tear from their eyes.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "What happens when we die?",
+        "href": "/traditions/questions/what-happens-when-we-die"
+      }
+    ],
+    "followUp": {
+      "question": "Where are you right now?",
+      "options": [
+        {
+          "label": "God feels far away",
+          "topic": "far-from-god"
+        },
+        {
+          "label": "I want to understand death",
+          "topic": "understanding-death"
+        },
+        {
+          "label": "I need some hope",
+          "topic": "hope"
+        },
+        {
+          "label": "I'm angry",
+          "topic": "anger"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["far-from-god", "understanding-death", "hope"]
+  },
+  {
+    "id": "far-from-god",
+    "title": "God feels far away",
+    "chip": "God feels far away",
+    "category": "faith",
+    "signals": [
+      {
+        "terms": [
+          "lost connection",
+          "lost my connection",
+          "lost touch",
+          "disconnected",
+          "distant",
+          "far from god",
+          "far away from god",
+          "god feels far",
+          "god is far",
+          "god seems far",
+          "god is silent",
+          "god feels silent",
+          "cannot feel god",
+          "can not feel god",
+          "do not feel god",
+          "cannot hear god",
+          "god is not listening",
+          "god does not listen",
+          "god has left",
+          "god left me",
+          "abandoned",
+          "forsaken",
+          "forgotten me",
+          "where is god",
+          "god is gone",
+          "feel nothing",
+          "no connection",
+          "drifted",
+          "drifting",
+          "walked away from god",
+          "lost my faith"
+        ],
+        "weight": 3
+      },
+      {
+        "terms": ["relationship with god", "close to god", "closer to god", "feel god"],
+        "weight": 1
+      }
+    ],
+    "message": "Many faithful people have felt that God was distant or silent, and the Bible doesn't hide it. \"How long, O LORD? Will you forget me forever?\" is a prayer in Scripture. Jesus himself cried out on the cross, \"My God, my God, why have you forsaken me?\" Feeling far from God is not the same as God being far from you.",
+    "step": "Pray Psalm 13 as your own words, even if you don't feel it yet. It starts in complaint and ends in trust.",
+    "passages": [
+      {
+        "ref": "Psalm 13",
+        "why": "\"How long, O LORD? Will You forget me forever?\" A short prayer that moves from complaint to trust."
+      },
+      {
+        "ref": "Psalm 22:1-5",
+        "why": "\"My God, my God, why have You forsaken me?\" The words Jesus prayed on the cross."
+      },
+      {
+        "ref": "Psalm 139:7-12",
+        "why": "\"Where can I flee from Your presence?\" Even darkness is not dark to God."
+      },
+      {
+        "ref": "Isaiah 49:14-16",
+        "why": "\"Can a woman forget her nursing child?... I will not forget you.\""
+      },
+      {
+        "ref": "Luke 15:11-24",
+        "why": "The father runs to meet the son who wandered away."
+      },
+      {
+        "ref": "James 4:8",
+        "why": "\"Draw near to God, and He will draw near to you.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "How to pray when it's hard",
+        "href": "/guide/prayer"
+      }
+    ],
+    "followUp": {
+      "question": "What's closest to how you feel?",
+      "options": [
+        {
+          "label": "My faith feels cold or dry",
+          "topic": "spiritual-dryness"
+        },
+        {
+          "label": "I'm grieving",
+          "topic": "grief"
+        },
+        {
+          "label": "I have doubts",
+          "topic": "doubt"
+        },
+        {
+          "label": "I feel guilty",
+          "topic": "guilt"
+        }
+      ]
+    },
+    "related": ["spiritual-dryness", "doubt", "prayer"]
+  },
+  {
+    "id": "spiritual-dryness",
+    "title": "Faith feels cold or lukewarm",
+    "chip": "Faith feels lukewarm",
+    "category": "faith",
+    "signals": [
+      {
+        "terms": [
+          "lukewarm",
+          "luke warm",
+          "dry",
+          "dryness",
+          "numb",
+          "going through the motions",
+          "cold faith",
+          "faith is cold",
+          "bored",
+          "boring",
+          "stale",
+          "empty",
+          "spiritually dead",
+          "no passion",
+          "lost my passion",
+          "lost my spark",
+          "apathetic",
+          "apathy",
+          "nothing feels",
+          "stuck",
+          "in a rut",
+          "not excited",
+          "just routine"
+        ],
+        "weight": 3
+      },
+      {
+        "terms": ["warm", "cold", "flat", "meh", "lacking"],
+        "weight": 1
+      }
+    ],
+    "message": "Seasons where faith feels flat, routine or \"lukewarm\" are common, even for people who have believed for years. The Bible speaks to this directly, not to shame but to invite: Jesus says, \"I stand at the door and knock.\" Thirst for God can itself be a sign that something is alive.",
+    "step": "Read Psalm 42:1-2 and then pick one small, honest practice for this week: a short daily reading, a walk where you pray, or meeting with someone you trust.",
+    "passages": [
+      {
+        "ref": "Revelation 3:15-20",
+        "why": "Jesus to a \"lukewarm\" church: \"I stand at the door and knock.\""
+      },
+      {
+        "ref": "Psalm 42:1-2",
+        "why": "\"As the deer pants for streams of water, so my soul longs after You.\""
+      },
+      {
+        "ref": "Psalm 51:10-12",
+        "why": "\"Restore to me the joy of Your salvation.\""
+      },
+      {
+        "ref": "Revelation 2:4-5",
+        "why": "\"You have abandoned your first love\" — a call to return."
+      },
+      {
+        "ref": "John 15:4-5",
+        "why": "\"Remain in Me... apart from Me you can do nothing.\""
+      },
+      {
+        "ref": "Isaiah 40:28-31",
+        "why": "Strength renewed for those who wait on the LORD."
+      }
+    ],
+    "links": [
+      {
+        "label": "Try a 30-day Gospels plan",
+        "href": "/plans/gospels-30"
+      }
+    ],
+    "followUp": {
+      "question": "Does any of these fit?",
+      "options": [
+        {
+          "label": "God feels far away",
+          "topic": "far-from-god"
+        },
+        {
+          "label": "I'm worn out",
+          "topic": "tired"
+        },
+        {
+          "label": "I have doubts",
+          "topic": "doubt"
+        }
+      ]
+    },
+    "related": ["far-from-god", "tired", "prayer"]
+  },
+  {
+    "id": "self-worth",
+    "title": "Feeling worthless",
+    "chip": "Feeling worthless",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "worthless",
+          "useless",
+          "not good enough",
+          "a failure",
+          "failure",
+          "hate myself",
+          "nobody cares",
+          "no one cares",
+          "unlovable",
+          "unloved",
+          "not enough",
+          "like a worm",
+          "a worm",
+          "nothing to anyone",
+          "ugly",
+          "pathetic",
+          "waste of space",
+          "burden",
+          "not important",
+          "insignificant",
+          "rejected",
+          "no value"
+        ],
+        "weight": 3
+      },
+      {
+        "terms": ["worm", "small", "weak"],
+        "weight": 1
+      },
+      {
+        "terms": ["warm"],
+        "weight": 0.9
+      }
+    ],
+    "message": "If you feel worthless right now, you are in good company in the Bible. One psalm even says, \"I am a worm and not a man,\" and goes on to find that God has not turned away. The Bible's steady message is that your worth comes from being made and loved by God, not from what you achieve or how you feel today.",
+    "step": "Read Psalm 139:13-16 and say verse 14 out loud, even if you don't believe it yet.",
+    "passages": [
+      {
+        "ref": "Psalm 22:6-11",
+        "why": "\"But I am a worm and not a man\" — an honest lament that turns to trust."
+      },
+      {
+        "ref": "Psalm 139:13-16",
+        "why": "\"I am fearfully and wonderfully made.\""
+      },
+      {
+        "ref": "Isaiah 43:1-4",
+        "why": "\"You are precious and honored in My sight, and... I love you.\""
+      },
+      {
+        "ref": "Luke 12:6-7",
+        "why": "Not one sparrow is forgotten; \"you are worth more than many sparrows.\""
+      },
+      {
+        "ref": "1 John 3:1",
+        "why": "\"Behold what manner of love the Father has given to us, that we should be called children of God.\""
+      },
+      {
+        "ref": "Ephesians 2:10",
+        "why": "\"We are God's workmanship.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Is something underneath this?",
+      "options": [
+        {
+          "label": "I feel guilty or ashamed",
+          "topic": "guilt"
+        },
+        {
+          "label": "I feel low or hopeless",
+          "topic": "depression"
+        },
+        {
+          "label": "I feel lonely",
+          "topic": "loneliness"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["gods-love", "depression", "guilt"]
+  },
+  {
+    "id": "new-to-faith",
+    "title": "New to God and the Bible",
+    "chip": "New here: where do I start?",
+    "category": "faith",
+    "signals": [
+      {
+        "terms": [
+          "know nothing",
+          "nothing about god",
+          "nothing about jesus",
+          "nothing about the bible",
+          "new to this",
+          "new to faith",
+          "new to the bible",
+          "new to christianity",
+          "where do i start",
+          "where should i start",
+          "where to start",
+          "where do i begin",
+          "where to begin",
+          "where first",
+          "start reading",
+          "beginner",
+          "never read",
+          "never been to church",
+          "first time",
+          "not religious",
+          "curious about god",
+          "curious about jesus",
+          "learn about god",
+          "learn about jesus",
+          "what is christianity",
+          "teach me",
+          "help me start",
+          "how do i start",
+          "just starting",
+          "complete beginner",
+          "know very little",
+          "do not know anything",
+          "do not know much"
+        ],
+        "weight": 4
+      },
+      {
+        "terms": ["start", "begin", "new", "first", "beginning", "basics", "learn", "curious"],
+        "weight": 1
+      }
+    ],
+    "message": "Welcome. You don't need to know anything to start. The Bible is a library of 66 books, and you don't have to read it front to back. Many people begin with the Gospel of Mark, a short, fast-moving account of Jesus' life, because Christians believe Jesus is the clearest picture of who God is.",
+    "step": "Read Mark 1 at the \"Plain\" or \"Modern\" level. It takes about 10 minutes. Then try the 21-day First Steps plan.",
+    "passages": [
+      {
+        "ref": "Mark 1",
+        "why": "The start of the shortest Gospel: Jesus begins his work."
+      },
+      {
+        "ref": "John 1:1-18",
+        "why": "Who Jesus is, in John's poetic opening."
+      },
+      {
+        "ref": "Genesis 1",
+        "why": "The very beginning: God creates the world and calls it good."
+      },
+      {
+        "ref": "Psalm 23",
+        "why": "The best-known prayer in the Bible: \"The LORD is my shepherd.\""
+      },
+      {
+        "ref": "Luke 15",
+        "why": "Three stories Jesus told about what God is like."
+      }
+    ],
+    "links": [
+      {
+        "label": "21-day First Steps plan",
+        "href": "/plans/first-steps"
+      },
+      {
+        "label": "Glossary of Bible words",
+        "href": "/glossary"
+      },
+      {
+        "label": "How Christians differ (traditions)",
+        "href": "/traditions"
+      }
+    ],
+    "followUp": {
+      "question": "What would help most?",
+      "options": [
+        {
+          "label": "Who is Jesus?",
+          "topic": "who-is-jesus"
+        },
+        {
+          "label": "How do I read the Bible?",
+          "topic": "bible-overview"
+        },
+        {
+          "label": "Is any of this true?",
+          "topic": "doubt"
+        },
+        {
+          "label": "How do I pray?",
+          "topic": "prayer"
+        }
+      ]
+    },
+    "related": ["who-is-jesus", "bible-overview", "prayer"]
+  },
+  {
+    "id": "who-is-jesus",
+    "title": "Who is Jesus?",
+    "chip": "Who is Jesus?",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "who is jesus",
+          "who was jesus",
+          "about jesus",
+          "is jesus god",
+          "jesus real",
+          "son of god",
+          "messiah",
+          "christ",
+          "jesus christ"
+        ],
+        "weight": 4
+      },
+      {
+        "terms": ["jesus"],
+        "weight": 1.5
+      }
+    ],
+    "message": "Jesus was a Jewish teacher from Nazareth in the first century, who was crucified in Jerusalem. His followers proclaimed that he rose from the dead and that he is the Messiah, the Son of God. Jesus himself asked his friends, \"Who do you say I am?\" The Gospels were written so readers could answer that for themselves.",
+    "step": "Read the Gospel of Mark over a couple of weeks, and keep that question in mind.",
+    "passages": [
+      {
+        "ref": "Mark 8:27-29",
+        "why": "Jesus asks: \"Who do you say I am?\""
+      },
+      {
+        "ref": "John 1:1-14",
+        "why": "\"The Word became flesh and made His dwelling among us.\""
+      },
+      {
+        "ref": "Mark 10:45",
+        "why": "He \"did not come to be served, but to serve, and to give His life as a ransom for many.\""
+      },
+      {
+        "ref": "Luke 19:10",
+        "why": "\"The Son of Man came to seek and to save the lost.\""
+      },
+      {
+        "ref": "John 14:6",
+        "why": "\"I am the way and the truth and the life.\""
+      },
+      {
+        "ref": "Philippians 2:5-11",
+        "why": "The early Christian hymn about Jesus humbling himself."
+      }
+    ],
+    "links": [
+      {
+        "label": "Read Mark from the start",
+        "href": "/bible/mark/1"
+      },
+      {
+        "label": "Gospels in 30 days",
+        "href": "/plans/gospels-30"
+      }
+    ],
+    "followUp": {
+      "question": "Where next?",
+      "options": [
+        {
+          "label": "Is any of this true?",
+          "topic": "doubt"
+        },
+        {
+          "label": "How can I know God?",
+          "topic": "salvation"
+        },
+        {
+          "label": "I'm new: where do I start?",
+          "topic": "new-to-faith"
+        }
+      ]
+    },
+    "related": ["new-to-faith", "salvation", "doubt"]
+  },
+  {
+    "id": "bible-overview",
+    "title": "How do I read the Bible?",
+    "chip": "How to read the Bible",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "read the bible",
+          "reading the bible",
+          "understand the bible",
+          "bible confusing",
+          "bible is confusing",
+          "bible hard",
+          "what is the bible",
+          "how to read",
+          "where is the bible from",
+          "who wrote the bible",
+          "is the bible true",
+          "which book",
+          "which translation",
+          "old testament",
+          "new testament"
+        ],
+        "weight": 4
+      },
+      {
+        "terms": ["bible", "scripture", "read", "reading", "book"],
+        "weight": 1
+      }
+    ],
+    "message": "The Bible is a collection of 66 books written over about 1,500 years: stories, laws, poems, prophecy and letters. It tells one big story, from creation, through the history of Israel, to Jesus and the early church, and a hope for a renewed world. It helps to know what kind of writing you are reading, and to start with the Gospels.",
+    "step": "Use the Simplify slider: read a chapter at \"Summary\", then \"Plain\", then \"Modern\". Every book has an introduction card.",
+    "passages": [
+      {
+        "ref": "Luke 24:25-27",
+        "why": "Jesus explains how the Scriptures point to him."
+      },
+      {
+        "ref": "2 Timothy 3:16-17",
+        "why": "\"All Scripture is God-breathed.\""
+      },
+      {
+        "ref": "Psalm 119:105",
+        "why": "\"Your word is a lamp to my feet and a light to my path.\""
+      },
+      {
+        "ref": "John 20:30-31",
+        "why": "Why John wrote his Gospel."
+      },
+      {
+        "ref": "Nehemiah 8:8",
+        "why": "Reading the Law and explaining it, \"so that the people could understand.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "Browse all 66 books",
+        "href": "/bible"
+      },
+      {
+        "label": "Reading plans",
+        "href": "/plans"
+      },
+      {
+        "label": "Glossary",
+        "href": "/glossary"
+      },
+      {
+        "label": "Why Catholic Bibles have more books",
+        "href": "/traditions/questions/why-catholic-bibles-have-more-books"
+      }
+    ],
+    "followUp": {
+      "question": "What next?",
+      "options": [
+        {
+          "label": "Where should I start?",
+          "topic": "new-to-faith"
+        },
+        {
+          "label": "Who is Jesus?",
+          "topic": "who-is-jesus"
+        }
+      ]
+    },
+    "related": ["new-to-faith", "who-is-jesus"]
+  },
+  {
+    "id": "anxiety",
+    "title": "Anxious or worried",
+    "chip": "Anxious",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "anxious",
+          "anxiety",
+          "worried",
+          "worry",
+          "worrying",
+          "stressed",
+          "stress",
+          "overwhelmed",
+          "panic attack",
+          "panic attacks",
+          "on edge",
+          "overthinking",
+          "cannot stop thinking",
+          "restless",
+          "uneasy",
+          "nervous",
+          "tense"
+        ],
+        "weight": 3,
+        "negatable": true
+      }
+    ],
+    "message": "Anxiety can be exhausting, in your body as well as your mind. The Bible doesn't say anxious people are failing; it invites them to bring every worry to God, and promises a peace that \"surpasses all understanding.\" If anxiety is affecting your daily life, talking with a doctor or counsellor is wise and good.",
+    "step": "Read Philippians 4:6-7, then name one worry to God, out loud or on paper, and leave it with him for today.",
+    "passages": [
+      {
+        "ref": "Philippians 4:6-7",
+        "why": "\"Be anxious for nothing... and the peace of God... will guard your hearts.\""
+      },
+      {
+        "ref": "Matthew 6:25-34",
+        "why": "Jesus on worry: look at the birds and the lilies."
+      },
+      {
+        "ref": "1 Peter 5:7",
+        "why": "\"Cast all your anxiety on Him, because He cares for you.\""
+      },
+      {
+        "ref": "Psalm 94:18-19",
+        "why": "\"When anxiety overwhelms me, Your consolation delights my soul.\""
+      },
+      {
+        "ref": "Psalm 46",
+        "why": "\"Be still, and know that I am God.\""
+      },
+      {
+        "ref": "John 14:27",
+        "why": "\"Peace I leave with you... Do not let your hearts be troubled.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Is it something specific?",
+      "options": [
+        {
+          "label": "Money or work",
+          "topic": "money"
+        },
+        {
+          "label": "A big decision",
+          "topic": "purpose"
+        },
+        {
+          "label": "Fear of dying",
+          "topic": "fear-of-death"
+        },
+        {
+          "label": "Illness",
+          "topic": "illness"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["peace", "fear", "money"]
+  },
+  {
+    "id": "fear",
+    "title": "Afraid",
+    "chip": "Afraid",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": ["afraid", "scared", "fear", "fearful", "frightened", "terrified", "fearing"],
+        "weight": 3,
+        "negatable": true
+      }
+    ],
+    "message": "\"Do not be afraid\" is one of the most repeated phrases in the Bible, and it is almost always said with a reason: \"for I am with you.\" Fear is not a sin; it's a signal. The Bible invites you to bring it to God rather than face it alone.",
+    "step": "Read Psalm 56:3-4 and use it as a one-line prayer whenever fear rises: \"When I am afraid, I put my trust in You.\"",
+    "passages": [
+      {
+        "ref": "Psalm 56:3-4",
+        "why": "\"When I am afraid, I put my trust in You.\""
+      },
+      {
+        "ref": "Isaiah 41:10",
+        "why": "\"Do not fear, for I am with you.\""
+      },
+      {
+        "ref": "Psalm 27:1",
+        "why": "\"The LORD is my light and my salvation; whom shall I fear?\""
+      },
+      {
+        "ref": "Joshua 1:9",
+        "why": "\"Be strong and courageous... the LORD your God is with you wherever you go.\""
+      },
+      {
+        "ref": "2 Timothy 1:7",
+        "why": "\"God has not given us a spirit of fear, but of power, love, and self-control.\""
+      },
+      {
+        "ref": "Mark 4:35-41",
+        "why": "Jesus calms a storm: \"Why are you so afraid?\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "What are you afraid of?",
+      "options": [
+        {
+          "label": "Dying",
+          "topic": "fear-of-death"
+        },
+        {
+          "label": "The future or money",
+          "topic": "money"
+        },
+        {
+          "label": "Something I have to face",
+          "topic": "courage"
+        },
+        {
+          "label": "I'm anxious all the time",
+          "topic": "anxiety"
+        }
+      ]
+    },
+    "related": ["anxiety", "courage", "peace"]
+  },
+  {
+    "id": "loneliness",
+    "title": "Lonely",
+    "chip": "Lonely",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "lonely",
+          "loneliness",
+          "alone",
+          "isolated",
+          "no friends",
+          "no one to talk to",
+          "nobody to talk to",
+          "left out",
+          "by myself",
+          "on my own",
+          "no one understands",
+          "nobody understands",
+          "outsider",
+          "excluded"
+        ],
+        "weight": 3,
+        "negatable": true
+      }
+    ],
+    "message": "Loneliness hurts, and the Bible takes it seriously: it says from the start that \"it is not good for the man to be alone.\" One psalm simply prays, \"Turn to me and be gracious, for I am lonely and afflicted.\" Jesus promised his friends, \"I am with you always,\" and called his followers to be a family for one another.",
+    "step": "Read Psalm 25:16-18 as your prayer, and consider one small step to connect with someone this week, perhaps a local church or group.",
+    "passages": [
+      {
+        "ref": "Psalm 25:16-18",
+        "why": "\"Turn to me and be gracious, for I am lonely and afflicted.\""
+      },
+      {
+        "ref": "Psalm 68:5-6",
+        "why": "\"God settles the lonely in families.\""
+      },
+      {
+        "ref": "Deuteronomy 31:8",
+        "why": "\"He will never leave you nor forsake you.\""
+      },
+      {
+        "ref": "Matthew 28:20",
+        "why": "\"Surely I am with you always, even to the end of the age.\""
+      },
+      {
+        "ref": "John 15:13-15",
+        "why": "Jesus: \"I have called you friends.\""
+      },
+      {
+        "ref": "Ecclesiastes 4:9-12",
+        "why": "\"Two are better than one.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "Find a church tradition that fits",
+        "href": "/traditions/quiz"
+      }
+    ],
+    "followUp": {
+      "question": "Anything else going on?",
+      "options": [
+        {
+          "label": "I feel worthless",
+          "topic": "self-worth"
+        },
+        {
+          "label": "I'm grieving",
+          "topic": "grief"
+        },
+        {
+          "label": "God feels far away",
+          "topic": "far-from-god"
+        }
+      ]
+    },
+    "related": ["self-worth", "far-from-god", "gods-love"]
+  },
+  {
+    "id": "guilt",
+    "title": "Guilty or ashamed",
+    "chip": "Guilty or ashamed",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "guilty",
+          "guilt",
+          "ashamed",
+          "shame",
+          "regret",
+          "regrets",
+          "sinned",
+          "my sin",
+          "my sins",
+          "messed up",
+          "screwed up",
+          "done something wrong",
+          "did something wrong",
+          "can god forgive",
+          "forgive me",
+          "unforgivable",
+          "bad person",
+          "failed god",
+          "let god down",
+          "conscience"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Guilt can be heavy. The Bible is honest that everyone has done wrong, and just as honest that God is \"compassionate and gracious... abounding in loving devotion.\" Psalm 51 was written after a terrible wrong, and it is full of hope. Christian traditions practise confession in different ways, but all of them speak of God's forgiveness through Jesus.",
+    "step": "Pray Psalm 51:1-12 slowly as your own words. Then read 1 John 1:9.",
+    "passages": [
+      {
+        "ref": "Psalm 51:1-12",
+        "why": "\"Create in me a clean heart, O God.\""
+      },
+      {
+        "ref": "1 John 1:9",
+        "why": "\"If we confess our sins, He is faithful and just to forgive us.\""
+      },
+      {
+        "ref": "Psalm 103:8-12",
+        "why": "\"As far as the east is from the west, so far has He removed our transgressions from us.\""
+      },
+      {
+        "ref": "Romans 8:1",
+        "why": "\"There is now no condemnation for those who are in Christ Jesus.\""
+      },
+      {
+        "ref": "Luke 15:11-24",
+        "why": "The son comes home ashamed; the father runs to him."
+      },
+      {
+        "ref": "Luke 7:36-50",
+        "why": "Jesus welcomes a woman known for her sins: \"Your faith has saved you; go in peace.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "How can I be right with God?",
+        "href": "/guide/salvation"
+      }
+    ],
+    "followUp": {
+      "question": "What would help?",
+      "options": [
+        {
+          "label": "How can I be right with God?",
+          "topic": "salvation"
+        },
+        {
+          "label": "I need to forgive someone",
+          "topic": "forgiving-others"
+        },
+        {
+          "label": "I keep giving in to temptation",
+          "topic": "temptation"
+        }
+      ]
+    },
+    "related": ["salvation", "forgiving-others", "gods-love"]
+  },
+  {
+    "id": "forgiving-others",
+    "title": "Hurt by someone or struggling to forgive",
+    "chip": "Struggling to forgive",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "forgive",
+          "forgiving",
+          "forgiveness",
+          "cannot forgive",
+          "hurt me",
+          "betrayed",
+          "betrayal",
+          "resent",
+          "resentment",
+          "bitter",
+          "bitterness",
+          "grudge",
+          "wronged",
+          "they hurt",
+          "cheated on me",
+          "lied to me",
+          "let me down"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Being hurt by someone is painful, and forgiving can be one of the hardest things anyone is asked to do. The Bible is honest about betrayal, and it calls Christians to forgive as they have been forgiven. Forgiving is not pretending it didn't matter, and it does not mean staying somewhere unsafe. If someone is harming you, your safety comes first.",
+    "step": "Read Psalm 55:12-14 and 22. Tell God honestly what happened before trying to forgive.",
+    "passages": [
+      {
+        "ref": "Psalm 55:12-14",
+        "why": "\"It is not an enemy who insults me... but it is you, a man like myself, my companion.\""
+      },
+      {
+        "ref": "Psalm 55:22",
+        "why": "\"Cast your burden upon the LORD, and He will sustain you.\""
+      },
+      {
+        "ref": "Genesis 50:15-21",
+        "why": "Joseph forgives the brothers who sold him: \"What you intended against me for evil, God intended for good.\""
+      },
+      {
+        "ref": "Matthew 18:21-35",
+        "why": "Peter asks how often to forgive; Jesus answers with a parable."
+      },
+      {
+        "ref": "Colossians 3:12-14",
+        "why": "\"Forgive as the Lord forgave you.\""
+      },
+      {
+        "ref": "Romans 12:17-21",
+        "why": "\"Do not repay anyone evil for evil... Do not avenge yourselves.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Does this fit?",
+      "options": [
+        {
+          "label": "I'm angry",
+          "topic": "anger"
+        },
+        {
+          "label": "It's about my relationship",
+          "topic": "relationships"
+        },
+        {
+          "label": "I feel guilty myself",
+          "topic": "guilt"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["anger", "relationships", "guilt"]
+  },
+  {
+    "id": "anger",
+    "title": "Angry",
+    "chip": "Angry",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "angry",
+          "anger",
+          "furious",
+          "rage",
+          "mad at",
+          "so mad",
+          "frustrated",
+          "frustration",
+          "irritated",
+          "annoyed",
+          "fed up",
+          "hate them",
+          "angry at god",
+          "mad at god",
+          "resentful"
+        ],
+        "weight": 3,
+        "negatable": true
+      }
+    ],
+    "message": "Anger is a strong emotion, and the Bible doesn't call all anger wrong: Jesus was angry at injustice and hard hearts. It warns about anger that turns into harm or bitterness: \"Be angry, yet do not sin.\" Some of the psalms are even angry prayers, which shows you can bring your anger to God rather than hide it.",
+    "step": "Read James 1:19-20, then write down what made you angry and give it to God before you act on it.",
+    "passages": [
+      {
+        "ref": "Ephesians 4:26-27",
+        "why": "\"Be angry, yet do not sin. Do not let the sun set upon your anger.\""
+      },
+      {
+        "ref": "James 1:19-20",
+        "why": "\"Be quick to listen, slow to speak, and slow to anger.\""
+      },
+      {
+        "ref": "Psalm 37:7-8",
+        "why": "\"Refrain from anger and abandon wrath.\""
+      },
+      {
+        "ref": "Proverbs 15:1",
+        "why": "\"A gentle answer turns away wrath.\""
+      },
+      {
+        "ref": "Mark 3:1-5",
+        "why": "Jesus is angry at hardness of heart, and heals."
+      },
+      {
+        "ref": "Jonah 4",
+        "why": "Jonah is angry with God, and God answers him patiently."
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "What is your anger about?",
+      "options": [
+        {
+          "label": "Someone hurt me",
+          "topic": "forgiving-others"
+        },
+        {
+          "label": "I'm angry at God about suffering",
+          "topic": "suffering"
+        },
+        {
+          "label": "I'm grieving",
+          "topic": "grief"
+        }
+      ]
+    },
+    "related": ["forgiving-others", "suffering", "peace"]
+  },
+  {
+    "id": "doubt",
+    "title": "Doubts: is any of this true?",
+    "chip": "Doubting",
+    "category": "faith",
+    "signals": [
+      {
+        "terms": [
+          "doubt",
+          "doubts",
+          "doubting",
+          "is it true",
+          "is god real",
+          "does god exist",
+          "is jesus real",
+          "not sure i believe",
+          "do not believe",
+          "cannot believe",
+          "struggling to believe",
+          "losing my faith",
+          "lost my faith",
+          "question my faith",
+          "questioning",
+          "skeptical",
+          "sceptical",
+          "atheist",
+          "agnostic",
+          "prove",
+          "evidence",
+          "deconstruct",
+          "deconstructing",
+          "is the bible true",
+          "did jesus rise",
+          "resurrection real",
+          "god real",
+          "god even real",
+          "jesus even real",
+          "is this real",
+          "real at all",
+          "god exists",
+          "existence of god",
+          "is there a god",
+          "is there really a god",
+          "believe in god"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Doubt is part of many people's faith journey, and the Bible makes room for it. A desperate father said to Jesus, \"I do believe; help my unbelief!\" Thomas wouldn't believe until he saw for himself, and John the Baptist, in prison, sent to ask whether Jesus was really the one. Honest questions are welcome.",
+    "step": "Read John 20:24-29 and Luke 1:1-4. Write down your biggest question and look for honest answers, including from people who disagree.",
+    "passages": [
+      {
+        "ref": "Mark 9:20-24",
+        "why": "\"I do believe; help my unbelief!\""
+      },
+      {
+        "ref": "John 20:24-29",
+        "why": "Thomas asks to see the evidence, and Jesus meets him."
+      },
+      {
+        "ref": "Matthew 11:2-6",
+        "why": "John the Baptist asks, \"Are You the One who was to come?\""
+      },
+      {
+        "ref": "Luke 1:1-4",
+        "why": "Luke's careful \"orderly account\" from eyewitnesses."
+      },
+      {
+        "ref": "1 Corinthians 15:3-8",
+        "why": "Paul lists the witnesses of the risen Jesus."
+      },
+      {
+        "ref": "Psalm 73:16-26",
+        "why": "A believer who nearly lost his footing, and what changed."
+      },
+      {
+        "ref": "Jude 1:22",
+        "why": "\"Have mercy on those who doubt.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "Read the book introductions (dates and authors)",
+        "href": "/bible"
+      },
+      {
+        "label": "How traditions understand Scripture",
+        "href": "/traditions/compare?a=catholic&b=reformed&c=eastern-orthodox"
+      }
+    ],
+    "followUp": {
+      "question": "What's behind the doubt?",
+      "options": [
+        {
+          "label": "Why is there suffering?",
+          "topic": "suffering"
+        },
+        {
+          "label": "God feels far away",
+          "topic": "far-from-god"
+        },
+        {
+          "label": "Who is Jesus?",
+          "topic": "who-is-jesus"
+        }
+      ]
+    },
+    "related": ["suffering", "who-is-jesus", "far-from-god"]
+  },
+  {
+    "id": "suffering",
+    "title": "Why does God allow suffering?",
+    "chip": "Why suffering?",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "why does god allow",
+          "why would god",
+          "why did god",
+          "why me",
+          "why is there suffering",
+          "suffering",
+          "evil in the world",
+          "bad things happen",
+          "unfair",
+          "injustice",
+          "pain in the world",
+          "why do good people",
+          "natural disaster",
+          "war",
+          "innocent"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "This is one of the oldest and hardest questions, and the Bible doesn't give a neat answer. Job's friends offered easy explanations and God said they were wrong. The Bible gives honest laments, the promise that God will one day end all suffering, and Jesus, who suffered with and for us.",
+    "step": "Read Job 38:1-7 and Job 42:1-6, then Romans 8:18-28. Notice that God answers Job with presence, not a formula.",
+    "passages": [
+      {
+        "ref": "Job 1:13-22",
+        "why": "Job loses everything and grieves honestly."
+      },
+      {
+        "ref": "Job 38:1-7",
+        "why": "God answers Job \"out of the whirlwind.\""
+      },
+      {
+        "ref": "John 9:1-3",
+        "why": "Jesus rejects the idea that suffering is always someone's fault."
+      },
+      {
+        "ref": "Romans 8:18-28",
+        "why": "Creation \"groaning\", and God working for good in all things."
+      },
+      {
+        "ref": "2 Corinthians 4:16-18",
+        "why": "\"Our light and momentary affliction is producing for us an eternal glory.\""
+      },
+      {
+        "ref": "Revelation 21:3-5",
+        "why": "\"He will wipe away every tear... Behold, I make all things new.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "About the book of Job",
+        "href": "/bible/job"
+      }
+    ],
+    "followUp": {
+      "question": "Is this personal for you right now?",
+      "options": [
+        {
+          "label": "I'm sick or in pain",
+          "topic": "illness"
+        },
+        {
+          "label": "I'm grieving",
+          "topic": "grief"
+        },
+        {
+          "label": "I'm angry at God",
+          "topic": "anger"
+        },
+        {
+          "label": "I'm doubting",
+          "topic": "doubt"
+        }
+      ]
+    },
+    "related": ["doubt", "grief", "hope"]
+  },
+  {
+    "id": "illness",
+    "title": "Sick or in pain",
+    "chip": "Sick or in pain",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "sick",
+          "ill",
+          "illness",
+          "disease",
+          "diagnosis",
+          "diagnosed",
+          "cancer",
+          "hospital",
+          "surgery",
+          "operation",
+          "chronic",
+          "pain",
+          "in pain",
+          "health",
+          "healing",
+          "heal me",
+          "treatment",
+          "chemo",
+          "disabled",
+          "disability",
+          "dementia"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Illness and pain can affect everything: your body, your mood, your faith. The Bible is full of people who cried out to God in sickness, and Jesus spent much of his time with the sick. Christians pray for healing, and also find that God's strength can be with them in weakness. Please keep following the care of your doctors too.",
+    "step": "Read Psalm 6:2-4 as a prayer, and 2 Corinthians 12:9: \"My grace is sufficient for you.\"",
+    "passages": [
+      {
+        "ref": "Psalm 6:2-4",
+        "why": "\"Heal me, O LORD, for my bones are in agony.\""
+      },
+      {
+        "ref": "Psalm 41:1-3",
+        "why": "\"The LORD will sustain him on his bed of illness.\""
+      },
+      {
+        "ref": "Mark 5:25-34",
+        "why": "A woman ill for twelve years reaches out to Jesus."
+      },
+      {
+        "ref": "James 5:13-16",
+        "why": "\"Is any one of you sick? He should call the elders of the church to pray over him.\""
+      },
+      {
+        "ref": "2 Corinthians 12:7-10",
+        "why": "\"My grace is sufficient for you, for My power is perfected in weakness.\""
+      },
+      {
+        "ref": "Isaiah 40:29-31",
+        "why": "\"He gives power to the faint.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "Are the gifts of the Spirit (like healing) for today?",
+        "href": "/traditions/questions/are-the-gifts-of-the-spirit-for-today"
+      }
+    ],
+    "followUp": {
+      "question": "Anything else?",
+      "options": [
+        {
+          "label": "I'm afraid of dying",
+          "topic": "fear-of-death"
+        },
+        {
+          "label": "Why does God allow this?",
+          "topic": "suffering"
+        },
+        {
+          "label": "I'm exhausted",
+          "topic": "tired"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["fear-of-death", "suffering", "tired"]
+  },
+  {
+    "id": "depression",
+    "title": "Low, hopeless or depressed",
+    "chip": "Low or depressed",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "depressed",
+          "depression",
+          "hopeless",
+          "no hope",
+          "sad",
+          "so sad",
+          "sadness",
+          "down",
+          "low",
+          "miserable",
+          "empty",
+          "dark place",
+          "darkness",
+          "crying",
+          "cannot get out of bed",
+          "nothing matters",
+          "what is the point",
+          "pointless",
+          "despair",
+          "broken",
+          "heavy"
+        ],
+        "weight": 3,
+        "negatable": true
+      }
+    ],
+    "message": "I'm sorry you're feeling this way. Depression is real, and it is not a sign of weak faith. The prophet Elijah once lay down and said, \"I have had enough, LORD.\" God's first response was rest and food. Please consider talking to a doctor or someone you trust; reaching out for help is a good and faithful thing to do.",
+    "step": "Read 1 Kings 19:3-8. Today, the next step might simply be to rest, eat, and tell one person how you are.",
+    "passages": [
+      {
+        "ref": "1 Kings 19:3-8",
+        "why": "Elijah: \"I have had enough, LORD.\" God sends rest and food."
+      },
+      {
+        "ref": "Psalm 42",
+        "why": "\"Why are you downcast, O my soul?... Put your hope in God.\""
+      },
+      {
+        "ref": "Psalm 88",
+        "why": "The darkest psalm, a prayer that ends in darkness. Even this is in the Bible."
+      },
+      {
+        "ref": "Psalm 34:17-18",
+        "why": "\"The LORD is near to the brokenhearted.\""
+      },
+      {
+        "ref": "Lamentations 3:19-26",
+        "why": "Remembering misery, and still hoping."
+      },
+      {
+        "ref": "Matthew 11:28-30",
+        "why": "\"Come to Me, all you who are weary and burdened, and I will give you rest.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "What would help?",
+      "options": [
+        {
+          "label": "I need some hope",
+          "topic": "hope"
+        },
+        {
+          "label": "I feel worthless",
+          "topic": "self-worth"
+        },
+        {
+          "label": "I feel lonely",
+          "topic": "loneliness"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["hope", "self-worth", "tired"]
+  },
+  {
+    "id": "tired",
+    "title": "Worn out or exhausted",
+    "chip": "Worn out",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "tired",
+          "exhausted",
+          "worn out",
+          "worn down",
+          "worn",
+          "weary",
+          "burnt out",
+          "burned out",
+          "burnout",
+          "drained",
+          "no energy",
+          "fatigue",
+          "overworked",
+          "need rest",
+          "cannot keep going",
+          "running on empty",
+          "sleep"
+        ],
+        "weight": 3,
+        "negatable": true
+      }
+    ],
+    "message": "Being worn out is not a failure. God built rest into creation and gave it as a gift. Jesus told his tired disciples, \"Come with Me privately to a solitary place, and let us rest for a while,\" and invited the weary to come to him for rest.",
+    "step": "Read Matthew 11:28-30. Then take one real step to rest this week, and don't feel guilty about it.",
+    "passages": [
+      {
+        "ref": "Matthew 11:28-30",
+        "why": "\"Come to Me, all you who are weary and burdened, and I will give you rest.\""
+      },
+      {
+        "ref": "Mark 6:30-32",
+        "why": "\"Come with Me privately to a solitary place, and let us rest for a while.\""
+      },
+      {
+        "ref": "Psalm 23:1-3",
+        "why": "\"He makes me lie down in green pastures... He restores my soul.\""
+      },
+      {
+        "ref": "Isaiah 40:28-31",
+        "why": "\"They will run and not grow weary.\""
+      },
+      {
+        "ref": "Psalm 127:1-2",
+        "why": "\"He gives sleep to His beloved.\""
+      },
+      {
+        "ref": "1 Kings 19:3-8",
+        "why": "An exhausted prophet is given rest and food."
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Is it more than tiredness?",
+      "options": [
+        {
+          "label": "I feel low or hopeless",
+          "topic": "depression"
+        },
+        {
+          "label": "I'm anxious",
+          "topic": "anxiety"
+        },
+        {
+          "label": "My faith feels dry",
+          "topic": "spiritual-dryness"
+        }
+      ]
+    },
+    "related": ["depression", "peace", "spiritual-dryness"]
+  },
+  {
+    "id": "gratitude",
+    "title": "Thankful or joyful",
+    "chip": "Thankful",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "thankful",
+          "grateful",
+          "gratitude",
+          "thank god",
+          "thank you god",
+          "happy",
+          "joy",
+          "joyful",
+          "blessed",
+          "celebrate",
+          "celebrating",
+          "good news",
+          "praise",
+          "rejoice",
+          "amazing",
+          "wonderful",
+          "new baby",
+          "got engaged",
+          "answered prayer",
+          "feel good",
+          "warmth",
+          "warm inside",
+          "full of love"
+        ],
+        "weight": 3,
+        "negatable": true
+      },
+      {
+        "terms": ["warm", "good", "great"],
+        "weight": 1
+      }
+    ],
+    "message": "Wonderful. The Bible is full of songs of thanks, and gratitude is one of the most natural responses to God. \"Give thanks to the LORD, for He is good; His loving devotion endures forever.\" Joy is worth savouring and sharing.",
+    "step": "Read Psalm 103:1-5 and write down three things you're thankful for today.",
+    "passages": [
+      {
+        "ref": "Psalm 100",
+        "why": "\"Enter His gates with thanksgiving.\""
+      },
+      {
+        "ref": "Psalm 103:1-5",
+        "why": "\"Bless the LORD, O my soul, and do not forget all His kind deeds.\""
+      },
+      {
+        "ref": "Psalm 136:1-9",
+        "why": "\"His loving devotion endures forever.\""
+      },
+      {
+        "ref": "1 Thessalonians 5:16-18",
+        "why": "\"Rejoice at all times. Pray without ceasing. Give thanks in every circumstance.\""
+      },
+      {
+        "ref": "Luke 17:11-19",
+        "why": "Ten are healed; one comes back to say thank you."
+      },
+      {
+        "ref": "Philippians 4:4",
+        "why": "\"Rejoice in the Lord always.\""
+      }
+    ],
+    "links": [],
+    "related": ["prayer", "peace"]
+  },
+  {
+    "id": "prayer",
+    "title": "How do I pray?",
+    "chip": "How to pray",
+    "category": "faith",
+    "signals": [
+      {
+        "terms": [
+          "pray",
+          "prayer",
+          "praying",
+          "how to pray",
+          "how do i pray",
+          "talk to god",
+          "speak to god",
+          "prayers",
+          "lord's prayer",
+          "lords prayer",
+          "our father"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Prayer is simply talking with God, honestly. There's no special language required. When his disciples asked, \"Lord, teach us to pray,\" Jesus gave them a short prayer we now call the Lord's Prayer. The Psalms are a whole book of prayers for every mood. Christian traditions pray in different ways, from set liturgies to silence to spontaneous words; all are welcome.",
+    "step": "Pray the Lord's Prayer (Matthew 6:9-13) slowly, pausing after each line to add your own words.",
+    "passages": [
+      {
+        "ref": "Matthew 6:5-13",
+        "why": "Jesus teaches the Lord's Prayer."
+      },
+      {
+        "ref": "Luke 11:1-13",
+        "why": "\"Ask, and it will be given to you.\""
+      },
+      {
+        "ref": "Psalm 62:8",
+        "why": "\"Pour out your hearts before Him.\""
+      },
+      {
+        "ref": "Romans 8:26-27",
+        "why": "When we don't know what to pray, \"the Spirit Himself intercedes for us.\""
+      },
+      {
+        "ref": "Philippians 4:6-7",
+        "why": "\"In everything, by prayer and petition, with thanksgiving, present your requests to God.\""
+      },
+      {
+        "ref": "Psalm 139:1-4",
+        "why": "God knows you already."
+      }
+    ],
+    "links": [
+      {
+        "label": "How traditions worship",
+        "href": "/traditions/compare?a=eastern-orthodox&b=quaker&c=pentecostal"
+      }
+    ],
+    "followUp": {
+      "question": "What makes prayer hard right now?",
+      "options": [
+        {
+          "label": "God feels far away",
+          "topic": "far-from-god"
+        },
+        {
+          "label": "My faith feels dry",
+          "topic": "spiritual-dryness"
+        },
+        {
+          "label": "I don't know where to start",
+          "topic": "new-to-faith"
+        }
+      ]
+    },
+    "related": ["far-from-god", "new-to-faith"]
+  },
+  {
+    "id": "purpose",
+    "title": "Looking for purpose or a big decision",
+    "chip": "Purpose or a decision",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "purpose",
+          "meaning",
+          "meaningless",
+          "direction",
+          "lost in life",
+          "what should i do",
+          "decision",
+          "decide",
+          "deciding",
+          "choice",
+          "choose",
+          "career",
+          "calling",
+          "god's will",
+          "gods will",
+          "what does god want",
+          "future",
+          "path",
+          "next step",
+          "crossroads",
+          "why am i here",
+          "plan for my life"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Questions of purpose and direction are big ones. The Bible doesn't usually give a detailed map for each decision, but it does give a direction: love God, love your neighbour, act justly, love mercy, walk humbly. Many Christians also find wisdom in prayer, Scripture and the advice of trusted people.",
+    "step": "Read Micah 6:8 and Proverbs 3:5-6. Then talk your decision through with someone wise.",
+    "passages": [
+      {
+        "ref": "Micah 6:8",
+        "why": "\"To act justly, to love mercy, and to walk humbly with your God.\""
+      },
+      {
+        "ref": "Proverbs 3:5-6",
+        "why": "\"Trust in the LORD with all your heart... He will make your paths straight.\""
+      },
+      {
+        "ref": "Matthew 22:36-40",
+        "why": "The greatest commandments: love God and love your neighbour."
+      },
+      {
+        "ref": "Romans 12:1-2",
+        "why": "\"Be transformed by the renewing of your mind.\""
+      },
+      {
+        "ref": "Ephesians 2:10",
+        "why": "Created \"to do good works, which God prepared in advance.\""
+      },
+      {
+        "ref": "Jeremiah 29:11-13",
+        "why": "God's promise to exiles: \"plans to prosper you and not to harm you.\" (Spoken to Israel in exile.)"
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Is something else involved?",
+      "options": [
+        {
+          "label": "I'm anxious about it",
+          "topic": "anxiety"
+        },
+        {
+          "label": "Money or work worries",
+          "topic": "money"
+        },
+        {
+          "label": "I'm waiting for something",
+          "topic": "waiting"
+        }
+      ]
+    },
+    "related": ["waiting", "anxiety", "courage"]
+  },
+  {
+    "id": "relationships",
+    "title": "Relationships, love and marriage",
+    "chip": "Relationships",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "relationship",
+          "boyfriend",
+          "girlfriend",
+          "partner",
+          "marriage",
+          "married",
+          "husband",
+          "wife",
+          "divorce",
+          "divorced",
+          "breakup",
+          "break up",
+          "broke up",
+          "dating",
+          "love life",
+          "engaged",
+          "wedding",
+          "single",
+          "heartbroken",
+          "heartbreak",
+          "separated",
+          "affair"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Relationships bring some of life's deepest joy and deepest pain. The Bible celebrates love (it even contains a book of love poetry) and gives a picture of love that is patient and kind. If a relationship involves abuse or control, please know that is never God's will for you, and reach out for help.",
+    "step": "Read 1 Corinthians 13:4-7 and ask: where is love like this already, and where does it need help?",
+    "passages": [
+      {
+        "ref": "1 Corinthians 13:4-7",
+        "why": "\"Love is patient, love is kind.\""
+      },
+      {
+        "ref": "Genesis 2:18-24",
+        "why": "\"It is not good for the man to be alone.\""
+      },
+      {
+        "ref": "Colossians 3:12-14",
+        "why": "\"Put on love, which is the bond of perfect unity.\""
+      },
+      {
+        "ref": "Ruth 1:16-17",
+        "why": "\"Wherever you go, I will go.\" A story of loyal love."
+      },
+      {
+        "ref": "Song of Songs 8:6-7",
+        "why": "\"Love is as strong as death... Mighty waters cannot quench love.\""
+      },
+      {
+        "ref": "Psalm 147:3",
+        "why": "\"He heals the brokenhearted and binds up their wounds.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Is it about...",
+      "options": [
+        {
+          "label": "Someone hurt me",
+          "topic": "forgiving-others"
+        },
+        {
+          "label": "I feel lonely",
+          "topic": "loneliness"
+        },
+        {
+          "label": "Family",
+          "topic": "family"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["forgiving-others", "loneliness", "family"]
+  },
+  {
+    "id": "family",
+    "title": "Family and parenting",
+    "chip": "Family",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "family",
+          "parent",
+          "parenting",
+          "my kids",
+          "my children",
+          "my son",
+          "my daughter",
+          "toddler",
+          "teenager",
+          "my parents",
+          "my mum",
+          "my mom",
+          "my dad",
+          "siblings",
+          "pregnant",
+          "pregnancy",
+          "raising",
+          "mother",
+          "father"
+        ],
+        "weight": 2
+      }
+    ],
+    "message": "Family life can be beautiful, messy and exhausting. The Bible is honest about families, including plenty of difficult ones, and returns again and again to God as a faithful parent. It encourages passing on faith in everyday life, and patience on all sides.",
+    "step": "Read Luke 15:11-32 and notice how the father treats both of his sons.",
+    "passages": [
+      {
+        "ref": "Luke 15:11-32",
+        "why": "A father with two very different sons."
+      },
+      {
+        "ref": "Deuteronomy 6:4-9",
+        "why": "Talking about God's ways \"when you sit at home and when you walk along the road.\""
+      },
+      {
+        "ref": "Psalm 127",
+        "why": "\"Unless the LORD builds the house...\""
+      },
+      {
+        "ref": "Ephesians 6:1-4",
+        "why": "Children and parents, with gentleness."
+      },
+      {
+        "ref": "Luke 2:41-52",
+        "why": "Even Jesus' parents lost track of him and were anxious."
+      },
+      {
+        "ref": "Isaiah 66:13",
+        "why": "\"As a mother comforts her son, so will I comfort you.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Anything else?",
+      "options": [
+        {
+          "label": "I'm worn out",
+          "topic": "tired"
+        },
+        {
+          "label": "Relationship struggles",
+          "topic": "relationships"
+        },
+        {
+          "label": "I'm grieving someone",
+          "topic": "grief"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["relationships", "tired"]
+  },
+  {
+    "id": "temptation",
+    "title": "Temptation or addiction",
+    "chip": "Temptation or addiction",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "temptation",
+          "tempted",
+          "tempting",
+          "addiction",
+          "addicted",
+          "addict",
+          "porn",
+          "pornography",
+          "drinking",
+          "alcohol",
+          "drugs",
+          "gambling",
+          "relapse",
+          "relapsed",
+          "cannot stop",
+          "keep doing",
+          "bad habit",
+          "lust",
+          "craving"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Struggling with temptation or addiction is common, and nothing to hide from God. Paul wrote, \"I do not do the good I want to do.\" Jesus was tempted too, so he understands. Real change usually needs support: a trusted friend, a church, a support group, or professional help.",
+    "step": "Read 1 Corinthians 10:13 and Hebrews 4:15-16. Then tell one trustworthy person what you're facing.",
+    "passages": [
+      {
+        "ref": "1 Corinthians 10:13",
+        "why": "\"God is faithful; He will not let you be tempted beyond what you can bear.\""
+      },
+      {
+        "ref": "Hebrews 4:15-16",
+        "why": "Jesus was tempted in every way, yet without sin; approach his throne of grace."
+      },
+      {
+        "ref": "Matthew 4:1-11",
+        "why": "Jesus is tempted in the wilderness."
+      },
+      {
+        "ref": "Romans 7:15-25",
+        "why": "\"I do not do the good I want to do.\""
+      },
+      {
+        "ref": "Galatians 5:16-25",
+        "why": "Life by the Spirit, and the fruit of the Spirit."
+      },
+      {
+        "ref": "James 1:12-15",
+        "why": "How temptation grows, and the crown of life."
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Is guilt part of it?",
+      "options": [
+        {
+          "label": "I feel guilty or ashamed",
+          "topic": "guilt"
+        },
+        {
+          "label": "I feel worthless",
+          "topic": "self-worth"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["guilt", "self-worth"]
+  },
+  {
+    "id": "money",
+    "title": "Money worries or job loss",
+    "chip": "Money worries",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "money",
+          "debt",
+          "bills",
+          "rent",
+          "mortgage",
+          "job",
+          "lost my job",
+          "unemployed",
+          "redundant",
+          "laid off",
+          "fired",
+          "work",
+          "broke",
+          "poor",
+          "cannot afford",
+          "finances",
+          "financial",
+          "provide",
+          "provision",
+          "poverty",
+          "pay"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Money worries can keep you awake at night. Jesus spoke about money more than almost any other topic, and he spoke gently to worried people: God knows what you need. The Bible also calls God's people to help those in need, so it's okay to ask for help.",
+    "step": "Read Matthew 6:25-34, then write down one practical step and one thing you'll entrust to God.",
+    "passages": [
+      {
+        "ref": "Matthew 6:25-34",
+        "why": "\"Your heavenly Father knows that you need them.\""
+      },
+      {
+        "ref": "Philippians 4:11-13",
+        "why": "\"I am accustomed to any and every situation.\""
+      },
+      {
+        "ref": "Philippians 4:19",
+        "why": "\"My God will supply all your needs.\""
+      },
+      {
+        "ref": "Hebrews 13:5",
+        "why": "\"Keep your lives free from the love of money and be content... Never will I leave you.\""
+      },
+      {
+        "ref": "Proverbs 30:8-9",
+        "why": "\"Give me neither poverty nor riches.\""
+      },
+      {
+        "ref": "Psalm 37:25",
+        "why": "\"Never have I seen the righteous abandoned or their children begging for bread.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Anything else?",
+      "options": [
+        {
+          "label": "I'm anxious",
+          "topic": "anxiety"
+        },
+        {
+          "label": "I need to make a decision",
+          "topic": "purpose"
+        }
+      ]
+    },
+    "related": ["anxiety", "purpose", "waiting"]
+  },
+  {
+    "id": "waiting",
+    "title": "Waiting for something",
+    "chip": "Waiting",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "waiting",
+          "wait",
+          "how long",
+          "patience",
+          "patient",
+          "unanswered prayer",
+          "still waiting",
+          "nothing is happening",
+          "delay",
+          "delayed",
+          "when will"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Waiting is hard, especially when you've prayed and nothing seems to change. The Bible is full of people who waited: Abraham and Sarah for a child, Israel in exile, the psalmists crying \"How long?\" Waiting on God is not passive; it's trusting him while you keep going.",
+    "step": "Read Psalm 27:13-14 and Psalm 40:1-3.",
+    "passages": [
+      {
+        "ref": "Psalm 27:13-14",
+        "why": "\"Wait patiently for the LORD; be strong and courageous.\""
+      },
+      {
+        "ref": "Psalm 40:1-3",
+        "why": "\"I waited patiently for the LORD; He inclined to me and heard my cry.\""
+      },
+      {
+        "ref": "Isaiah 40:31",
+        "why": "\"Those who wait upon the LORD will renew their strength.\""
+      },
+      {
+        "ref": "Lamentations 3:25-26",
+        "why": "\"It is good to wait quietly for the salvation of the LORD.\""
+      },
+      {
+        "ref": "Habakkuk 2:3",
+        "why": "\"Though it lingers, wait for it.\""
+      },
+      {
+        "ref": "Romans 8:24-25",
+        "why": "Hope for what we do not yet see."
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "What are you waiting for?",
+      "options": [
+        {
+          "label": "Healing",
+          "topic": "illness"
+        },
+        {
+          "label": "Direction",
+          "topic": "purpose"
+        },
+        {
+          "label": "Hope",
+          "topic": "hope"
+        }
+      ]
+    },
+    "related": ["hope", "purpose"]
+  },
+  {
+    "id": "peace",
+    "title": "Looking for peace",
+    "chip": "Peace",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "peace",
+          "calm",
+          "peaceful",
+          "rest",
+          "quiet",
+          "stillness",
+          "be still",
+          "serenity",
+          "settle my mind",
+          "inner peace",
+          "chaos",
+          "noise",
+          "busy"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Jesus promised his friends a peace that is different from what the world gives. In the Bible, peace (shalom) means more than calm: it means wholeness, everything as it should be. Stillness before God is a good place to start.",
+    "step": "Read Psalm 46:10 and sit in silence for two minutes. Then read John 14:27.",
+    "passages": [
+      {
+        "ref": "John 14:27",
+        "why": "\"Peace I leave with you; My peace I give to you.\""
+      },
+      {
+        "ref": "Philippians 4:6-7",
+        "why": "\"The peace of God, which surpasses all understanding.\""
+      },
+      {
+        "ref": "Isaiah 26:3",
+        "why": "\"You will keep in perfect peace the steadfast of mind.\""
+      },
+      {
+        "ref": "Numbers 6:24-26",
+        "why": "\"The LORD bless you and keep you... and give you peace.\""
+      },
+      {
+        "ref": "Psalm 4:8",
+        "why": "\"I will lie down and sleep in peace.\""
+      },
+      {
+        "ref": "Psalm 46",
+        "why": "\"Be still, and know that I am God.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "What's taking your peace?",
+      "options": [
+        {
+          "label": "Anxiety",
+          "topic": "anxiety"
+        },
+        {
+          "label": "Exhaustion",
+          "topic": "tired"
+        },
+        {
+          "label": "Anger",
+          "topic": "anger"
+        }
+      ]
+    },
+    "related": ["anxiety", "tired"]
+  },
+  {
+    "id": "courage",
+    "title": "Facing something hard",
+    "chip": "Facing something hard",
+    "category": "life",
+    "signals": [
+      {
+        "terms": [
+          "courage",
+          "brave",
+          "strength",
+          "strong",
+          "face",
+          "facing",
+          "hard thing",
+          "challenge",
+          "exam",
+          "interview",
+          "test",
+          "big day",
+          "difficult",
+          "scary",
+          "overcome"
+        ],
+        "weight": 2.5
+      }
+    ],
+    "message": "Facing something hard takes courage, and the Bible's encouragement is not that you can do it on your own, but that you are not alone. Joshua, Esther and many others faced daunting challenges with that promise.",
+    "step": "Read Joshua 1:9 before you go, and take it with you.",
+    "passages": [
+      {
+        "ref": "Joshua 1:9",
+        "why": "\"Be strong and courageous... for the LORD your God is with you wherever you go.\""
+      },
+      {
+        "ref": "Isaiah 43:1-2",
+        "why": "\"When you pass through the waters, I will be with you.\""
+      },
+      {
+        "ref": "Psalm 27:1-3",
+        "why": "\"The LORD is the stronghold of my life; whom shall I dread?\""
+      },
+      {
+        "ref": "Esther 4:13-16",
+        "why": "\"Who knows if perhaps you have come to the kingdom for such a time as this?\""
+      },
+      {
+        "ref": "Philippians 4:13",
+        "why": "\"I can do all things through Christ who gives me strength.\""
+      },
+      {
+        "ref": "Deuteronomy 31:6",
+        "why": "\"He will never leave you nor forsake you.\""
+      }
+    ],
+    "links": [],
+    "related": ["fear", "peace"]
+  },
+  {
+    "id": "gods-love",
+    "title": "Does God love me?",
+    "chip": "Does God love me?",
+    "category": "faith",
+    "signals": [
+      {
+        "terms": [
+          "does god love me",
+          "god loves me",
+          "love me",
+          "god's love",
+          "gods love",
+          "loved by god",
+          "does god care",
+          "does anyone love me",
+          "god care about me",
+          "god hates me",
+          "god is angry with me"
+        ],
+        "weight": 4
+      },
+      {
+        "terms": ["love", "loved", "care"],
+        "weight": 1
+      }
+    ],
+    "message": "The Bible's answer is yes, more than you can imagine. \"God so loved the world that He gave His one and only Son.\" \"God proves His love for us in this: While we were still sinners, Christ died for us.\" God's love doesn't depend on how you feel or what you've done.",
+    "step": "Read 1 John 4:9-10 and Romans 8:38-39. Try replacing \"us\" with your own name.",
+    "passages": [
+      {
+        "ref": "John 3:16-17",
+        "why": "\"For God so loved the world...\""
+      },
+      {
+        "ref": "Romans 5:6-8",
+        "why": "\"While we were still sinners, Christ died for us.\""
+      },
+      {
+        "ref": "1 John 4:9-10",
+        "why": "\"Not that we loved God, but that He loved us.\""
+      },
+      {
+        "ref": "Zephaniah 3:17",
+        "why": "\"He will rejoice over you with singing.\""
+      },
+      {
+        "ref": "Luke 15:1-7",
+        "why": "The shepherd leaves the ninety-nine to find the one."
+      },
+      {
+        "ref": "Romans 8:38-39",
+        "why": "Nothing \"will be able to separate us from the love of God.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "Next?",
+      "options": [
+        {
+          "label": "How can I be right with God?",
+          "topic": "salvation"
+        },
+        {
+          "label": "I feel worthless",
+          "topic": "self-worth"
+        }
+      ]
+    },
+    "related": ["self-worth", "salvation"]
+  },
+  {
+    "id": "hope",
+    "title": "Need some hope",
+    "chip": "Need hope",
+    "category": "feelings",
+    "signals": [
+      {
+        "terms": [
+          "hope",
+          "hopeful",
+          "need hope",
+          "give up",
+          "giving up",
+          "want to give up",
+          "encouragement",
+          "encourage me",
+          "something to hold on to",
+          "better days",
+          "light at the end"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Christian hope is not wishful thinking; it rests on God's faithfulness and on Jesus' resurrection. The Bible's story ends not in darkness but with God making all things new. Even in the middle of grief, the writer of Lamentations could say, \"His mercies never fail. They are new every morning.\"",
+    "step": "Read Lamentations 3:21-24, and come back to it tomorrow morning.",
+    "passages": [
+      {
+        "ref": "Lamentations 3:21-24",
+        "why": "\"His mercies never fail. They are new every morning.\""
+      },
+      {
+        "ref": "Romans 15:13",
+        "why": "\"May the God of hope fill you with all joy and peace.\""
+      },
+      {
+        "ref": "1 Peter 1:3-6",
+        "why": "\"A living hope through the resurrection of Jesus Christ.\""
+      },
+      {
+        "ref": "Psalm 130",
+        "why": "\"I wait for the LORD... and in His word I put my hope.\""
+      },
+      {
+        "ref": "Revelation 21:1-5",
+        "why": "\"Behold, I make all things new.\""
+      },
+      {
+        "ref": "Romans 5:1-5",
+        "why": "\"Hope does not disappoint us.\""
+      }
+    ],
+    "links": [],
+    "followUp": {
+      "question": "What are you hoping for?",
+      "options": [
+        {
+          "label": "Healing",
+          "topic": "illness"
+        },
+        {
+          "label": "To feel close to God again",
+          "topic": "far-from-god"
+        },
+        {
+          "label": "A way forward",
+          "topic": "purpose"
+        }
+      ]
+    },
+    "care": true,
+    "related": ["depression", "waiting"]
+  },
+  {
+    "id": "salvation",
+    "title": "How can I be right with God?",
+    "chip": "Being right with God",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "saved",
+          "be saved",
+          "salvation",
+          "get to heaven",
+          "go to heaven",
+          "right with god",
+          "born again",
+          "become a christian",
+          "how do i become",
+          "follow jesus",
+          "accept jesus",
+          "eternal life",
+          "forgiven by god",
+          "how to be forgiven",
+          "repent"
+        ],
+        "weight": 4
+      }
+    ],
+    "message": "All Christian traditions agree that people are reconciled to God by his grace through Jesus Christ, and that this calls for faith and a changed life. They describe how that grace is received in different ways (for example, the roles of faith, baptism and the sacraments). The Bible passages below are ones all traditions treasure.",
+    "step": "Read Luke 15:11-24 and Romans 5:1-8. If you want to take a step, talk to God honestly, and consider talking to a local church.",
+    "passages": [
+      {
+        "ref": "John 3:16-17",
+        "why": "\"Everyone who believes in Him shall not perish but have eternal life.\""
+      },
+      {
+        "ref": "Romans 3:21-26",
+        "why": "\"All have sinned... and are justified freely by His grace.\""
+      },
+      {
+        "ref": "Ephesians 2:4-10",
+        "why": "\"By grace you have been saved through faith.\""
+      },
+      {
+        "ref": "Acts 2:36-39",
+        "why": "\"Repent and be baptized, every one of you.\""
+      },
+      {
+        "ref": "Romans 10:9-13",
+        "why": "\"If you confess with your mouth, 'Jesus is Lord'...\""
+      },
+      {
+        "ref": "Titus 3:4-7",
+        "why": "\"He saved us, not by the righteous deeds we had done, but according to His mercy.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "Compare how traditions describe salvation",
+        "href": "/traditions/compare?a=catholic&b=lutheran&c=eastern-orthodox"
+      },
+      {
+        "label": "Can you lose your salvation?",
+        "href": "/traditions/questions/can-you-lose-your-salvation"
+      },
+      {
+        "label": "Who should be baptised?",
+        "href": "/traditions/questions/who-should-be-baptised"
+      }
+    ],
+    "followUp": {
+      "question": "Where next?",
+      "options": [
+        {
+          "label": "Who is Jesus?",
+          "topic": "who-is-jesus"
+        },
+        {
+          "label": "Which church is right for me?",
+          "topic": "choosing-church"
+        },
+        {
+          "label": "How do I pray?",
+          "topic": "prayer"
+        }
+      ]
+    },
+    "related": ["who-is-jesus", "choosing-church"]
+  },
+  {
+    "id": "choosing-church",
+    "title": "Which church or tradition?",
+    "chip": "Which church?",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "which church",
+          "what church",
+          "denomination",
+          "denominations",
+          "catholic",
+          "orthodox",
+          "protestant",
+          "baptist",
+          "methodist",
+          "anglican",
+          "lutheran",
+          "pentecostal",
+          "presbyterian",
+          "evangelical",
+          "church to go",
+          "find a church",
+          "join a church",
+          "go to church",
+          "difference between",
+          "differences between",
+          "why so many churches"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "There are many Christian traditions, from Catholic and Orthodox to many kinds of Protestant. They share a great deal (Jesus, the Bible, the creeds for most) and differ on questions like authority, baptism and Communion. Exploring them fairly, in their own words, can help you understand others and find where you belong.",
+    "step": "Take the Belief Explorer quiz, then read the profiles of your top matches and their first-visit guides.",
+    "passages": [
+      {
+        "ref": "John 17:20-23",
+        "why": "Jesus prays \"that all of them may be one.\""
+      },
+      {
+        "ref": "Ephesians 4:1-6",
+        "why": "\"One Lord, one faith, one baptism.\""
+      },
+      {
+        "ref": "Acts 2:42-47",
+        "why": "What the first Christians did together."
+      },
+      {
+        "ref": "1 Corinthians 12:12-27",
+        "why": "Many parts, one body."
+      }
+    ],
+    "links": [
+      {
+        "label": "Belief Explorer quiz",
+        "href": "/traditions/quiz"
+      },
+      {
+        "label": "Family tree of traditions",
+        "href": "/traditions/tree"
+      },
+      {
+        "label": "Compare traditions side by side",
+        "href": "/traditions/compare"
+      },
+      {
+        "label": "All traditions",
+        "href": "/traditions"
+      }
+    ],
+    "followUp": {
+      "question": "Specific questions?",
+      "options": [
+        {
+          "label": "Baptism and Communion",
+          "topic": "church-practices"
+        },
+        {
+          "label": "Mary and the saints",
+          "topic": "mary"
+        }
+      ]
+    },
+    "related": ["church-practices", "mary"]
+  },
+  {
+    "id": "church-practices",
+    "title": "Questions about baptism or Communion",
+    "chip": "Baptism & Communion",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "baptism",
+          "baptised",
+          "baptized",
+          "baptise",
+          "baptize",
+          "communion",
+          "eucharist",
+          "lord's supper",
+          "lords supper",
+          "mass",
+          "sacrament",
+          "sacraments",
+          "christening",
+          "confirmation"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Baptism and Communion (the Lord's Supper) were given by Jesus and are practised by almost all Christians, but traditions understand them differently. Who should be baptised, and how? Is Jesus present in the bread and wine, and how? The Big Questions pages lay out each view fairly.",
+    "step": "Read Matthew 28:18-20 and 1 Corinthians 11:23-26, then look at the two Big Questions below.",
+    "passages": [
+      {
+        "ref": "Matthew 28:18-20",
+        "why": "Jesus sends his followers to baptise and teach."
+      },
+      {
+        "ref": "Romans 6:3-4",
+        "why": "Baptism as being buried and raised with Christ."
+      },
+      {
+        "ref": "Acts 2:38-41",
+        "why": "\"Repent and be baptized.\""
+      },
+      {
+        "ref": "Luke 22:14-20",
+        "why": "The Last Supper: \"Do this in remembrance of Me.\""
+      },
+      {
+        "ref": "1 Corinthians 11:23-26",
+        "why": "Paul passes on what he received about the Lord's Supper."
+      },
+      {
+        "ref": "John 6:53-58",
+        "why": "\"Whoever eats My flesh and drinks My blood has eternal life.\""
+      }
+    ],
+    "links": [
+      {
+        "label": "Who should be baptised?",
+        "href": "/traditions/questions/who-should-be-baptised"
+      },
+      {
+        "label": "What happens at Communion?",
+        "href": "/traditions/questions/what-happens-at-communion"
+      }
+    ],
+    "related": ["choosing-church"]
+  },
+  {
+    "id": "mary",
+    "title": "Mary and the saints",
+    "chip": "Mary and the saints",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "mary",
+          "virgin mary",
+          "mother of god",
+          "mother of jesus",
+          "saints",
+          "saint",
+          "rosary",
+          "hail mary",
+          "pray to saints",
+          "intercession"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Mary, the mother of Jesus, is honoured by all Christians as a woman of great faith. Traditions differ on how she should be honoured and whether believers can ask her and the saints to pray for them. The passages below are where she appears in the Gospels and Acts.",
+    "step": "Read Luke 1:26-56, Mary's response to the angel and her song.",
+    "passages": [
+      {
+        "ref": "Luke 1:26-38",
+        "why": "The angel Gabriel visits Mary: \"I am the Lord's servant.\""
+      },
+      {
+        "ref": "Luke 1:46-55",
+        "why": "Mary's song (the Magnificat)."
+      },
+      {
+        "ref": "John 2:1-11",
+        "why": "At the wedding in Cana: \"Do whatever He tells you.\""
+      },
+      {
+        "ref": "John 19:25-27",
+        "why": "Jesus entrusts his mother to the beloved disciple."
+      },
+      {
+        "ref": "Acts 1:14",
+        "why": "Mary prays with the first disciples."
+      }
+    ],
+    "links": [
+      {
+        "label": "What is the role of Mary?",
+        "href": "/traditions/questions/what-is-the-role-of-mary"
+      }
+    ],
+    "related": ["choosing-church"]
+  },
+  {
+    "id": "holy-spirit",
+    "title": "The Holy Spirit and spiritual gifts",
+    "chip": "Holy Spirit",
+    "category": "questions",
+    "signals": [
+      {
+        "terms": [
+          "holy spirit",
+          "holy ghost",
+          "spirit",
+          "speaking in tongues",
+          "tongues",
+          "prophecy",
+          "spiritual gifts",
+          "gifts of the spirit",
+          "miracles",
+          "baptism in the spirit",
+          "filled with the spirit"
+        ],
+        "weight": 3
+      }
+    ],
+    "message": "Christians believe the Holy Spirit is God, present with believers, giving life, comfort and gifts. Traditions agree on much of this, but differ on whether gifts like speaking in tongues, prophecy and healing continue in the same way today.",
+    "step": "Read Acts 2 (the day of Pentecost) and Galatians 5:22-23.",
+    "passages": [
+      {
+        "ref": "John 14:15-17",
+        "why": "Jesus promises \"another Advocate\", the Spirit of truth."
+      },
+      {
+        "ref": "Acts 2:1-21",
+        "why": "The Holy Spirit comes at Pentecost."
+      },
+      {
+        "ref": "Romans 8:9-16",
+        "why": "\"The Spirit Himself testifies with our spirit that we are God's children.\""
+      },
+      {
+        "ref": "1 Corinthians 12:4-11",
+        "why": "\"There are different gifts, but the same Spirit.\""
+      },
+      {
+        "ref": "Galatians 5:22-23",
+        "why": "The fruit of the Spirit: love, joy, peace..."
+      }
+    ],
+    "links": [
+      {
+        "label": "Are the gifts of the Spirit for today?",
+        "href": "/traditions/questions/are-the-gifts-of-the-spirit-for-today"
+      }
+    ],
+    "related": ["choosing-church"]
+  }
+]

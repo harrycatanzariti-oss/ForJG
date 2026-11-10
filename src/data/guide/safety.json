@@ -1,0 +1,111 @@
+{
+  "crisis": {
+    "title": "You matter. Please reach out now.",
+    "message": "It sounds like you might be thinking about ending your life or hurting yourself. You don't have to face this alone, and you deserve support right now. Please contact one of these free, confidential services, or your local emergency number if you are in immediate danger.",
+    "phrases": [
+      "kill myself",
+      "killing myself",
+      "suicide",
+      "suicidal",
+      "end my life",
+      "end it all",
+      "take my life",
+      "take my own life",
+      "want to die",
+      "wanna die",
+      "wish i was dead",
+      "wish i were dead",
+      "better off dead",
+      "better off without me",
+      "hurt myself",
+      "harm myself",
+      "self harm",
+      "selfharm",
+      "cutting myself",
+      "no reason to live",
+      "not want to live",
+      "do not want to live",
+      "not want to be alive",
+      "not want to be here anymore",
+      "cannot go on",
+      "overdose"
+    ],
+    "negatedPhrases": ["do not want to die", "not want to die", "never want to die"],
+    "resources": [
+      {
+        "region": "Anywhere",
+        "name": "Find A Helpline (free, worldwide directory)",
+        "contact": "findahelpline.com",
+        "href": "https://findahelpline.com"
+      },
+      {
+        "region": "United States & Canada",
+        "name": "Suicide & Crisis Lifeline",
+        "contact": "Call or text 988",
+        "href": "tel:988"
+      },
+      { "region": "UK & Ireland", "name": "Samaritans", "contact": "Call 116 123", "href": "tel:116123" },
+      { "region": "Australia", "name": "Lifeline", "contact": "Call 13 11 14", "href": "tel:131114" },
+      {
+        "region": "Emergency",
+        "name": "Emergency services",
+        "contact": "911 (US/Canada), 999 or 112 (UK/Europe), 000 (Australia)",
+        "href": ""
+      }
+    ]
+  },
+  "abuse": {
+    "title": "Your safety comes first",
+    "message": "If someone is hurting, threatening or controlling you, it is not your fault and it is never God's will for you. You deserve to be safe. These free services can help you think through options confidentially.",
+    "phrases": [
+      "abused",
+      "abusing me",
+      "abusive",
+      "hits me",
+      "hitting me",
+      "beats me",
+      "beat me",
+      "raped",
+      "rape",
+      "sexually assaulted",
+      "assaulted",
+      "domestic violence",
+      "domestic abuse",
+      "unsafe at home",
+      "not safe at home",
+      "afraid of my husband",
+      "afraid of my wife",
+      "afraid of my partner",
+      "threatens me",
+      "controls me"
+    ],
+    "resources": [
+      {
+        "region": "United States",
+        "name": "National Domestic Violence Hotline",
+        "contact": "Call 1-800-799-7233",
+        "href": "tel:18007997233"
+      },
+      {
+        "region": "United Kingdom",
+        "name": "National Domestic Abuse Helpline",
+        "contact": "Call 0808 2000 247",
+        "href": "tel:08082000247"
+      },
+      { "region": "Australia", "name": "1800RESPECT", "contact": "Call 1800 737 732", "href": "tel:1800737732" },
+      {
+        "region": "Anywhere",
+        "name": "Find A Helpline",
+        "contact": "findahelpline.com",
+        "href": "https://findahelpline.com"
+      },
+      {
+        "region": "Emergency",
+        "name": "Emergency services",
+        "contact": "If you are in danger now, call your local emergency number.",
+        "href": ""
+      }
+    ]
+  },
+  "careNote": "If you're struggling to cope, please talk to someone you trust, a doctor, or a helpline. You can find free support anywhere in the world at findahelpline.com."
+}
