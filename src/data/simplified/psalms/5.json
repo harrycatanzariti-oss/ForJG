@@ -1,0 +1,36 @@
+{
+  "book": "psalms",
+  "chapter": 5,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-3",
+      "text": "\"Listen to my words, LORD; consider my sighing. Hear my cry for help, my King and my God, for I pray to you. In the morning you hear my voice; in the morning I lay my requests before you and wait expectantly.\""
+    },
+    {
+      "verses": "4-6",
+      "text": "God does not take pleasure in evil. The arrogant cannot stand in his presence. He hates all who do wrong and destroys those who tell lies; he despises violence and deceit."
+    },
+    {
+      "verses": "7-8",
+      "text": "\"But I, by your great love, can come into your house; in reverence I bow toward your holy temple.\" David asks God to lead him in righteousness and make the way straight before him, because of his enemies."
+    },
+    {
+      "verses": "9-10",
+      "text": "David describes his enemies: nothing they say can be trusted, their hearts are full of destruction, and their words are like an open grave. He asks God to hold them guilty and let their own plans bring their downfall, because they have rebelled against God."
+    },
+    {
+      "verses": "11-12",
+      "text": "\"But let all who take refuge in you be glad; let them sing for joy forever. Spread your protection over them, that those who love your name may rejoice. Surely, LORD, you bless the righteous; you surround them with your favour as with a shield.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "In the morning, David brings his requests to God and waits, trusting him to protect those who take refuge in him.",
+    "points": [
+      "David brings his prayers to God each morning and waits expectantly.",
+      "God hates evil and deceit.",
+      "Those who take refuge in God can be glad; he surrounds them with favour like a shield."
+    ],
+    "reflection": "David prayed in the morning and waited expectantly. What could your morning conversation with God look like?"
+  }
+}

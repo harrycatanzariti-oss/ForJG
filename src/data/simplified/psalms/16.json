@@ -1,0 +1,28 @@
+{
+  "book": "psalms",
+  "chapter": 16,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-4",
+      "text": "\"Keep me safe, my God, for in you I take refuge. I said to the LORD, 'You are my Lord; apart from you I have no good thing.'\" David delights in God's faithful people. Those who run after other gods will suffer more and more; he will not join their worship."
+    },
+    {
+      "verses": "5-8",
+      "text": "\"LORD, you alone are my portion and my cup; you make my lot secure. The boundary lines have fallen for me in pleasant places.\" David praises the LORD who counsels him, even at night. \"I keep my eyes always on the LORD. With him at my right hand, I will not be shaken.\""
+    },
+    {
+      "verses": "9-11",
+      "text": "\"Therefore my heart is glad and my tongue rejoices; my body also will rest secure, because you will not abandon me to the grave, nor let your faithful one see decay. You make known to me the path of life; you will fill me with joy in your presence, with eternal pleasures at your right hand.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "God is David's greatest treasure; in God's presence there is joy and hope even beyond death.",
+    "points": [
+      "\"Apart from you I have no good thing.\"",
+      "\"I keep my eyes always on the LORD... I will not be shaken.\"",
+      "God will not abandon his faithful one to the grave. Peter quotes this in Acts 2 about Jesus' resurrection."
+    ],
+    "reflection": "David says God is his \"portion\", his share of good things. What would it mean for God to be your greatest treasure?"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "book": "psalms",
+  "chapter": 14,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-3",
+      "text": "\"The fool says in his heart, 'There is no God.'\" People have become corrupt and do terrible things; there is no one who does good. The LORD looks down from heaven to see if anyone understands, anyone who seeks God. All have turned away; there is no one who does good, not even one."
+    },
+    {
+      "verses": "4-7",
+      "text": "Do evildoers never learn? They devour God's people as if eating bread, and never call on the LORD. But they will be filled with dread, for God is with those who are righteous. They frustrate the plans of the poor, but the LORD is their refuge. David longs for salvation to come from Zion. When the LORD restores his people, they will rejoice."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Living as if there were no God leads to corruption, but God is the refuge of the poor and will restore his people.",
+    "points": [
+      "\"The fool says in his heart, 'There is no God.'\"",
+      "God looks for anyone who seeks him; all have turned away.",
+      "The LORD is the refuge of the poor and will restore his people."
+    ],
+    "reflection": "Paul quotes this psalm in Romans 3. Why do you think he saw it as describing all people?"
+  }
+}

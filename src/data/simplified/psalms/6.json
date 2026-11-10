@@ -1,0 +1,28 @@
+{
+  "book": "psalms",
+  "chapter": 6,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-3",
+      "text": "\"LORD, do not rebuke me in your anger or punish me in your fury. Have mercy on me, LORD, for I am weak. Heal me, for my bones are in agony. My soul is deeply troubled. How long, LORD, how long?\""
+    },
+    {
+      "verses": "4-7",
+      "text": "\"Turn, LORD, and rescue me. Save me because of your unfailing love.\" David says that among the dead no one remembers or praises God. \"I am worn out from groaning. All night long I flood my bed with weeping. My eyes grow weak with sorrow.\""
+    },
+    {
+      "verses": "8-10",
+      "text": "Then David speaks with new confidence: \"Away from me, all you who do evil, for the LORD has heard my weeping. The LORD has heard my cry for mercy; the LORD accepts my prayer.\" His enemies will be ashamed and turn back."
+    }
+  ],
+  "summary": {
+    "bigIdea": "In pain and tears, David cries out to God for mercy, and finds that God has heard him.",
+    "points": [
+      "David is sick, troubled and weeping through the night.",
+      "He appeals to God's unfailing love.",
+      "He ends with confidence: \"The LORD has heard my weeping.\""
+    ],
+    "reflection": "David told God exactly how bad things were. Is there pain you could honestly bring to God?"
+  }
+}

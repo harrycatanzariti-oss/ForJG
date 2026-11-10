@@ -1,0 +1,24 @@
+{
+  "book": "psalms",
+  "chapter": 12,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-4",
+      "text": "\"Help, LORD, for no one is faithful anymore; those who are loyal have vanished.\" Everyone lies to their neighbour; they flatter with their lips but are deceitful in their hearts. They say, \"By our tongues we will win; our own lips will defend us. Who is lord over us?\""
+    },
+    {
+      "verses": "5-8",
+      "text": "\"Because the poor are plundered and the needy groan, I will now arise,\" says the LORD. \"I will protect them.\" The words of the LORD are pure, like silver refined seven times in a furnace. God will keep the needy safe from this generation, even when the wicked strut around and what is evil is praised."
+    }
+  ],
+  "summary": {
+    "bigIdea": "In a world full of lies, God's words are pure and true, and he promises to protect the poor and needy.",
+    "points": [
+      "The psalmist feels surrounded by flattery and lies.",
+      "God says, \"Because the poor are plundered... I will now arise.\"",
+      "\"The words of the LORD are pure,\" like refined silver."
+    ],
+    "reflection": "In a world of spin and flattery, where do you go to hear what is true?"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "book": "psalms",
+  "chapter": 7,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-5",
+      "text": "David sang this about Cush, a Benjamite. \"LORD my God, I take refuge in you. Save me from all who chase me, or they will tear me apart like a lion.\" David says that if he has done wrong to someone at peace with him, then let his enemy catch him."
+    },
+    {
+      "verses": "6-11",
+      "text": "\"Arise, LORD, in your anger.\" David asks God, the judge of all peoples, to judge him according to his righteousness and integrity. He asks God to end the violence of the wicked and make the righteous secure, for God tests hearts and minds. \"My shield is God Most High, who saves the upright in heart. God is a righteous judge.\""
+    },
+    {
+      "verses": "12-16",
+      "text": "If someone does not turn back, God prepares his weapons. Those who plan evil end up caught in it: they dig a pit and fall into the hole they made. The trouble they cause comes back on their own heads."
+    },
+    {
+      "verses": "17",
+      "text": "\"I will give thanks to the LORD for his righteousness and sing praise to the name of the LORD Most High.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "David trusts God as a fair judge who protects the innocent and lets evil fall back on those who plan it.",
+    "points": [
+      "David takes refuge in God when falsely attacked.",
+      "He asks God, who sees hearts, to judge fairly.",
+      "Evil plans often trap the people who make them."
+    ],
+    "reflection": "When you feel misjudged, how does it help to know God sees your heart?"
+  }
+}

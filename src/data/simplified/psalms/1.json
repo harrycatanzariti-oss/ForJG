@@ -1,0 +1,24 @@
+{
+  "book": "psalms",
+  "chapter": 1,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-3",
+      "text": "Happy is the person who does not follow the advice of wicked people, or join in with sinners, or sit with people who mock God. Instead, they love the LORD's teaching and think about it day and night. They are like a tree planted by streams of water. It produces fruit at the right time, and its leaves do not dry up. Whatever they do goes well."
+    },
+    {
+      "verses": "4-6",
+      "text": "Wicked people are not like that. They are like chaff, the dry husks the wind blows away. They will not stand when God judges, and sinners will not belong among the righteous. The LORD watches over the way of the righteous, but the way of the wicked leads to ruin."
+    }
+  ],
+  "summary": {
+    "bigIdea": "There are two ways to live: rooted in God's word like a healthy tree, or blown away like chaff.",
+    "points": [
+      "Happy are those who delight in God's teaching and think about it often.",
+      "They are like a fruitful tree by a stream.",
+      "The LORD watches over the way of the righteous."
+    ],
+    "reflection": "What would it look like for you to be \"planted by streams of water\" this week?"
+  }
+}

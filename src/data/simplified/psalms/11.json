@@ -1,0 +1,24 @@
+{
+  "book": "psalms",
+  "chapter": 11,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-3",
+      "text": "\"In the LORD I take refuge.\" Friends advise David to flee like a bird to the mountains, because the wicked are ready to shoot at the upright from the shadows. \"When the foundations are being destroyed, what can the righteous do?\""
+    },
+    {
+      "verses": "4-7",
+      "text": "But the LORD is in his holy temple; the LORD is on his heavenly throne. He watches everyone closely. He tests the righteous, but hates the wicked and those who love violence. Judgement will fall on the wicked. \"For the LORD is righteous; he loves justice. The upright will see his face.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "When everything seems to be falling apart, David doesn't run away; he trusts the LORD who is still on his throne.",
+    "points": [
+      "Friends tell David to flee because things are so bad.",
+      "But the LORD is still on his throne, watching everything.",
+      "The LORD loves justice, and the upright will see his face."
+    ],
+    "reflection": "\"When the foundations are being destroyed, what can the righteous do?\" How does this psalm answer that question?"
+  }
+}

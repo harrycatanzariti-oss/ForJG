@@ -1,0 +1,32 @@
+{
+  "book": "psalms",
+  "chapter": 3,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-2",
+      "text": "David wrote this when he was running from his son Absalom. \"LORD, how many enemies I have! So many rise up against me. Many are saying, 'God will not rescue him.'\""
+    },
+    {
+      "verses": "3-4",
+      "text": "\"But you, LORD, are a shield around me. You give me honour and lift up my head. I cry out to the LORD, and he answers me from his holy mountain.\""
+    },
+    {
+      "verses": "5-6",
+      "text": "\"I lie down and sleep, and I wake again, because the LORD keeps me safe. I will not be afraid of tens of thousands of people surrounding me.\""
+    },
+    {
+      "verses": "7-8",
+      "text": "\"Rise up, LORD! Save me, my God!\" David asks God to deal with his enemies. \"Salvation belongs to the LORD. May your blessing be on your people.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "Even when surrounded by trouble, David trusts God as his shield and is able to sleep in peace.",
+    "points": [
+      "David is in danger, running from his own son.",
+      "\"You, LORD, are a shield around me.\"",
+      "Because God keeps him safe, he can lie down and sleep."
+    ],
+    "reflection": "What would help you \"lie down and sleep\" in peace tonight, trusting God with your worries?"
+  }
+}

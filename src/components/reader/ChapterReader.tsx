@@ -385,6 +385,10 @@ function PlainView({ simplified }: { simplified: Simplified }) {
   return (
     <div>
       <DraftNote simplified={simplified} />
+      <p class="mb-4 text-xs text-ink-muted">
+        Words in quotation marks here are simplified retellings of what was said. For exact wording, switch to Original
+        or Modern.
+      </p>
       <div class="scripture space-y-5">
         {simplified.plain.map((p) => (
           <div key={p.verses}>
