@@ -99,6 +99,11 @@ for (const file of walk('src/data/simplified')) {
     if (a !== last + 1) fail(file, `verse range "${p.verses}" should start at verse ${last + 1}`);
     last = b!;
   }
+  // Quotations in the Summary level must match the BSB exactly.
+  // (Speech in the Plain level is labelled as simplified wording.)
+  for (const t of [d.summary.bigIdea, ...d.summary.points, d.summary.reflection]) {
+    for (const problem of checkQuotesAnywhere(t)) fail(file, `summary: ${problem}`);
+  }
   const max = bookById.get(d.book)?.verses[d.chapter - 1];
   if (max && last !== max) fail(file, `plain retelling stops at verse ${last}, but the chapter has ${max} verses`);
 }
