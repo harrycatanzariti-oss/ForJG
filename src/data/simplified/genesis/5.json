@@ -1,0 +1,28 @@
+{
+  "book": "genesis",
+  "chapter": 5,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-17",
+      "text": "This is the family record of Adam. God created people in his likeness, male and female, and blessed them. Adam had a son in his likeness and named him Seth. The chapter lists the generations from Adam through Seth, Enosh, Kenan, Mahalalel and Jared, each living hundreds of years. After each long life comes the repeated phrase, \"and then he died.\""
+    },
+    {
+      "verses": "18-24",
+      "text": "Jared's son was Enoch. Enoch walked faithfully with God for three hundred years and had sons and daughters. Then he was no more, because God took him away."
+    },
+    {
+      "verses": "25-32",
+      "text": "Enoch's son Methuselah lived 969 years, the longest of anyone listed. Methuselah's grandson was Lamech, who had a son named Noah, saying, \"May this one comfort us in the labour and painful toil of our hands caused by the ground the LORD has cursed.\" After Noah was 500 years old, he had three sons: Shem, Ham and Japheth."
+    }
+  ],
+  "summary": {
+    "bigIdea": "From Adam to Noah, life goes on generation after generation under the shadow of death, but Enoch walks with God.",
+    "points": [
+      "A family line from Adam to Noah, with very long lives.",
+      "\"And then he died\" is repeated again and again.",
+      "Enoch walks with God, and God takes him away; Noah is born, bringing hope of comfort."
+    ],
+    "reflection": "Enoch \"walked faithfully with God\". What would it look like to walk with God in your ordinary days?"
+  }
+}

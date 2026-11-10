@@ -1,0 +1,44 @@
+{
+  "book": "genesis",
+  "chapter": 1,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-2",
+      "text": "In the beginning God created the heavens and the earth. The earth was formless and empty, and darkness covered the deep waters. The Spirit of God was hovering over the waters."
+    },
+    {
+      "verses": "3-5",
+      "text": "God said, \"Let there be light,\" and there was light. God saw that the light was good, and he separated the light from the darkness. He called the light \"day\" and the darkness \"night\". There was evening and morning: the first day."
+    },
+    {
+      "verses": "6-8",
+      "text": "God made a wide space, the sky, to separate the waters above from the waters below. There was evening and morning: the second day."
+    },
+    {
+      "verses": "9-13",
+      "text": "God gathered the waters below into seas and let dry land appear. He called the dry land \"earth\". Then God told the land to produce plants and trees bearing seeds and fruit, each according to its kind. And God saw that it was good. There was evening and morning: the third day."
+    },
+    {
+      "verses": "14-19",
+      "text": "God put lights in the sky to separate day from night and to mark seasons, days and years: the sun to rule the day, the moon to rule the night, and the stars. God saw that it was good. There was evening and morning: the fourth day."
+    },
+    {
+      "verses": "20-23",
+      "text": "God filled the waters with living creatures and the sky with birds, from great sea creatures to every winged bird. God blessed them and said, \"Be fruitful and multiply.\" There was evening and morning: the fifth day."
+    },
+    {
+      "verses": "24-31",
+      "text": "God made land animals of every kind. Then God said, \"Let us make man in our image, after our likeness, to rule over the fish, the birds, the livestock and all the earth.\" So God created mankind in his own image; male and female he created them. God blessed them: \"Be fruitful and multiply, fill the earth and take care of it.\" He gave them plants and fruit for food, and green plants for the animals. God looked at everything he had made, and it was very good. There was evening and morning: the sixth day."
+    }
+  ],
+  "summary": {
+    "bigIdea": "God created everything that exists, and it was very good; human beings, male and female, are made in God's image.",
+    "points": [
+      "God speaks, and creation comes into being in an orderly way.",
+      "Again and again God sees that what he made is good.",
+      "Humans are made in God's image and given the task of caring for the earth."
+    ],
+    "reflection": "You are made in the image of God. How might that change the way you see yourself and other people?"
+  }
+}

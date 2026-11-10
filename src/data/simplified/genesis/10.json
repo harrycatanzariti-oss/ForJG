@@ -1,0 +1,28 @@
+{
+  "book": "genesis",
+  "chapter": 10,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-5",
+      "text": "This is the account of Noah's sons, Shem, Ham and Japheth, and the families that came from them after the flood. First come the descendants of Japheth. From them the coastland peoples spread out into their territories, each with its own language, clans and nations."
+    },
+    {
+      "verses": "6-20",
+      "text": "Next come the descendants of Ham, including Cush, Egypt, Put and Canaan. Cush was the father of Nimrod, a mighty warrior and hunter before the LORD, whose kingdom began in Babylon and who built Nineveh. The descendants of Canaan spread out from Sidon towards Gaza and the cities of Sodom and Gomorrah."
+    },
+    {
+      "verses": "21-32",
+      "text": "Shem was the ancestor of all the sons of Eber. His descendants are listed, including Peleg, in whose time the earth was divided, and Joktan and his many sons. These are the families of Noah's sons, according to their lines and nations. From them the nations spread out over the earth after the flood."
+    }
+  ],
+  "summary": {
+    "bigIdea": "After the flood, Noah's family grows into the many nations of the world.",
+    "points": [
+      "The chapter traces nations back to Noah's three sons.",
+      "It includes Nimrod, the builder of cities such as Babylon and Nineveh.",
+      "All nations are part of one human family."
+    ],
+    "reflection": "This list shows every nation coming from one family. How might that shape the way you see people from other nations?"
+  }
+}
