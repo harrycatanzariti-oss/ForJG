@@ -65,9 +65,9 @@ export default function ScriptureText({
   blocks.forEach((block, i) => {
     if (block.kind === 'heading') {
       out.push(
-        <h3 key={`h${i}`} class="mt-8 mb-2 font-sans text-base font-semibold text-ink first:mt-0">
+        <h2 key={`h${i}`} class="mt-8 mb-2 font-sans text-base font-semibold text-ink first:mt-0">
           {block.text}
-        </h3>,
+        </h2>,
       );
       return;
     }

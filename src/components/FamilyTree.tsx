@@ -162,7 +162,7 @@ export default function FamilyTree({ tree, families, names }: Props) {
         <svg
           width={size.w}
           height={size.h}
-          role="img"
+          role="group"
           aria-label="Family tree of Christian traditions from about AD 30 to today. A text version follows below."
           data-no-swipe
         >
@@ -229,7 +229,7 @@ export default function FamilyTree({ tree, families, names }: Props) {
               const py = parent ? yOf(parent.lane) : y;
               return (
                 <g key={`m-${b.id}`}>
-                  <a href={url(`/traditions/${b.id}`)} aria-label={`${names[b.id] ?? b.label} profile`}>
+                  <a href={url(`/traditions/${b.id}`)}>
                     <text x={xOf(NOW) + 10} y={y + 4} font-size="13" font-weight="600" fill={colour} class="underline">
                       {b.label}
                     </text>

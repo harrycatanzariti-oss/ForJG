@@ -60,7 +60,7 @@ export default function LevelSlider({ level, modern, available, onChange }: Prop
                   on ? 'font-semibold text-accent' : off ? 'text-ink-muted' : 'text-ink-muted hover:text-ink'
                 }`}
               >
-                <span class={off ? 'opacity-70' : ''}>{l.name}</span>
+                <span>{l.name}</span>
                 {off && <span class="text-[0.65rem] font-normal">Coming soon</span>}
               </button>
             );

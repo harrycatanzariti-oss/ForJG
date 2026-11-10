@@ -3,6 +3,8 @@
  * The frame around every page: <head> tags, header, navigation and footer.
  */
 import '@fontsource-variable/literata/wght.css';
+// The URL of the main (Latin) scripture font file, so we can ask the browser to fetch it early.
+import literataLatin from '@fontsource-variable/literata/files/literata-latin-wght-normal.woff2?url';
 import '~/styles/global.css';
 import Icon from '~/components/ui/Icon.astro';
 import ThemeToggle from '~/components/ui/ThemeToggle';
@@ -50,6 +52,7 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
     {canonical && <meta property="og:url" content={canonical} />}
     <meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#171513" media="(prefers-color-scheme: dark)" />
+    <link rel="preload" href={literataLatin} as="font" type="font/woff2" crossorigin />
     <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
     <link rel="sitemap" href={url('/sitemap-index.xml')} />
     <link rel="manifest" href={url('/manifest.webmanifest')} />

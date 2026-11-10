@@ -96,9 +96,7 @@ const sections = [
             <summary class="flex min-h-11 cursor-pointer list-none items-start justify-between gap-3 p-4">
               <span>
                 <span class="block text-sm font-semibold text-ink-muted">{BELIEF_TOPIC_LABELS[topic]}</span>
-                <span class="mt-1 block">
-                  <Gloss text={b.summary} seen={seen} />
-                </span>
+                <span class="mt-1 block">{b.summary}</span>
               </span>
               <span class="mt-1 shrink-0 text-accent transition-transform group-open:rotate-180" aria-hidden="true">
                 ▾

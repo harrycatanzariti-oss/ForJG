@@ -73,7 +73,7 @@ export function parseReference(input: string, books: RefBook[], index = buildBoo
 }
 
 export function formatReference(r: Reference): string {
-  const name = r.book === 'psalms' && r.verse === undefined ? 'Psalm' : r.bookName;
+  const name = r.book === 'psalms' ? 'Psalm' : r.bookName;
   let s = `${name} ${r.chapter}`;
   if (r.verse) s += `:${r.verse}`;
   if (r.verseEnd && r.verseEnd !== r.verse) s += `–${r.verseEnd}`;

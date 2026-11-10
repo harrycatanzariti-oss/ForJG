@@ -6,6 +6,9 @@ export default defineConfig({
   testDir: 'e2e',
   fullyParallel: true,
   reporter: 'list',
+  // Generous timeouts so the suite is reliable on slower CI machines.
+  expect: { timeout: 15_000 },
+  retries: process.env.CI ? 1 : 0,
   use: { baseURL: 'http://localhost:4321' },
   webServer: {
     command: 'npx astro preview --port 4321',

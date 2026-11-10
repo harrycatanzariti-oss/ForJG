@@ -30,7 +30,8 @@ export default function PlanDetail({
       setReadMap(getReadMap());
     };
     refresh();
-    setStart(dayKey());
+    // Keep a date the visitor already typed while the page was loading.
+    setStart((s) => s || dayKey());
     setHydrated(true);
     window.addEventListener(CHANGE_EVENT, refresh);
     return () => window.removeEventListener(CHANGE_EVENT, refresh);

@@ -67,7 +67,7 @@
   --color-accent-soft: var(--accent-soft);
   --color-focus: var(--focus);
 
-  --font-serif: 'Literata Variable', Georgia, 'Times New Roman', serif;
+  --font-serif: 'Literata Variable', 'Literata Fallback', Georgia, 'Times New Roman', serif;
   --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -82,8 +82,13 @@
     @apply bg-paper font-sans text-ink antialiased;
     min-height: 100dvh;
   }
+  /* Links are underlined so they can be told apart without relying on colour.
+     Buttons and cards remove it with the no-underline class. */
   a {
     color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
   }
   /* A clear, consistent keyboard focus ring everywhere. */
   :focus-visible {
@@ -312,4 +317,16 @@ mark {
   --f-protestant: #8fb3ea;
   --f-restorationist: #7fd0ac;
   --f-other: #c2a8e8;
+}
+
+/*
+ * A fallback font sized to match Literata closely, so text barely moves when
+ * the real font arrives (reduces "layout shift").
+ */
+@font-face {
+  font-family: 'Literata Fallback';
+  src: local('Georgia'), local('Times New Roman');
+  size-adjust: 104%;
+  ascent-override: 92%;
+  descent-override: 24%;
 }

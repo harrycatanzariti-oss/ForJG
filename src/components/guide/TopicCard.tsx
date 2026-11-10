@@ -18,6 +18,7 @@ interface Props {
 
 export default function TopicCard({ topic, matched, careNote, onChoose, headingLevel = 2 }: Props) {
   const H = headingLevel === 2 ? 'h2' : 'h3';
+  const Sub = headingLevel === 2 ? 'h3' : 'h4';
   return (
     <article class="card p-5" aria-label={topic.title}>
       <H class="font-serif text-2xl font-semibold" tabIndex={-1} data-topic-heading>
@@ -33,7 +34,7 @@ export default function TopicCard({ topic, matched, careNote, onChoose, headingL
         <p class="mt-1">{topic.step}</p>
       </div>
 
-      <h4 class="mt-6 text-sm font-semibold tracking-wide text-ink-muted uppercase">Passages to read</h4>
+      <Sub class="mt-6 text-sm font-semibold tracking-wide text-ink-muted uppercase">Passages to read</Sub>
       <ul class="mt-2 space-y-2">
         {topic.passages.map((p) => (
           <li key={p.href + p.label}>
@@ -51,7 +52,7 @@ export default function TopicCard({ topic, matched, careNote, onChoose, headingL
 
       {topic.links.length > 0 && (
         <>
-          <h4 class="mt-6 text-sm font-semibold tracking-wide text-ink-muted uppercase">Explore more</h4>
+          <Sub class="mt-6 text-sm font-semibold tracking-wide text-ink-muted uppercase">Explore more</Sub>
           <ul class="mt-2 flex flex-wrap gap-2">
             {topic.links.map((l) => (
               <li key={l.href}>

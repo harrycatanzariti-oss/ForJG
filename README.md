@@ -4,11 +4,17 @@ A free, static, interactive website for reading the whole Bible in digestible
 form and understanding the major Christian traditions.
 
 - **Simplify slider** on every chapter: Original (KJV) → Modern (BSB or WEB) → Plain → Summary.
-- **No accounts, no ads, no tracking.** Your progress and settings stay in your browser; export/import them in Settings.
+- **The Guide**: type how you feel ("I'm grieving and God feels far away") and get pointed to the right passages and next steps. Rule-based, no AI, nothing leaves your device, with crisis resources shown first when needed.
+- **Reader tools**: highlights, private notes, copy/share verse links, mark as read, streaks, a progress map of all 1,189 chapters, search by word or reference.
+- **Six reading plans** generated from data, with a gentle "adjust my plan" when you fall behind.
+- **Christian traditions**: 17 profiles with sources, compare tool, family tree, Belief Explorer quiz, Big Questions, and "How traditions read this" notes on 44 key passages.
+- **Works offline** once visited, installable on phones, accessible (WCAG 2.1 AA), fast (Lighthouse 97–100 on mobile).
+- **No accounts, no ads, no tracking.** Progress and settings stay in your browser; export/import them in Settings.
 - **Public-domain text only**: KJV, BSB and WEB. See [docs/SOURCES.md](docs/SOURCES.md).
 - **Zero running cost**: plain static files on free hosting.
 
 New to the code? Start with [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Editing or reviewing content? See [docs/CONTENT.md](docs/CONTENT.md).
 
 ## Run it on your computer
 
@@ -16,17 +22,20 @@ You need [Node.js](https://nodejs.org/) 22.12 or newer.
 
 ```sh
 npm install          # install dependencies (once)
-npm run dev          # start a local server at http://localhost:4321 that reloads as you edit
+npm run dev          # local server at http://localhost:4321 that reloads as you edit
 ```
 
 Other commands:
 
 ```sh
-npm test             # data and logic tests
-npm run build        # validate content and build the site into dist/
+npm test             # data and logic tests (about 3 seconds)
+npm run validate     # check every content file
+npm run build        # validate content and build the site into dist/ (about 30 seconds)
 npm run preview      # serve the built site at http://localhost:4321
-npm run test:e2e     # browser tests (after npm run build; first time: npx playwright install chromium)
+npm run test:e2e     # browser, accessibility, link and offline tests (after npm run build)
+                     #   first time only: npx playwright install chromium
 npm run lint         # find likely bugs
+npm run check        # TypeScript type check
 npm run format       # tidy formatting
 ```
 
@@ -49,7 +58,8 @@ sources.
 4. Save and deploy. Every push to your main branch redeploys automatically; other branches get preview URLs.
 5. To use your own domain: **your Pages project → Custom domains → Set up a custom domain**.
 
-`public/_headers` sets caching and security headers on Cloudflare.
+The build produces about 5,400 files (≈90 MB), well within the free plan's
+limits. `public/_headers` sets caching and security headers.
 
 ### GitHub Pages (alternative, free)
 
@@ -59,19 +69,27 @@ sources.
    `BASE_PATH` so links work inside that sub-folder. With a custom domain, remove `BASE_PATH`
    from `.github/workflows/deploy-github-pages.yml` and set `SITE_URL` to your domain.
 
-## Project status
+### Before launching publicly
 
-Built in phases; see the commit history for details.
+- Change the placeholder name "Lamplight" in `src/config.ts` and `public/manifest.webmanifest` if you like.
+- Have the draft content reviewed (see [docs/CONTENT.md](docs/CONTENT.md)), especially the
+  helplines in `src/data/guide/safety.json` for your audience's countries.
+- Choose a licence for the code (MIT is a common choice).
 
-1. ✅ Foundation: setup, theme, settings, data export/import, Bible data pipeline, reader with Levels 1-2
-2. Reader complete: book grid and intros, highlights, notes, progress, search
-3. Reading plans
-4. Plain and Summary content for the first books
-5. Christian traditions: profiles and compare tool
-6. Family tree, quiz, big questions
-7. Passage notes, glossary, about page
-8. Offline support, accessibility and performance pass
+## What's included
+
+| Area       | Pages                                                                                                                          |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Home       | `/` with the Guide box, continue reading and today's plan                                                                      |
+| Guide      | `/guide`, `/guide/{topic}` (37 topics)                                                                                         |
+| Bible      | `/bible`, `/bible/{book}`, `/bible/{book}/{chapter}`, `/search`, `/progress`                                                   |
+| Plans      | `/plans`, `/plans/{plan}`                                                                                                      |
+| Traditions | `/traditions`, `/traditions/{id}`, `/traditions/compare`, `/traditions/tree`, `/traditions/quiz`, `/traditions/questions/{id}` |
+| Other      | `/glossary`, `/about`, `/settings`, `/offline`                                                                                 |
+
+Plain and Summary levels currently cover Genesis, Psalms 1–23, Mark, John, Acts
+and Romans (154 chapters, marked Draft). Other chapters show "Coming soon".
 
 ## Licence
 
-Code: choose a licence before publishing (MIT is a common choice). Bible texts are public domain; see [docs/SOURCES.md](docs/SOURCES.md).
+Code: choose a licence before publishing. Bible texts are public domain; see [docs/SOURCES.md](docs/SOURCES.md).

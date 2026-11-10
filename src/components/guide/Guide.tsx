@@ -116,7 +116,7 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
             matched={result.primary.matched}
             careNote={safety.careNote}
             onChoose={(id) => showTopic(id, byId.get(id)?.chip)}
-            headingLevel={3}
+            headingLevel={2}
           />
           {also &&
             (expanded.has(entry.id) ? (
@@ -125,7 +125,7 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
                 matched={result.also!.matched}
                 careNote={safety.careNote}
                 onChoose={(id) => showTopic(id, byId.get(id)?.chip)}
-                headingLevel={3}
+                headingLevel={2}
               />
             ) : (
               <div class="card flex flex-wrap items-center justify-between gap-3 p-4">
@@ -273,7 +273,7 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
                   topic={t}
                   careNote={safety.careNote}
                   onChoose={(id) => showTopic(id, byId.get(id)?.chip)}
-                  headingLevel={3}
+                  headingLevel={2}
                 />
               </div>
             ) : null;

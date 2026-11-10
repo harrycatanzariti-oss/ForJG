@@ -17,11 +17,7 @@ export default defineConfig({
   base: BASE,
   output: 'static',
   trailingSlash: 'ignore',
-  integrations: [
-    preact(),
-    sitemap({ filter: (page) => !page.includes('/offline') }),
-    serviceWorker(),
-  ],
+  integrations: [preact(), sitemap({ filter: (page) => !page.includes('/offline') }), serviceWorker()],
   vite: {
     plugins: [tailwindcss()],
   },

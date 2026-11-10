@@ -83,7 +83,7 @@ export default function SearchPage({ books }: { books: Book[] }) {
         />
       </form>
 
-      <div class="mt-6 space-y-4" aria-live="polite">
+      <div class="mt-6 min-h-[70vh] space-y-4" aria-live="polite">
         {reference && (
           <a
             href={url(referenceUrl(reference))}

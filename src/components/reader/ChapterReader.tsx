@@ -271,7 +271,8 @@ export default function ChapterReader({
               annotations={annotations}
               noteMarkers={noteMarkers}
               selectedVerse={selected}
-              onVerse={hydrated ? (v) => (setOpenNote(null), setSelected(v)) : undefined}
+              // Always render verse buttons (so nothing shifts when the page becomes interactive).
+              onVerse={(v) => hydrated && (setOpenNote(null), setSelected(v))}
               onNoteMarker={(id) => (setSelected(null), setOpenNote(id))}
             />
             {omitted.length > 0 && (
