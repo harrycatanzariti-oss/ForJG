@@ -1,0 +1,23 @@
+---
+import ProgressMap from '~/components/ProgressMap';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { books } from '~/lib/bible';
+
+const mapBooks = books.map((b) => ({
+  id: b.id,
+  name: b.name,
+  chapters: b.chapters,
+  genre: b.genre,
+  testament: b.testament,
+}));
+---
+
+<BaseLayout title="Your progress" description="A map of all 1,189 chapters of the Bible that fills in as you read.">
+  <h1 class="font-serif text-3xl font-semibold">Your progress</h1>
+  <p class="mt-2 max-w-prose text-ink-muted">
+    Every square is one chapter. Your progress is saved only in this browser; use Settings to export it.
+  </p>
+  <div class="mt-6">
+    <ProgressMap client:load books={mapBooks} />
+  </div>
+</BaseLayout>

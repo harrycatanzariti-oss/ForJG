@@ -1,0 +1,35 @@
+---
+/**
+ * Renders a piece of text, turning the first mention of each glossary term
+ * into a small button that pops up a definition. Uses the browser's built-in
+ * Popover API, so it needs no JavaScript.
+ */
+import { glossaryLinker } from '~/lib/glossary';
+
+interface Props {
+  text: string;
+  /** Shared across a page so each term is only marked once. */
+  seen?: Set<string>;
+}
+const { text, seen = new Set<string>() } = Astro.props;
+const parts = glossaryLinker(text, seen);
+---
+
+{parts.map((p) =>
+  typeof p === 'string' ? (
+    p
+  ) : (
+    <>
+      <button type="button" popovertarget={p.popId} class="gloss-term">
+        {p.text}
+      </button>
+      <span popover id={p.popId} class="gloss-pop" role="note">
+        <strong class="block">{p.term}</strong>
+        <span class="mt-1 block">{p.definition}</span>
+        <a href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/glossary#${p.slug}`} class="mt-2 block text-sm">
+          More in the glossary
+        </a>
+      </span>
+    </>
+  ),
+)}

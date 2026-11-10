@@ -1,0 +1,296 @@
+[
+  {
+    "slug": "apocalyptic",
+    "term": "Apocalyptic",
+    "aliases": ["apocalypse"],
+    "definition": "A type of writing that uses vivid visions and symbols to reveal God's view of history and its end, often to encourage people under persecution. Daniel 7–12 and Revelation are examples."
+  },
+  {
+    "slug": "apostle",
+    "term": "Apostle",
+    "aliases": ["apostles", "apostolic"],
+    "definition": "From the Greek for \"someone sent\". Usually the Twelve chosen by Jesus, plus Paul and a few others who were witnesses of the risen Jesus and sent to spread his message."
+  },
+  {
+    "slug": "apostolic-succession",
+    "term": "Apostolic succession",
+    "aliases": [],
+    "definition": "The belief that bishops today stand in an unbroken line of ordination going back to the apostles. Catholic, Orthodox and many Anglicans hold it as important; most Protestants place succession in faithfulness to the apostles' teaching rather than in a line of ordination."
+  },
+  {
+    "slug": "atonement",
+    "term": "Atonement",
+    "aliases": ["atoning"],
+    "definition": "How people are reconciled (made \"at one\") with God, especially through the death of Jesus. Christians describe it in several complementary ways: sacrifice, ransom, victory over evil, and bearing the penalty of sin."
+  },
+  {
+    "slug": "baptism",
+    "term": "Baptism",
+    "aliases": ["baptised", "baptized", "baptize", "baptise"],
+    "definition": "A rite using water that marks entry into the Christian faith. Traditions differ on who should be baptised (infants or believers), how (sprinkling, pouring or immersion), and what it does."
+  },
+  {
+    "slug": "canon",
+    "term": "Canon",
+    "aliases": ["canonical"],
+    "definition": "The list of books a church accepts as Scripture. Protestant Bibles have 66 books; Catholic Bibles have 73; Orthodox Bibles have a few more."
+  },
+  {
+    "slug": "catechism",
+    "term": "Catechism",
+    "aliases": ["catechisms"],
+    "definition": "A summary of a church's teaching, often written as questions and answers, used to teach the faith."
+  },
+  {
+    "slug": "charismatic",
+    "term": "Charismatic",
+    "aliases": ["charismatics"],
+    "definition": "Christians who emphasise the active gifts of the Holy Spirit today, such as speaking in tongues, prophecy and healing. The charismatic movement since the 1960s has spread into many denominations."
+  },
+  {
+    "slug": "christ",
+    "term": "Christ",
+    "aliases": ["messiah"],
+    "definition": "From the Greek for \"anointed one\", the same meaning as the Hebrew \"Messiah\". The king God promised to send; Christians believe this is Jesus."
+  },
+  {
+    "slug": "church-fathers",
+    "term": "Church Fathers",
+    "aliases": ["early church fathers"],
+    "definition": "Influential Christian teachers and writers of the first centuries, such as Irenaeus, Athanasius and Augustine."
+  },
+  {
+    "slug": "confession",
+    "term": "Confession",
+    "aliases": [],
+    "definition": "Either (1) admitting sins to God, sometimes with a priest (the sacrament of reconciliation), or (2) a formal statement of a church's beliefs, such as the Westminster Confession."
+  },
+  {
+    "slug": "covenant",
+    "term": "Covenant",
+    "aliases": ["covenants"],
+    "definition": "A binding relationship with promises and commitments. The Bible describes covenants God makes with Noah, Abraham, Israel at Sinai, David, and the \"new covenant\" through Jesus."
+  },
+  {
+    "slug": "creed",
+    "term": "Creed",
+    "aliases": ["creeds", "nicene creed", "apostles' creed"],
+    "definition": "A short statement of core beliefs. The Nicene Creed (325, expanded 381) and the Apostles' Creed are shared by most Christians."
+  },
+  {
+    "slug": "deuterocanon",
+    "term": "Deuterocanon",
+    "aliases": ["deuterocanonical", "apocrypha"],
+    "definition": "Books such as Tobit, Judith, 1–2 Maccabees, Wisdom and Sirach, found in the Greek Old Testament used by early Christians. Catholic and Orthodox churches include them in the Bible; Protestants generally call them the Apocrypha and do not treat them as Scripture."
+  },
+  {
+    "slug": "disciple",
+    "term": "Disciple",
+    "aliases": ["disciples"],
+    "definition": "A student and follower. In the Gospels, anyone who followed Jesus, especially the Twelve."
+  },
+  {
+    "slug": "ecumenical-council",
+    "term": "Ecumenical council",
+    "aliases": ["ecumenical councils", "council of nicaea", "council of chalcedon"],
+    "definition": "A gathering of bishops from across the whole church to settle questions of doctrine. Nicaea (325) and Chalcedon (451) are examples. Different churches recognise different numbers of councils."
+  },
+  {
+    "slug": "eucharist",
+    "term": "Eucharist",
+    "aliases": ["holy communion", "lord's supper", "mass", "divine liturgy"],
+    "definition": "The meal of bread and wine that Jesus gave his followers at the Last Supper. Also called Holy Communion, the Lord's Supper, the Mass or the Divine Liturgy. Traditions differ on how Christ is present in it."
+  },
+  {
+    "slug": "evangelical",
+    "term": "Evangelical",
+    "aliases": ["evangelicals"],
+    "definition": "Protestant Christians who stress personal conversion, the authority of the Bible, the cross of Jesus, and sharing the faith. The term crosses many denominations."
+  },
+  {
+    "slug": "gentile",
+    "term": "Gentile",
+    "aliases": ["gentiles"],
+    "definition": "Anyone who is not Jewish."
+  },
+  {
+    "slug": "gospel",
+    "term": "Gospel",
+    "aliases": ["gospels"],
+    "definition": "Means \"good news\": the message about Jesus. Also the name for the four books about his life: Matthew, Mark, Luke and John."
+  },
+  {
+    "slug": "grace",
+    "term": "Grace",
+    "aliases": [],
+    "definition": "God's undeserved kindness and help. All Christian traditions teach that salvation depends on God's grace; they differ on how people receive it and respond to it."
+  },
+  {
+    "slug": "icon",
+    "term": "Icon",
+    "aliases": ["icons"],
+    "definition": "A painted image of Christ, Mary or a saint, especially in Orthodox and Eastern churches, used as a \"window\" in prayer. Honour given to icons is understood to pass to the person shown."
+  },
+  {
+    "slug": "incarnation",
+    "term": "Incarnation",
+    "aliases": [],
+    "definition": "The belief that God the Son became a human being in Jesus, fully God and fully human."
+  },
+  {
+    "slug": "justification",
+    "term": "Justification",
+    "aliases": ["justified"],
+    "definition": "Being declared or made right with God. Protestants generally teach that it is received by faith alone; Catholic and Orthodox churches describe it as including inner renewal, received through faith and the sacraments."
+  },
+  {
+    "slug": "kingdom-of-god",
+    "term": "Kingdom of God",
+    "aliases": ["kingdom of heaven"],
+    "definition": "God's rule, which Jesus announced was arriving in him, present now in part and to come in full."
+  },
+  {
+    "slug": "liturgy",
+    "term": "Liturgy",
+    "aliases": ["liturgical"],
+    "definition": "A set pattern of public worship, with written prayers and responses. Catholic, Orthodox, Anglican and Lutheran worship is usually liturgical."
+  },
+  {
+    "slug": "messiah",
+    "term": "Messiah",
+    "aliases": [],
+    "definition": "Hebrew for \"anointed one\": the promised king from David's family. Christians believe Jesus is the Messiah (in Greek, \"Christ\")."
+  },
+  {
+    "slug": "miaphysite",
+    "term": "Miaphysite",
+    "aliases": ["miaphysitism"],
+    "definition": "The belief that in Christ the divine and human are united in \"one nature\" without mixture or confusion. Held by the Oriental Orthodox churches, who reject the term \"monophysite\" for themselves."
+  },
+  {
+    "slug": "ordination",
+    "term": "Ordination",
+    "aliases": ["ordained"],
+    "definition": "The setting apart of someone for ministry, such as a deacon, priest, pastor or bishop, usually with laying on of hands and prayer."
+  },
+  {
+    "slug": "parable",
+    "term": "Parable",
+    "aliases": ["parables"],
+    "definition": "A short story Jesus told to teach about God's kingdom, such as the Prodigal Son."
+  },
+  {
+    "slug": "pentecost",
+    "term": "Pentecost",
+    "aliases": [],
+    "definition": "A Jewish harvest festival. Fifty days after Easter, the Holy Spirit came on the first disciples (Acts 2). Christians celebrate it as the birthday of the church."
+  },
+  {
+    "slug": "pharisees",
+    "term": "Pharisees",
+    "aliases": ["pharisee"],
+    "definition": "A Jewish group in Jesus' time devoted to careful keeping of God's law and its traditions."
+  },
+  {
+    "slug": "purgatory",
+    "term": "Purgatory",
+    "aliases": [],
+    "definition": "In Catholic teaching, a final purification after death for those who die in God's friendship but still need cleansing before heaven. Orthodox speak of prayer for the dead without defining purgatory; Protestants generally do not accept it."
+  },
+  {
+    "slug": "real-presence",
+    "term": "Real presence",
+    "aliases": [],
+    "definition": "The belief that Jesus Christ is truly present in the bread and wine of Communion. Held, in different ways, by Catholic, Orthodox, Lutheran, Anglican and others."
+  },
+  {
+    "slug": "repentance",
+    "term": "Repentance",
+    "aliases": ["repent", "repented"],
+    "definition": "Turning away from sin and back to God; a change of mind and direction."
+  },
+  {
+    "slug": "resurrection",
+    "term": "Resurrection",
+    "aliases": [],
+    "definition": "Being raised from death to new, bodily life. Christians believe Jesus rose on the third day and that the dead will be raised at the end of time."
+  },
+  {
+    "slug": "righteousness",
+    "term": "Righteousness",
+    "aliases": ["righteous"],
+    "definition": "Being in the right with God and living rightly. Paul speaks of a righteousness from God that comes through faith in Jesus."
+  },
+  {
+    "slug": "sabbath",
+    "term": "Sabbath",
+    "aliases": [],
+    "definition": "The seventh day (Saturday), set apart for rest in the Ten Commandments. Most Christians worship on Sunday, the day of the resurrection; Seventh-day Adventists and some others keep Saturday."
+  },
+  {
+    "slug": "sacrament",
+    "term": "Sacrament",
+    "aliases": ["sacraments", "ordinance", "ordinances"],
+    "definition": "A sacred rite through which God's grace is given or shown, such as baptism and Communion. Catholic and Orthodox churches count seven; most Protestants count two; some call them \"ordinances\" and see them as acts of obedience and witness."
+  },
+  {
+    "slug": "saint",
+    "term": "Saint",
+    "aliases": ["saints"],
+    "definition": "In the New Testament, any believer (\"holy one\"). In Catholic, Orthodox and some other traditions, also people recognised as being with God, who may be asked to pray for us."
+  },
+  {
+    "slug": "salvation",
+    "term": "Salvation",
+    "aliases": ["saved"],
+    "definition": "Rescue from sin and its consequences, and restoration to life with God."
+  },
+  {
+    "slug": "sanctification",
+    "term": "Sanctification",
+    "aliases": [],
+    "definition": "The process of being made holy: growing in love and goodness by God's Spirit."
+  },
+  {
+    "slug": "scribes",
+    "term": "Scribes",
+    "aliases": ["scribe"],
+    "definition": "Experts in the Jewish law who copied and taught the Scriptures."
+  },
+  {
+    "slug": "sola-scriptura",
+    "term": "Sola scriptura",
+    "aliases": ["scripture alone"],
+    "definition": "Latin for \"Scripture alone\": the Reformation principle that the Bible is the supreme authority for faith, above church tradition."
+  },
+  {
+    "slug": "synoptic",
+    "term": "Synoptic Gospels",
+    "aliases": ["synoptic"],
+    "definition": "Matthew, Mark and Luke, which share many of the same stories and can be \"seen together\"."
+  },
+  {
+    "slug": "tabernacle",
+    "term": "Tabernacle",
+    "aliases": [],
+    "definition": "The portable tent-sanctuary Israel built in the wilderness where God's presence dwelt among them."
+  },
+  {
+    "slug": "theotokos",
+    "term": "Theotokos",
+    "aliases": [],
+    "definition": "Greek for \"God-bearer\": the title for Mary affirmed at the Council of Ephesus (431), meaning that the one she bore is God the Son."
+  },
+  {
+    "slug": "transubstantiation",
+    "term": "Transubstantiation",
+    "aliases": [],
+    "definition": "Catholic teaching that at the consecration the whole substance of the bread and wine becomes the body and blood of Christ, while the appearances remain."
+  },
+  {
+    "slug": "trinity",
+    "term": "Trinity",
+    "aliases": ["trinitarian"],
+    "definition": "The Christian belief that there is one God in three persons: Father, Son and Holy Spirit."
+  }
+]

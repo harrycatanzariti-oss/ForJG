@@ -1,0 +1,23 @@
+---
+import SearchPage from '~/components/SearchPage';
+import BaseLayout from '~/layouts/BaseLayout.astro';
+import { books } from '~/lib/bible';
+
+const searchBooks = books.map((b) => ({
+  id: b.id,
+  name: b.name,
+  abbr: b.abbr,
+  aliases: b.aliases,
+  chapters: b.chapters,
+  verses: b.verses,
+  order: b.order,
+}));
+---
+
+<BaseLayout title="Search" description="Search the Bible by reference, word or phrase." width="reading">
+  <h1 class="mb-6 font-serif text-3xl font-semibold">Search</h1>
+  <SearchPage client:load books={searchBooks} />
+  <noscript>
+    <p class="mt-4">Search needs JavaScript. You can browse every book from the Bible page.</p>
+  </noscript>
+</BaseLayout>

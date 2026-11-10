@@ -1,0 +1,54 @@
+---
+/** The "About this book" card shown on the book page and at the top of chapter 1. */
+import Gloss from '~/components/Gloss.astro';
+import type { Book, BookIntro as Intro } from '~/lib/schemas';
+
+interface Props {
+  book: Book;
+  intro: Intro;
+  /** Start collapsed (used at the top of chapter 1 so scripture stays near the top). */
+  compact?: boolean;
+}
+const { book, intro, compact = false } = Astro.props;
+const seen = new Set<string>();
+const rows: [string, string][] = [
+  ['Traditional author', intro.author],
+  ['Date', intro.date],
+  ['Written for', intro.audience],
+  ['Type of writing', intro.genre],
+];
+---
+
+<section class="card p-5" aria-labelledby={`intro-${book.id}`}>
+  <h2 id={`intro-${book.id}`} class="text-xs font-semibold tracking-wide text-ink-muted uppercase">
+    About {book.name}
+  </h2>
+  <p class="scripture mt-2 text-[1rem]">
+    <Gloss text={intro.overview} seen={seen} />
+  </p>
+  <details open={!compact} class="group mt-3">
+    <summary class="min-h-11 cursor-pointer py-2 text-sm font-medium text-accent">
+      <span class="group-open:hidden">More about this book</span>
+      <span class="hidden group-open:inline">Less</span>
+    </summary>
+    <dl class="mt-1 grid gap-x-4 gap-y-2 text-sm sm:grid-cols-[auto_1fr]">
+      {rows.map(([k, v]) => (
+        <>
+          <dt class="font-semibold">{k}</dt>
+          <dd class="text-ink-muted">{v}</dd>
+        </>
+      ))}
+    </dl>
+    {intro.authorNote && (
+      <p class="mt-3 rounded-xl bg-surface-2 p-3 text-sm">
+        <strong>Who wrote it?</strong> <Gloss text={intro.authorNote} seen={seen} />
+      </p>
+    )}
+    <p class="mt-3 text-sm">
+      <strong>Key themes:</strong> {intro.themes.join(' · ')}
+    </p>
+    <p class="mt-2 text-sm">
+      <strong>In the big story:</strong> <Gloss text={intro.storyPlace} seen={seen} />
+    </p>
+  </details>
+</section>

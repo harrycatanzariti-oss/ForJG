@@ -9,6 +9,8 @@ import {
   booksSchema,
   chapterSchema,
   simplifiedSchema,
+  bookIntroSchema,
+  type BookIntro,
   translationInfoSchema,
   type Book,
   type Chapter,
@@ -26,6 +28,13 @@ const simplifiedFiles = import.meta.glob<unknown>('/src/data/simplified/*/*.json
   eager: true,
   import: 'default',
 });
+
+const introFiles = import.meta.glob<unknown>('/src/data/book-intros/*.json', { eager: true, import: 'default' });
+
+export function getIntro(bookId: string): BookIntro | undefined {
+  const raw = introFiles[`/src/data/book-intros/${bookId}.json`];
+  return raw ? bookIntroSchema.parse(raw) : undefined;
+}
 
 export function getBook(id: string): Book | undefined {
   return books.find((b) => b.id === id);

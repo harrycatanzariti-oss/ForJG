@@ -2,10 +2,12 @@
 /**
  * /bible/{book}/{chapter} — one page per chapter (1,189 pages in total).
  */
+import BookIntro from '~/components/BookIntro.astro';
 import ChapterReader from '~/components/reader/ChapterReader';
 import Icon from '~/components/ui/Icon.astro';
 import BaseLayout from '~/layouts/BaseLayout.astro';
-import { books, getChapter, getSimplified, neighbours } from '~/lib/bible';
+import { books, getChapter, getIntro, getSimplified, neighbours } from '~/lib/bible';
+import { getPassageNotes, traditionNames } from '~/lib/content';
 import { url } from '~/lib/url';
 
 export function getStaticPaths() {
@@ -22,6 +24,10 @@ const book = books.find((b) => b.id === bookId)!;
 const initial = getChapter('bsb', bookId, chapter);
 const simplified = getSimplified(bookId, chapter);
 const { prev, next } = neighbours(bookId, chapter);
+const intro = chapter === 1 ? getIntro(bookId) : undefined;
+const passageNotes = getPassageNotes(bookId, chapter);
+const prevHref = prev ? url(`/bible/${prev.book.id}/${prev.chapter}`) : undefined;
+const nextHref = next ? url(`/bible/${next.book.id}/${next.chapter}`) : undefined;
 const unit = book.id === 'psalms' ? 'Psalm' : `${book.name}`;
 const title = book.id === 'psalms' ? `Psalm ${chapter}` : `${book.name} ${chapter}`;
 const firstVerse = initial.verses[0]?.text ?? '';
@@ -48,6 +54,12 @@ const description = `Read ${title} in the KJV, BSB or WEB, with a plain-English 
     )}
   </h1>
 
+  {intro && (
+    <div class="mt-4">
+      <BookIntro book={book} intro={intro} compact />
+    </div>
+  )}
+
   <div class="mt-4">
     <ChapterReader
       client:load
@@ -56,12 +68,16 @@ const description = `Read ${title} in the KJV, BSB or WEB, with a plain-English 
       chapter={chapter}
       initial={initial}
       simplified={simplified}
+      passageNotes={passageNotes}
+      traditionNames={passageNotes ? traditionNames() : undefined}
+      prevHref={prevHref}
+      nextHref={nextHref}
     />
   </div>
 
   <nav aria-label="Chapters" class="mt-10 flex items-stretch justify-between gap-3">
     {prev ? (
-      <a href={url(`/bible/${prev.book.id}/${prev.chapter}`)} class="btn btn-secondary" rel="prev">
+      <a href={prevHref} class="btn btn-secondary" rel="prev">
         <Icon name="chevron-left" />
         <span>
           <span class="sr-only">Previous: </span>
@@ -72,7 +88,7 @@ const description = `Read ${title} in the KJV, BSB or WEB, with a plain-English 
       <span />
     )}
     {next ? (
-      <a href={url(`/bible/${next.book.id}/${next.chapter}`)} class="btn btn-primary" rel="next">
+      <a href={nextHref} class="btn btn-primary" rel="next">
         <span>
           <span class="sr-only">Next: </span>
           {next.book.abbr} {next.chapter}

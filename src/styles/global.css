@@ -195,3 +195,103 @@
   border-radius: 4px;
   box-shadow: 0 0 0 3px var(--accent-soft);
 }
+
+/* Verse highlights. Pale in light mode, deep in dark mode, so text stays readable (AA). */
+:root {
+  --hl-yellow: #fbeaa4;
+  --hl-green: #cdebc5;
+  --hl-blue: #cfe2f6;
+  --hl-pink: #f6d3df;
+}
+.dark {
+  --hl-yellow: #5a4a12;
+  --hl-green: #1f4a2a;
+  --hl-blue: #1d3a5c;
+  --hl-pink: #5a2338;
+}
+.hl-yellow,
+.swatch-yellow {
+  background: var(--hl-yellow);
+}
+.hl-green,
+.swatch-green {
+  background: var(--hl-green);
+}
+.hl-blue,
+.swatch-blue {
+  background: var(--hl-blue);
+}
+.hl-pink,
+.swatch-pink {
+  background: var(--hl-pink);
+}
+.hl-yellow,
+.hl-green,
+.hl-blue,
+.hl-pink {
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.verse-selected {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+/* Glossary terms: a dotted underline you can tap for a definition popover. */
+.gloss-term {
+  display: inline;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+  cursor: help;
+  background: none;
+}
+.gloss-pop {
+  max-width: min(22rem, calc(100vw - 2rem));
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.5;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.25);
+}
+.gloss-pop::backdrop {
+  background: rgb(0 0 0 / 0.2);
+}
+
+/* One colour per type of writing, used on the book grid and progress map. */
+:root {
+  --g-law: #b5522b;
+  --g-history: #a0731c;
+  --g-wisdom: #6a8a2a;
+  --g-prophets: #2f7a6b;
+  --g-gospels: #8a3f8f;
+  --g-acts: #b03a5b;
+  --g-letters: #2f63a8;
+  --g-apocalyptic: #5b4bb0;
+}
+.dark {
+  --g-law: #e48a63;
+  --g-history: #d9ab4f;
+  --g-wisdom: #a3c85f;
+  --g-prophets: #5fc0ab;
+  --g-gospels: #c98ad0;
+  --g-acts: #e57d9b;
+  --g-letters: #7aa7e6;
+  --g-apocalyptic: #a49af0;
+}
+
+mark {
+  background: var(--hl-yellow);
+  color: inherit;
+  border-radius: 2px;
+}

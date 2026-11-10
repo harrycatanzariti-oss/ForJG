@@ -94,19 +94,68 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
             ))}
           </ul>
         </nav>
-        <div class="ml-auto sm:ml-0">
+        <div class="ml-auto flex items-center sm:ml-0">
+          <a
+            href={url('/search')}
+            class="flex size-11 items-center justify-center rounded-full text-ink-muted hover:bg-surface-2 hover:text-ink"
+            aria-label="Search the Bible"
+          >
+            <Icon name="search" />
+          </a>
           <ThemeToggle client:idle />
+          <a
+            href={url('/settings')}
+            class="flex size-11 items-center justify-center rounded-full text-ink-muted hover:bg-surface-2 hover:text-ink"
+            aria-label="Settings"
+            aria-current={isActive('/settings') ? 'page' : undefined}
+          >
+            <Icon name="settings" />
+          </a>
         </div>
       </div>
     </header>
 
-    <main id="main" class={`mx-auto w-full ${container} flex-1 px-4 pt-6 pb-28 sm:pb-12`}>
+    <main id="main" class={`mx-auto w-full ${container} flex-1 px-4 pt-6 pb-12`}>
       <slot />
     </main>
 
-    <footer class="hidden border-t border-line py-8 text-sm text-ink-muted sm:block">
+    <footer class="border-t border-line pt-8 pb-28 text-sm text-ink-muted sm:pb-8">
       <div class="mx-auto max-w-5xl px-4">
-        <p>
+        <nav aria-label="More pages">
+          <ul class="flex flex-wrap gap-x-5 gap-y-2">
+            <li>
+              <a href={url('/search')} class="text-ink-muted">
+                Search
+              </a>
+            </li>
+            <li>
+              <a href={url('/progress')} class="text-ink-muted">
+                Progress
+              </a>
+            </li>
+            <li>
+              <a href={url('/glossary')} class="text-ink-muted">
+                Glossary
+              </a>
+            </li>
+            <li>
+              <a href={url('/traditions/questions')} class="text-ink-muted">
+                Big questions
+              </a>
+            </li>
+            <li>
+              <a href={url('/about')} class="text-ink-muted">
+                About
+              </a>
+            </li>
+            <li>
+              <a href={url('/settings')} class="text-ink-muted">
+                Settings
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <p class="mt-4">
           {SITE_NAME} is free, has no ads and no tracking. Your reading data stays in this browser. Bible text: KJV, BSB
           and WEB (public domain).
         </p>

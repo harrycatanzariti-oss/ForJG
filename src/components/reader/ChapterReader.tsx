@@ -6,12 +6,17 @@
  * component wakes up in the browser it reads your settings, switches to your
  * chosen level, and quietly preloads the other translation so moving the
  * slider never waits for the network.
+ *
+ * It also handles: tapping verses (highlight / note / copy / share),
+ * "How traditions read this" notes, marking the chapter as read when you
+ * reach the end, and swiping left/right to change chapter on phones.
  */
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
+import { chapterAnnotations, setAnnotation, type Annotation, type HighlightColour } from '~/lib/annotations';
 import { loadChapter, primeChapter } from '~/lib/bible-client';
 import { LEVELS } from '~/lib/levels';
-import { recordLastRead } from '~/lib/progress';
-import type { Chapter, Simplified, TranslationId } from '~/lib/schemas';
+import { isRead, markRead, markUnread, recordLastRead } from '~/lib/progress';
+import type { Chapter, PassageNotes, Simplified, TranslationId } from '~/lib/schemas';
 import {
   getSettings,
   getStartLevel,
@@ -21,9 +26,12 @@ import {
   type Settings,
 } from '~/lib/settings';
 import { CHANGE_EVENT } from '~/lib/storage';
+import { url } from '~/lib/url';
 import { omittedNote } from '~/lib/versification';
 import LevelSlider from './LevelSlider';
 import ScriptureText from './ScriptureText';
+import TraditionsPanel from './TraditionsPanel';
+import VerseActions from './VerseActions';
 
 interface Props {
   bookId: string;
@@ -32,11 +40,28 @@ interface Props {
   /** BSB text, rendered on the server. */
   initial: Chapter;
   simplified?: Simplified;
+  passageNotes?: PassageNotes;
+  traditionNames?: Record<string, string>;
+  prevHref?: string;
+  nextHref?: string;
 }
 
 type Texts = Partial<Record<TranslationId, Chapter>>;
 
-export default function ChapterReader({ bookId, bookName, chapter, initial, simplified }: Props) {
+const WORDS_PER_MINUTE = 200;
+const countWords = (s: string) => s.split(/\s+/).filter(Boolean).length;
+
+export default function ChapterReader({
+  bookId,
+  bookName,
+  chapter,
+  initial,
+  simplified,
+  passageNotes,
+  traditionNames = {},
+  prevHref,
+  nextHref,
+}: Props) {
   // Start with exactly what the server rendered (Level 2, BSB, verse numbers
   // on). Settings are applied in useEffect, after the page is interactive.
   const [level, setLevel] = useState<Level>(2);
@@ -47,16 +72,24 @@ export default function ChapterReader({ bookId, bookName, chapter, initial, simp
   const [texts, setTexts] = useState<Texts>({ bsb: initial });
   const [error, setError] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
+  const [hydrated, setHydrated] = useState(false);
+  const [annotations, setAnnotations] = useState<Record<number, Annotation>>({});
+  const [selected, setSelected] = useState<number | null>(null);
+  const [openNote, setOpenNote] = useState<string | null>(null);
+  const [read, setRead] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
+  const endRef = useRef<HTMLDivElement>(null);
+  const toastTimer = useRef<number>();
 
+  const refName = bookId === 'psalms' ? 'Psalm' : bookName;
   const available: Record<Level, boolean> = { 1: true, 2: true, 3: !!simplified, 4: !!simplified };
   const translationFor = (l: Level, m: ModernTranslation): TranslationId | null =>
     l === 1 ? 'kjv' : l === 2 ? m : null;
 
   const ensure = async (t: TranslationId) => {
-    if (texts[t]) return;
     try {
       const data = await loadChapter(t, bookId, chapter);
-      setTexts((prev) => ({ ...prev, [t]: data }));
+      setTexts((prev) => (prev[t] ? prev : { ...prev, [t]: data }));
       setError(null);
     } catch {
       setError('This translation could not be loaded. Check your connection and try again.');
@@ -72,10 +105,14 @@ export default function ChapterReader({ bookId, bookName, chapter, initial, simp
     if (!available[start]) start = 2;
     setLevel(start);
     recordLastRead(bookId, chapter);
+    setAnnotations(chapterAnnotations(bookId, chapter));
+    setRead(isRead(bookId, chapter));
+    setHydrated(true);
 
     const onChange = () => {
       const next = getSettings();
       setSettings({ modernTranslation: next.modernTranslation, verseNumbers: next.verseNumbers });
+      setAnnotations(chapterAnnotations(bookId, chapter));
     };
     window.addEventListener(CHANGE_EVENT, onChange);
     return () => window.removeEventListener(CHANGE_EVENT, onChange);
@@ -94,9 +131,81 @@ export default function ChapterReader({ bookId, bookName, chapter, initial, simp
     });
   }, [level, settings.modernTranslation]);
 
+  const showToast = (message: string) => {
+    setToast(message);
+    window.clearTimeout(toastTimer.current);
+    toastTimer.current = window.setTimeout(() => setToast(null), 7000);
+  };
+
+  // Mark as read automatically when the end of the chapter scrolls into view,
+  // but only once the reader has actually scrolled (or spent 30s on the page),
+  // so short chapters are not marked the instant they open.
+  useEffect(() => {
+    if (!hydrated || read || !endRef.current || typeof IntersectionObserver === 'undefined') return;
+    let engaged = false;
+    const engage = () => (engaged = true);
+    window.addEventListener('scroll', engage, { passive: true, once: true });
+    const timer = window.setTimeout(engage, 30_000);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting) && engaged) {
+          markRead(bookId, chapter);
+          setRead(true);
+          showToast(`${refName} ${chapter} marked as read.`);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '0px 0px -10% 0px' },
+    );
+    observer.observe(endRef.current);
+    // Re-check after the reader scrolls, in case the end was already visible.
+    const recheck = () => {
+      observer.unobserve(endRef.current!);
+      observer.observe(endRef.current!);
+    };
+    window.addEventListener('scroll', recheck, { passive: true });
+    return () => {
+      observer.disconnect();
+      window.clearTimeout(timer);
+      window.removeEventListener('scroll', engage);
+      window.removeEventListener('scroll', recheck);
+    };
+  }, [hydrated, read]);
+
+  // Swipe left/right on phones to move between chapters.
+  useEffect(() => {
+    let start: { x: number; y: number; t: number } | null = null;
+    const onStart = (e: TouchEvent) => {
+      const target = e.target as HTMLElement;
+      if (e.touches.length !== 1 || target.closest('input, textarea, [role="dialog"], svg[data-no-swipe]')) {
+        start = null;
+        return;
+      }
+      start = { x: e.touches[0]!.clientX, y: e.touches[0]!.clientY, t: Date.now() };
+    };
+    const onEnd = (e: TouchEvent) => {
+      if (!start) return;
+      const dx = e.changedTouches[0]!.clientX - start.x;
+      const dy = e.changedTouches[0]!.clientY - start.y;
+      const quick = Date.now() - start.t < 800;
+      start = null;
+      if (!quick || Math.abs(dx) < 90 || Math.abs(dy) > 60) return;
+      if (window.getSelection()?.toString()) return;
+      const href = dx < 0 ? nextHref : prevHref;
+      if (href) window.location.href = href;
+    };
+    const area = document.getElementById('reader-swipe-area');
+    area?.addEventListener('touchstart', onStart, { passive: true });
+    area?.addEventListener('touchend', onEnd, { passive: true });
+    return () => {
+      area?.removeEventListener('touchstart', onStart);
+      area?.removeEventListener('touchend', onEnd);
+    };
+  }, [prevHref, nextHref]);
+
   const choose = (next: Level) => {
     if (!available[next]) {
-      setNotice(`${LEVELS[next - 1]!.name} is coming soon for ${bookName} ${chapter}.`);
+      setNotice(`${LEVELS[next - 1]!.name} is coming soon for ${refName} ${chapter}.`);
       return;
     }
     setNotice(null);
@@ -104,9 +213,39 @@ export default function ChapterReader({ bookId, bookName, chapter, initial, simp
     rememberLevel(next);
   };
 
+  const toggleRead = () => {
+    if (read) {
+      markUnread(bookId, chapter);
+      setRead(false);
+      showToast(`${refName} ${chapter} marked as not read.`);
+    } else {
+      markRead(bookId, chapter);
+      setRead(true);
+      showToast(`${refName} ${chapter} marked as read.`);
+    }
+  };
+
   const translation = translationFor(level, settings.modernTranslation);
   const text = translation ? texts[translation] : undefined;
   const omitted = text?.omitted ?? [];
+
+  const words =
+    level === 3 && simplified
+      ? simplified.plain.reduce((n, p) => n + countWords(p.text), 0)
+      : level === 4 && simplified
+        ? countWords(
+            [simplified.summary.bigIdea, ...simplified.summary.points, simplified.summary.reflection].join(' '),
+          )
+        : (text?.verses.reduce((n, v) => n + countWords(v.text), 0) ?? 0);
+  const minutes = Math.max(1, Math.round(words / WORDS_PER_MINUTE));
+
+  const noteMarkers = (passageNotes?.notes ?? []).map((n) => ({
+    id: n.id,
+    firstVerse: Number(n.verses.split('-')[0]),
+    title: n.title,
+  }));
+  const activeNote = passageNotes?.notes.find((n) => n.id === openNote);
+  const selectedVerse = selected !== null ? text?.verses.find((v) => v.v === selected) : undefined;
 
   return (
     <div>
@@ -119,11 +258,22 @@ export default function ChapterReader({ bookId, bookName, chapter, initial, simp
         )}
       </div>
 
-      <div class="mt-6" aria-live="polite" aria-busy={translation && !text ? 'true' : 'false'}>
+      <div id="reader-swipe-area" class="mt-4" aria-live="polite" aria-busy={translation && !text ? 'true' : 'false'}>
+        <p class="mb-3 flex items-center justify-between text-xs font-semibold tracking-wide text-ink-muted uppercase">
+          <span>{text ? text.translation : LEVELS[level - 1]!.name}</span>
+          <span class="font-normal normal-case">About {minutes} min read</span>
+        </p>
         {translation && text && (
           <>
-            <p class="mb-3 text-xs font-semibold tracking-wide text-ink-muted uppercase">{text.translation}</p>
-            <ScriptureText chapter={text} showVerseNumbers={settings.verseNumbers} />
+            <ScriptureText
+              chapter={text}
+              showVerseNumbers={settings.verseNumbers}
+              annotations={annotations}
+              noteMarkers={noteMarkers}
+              selectedVerse={selected}
+              onVerse={hydrated ? (v) => (setOpenNote(null), setSelected(v)) : undefined}
+              onNoteMarker={(id) => (setSelected(null), setOpenNote(id))}
+            />
             {omitted.length > 0 && (
               <p class="mt-6 border-t border-line pt-3 text-sm text-ink-muted">
                 {omitted.length === 1 ? 'Verse' : 'Verses'} {omitted.join(', ')}:{' '}
@@ -148,13 +298,87 @@ export default function ChapterReader({ bookId, bookName, chapter, initial, simp
         {level === 3 && simplified && <PlainView simplified={simplified} />}
         {level === 4 && simplified && <SummaryView simplified={simplified} />}
       </div>
+
+      <div ref={endRef} class="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4">
+        <button
+          type="button"
+          class={`btn ${read ? 'btn-secondary' : 'btn-primary'}`}
+          aria-pressed={read}
+          onClick={toggleRead}
+          disabled={!hydrated}
+        >
+          {read ? (
+            <>
+              <svg
+                class="size-5"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.2"
+                aria-hidden="true"
+              >
+                <path d="m5 12 5 5L20 7" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              Read
+            </>
+          ) : (
+            'Mark as read'
+          )}
+        </button>
+        <a href={url('/progress')} class="text-sm">
+          See your progress
+        </a>
+      </div>
+
+      {toast && (
+        <div
+          class="fixed inset-x-4 bottom-20 z-50 mx-auto flex max-w-md items-center justify-between gap-3 rounded-2xl bg-ink px-4 py-3 text-paper shadow-xl sm:bottom-6"
+          role="status"
+        >
+          <span>{toast}</span>
+          <button type="button" class="min-h-11 px-2 font-semibold underline" onClick={toggleRead}>
+            Undo
+          </button>
+        </div>
+      )}
+
+      {selected !== null && selectedVerse && text && (
+        <VerseActions
+          reference={`${refName} ${chapter}:${selected}`}
+          verseText={selectedVerse.text}
+          translation={text.translation}
+          shareUrl={new URL(url(`/bible/${bookId}/${chapter}#v${selected}`), window.location.origin).href}
+          annotation={annotations[selected]}
+          onHighlight={(colour: HighlightColour | null) => {
+            setAnnotation(bookId, chapter, selected, { colour });
+            setAnnotations(chapterAnnotations(bookId, chapter));
+          }}
+          onSaveNote={(note) => {
+            setAnnotation(bookId, chapter, selected, { note });
+            setAnnotations(chapterAnnotations(bookId, chapter));
+          }}
+          onClose={() => setSelected(null)}
+        />
+      )}
+      {activeNote && (
+        <TraditionsPanel
+          note={activeNote}
+          reference={`${refName} ${chapter}:${activeNote.verses.replace('-', '–')}`}
+          traditionNames={traditionNames}
+          onClose={() => setOpenNote(null)}
+        />
+      )}
     </div>
   );
 }
 
 function DraftNote({ simplified }: { simplified: Simplified }) {
   if (simplified.status !== 'draft') return null;
-  return <p class="mb-4 text-xs text-ink-muted italic">Draft, not yet reviewed.</p>;
+  return (
+    <p class="mb-4 text-xs text-ink-muted italic">
+      Draft, not yet reviewed. This retelling is a reading aid, not a translation.
+    </p>
+  );
 }
 
 function PlainView({ simplified }: { simplified: Simplified }) {
