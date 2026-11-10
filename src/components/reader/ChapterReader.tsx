@@ -255,7 +255,7 @@ export default function ChapterReader({
     <div>
       {/* The slider stays pinned at the top while you read (under the header
           when it shows, at the very top when it slides away). */}
-      <div class="below-header sticky z-20 -mx-4 border-b border-black/5 bg-paper/95 px-4 pt-1 pb-1.5 backdrop-blur-xl backdrop-saturate-150 dark:border-white/5">
+      <div class="below-header sticky z-20 -mx-4 border-b border-black/5 bg-paper px-4 pt-1 pb-1.5 dark:border-white/5">
         <LevelSlider level={level} modern={settings.modernTranslation} available={available} onChange={choose} />
       </div>
       <p id="level-description" class="mt-3 text-sm text-ink-muted" aria-live="polite">
