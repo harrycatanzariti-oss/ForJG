@@ -2,6 +2,7 @@
 import { SITE_NAME } from '~/config';
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import { translations } from '~/lib/bible';
+import { COLOUR_MEANINGS } from '~/lib/liturgical.js';
 import { url } from '~/lib/url';
 ---
 
@@ -10,7 +11,7 @@ import { url } from '~/lib/url';
   description="What this site is, which Bible translations it uses, how the simplified content was written, and our neutrality statement."
   width="reading"
 >
-  <h1 class="font-serif text-3xl font-semibold">About {SITE_NAME}</h1>
+  <h1 class="text-[30px] leading-tight font-semibold tracking-[-0.03em]">About {SITE_NAME}</h1>
   <div class="mt-4 space-y-4 text-lg leading-relaxed">
     <p>
       {SITE_NAME} is a free website that helps anyone read the whole Bible in a form they can understand, and learn how
@@ -93,6 +94,35 @@ import { url } from '~/lib/url';
     </a>
     .
   </p>
+
+  <h2 id="church-colours" class="mt-10 scroll-mt-20 text-xl font-semibold">
+    Why the colour changes
+  </h2>
+  <div class="mt-2 space-y-3">
+    <p>
+      The site’s accent colour follows the church year. Each day it takes the colour of the vestments many churches use
+      that day, shown at 30% strength so it stays calm and readable. Today it is
+      <strong data-season-label>the colour of the current season</strong>.
+    </p>
+    <ul class="space-y-2">
+      {(Object.entries(COLOUR_MEANINGS) as [string, string][]).map(([colour, meaning]) => (
+        <li class="flex items-start gap-3">
+          <span
+            class="mt-1.5 size-3 shrink-0 rounded-full"
+            style={`background: ${{ green: 'rgb(46 160 67)', purple: 'rgb(130 80 223)', rose: 'rgb(219 97 162)', red: 'rgb(207 34 46)', white: 'rgb(212 167 44)' }[colour]}`}
+            aria-hidden="true"
+          />
+          <span>{meaning}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="text-sm text-ink-muted">
+      This follows the common Western calendar used by Catholic, Anglican, Lutheran, Methodist and many other churches.
+      Orthodox churches keep a different calendar and colour customs, and some churches move feasts to a nearby Sunday,
+      so your own church may differ on a given day. You can choose a fixed colour in
+      <a href={url('/settings')}>Settings</a>.
+    </p>
+  </div>
 
   <h2 class="mt-10 text-xl font-semibold">Privacy</h2>
   <p class="mt-2">

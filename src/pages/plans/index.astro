@@ -13,7 +13,7 @@ const names = Object.fromEntries(books.map((b) => [b.id, b.name]));
   title="Reading plans"
   description="Six free Bible reading plans, from 21 days to the whole Bible in a year."
 >
-  <h1 class="font-serif text-3xl font-semibold">Reading plans</h1>
+  <h1 class="text-[30px] leading-tight font-semibold tracking-[-0.03em]">Reading plans</h1>
   <p class="mt-2 max-w-prose text-ink-muted">
     Pick a plan and a start date. Days are ticked off automatically as you read. Miss a few days? No problem: you can
     adjust the plan at any time.
@@ -27,7 +27,7 @@ const names = Object.fromEntries(books.map((b) => [b.id, b.name]));
       return (
         <li>
           <a href={url(`/plans/${p.id}`)} class="card block h-full p-5 text-ink no-underline hover:border-accent">
-            <span class="block font-serif text-xl font-semibold">{p.name}</span>
+            <span class="block text-xl font-semibold tracking-tight">{p.name}</span>
             <span class="mt-1 block text-ink-muted">{p.short}</span>
             <span class="mt-3 block text-sm text-ink-muted">
               {s.days} days · {s.chapters} chapters · about {s.minutesPerDay} min a day

@@ -41,7 +41,7 @@ export function PlanToday({
     return (
       <div class="card p-5">
         <p class="text-sm text-ink-muted">{data.name}</p>
-        <p class="mt-1 font-serif text-xl font-semibold">You finished the plan. Well done!</p>
+        <p class="mt-1 text-xl font-semibold tracking-tight">You finished the plan. Well done!</p>
         <a href={url('/plans')} class="btn btn-primary mt-3">
           Choose another plan
         </a>
@@ -64,9 +64,9 @@ export function PlanToday({
           ? `Starts ${new Date(`${active.start}T12:00`).toLocaleDateString()}`
           : `Today: day ${i + 1} of ${data.days.length}`}
       </p>
-      <p class="mt-1 font-serif text-2xl font-semibold">{data.labels[i]}</p>
-      <div class="mt-2 h-2 overflow-hidden rounded-full bg-line" aria-hidden="true">
-        <div class="h-full rounded-full bg-accent" style={{ width: `${percent}%` }} />
+      <p class="mt-1 text-2xl font-semibold tracking-tight">{data.labels[i]}</p>
+      <div class="mt-2 h-2 overflow-hidden rounded-full bg-surface-2" aria-hidden="true">
+        <div class="h-full rounded-full bg-accent-fill" style={{ width: `${percent}%` }} />
       </div>
       <ul class="mt-3 flex flex-wrap gap-2">
         {day.map(([b, c]) => {
@@ -147,7 +147,7 @@ export default function TodayReading({
     return emptyHint ? (
       <a href={url('/plans')} class="card flex items-start gap-4 p-5 text-ink no-underline hover:border-accent">
         <span>
-          <span class="block font-serif text-xl font-semibold">Follow a reading plan</span>
+          <span class="block text-xl font-semibold tracking-tight">Follow a reading plan</span>
           <span class="mt-1 block text-ink-muted">From 21 gentle days to the whole Bible in a year.</span>
         </span>
       </a>

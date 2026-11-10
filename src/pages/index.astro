@@ -12,36 +12,52 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
 ---
 
 <BaseLayout>
-  <section class="py-4 sm:py-10">
-    <h1 class="max-w-xl font-serif text-4xl leading-tight font-semibold sm:text-5xl">{SITE_TAGLINE}</h1>
-    <p class="mt-4 max-w-prose text-lg text-ink-muted">
-      Read every chapter at the level that suits you, from the classic King James wording to a plain-English summary,
-      and understand how Christian traditions read it. Free, no ads, no account.
+  <section class="pt-6 pb-8 text-center sm:pt-14 sm:pb-12">
+    <a
+      href={url('/about#church-colours')}
+      class="blur-in inline-flex items-center gap-2 rounded-full bg-surface px-3 py-1.5 text-sm text-ink-muted no-underline ring-1 ring-black/5 dark:ring-white/10"
+    >
+      <span class="season-dot size-2 rounded-full" aria-hidden="true"></span>
+      <span data-season-label>Today in the church year</span>
+    </a>
+    <h1
+      class="blur-in mx-auto mt-5 max-w-2xl text-[40px] leading-[1.04] font-semibold tracking-[-0.04em] text-balance sm:text-[60px]"
+      style="--d: 80ms"
+    >
+      {SITE_TAGLINE}
+    </h1>
+    <p class="blur-in mx-auto mt-4 max-w-md text-lg text-ink-muted" style="--d: 160ms">
+      Every chapter at the level that suits you, and how Christian traditions read it. Free, no ads, no account.
     </p>
   </section>
 
   <!-- A plain HTML form: it works even before any JavaScript has loaded. -->
-  <form action={url('/guide')} method="get" class="card p-5">
-    <label for="home-guide" class="block font-serif text-xl font-semibold">
+  <form
+    action={url('/guide')}
+    method="get"
+    class="card fade-up mx-auto max-w-2xl rounded-3xl p-5 sm:p-6"
+    style="--d: 240ms"
+  >
+    <label for="home-guide" class="block text-xl font-semibold tracking-tight">
       Where are you today?
     </label>
     <p class="mt-1 text-sm text-ink-muted">
       Tell us in your own words and we’ll point you to passages and next steps. Nothing you type leaves your device.
     </p>
-    <div class="mt-3 flex flex-col gap-2 sm:flex-row">
+    <div class="mt-4 flex flex-col gap-2 sm:flex-row">
       <input
         id="home-guide"
         name="q"
         type="text"
         autocomplete="off"
         placeholder="e.g. I’m mourning and God feels far away"
-        class="min-h-12 w-full flex-1 rounded-xl border border-line bg-paper px-4 text-lg text-ink"
+        class="min-h-12 w-full flex-1 rounded-full border border-line bg-paper px-5 text-base text-ink"
       />
-      <button type="submit" class="btn btn-primary min-h-12">
+      <button type="submit" class="btn btn-primary min-h-12 px-6">
         Guide me
       </button>
     </div>
-    <ul class="mt-3 flex flex-wrap gap-2">
+    <ul class="mt-4 flex flex-wrap gap-2">
       {examples.map((e) => (
         <li>
           <a
@@ -55,13 +71,13 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
     </ul>
   </form>
 
-  <div class="mt-4 grid gap-4 sm:grid-cols-2">
+  <div class="mx-auto mt-6 grid max-w-4xl gap-4 sm:grid-cols-2">
     <ContinueReading client:idle names={names} />
     <TodayReading client:idle names={names} />
     <a href={url('/bible')} class="card flex items-start gap-4 p-5 text-ink no-underline hover:border-accent">
       <Icon name="book" class="mt-1 size-7 shrink-0 text-accent" />
       <span>
-        <span class="block font-serif text-xl font-semibold">Start reading</span>
+        <span class="block text-xl font-semibold tracking-tight">Start reading</span>
         <span class="mt-1 block text-ink-muted">
           Pick any of the 66 books. A good first choice is Mark, the shortest Gospel.
         </span>
@@ -70,7 +86,7 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
     <a href={url('/traditions')} class="card flex items-start gap-4 p-5 text-ink no-underline hover:border-accent">
       <Icon name="compass" class="mt-1 size-7 shrink-0 text-accent" />
       <span>
-        <span class="block font-serif text-xl font-semibold">Explore traditions</span>
+        <span class="block text-xl font-semibold tracking-tight">Explore traditions</span>
         <span class="mt-1 block text-ink-muted">
           How Catholic, Orthodox, Protestant and other churches believe and worship, described fairly in their own
           words.
@@ -79,7 +95,7 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
     </a>
   </div>
 
-  <section class="mt-12 max-w-prose">
+  <section class="mx-auto mt-14 max-w-4xl">
     <h2 class="text-lg font-semibold">How the reading levels work</h2>
     <ol class="mt-3 list-decimal space-y-2 pl-5 text-ink-muted">
       <li>

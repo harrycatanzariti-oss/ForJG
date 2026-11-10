@@ -162,6 +162,30 @@ the exact file names to save. The service worker:
 
 The site can be installed to a phone's home screen (`public/manifest.webmanifest`).
 
+## Design and the church-year colour
+
+The look is adapted from Otis: the Geist typeface for the interface (scripture
+stays in the Literata serif for comfortable reading), a light grey page with
+white cards that use soft layered shadows instead of hard borders, pill-shaped
+buttons, a frosted header and tab bar, and gentle "blur-in" entrances.
+
+The accent colour follows the **church year**. `src/lib/liturgical.js` works
+out the season and the colour of the vestments for any date: green (Ordinary
+Time), purple (Advent, Lent), rose (Gaudete and Laetare Sundays), red (Palm
+Sunday, Good Friday, Pentecost, martyrs' feasts) and white/gold (Christmas,
+Easter, great feasts). A tiny script in the page head runs it on the visitor's
+own date and sets `data-vestment` on `<html>`, before anything is drawn.
+
+In `src/styles/global.css` each colour is defined once:
+
+- `--vest`: the vestment colour. Buttons, selections and tints use it at **30%
+  opacity** (`--accent-fill`).
+- `--accent`: a deeper shade of the same colour for links and text, chosen to
+  pass WCAG AA contrast. The tests check all five colours in light and dark mode.
+
+Readers can fix a colour instead in Settings ("Accent colour"). White
+vestments use gold here, because white at 30% would be invisible on white.
+
 ## Saved data (localStorage)
 
 All keys start with `lamplight:`.

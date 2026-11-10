@@ -39,7 +39,7 @@ export default function ProgressMap({ books }: { books: MapBook[] }) {
         {stats.map((s) => (
           <div key={s.label} class="card p-4">
             <dt class="text-sm text-ink-muted">{s.label}</dt>
-            <dd class="mt-1 font-serif text-3xl font-semibold">
+            <dd class="mt-1 text-[30px] leading-tight font-semibold tracking-[-0.03em]">
               {s.value} <span class="font-sans text-sm font-normal text-ink-muted">{s.sub}</span>
             </dd>
           </div>

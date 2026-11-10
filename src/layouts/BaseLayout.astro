@@ -2,13 +2,19 @@
 /**
  * The frame around every page: <head> tags, header, navigation and footer.
  */
+import '@fontsource-variable/geist/wght.css';
 import '@fontsource-variable/literata/wght.css';
+// Font files to fetch early: the interface font and the main scripture font.
+import geistLatin from '@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url';
 // The URL of the main (Latin) scripture font file, so we can ask the browser to fetch it early.
 import literataLatin from '@fontsource-variable/literata/files/literata-latin-wght-normal.woff2?url';
 import '~/styles/global.css';
 import Icon from '~/components/ui/Icon.astro';
 import ThemeToggle from '~/components/ui/ThemeToggle';
 import { NAV, SITE_DESCRIPTION, SITE_NAME } from '~/config';
+import { liturgicalDay } from '~/lib/liturgical.js';
+// The calendar code as text, so it can run inline before the page is drawn.
+import liturgicalSource from '~/lib/liturgical.js?raw';
 import { url } from '~/lib/url';
 
 interface Props {
@@ -32,10 +38,21 @@ const isActive = (href: string) => {
   return href === '/' ? path === target : path === target || path.startsWith(`${target}/`);
 };
 const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
+
+// The colour as of the build; the inline script below updates it to the
+// visitor's actual date, so it is always right on the day.
+const buildDay = liturgicalDay(new Date());
+const colourScript = `(function(){${liturgicalSource.replace(/^export /gm, '')}
+  var choice = 'season';
+  try { choice = (JSON.parse(localStorage.getItem('lamplight:settings') || '{}') || {}).accent || 'season'; } catch (e) {}
+  var today = liturgicalDay(new Date());
+  document.documentElement.dataset.vestment = ['green','purple','rose','red','white'].indexOf(choice) >= 0 ? choice : today.colour;
+  window.__liturgicalDay = today;
+})();`;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-vestment={buildDay.colour}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -50,8 +67,9 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     {canonical && <meta property="og:url" content={canonical} />}
-    <meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#171513" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0f14" media="(prefers-color-scheme: dark)" />
+    <link rel="preload" href={geistLatin} as="font" type="font/woff2" crossorigin />
     <link rel="preload" href={literataLatin} as="font" type="font/woff2" crossorigin />
     <link rel="icon" href={url('/favicon.svg')} type="image/svg+xml" />
     <link rel="sitemap" href={url('/sitemap-index.xml')} />
@@ -79,6 +97,8 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
         root.dataset.textSize = String([1, 2, 3, 4].indexOf(s.textSize) >= 0 ? s.textSize : 2);
       })();
     </script>
+    <!-- Sets today's vestment colour (the site's accent) before the page is drawn. -->
+    <script is:inline set:html={colourScript} />
     <slot name="head" />
     {import.meta.env.PROD && <script is:inline define:vars={{ swUrl: url('/sw.js'), scope: url('/') }}>
       // Register the service worker (offline support) once the page has loaded.
@@ -93,11 +113,25 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
     <a href="#main" class="sr-only-focusable fixed top-2 left-2 z-50 rounded-lg bg-surface px-4 py-2 shadow">
       Skip to content
     </a>
-    <header class="sticky top-0 z-30 border-b border-line bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/75">
+    <header class="sticky top-0 z-30 border-b border-black/5 bg-surface/75 backdrop-blur-xl backdrop-saturate-150 dark:border-white/5">
       <div class="mx-auto flex h-14 max-w-5xl items-center gap-3 px-4">
-        <a href={url('/')} class="flex items-center gap-2 font-serif text-lg font-semibold text-ink no-underline">
+        <a
+          href={url('/')}
+          class="flex items-center gap-2 text-[17px] font-semibold tracking-tight text-ink no-underline"
+        >
           <Icon name="lamp" class="size-6 text-accent" />
           {SITE_NAME}
+        </a>
+        <!-- Today's church colour: the dot is the vestment colour for the day. -->
+        <a
+          href={url('/about#church-colours')}
+          class="inline-flex items-center gap-2 rounded-full px-2 py-1 text-xs text-ink-muted no-underline hover:bg-surface-2 hover:text-ink"
+        >
+          <span class="season-dot size-2 rounded-full" aria-hidden="true"></span>
+          <span class="sr-only">Today's church colour: </span>
+          <span class="sr-only md:not-sr-only" data-season-label>
+            {buildDay.day ?? buildDay.season}
+          </span>
         </a>
         <nav aria-label="Main" class="ml-auto hidden sm:block">
           <ul class="flex items-center gap-1">
@@ -185,7 +219,7 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
     <!-- Bottom tab bar: easier to reach with a thumb on phones. -->
     <nav
       aria-label="Main"
-      class="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-paper/95 pb-[env(safe-area-inset-bottom)] backdrop-blur sm:hidden"
+      class="fixed inset-x-0 bottom-0 z-30 border-t border-black/5 bg-surface/80 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl backdrop-saturate-150 sm:hidden dark:border-white/5"
     >
       <ul class="mx-auto flex max-w-md">
         {NAV.map((item) => (
@@ -202,5 +236,15 @@ const container = width === 'reading' ? 'max-w-2xl' : 'max-w-5xl';
         ))}
       </ul>
     </nav>
+    <!-- Fill in today's season name wherever it appears. -->
+    <script is:inline>
+      (function () {
+        var d = window.__liturgicalDay;
+        if (!d) return;
+        document.querySelectorAll('[data-season-label]').forEach(function (el) {
+          el.textContent = d.day || d.season;
+        });
+      })();
+    </script>
   </body>
 </html>

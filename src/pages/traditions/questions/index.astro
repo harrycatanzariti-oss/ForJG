@@ -15,7 +15,7 @@ import { url } from '~/lib/url';
       Traditions
     </a>
   </nav>
-  <h1 class="font-serif text-3xl font-semibold">Big questions</h1>
+  <h1 class="text-[30px] leading-tight font-semibold tracking-[-0.03em]">Big questions</h1>
   <p class="mt-2 text-ink-muted">
     Short explainers on questions where Christians genuinely disagree. Each view is described as its own holders would
     describe it, with the passages they point to.
@@ -24,7 +24,7 @@ import { url } from '~/lib/url';
     {bigQuestions.map((q) => (
       <li>
         <a href={url(`/traditions/questions/${q.id}`)} class="card block p-4 text-ink no-underline hover:border-accent">
-          <span class="block font-serif text-xl font-semibold">{q.title}</span>
+          <span class="block text-xl font-semibold tracking-tight">{q.title}</span>
           <span class="mt-1 block text-sm text-ink-muted">{q.views.length} main views</span>
         </a>
       </li>

@@ -141,7 +141,7 @@ export default function PlanDetail({
               <li key={i} class={`flex items-center gap-3 px-4 py-3 ${isToday ? 'bg-accent-soft' : ''}`}>
                 <span
                   class={`flex size-7 shrink-0 items-center justify-center rounded-full text-xs font-semibold ${
-                    done ? 'bg-accent text-accent-ink' : 'border border-line text-ink-muted'
+                    done ? 'bg-accent-fill text-accent-ink' : 'border border-line text-ink-muted'
                   }`}
                   aria-hidden="true"
                 >

@@ -13,6 +13,7 @@ import {
   type TextSize,
 } from '~/lib/settings';
 import { exportData, importData, resetData } from '~/lib/storage';
+import { url } from '~/lib/url';
 
 const SIZE_LABELS: Record<TextSize, string> = { 1: 'Small', 2: 'Medium', 3: 'Large', 4: 'Extra large' };
 
@@ -77,6 +78,24 @@ export default function SettingsForm() {
           ]}
           onChange={(theme) => update({ theme })}
         />
+        <Choice
+          legend="Accent colour"
+          name="accent"
+          value={s.accent}
+          options={[
+            { value: 'season', label: 'Follow the church year' },
+            { value: 'green', label: 'Green' },
+            { value: 'purple', label: 'Purple' },
+            { value: 'rose', label: 'Rose' },
+            { value: 'red', label: 'Red' },
+            { value: 'white', label: 'White & gold' },
+          ]}
+          onChange={(accent) => update({ accent })}
+        />
+        <p class="-mt-2 text-sm text-ink-muted">
+          “Follow the church year” uses the colour of the vestments worn today, at 30% strength.{' '}
+          <a href={url('/about#church-colours')}>Why the colour changes</a>
+        </p>
         <Choice
           legend="Text size"
           name="textSize"

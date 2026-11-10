@@ -27,7 +27,7 @@ const chapterWord = book.id === 'psalms' ? 'Psalm' : 'Chapter';
       Bible
     </a>
   </nav>
-  <h1 class="font-serif text-3xl font-semibold">{book.name}</h1>
+  <h1 class="text-[30px] leading-tight font-semibold tracking-[-0.03em]">{book.name}</h1>
   <p class="mt-1 text-ink-muted">
     {book.testament === 'old' ? 'Old Testament' : 'New Testament'} ·
     <span style={`color: var(--g-${book.genre})`}>●</span>

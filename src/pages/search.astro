@@ -15,7 +15,7 @@ const searchBooks = books.map((b) => ({
 ---
 
 <BaseLayout title="Search" description="Search the Bible by reference, word or phrase." width="reading">
-  <h1 class="mb-6 font-serif text-3xl font-semibold">Search</h1>
+  <h1 class="mb-6 text-[30px] leading-tight font-semibold tracking-[-0.03em]">Search</h1>
   <SearchPage client:load books={searchBooks} />
   <noscript>
     <p class="mt-4">Search needs JavaScript. You can browse every book from the Bible page.</p>

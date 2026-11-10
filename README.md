@@ -9,6 +9,7 @@ form and understanding the major Christian traditions.
 - **Six reading plans** generated from data, with a gentle "adjust my plan" when you fall behind.
 - **Christian traditions**: 17 profiles with sources, compare tool, family tree, Belief Explorer quiz, Big Questions, and "How traditions read this" notes on 44 key passages.
 - **Works offline** once visited, installable on phones, accessible (WCAG 2.1 AA), fast (Lighthouse 97–100 on mobile).
+- **Changes colour with the church year**: the accent is the colour of the vestments worn that day (green, purple, rose, red or white/gold) at 30% opacity, in a clean design adapted from Otis.
 - **No accounts, no ads, no tracking.** Progress and settings stay in your browser; export/import them in Settings.
 - **Public-domain text only**: KJV, BSB and WEB. See [docs/SOURCES.md](docs/SOURCES.md).
 - **Zero running cost**: plain static files on free hosting.

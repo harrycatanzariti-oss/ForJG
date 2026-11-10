@@ -91,7 +91,7 @@ export default function SearchPage({ books }: { books: Book[] }) {
           >
             <span>
               <span class="block text-sm text-ink-muted">Go to</span>
-              <span class="font-serif text-xl font-semibold">{formatReference(reference)}</span>
+              <span class="text-xl font-semibold tracking-tight">{formatReference(reference)}</span>
             </span>
             <span aria-hidden="true" class="text-accent">
               →

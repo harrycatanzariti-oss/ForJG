@@ -21,7 +21,7 @@ export default function TopicCard({ topic, matched, careNote, onChoose, headingL
   const Sub = headingLevel === 2 ? 'h3' : 'h4';
   return (
     <article class="card p-5" aria-label={topic.title}>
-      <H class="font-serif text-2xl font-semibold" tabIndex={-1} data-topic-heading>
+      <H class="text-2xl font-semibold tracking-tight" tabIndex={-1} data-topic-heading>
         {topic.title}
       </H>
       {matched && matched.length > 0 && (

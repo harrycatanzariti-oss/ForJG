@@ -20,7 +20,7 @@ const related = q.related.map((id) => bigQuestions.find((x) => x.id === id)).fil
       Big questions
     </a>
   </nav>
-  <h1 class="font-serif text-3xl font-semibold">{q.title}</h1>
+  <h1 class="text-[30px] leading-tight font-semibold tracking-[-0.03em]">{q.title}</h1>
   <p class="mt-3 text-lg leading-relaxed">
     <Gloss text={q.intro} seen={seen} />
   </p>

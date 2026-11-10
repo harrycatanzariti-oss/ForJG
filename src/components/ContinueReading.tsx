@@ -22,7 +22,7 @@ export default function ContinueReading({ names }: Props) {
     >
       <span>
         <span class="block text-sm text-ink-muted">Continue where you left off</span>
-        <span class="mt-0.5 block font-serif text-xl font-semibold">{label}</span>
+        <span class="mt-0.5 block text-xl font-semibold tracking-tight">{label}</span>
       </span>
       <svg
         class="size-6 text-accent"

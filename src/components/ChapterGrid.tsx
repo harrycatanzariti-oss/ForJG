@@ -22,7 +22,7 @@ export default function ChapterGrid({ bookId, chapters, word }: { bookId: string
                 href={url(`/bible/${bookId}/${i + 1}`)}
                 class={`flex aspect-square min-h-11 items-center justify-center rounded-xl border no-underline ${
                   done
-                    ? 'border-accent bg-accent text-accent-ink'
+                    ? 'border-accent bg-accent-fill text-accent-ink'
                     : 'border-line bg-surface text-ink hover:border-accent hover:bg-accent-soft'
                 }`}
                 aria-label={`${word} ${i + 1}${done ? ', read' : ''}`}

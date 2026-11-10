@@ -91,12 +91,12 @@ export default function Quiz({ questions, traditions }: Props) {
             Review answers
           </button>
         </div>
-        <div class="mt-2 h-2 overflow-hidden rounded-full bg-line" aria-hidden="true">
-          <div class="h-full bg-accent" style={{ width: `${((index + 1) / questions.length) * 100}%` }} />
+        <div class="mt-2 h-2 overflow-hidden rounded-full bg-surface-2" aria-hidden="true">
+          <div class="h-full bg-accent-fill" style={{ width: `${((index + 1) / questions.length) * 100}%` }} />
         </div>
         <fieldset class="card mt-4 p-5">
           <legend class="sr-only">{q.question}</legend>
-          <h2 id="quiz-heading" tabIndex={-1} class="font-serif text-2xl font-semibold">
+          <h2 id="quiz-heading" tabIndex={-1} class="text-2xl font-semibold tracking-tight">
             {q.question}
           </h2>
           {q.help && <p class="mt-1 text-sm text-ink-muted">{q.help}</p>}
@@ -197,7 +197,7 @@ export default function Quiz({ questions, traditions }: Props) {
             return (
               <li key={r.id} class="card border-l-4 p-5" style={{ borderLeftColor: `var(--f-${t.family})` }}>
                 <div class="flex items-baseline justify-between gap-2">
-                  <h3 class="font-serif text-xl font-semibold">
+                  <h3 class="text-xl font-semibold tracking-tight">
                     {i + 1}. {t.name}
                   </h3>
                   <span class="text-lg font-semibold text-accent">{r.percent}%</span>

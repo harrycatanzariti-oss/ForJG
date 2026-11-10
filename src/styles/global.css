@@ -1,43 +1,97 @@
 @import 'tailwindcss';
 
 /*
- * Design tokens.
+ * Design system (adapted from Otis).
  *
- * Colours are CSS variables so light and dark mode only need to swap values
- * here; components use Tailwind classes like `bg-paper` and `text-ink`.
- * Every text/background pair below meets WCAG AA contrast (4.5:1) in both themes.
+ * Clean white surfaces on a very light grey page, the Geist typeface, soft
+ * layered shadows instead of hard outlines, pill buttons, and a frosted header.
+ *
+ * The accent colour follows the church calendar: it is the colour of the
+ * vestments worn that day (see src/lib/liturgical.js), set as
+ * data-vestment="green|purple|rose|red|white" on <html>. Fills use that colour
+ * at 30% opacity; text and links use a deeper shade of it so they stay
+ * readable (WCAG AA, 4.5:1) in light and dark mode.
  */
 
 /* Dark mode follows the `dark` class on <html> (set by settings), not just the OS. */
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --paper: #faf7f2; /* page background: warm off-white */
+  --paper: #f8fafc; /* page background */
   --surface: #ffffff; /* cards */
-  --surface-2: #f2ede4; /* subtle fills, hover */
-  --ink: #26221e; /* main text */
-  --ink-muted: #5f574e; /* secondary text, 6.6:1 on paper */
-  --line: #e2dacd; /* borders */
-  --accent: #8a3f17; /* links and buttons: warm terracotta, 7:1 on paper */
-  --accent-ink: #ffffff; /* text on accent */
-  --accent-soft: #f6e7dc;
+  --surface-2: #f1f5f9; /* subtle fills, hover */
+  --ink: #0f172a; /* main text */
+  --ink-muted: #526070; /* secondary text, 6.1:1 on paper */
+  --line: #e2e8f0; /* hairlines */
   --focus: #1d5fd1;
+
+  /* Vestment colour (default green, overwritten by data-vestment). */
+  --vest: 46 160 67;
+  --accent: #1a7f37; /* deep shade for text and links */
+
+  --accent-fill: rgb(var(--vest) / 0.3); /* the 30% tint: buttons, selections */
+  --accent-fill-hover: rgb(var(--vest) / 0.4);
+  --accent-soft: rgb(var(--vest) / 0.15); /* gentle background wash */
+  --accent-ink: var(--ink); /* text on the tint */
+
+  --shadow-surface:
+    0 0 0 1px rgb(15 23 42 / 0.06), 0 1px 2px rgb(15 23 42 / 0.04), 0 10px 28px -18px rgb(15 23 42 / 0.18);
+  --shadow-lift: 0 0 0 1px rgb(15 23 42 / 0.08), 0 2px 4px rgb(15 23 42 / 0.05), 0 16px 36px -16px rgb(15 23 42 / 0.24);
 
   --scripture-size: 1.1875rem;
   --scripture-leading: 1.75;
 }
 
+/* The five vestment colours. */
+:root[data-vestment='green'] {
+  --vest: 46 160 67;
+  --accent: #1a7f37;
+}
+:root[data-vestment='purple'] {
+  --vest: 130 80 223;
+  --accent: #6639ba;
+}
+:root[data-vestment='rose'] {
+  --vest: 219 97 162;
+  --accent: #a8306b;
+}
+:root[data-vestment='red'] {
+  --vest: 207 34 46;
+  --accent: #b31b26;
+}
+/* White vestments are trimmed with gold; white at 30% would be invisible on a
+   white page, so the gold carries the colour. */
+:root[data-vestment='white'] {
+  --vest: 212 167 44;
+  --accent: #835c00;
+}
+
 .dark {
-  --paper: #171513;
-  --surface: #211e1b;
-  --surface-2: #2b2723;
-  --ink: #ece6dc;
-  --ink-muted: #b4aa9c; /* 7.9:1 on paper */
-  --line: #3a352f;
-  --accent: #f0a46c; /* 8.6:1 on paper */
-  --accent-ink: #1b120b;
-  --accent-soft: #3a2a1e;
+  --paper: #0a0f14;
+  --surface: #10161d;
+  --surface-2: #19212a;
+  --ink: #eaeef2;
+  --ink-muted: #95a1ad; /* 6.6:1 on surface */
+  --line: #232c37;
   --focus: #8ab4ff;
+  --shadow-surface: 0 0 0 1px rgb(255 255 255 / 0.07), 0 10px 28px -18px rgb(0 0 0 / 0.6);
+  --shadow-lift: 0 0 0 1px rgb(255 255 255 / 0.12), 0 16px 36px -16px rgb(0 0 0 / 0.7);
+}
+.dark[data-vestment='green'],
+.dark:not([data-vestment]) {
+  --accent: #56d364;
+}
+.dark[data-vestment='purple'] {
+  --accent: #bc9cf5;
+}
+.dark[data-vestment='rose'] {
+  --accent: #f4a6c8;
+}
+.dark[data-vestment='red'] {
+  --accent: #ff8b8b;
+}
+.dark[data-vestment='white'] {
+  --accent: #e8bf4c;
 }
 
 /* Four reading sizes, chosen in Settings. */
@@ -63,12 +117,15 @@
   --color-ink-muted: var(--ink-muted);
   --color-line: var(--line);
   --color-accent: var(--accent);
+  --color-accent-fill: var(--accent-fill);
   --color-accent-ink: var(--accent-ink);
   --color-accent-soft: var(--accent-soft);
   --color-focus: var(--focus);
 
   --font-serif: 'Literata Variable', 'Literata Fallback', Georgia, 'Times New Roman', serif;
-  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-sans:
+    'Geist Variable', 'Geist Fallback', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
 }
 
 @layer base {
@@ -81,6 +138,12 @@
   body {
     @apply bg-paper font-sans text-ink antialiased;
     min-height: 100dvh;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.02em;
   }
   /* Links are underlined so they can be told apart without relying on colour.
      Buttons and cards remove it with the no-underline class. */
@@ -97,7 +160,7 @@
     border-radius: 4px;
   }
   ::selection {
-    background: var(--accent-soft);
+    background: var(--accent-fill);
   }
 }
 
@@ -107,22 +170,102 @@
     font-size: var(--scripture-size);
     line-height: var(--scripture-leading);
   }
+  /* A card: hairline edge plus a soft layered shadow (Otis "surface"). */
   .card {
-    @apply rounded-2xl border border-line bg-surface;
+    @apply rounded-2xl border border-transparent bg-surface;
+    box-shadow: var(--shadow-surface);
+  }
+  /* Cards that are links rise a little on hover (Otis "lift"). */
+  a.card {
+    transition:
+      transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+      box-shadow 0.25s ease;
+  }
+  a.card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift);
   }
   .btn {
-    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-base font-medium no-underline transition-colors;
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-[15px] font-medium no-underline;
+    transition:
+      transform 0.15s ease,
+      background-color 0.2s ease;
   }
-  /* Use together: class="btn btn-primary" */
+  /* A small press, like a physical key. */
+  .btn:active {
+    transform: scale(0.97);
+  }
+  /* Use together: class="btn btn-primary". The vestment colour at 30%. */
   .btn-primary {
-    @apply bg-accent text-accent-ink hover:opacity-90;
+    @apply bg-accent-fill text-accent-ink;
+  }
+  .btn-primary:hover {
+    background-color: var(--accent-fill-hover);
   }
   .btn-secondary {
-    @apply border border-line bg-surface text-ink hover:bg-surface-2;
+    @apply bg-surface text-ink hover:bg-surface-2;
+    box-shadow:
+      0 0 0 1px rgb(15 23 42 / 0.08),
+      0 1px 2px rgb(15 23 42 / 0.05);
+  }
+  .dark .btn-secondary {
+    box-shadow: 0 0 0 1px rgb(255 255 255 / 0.1);
+  }
+  /* Small spaced capitals above a heading (Otis "eyebrow"). */
+  .eyebrow {
+    @apply text-[11px] font-medium tracking-[0.08em] text-ink-muted uppercase;
   }
   .sr-only-focusable:not(:focus) {
     @apply sr-only;
   }
+}
+
+/* Entrances (Otis): text sharpens into focus as it rises. --d sets a delay. */
+@keyframes blur-in {
+  from {
+    opacity: 0;
+    filter: blur(12px);
+    translate: 0 24px;
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    translate: 0 0;
+  }
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.blur-in {
+  animation: blur-in 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: var(--d, 0ms);
+}
+.fade-up {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--d, 0ms);
+}
+
+/* The little "today's colour" pill in the header. */
+.season-dot {
+  background: rgb(var(--vest));
+  box-shadow: 0 0 0 3px rgb(var(--vest) / 0.3);
+}
+
+/* Fallback system fonts sized close to Geist and Literata, so text barely
+   moves when the real fonts arrive (reduces layout shift). */
+@font-face {
+  font-family: 'Geist Fallback';
+  src: local('Arial'), local('Helvetica');
+  size-adjust: 104%;
+  ascent-override: 92%;
+  descent-override: 22%;
 }
 
 /* Respect people who ask their device for less motion. */
@@ -170,16 +313,16 @@
   height: var(--thumb);
   margin-top: calc(3px - var(--thumb) / 2);
   border-radius: 50%;
-  background: var(--accent);
-  border: 3px solid var(--paper);
+  background: rgb(var(--vest));
+  border: 3px solid var(--surface);
   box-shadow: 0 1px 4px rgb(0 0 0 / 0.3);
 }
 .level-slider::-moz-range-thumb {
   width: var(--thumb);
   height: var(--thumb);
   border-radius: 50%;
-  background: var(--accent);
-  border: 3px solid var(--paper);
+  background: rgb(var(--vest));
+  border: 3px solid var(--surface);
   box-shadow: 0 1px 4px rgb(0 0 0 / 0.3);
 }
 .level-slider:focus-visible {

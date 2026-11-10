@@ -37,3 +37,24 @@ for (const scheme of ['light', 'dark'] as const) {
     }
   });
 }
+
+// The accent follows the church calendar, so check every vestment colour on
+// the pages that use the accent most.
+for (const scheme of ['light', 'dark'] as const) {
+  for (const colour of ['green', 'purple', 'rose', 'red', 'white']) {
+    test(`${colour} vestment colour passes in ${scheme} mode`, async ({ page }) => {
+      await page.emulateMedia({ colorScheme: scheme });
+      await page.addInitScript(
+        (c) => localStorage.setItem('lamplight:settings', JSON.stringify({ accent: c })),
+        colour,
+      );
+      for (const path of ['/', '/bible/john/3', '/guide/grief', '/plans/gospels-30']) {
+        await page.goto(path);
+        await page.waitForLoadState('networkidle');
+        await expect(page.locator('html')).toHaveAttribute('data-vestment', colour);
+        const results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']).analyze();
+        expect(results.violations.map((v) => `${path} ${v.id}: ${v.nodes[0]?.target.join(' ')}`)).toEqual([]);
+      }
+    });
+  }
+}

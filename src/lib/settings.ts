@@ -2,12 +2,16 @@
  * Reader settings: theme, text size, translations and slider defaults.
  * Stored in localStorage via the safe helper in storage.ts.
  */
+import { liturgicalDay } from './liturgical.js';
 import { read, write } from './storage';
 
 export type Theme = 'system' | 'light' | 'dark';
 export type TextSize = 1 | 2 | 3 | 4;
 export type Level = 1 | 2 | 3 | 4;
 export type ModernTranslation = 'bsb' | 'web';
+/** 'season' follows the church calendar; otherwise a fixed vestment colour. */
+export type AccentChoice = 'season' | 'green' | 'purple' | 'rose' | 'red' | 'white';
+const ACCENTS: AccentChoice[] = ['season', 'green', 'purple', 'rose', 'red', 'white'];
 
 export interface Settings {
   theme: Theme;
@@ -16,6 +20,7 @@ export interface Settings {
   verseNumbers: boolean;
   /** 'last' means "open chapters at whatever level I used last". */
   startLevel: 'last' | Level;
+  accent: AccentChoice;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -24,6 +29,7 @@ export const DEFAULT_SETTINGS: Settings = {
   modernTranslation: 'bsb',
   verseNumbers: true,
   startLevel: 'last',
+  accent: 'season',
 };
 
 const KEY = 'settings';
@@ -41,6 +47,7 @@ export function getSettings(): Settings {
     if (raw.modernTranslation === 'bsb' || raw.modernTranslation === 'web') s.modernTranslation = raw.modernTranslation;
     if (typeof raw.verseNumbers === 'boolean') s.verseNumbers = raw.verseNumbers;
     if (raw.startLevel === 'last' || isLevel(raw.startLevel)) s.startLevel = raw.startLevel;
+    if (ACCENTS.includes(raw.accent as AccentChoice)) s.accent = raw.accent as AccentChoice;
   }
   return s;
 }
@@ -62,6 +69,7 @@ export function applySettings(s: Settings = getSettings()): void {
   root.classList.toggle('dark', dark);
   root.style.colorScheme = dark ? 'dark' : 'light';
   root.dataset.textSize = String(s.textSize);
+  root.dataset.vestment = s.accent === 'season' ? liturgicalDay().colour : s.accent;
 }
 
 /** The level a chapter should open at. */
