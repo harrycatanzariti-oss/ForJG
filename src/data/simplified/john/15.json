@@ -1,0 +1,28 @@
+{
+  "book": "john",
+  "chapter": 15,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-8",
+      "text": "\"I am the true vine, and my Father is the gardener. He cuts off every branch in me that bears no fruit, and prunes every branch that does, so it will be even more fruitful. Remain in me, as I also remain in you. No branch can bear fruit by itself; it must remain in the vine. I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing.\""
+    },
+    {
+      "verses": "9-17",
+      "text": "\"As the Father has loved me, so have I loved you. Remain in my love.\" If they keep his commands, they will remain in his love, and their joy will be complete. \"My command is this: Love each other as I have loved you. Greater love has no one than this: to lay down one's life for one's friends. You are my friends if you do what I command. I no longer call you servants, but friends. You did not choose me, but I chose you to go and bear fruit that will last.\""
+    },
+    {
+      "verses": "18-27",
+      "text": "\"If the world hates you, keep in mind that it hated me first.\" Because they belong to Jesus, the world would treat them as it treated him. Jesus said the Advocate, the Spirit of truth from the Father, would testify about him, and they also must testify, because they had been with him from the beginning."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Like branches on a vine, Jesus' followers live by staying connected to him and loving one another.",
+    "points": [
+      "\"I am the vine; you are the branches... apart from me you can do nothing.\"",
+      "\"Greater love has no one than this: to lay down one's life for one's friends.\"",
+      "Jesus calls his followers friends, and warns they will face hatred as he did."
+    ],
+    "reflection": "Jesus said \"remain in me\". What helps you stay connected to him day by day?"
+  }
+}

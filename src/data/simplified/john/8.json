@@ -1,0 +1,40 @@
+{
+  "book": "john",
+  "chapter": 8,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-11",
+      "text": "Early in the morning Jesus was teaching in the temple. The religious teachers brought a woman caught in adultery and made her stand in front of everyone. \"Moses commanded us to stone such women. What do you say?\" They were trying to trap him. Jesus bent down and wrote on the ground with his finger. When they kept questioning him, he stood up and said, \"Let any one of you who is without sin be the first to throw a stone at her.\" One by one they went away, the older ones first. Jesus asked her, \"Has no one condemned you?\" \"No one, sir.\" \"Then neither do I condemn you. Go now and leave your life of sin.\""
+    },
+    {
+      "verses": "12-20",
+      "text": "Jesus said, \"I am the light of the world. Whoever follows me will never walk in darkness, but will have the light of life.\" The Pharisees said his testimony about himself was not valid. Jesus said he knew where he came from and where he was going, and that his Father also testified about him. \"If you knew me, you would know my Father also.\" No one seized him, because his hour had not yet come."
+    },
+    {
+      "verses": "21-29",
+      "text": "Jesus said he was going away, and they would die in their sins unless they believed that \"I am he\". When they asked who he was, he said, \"When you have lifted up the Son of Man, then you will know that I am he, and that I do nothing on my own, but speak just what the Father has taught me.\""
+    },
+    {
+      "verses": "30-36",
+      "text": "Many believed in him. Jesus said, \"If you hold to my teaching, you are really my disciples. Then you will know the truth, and the truth will set you free.\" They said they were Abraham's descendants and had never been slaves. Jesus said everyone who sins is a slave to sin. \"So if the Son sets you free, you will be free indeed.\""
+    },
+    {
+      "verses": "37-47",
+      "text": "Jesus said that although they were Abraham's descendants, they were trying to kill him; Abraham did not act like that. They claimed God as their Father. Jesus said if God were their Father, they would love him, for he came from God. He said they were acting like their father the devil, a liar from the beginning. \"Whoever belongs to God hears what God says.\""
+    },
+    {
+      "verses": "48-59",
+      "text": "They accused him of being a Samaritan and having a demon. Jesus said, \"Whoever obeys my word will never see death.\" They asked if he was greater than Abraham, who died. Jesus said, \"Your father Abraham rejoiced at the thought of seeing my day.\" \"You are not yet fifty years old, and you have seen Abraham!\" Jesus said, \"Very truly I tell you, before Abraham was born, I am!\" They picked up stones to stone him, but Jesus hid himself and slipped away."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus is the light of the world who brings truth and freedom, and he speaks of himself with God's name, \"I am\".",
+    "points": [
+      "Jesus shows mercy to a woman others wanted to stone: \"Neither do I condemn you.\"",
+      "\"I am the light of the world.\"",
+      "\"The truth will set you free\", and \"before Abraham was born, I am!\""
+    ],
+    "reflection": "Jesus said, \"The truth will set you free.\" Is there an area of your life where you long for that freedom?"
+  }
+}

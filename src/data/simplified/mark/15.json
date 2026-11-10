@@ -1,0 +1,44 @@
+{
+  "book": "mark",
+  "chapter": 15,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-5",
+      "text": "Early in the morning, the leaders bound Jesus and handed him over to Pilate, the Roman governor. Pilate asked, \"Are you the king of the Jews?\" Jesus said, \"You have said so.\" The chief priests accused him of many things, but Jesus gave no further answer, and Pilate was amazed."
+    },
+    {
+      "verses": "6-11",
+      "text": "At the festival, Pilate usually released one prisoner the crowd asked for. A man called Barabbas was in prison for murder during an uprising. Pilate asked, \"Do you want me to release the king of the Jews?\" He knew the chief priests had handed Jesus over out of envy. But they stirred up the crowd to ask for Barabbas instead."
+    },
+    {
+      "verses": "12-15",
+      "text": "\"What shall I do with the one you call the king of the Jews?\" Pilate asked. \"Crucify him!\" they shouted. \"Why? What crime has he committed?\" But they shouted all the louder. Wanting to satisfy the crowd, Pilate released Barabbas, had Jesus flogged, and handed him over to be crucified."
+    },
+    {
+      "verses": "16-20",
+      "text": "The soldiers led Jesus into the palace and called the whole company together. They dressed him in a purple robe, twisted together a crown of thorns and put it on him. They mocked him: \"Hail, king of the Jews!\" They struck his head with a staff, spat on him and knelt in pretend worship. Then they put his own clothes back on and led him out to crucify him."
+    },
+    {
+      "verses": "21-32",
+      "text": "A man from Cyrene named Simon was passing by, and they forced him to carry Jesus' cross. They brought Jesus to Golgotha, which means \"the place of the skull\". They offered him wine mixed with myrrh, but he did not take it. They crucified him and divided his clothes by casting lots. It was nine in the morning. The written charge read: THE KING OF THE JEWS. Two rebels were crucified with him. People passing by insulted him, and the leaders mocked: \"He saved others, but he can't save himself! Let him come down from the cross, so we can see and believe.\" Those crucified with him also insulted him."
+    },
+    {
+      "verses": "33-41",
+      "text": "At noon, darkness came over the whole land until three in the afternoon. Then Jesus cried out in a loud voice, \"Eloi, Eloi, lema sabachthani?\" which means, \"My God, my God, why have you forsaken me?\" Someone offered him sour wine on a sponge. With a loud cry, Jesus breathed his last. The curtain of the temple was torn in two from top to bottom. The Roman centurion who stood there, seeing how he died, said, \"Surely this man was the Son of God!\" Some women were watching from a distance, including Mary Magdalene, Mary the mother of James and Joses, and Salome. They had followed and cared for Jesus in Galilee."
+    },
+    {
+      "verses": "42-47",
+      "text": "That evening, Joseph of Arimathea, a respected council member who was waiting for God's kingdom, boldly asked Pilate for Jesus' body. Pilate was surprised he was already dead and checked with the centurion. Joseph took the body down, wrapped it in linen and placed it in a tomb cut out of rock. He rolled a stone against the entrance. Mary Magdalene and Mary the mother of Joses saw where he was laid."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus, the King of the Jews, is mocked, crucified and dies, and even a Roman soldier says he was the Son of God.",
+    "points": [
+      "Pilate gives in to the crowd and releases Barabbas instead of Jesus.",
+      "Jesus is mocked as king and crucified at Golgotha.",
+      "As Jesus dies, the temple curtain tears and a centurion says, \"Surely this man was the Son of God!\""
+    ],
+    "reflection": "Jesus prayed the words of Psalm 22: \"My God, why have you forsaken me?\" What does it mean to you that he went through such darkness?"
+  }
+}

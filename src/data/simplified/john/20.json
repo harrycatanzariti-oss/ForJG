@@ -1,0 +1,36 @@
+{
+  "book": "john",
+  "chapter": 20,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-9",
+      "text": "Early on the first day of the week, while it was still dark, Mary Magdalene went to the tomb and saw the stone had been removed. She ran to Peter and the other disciple: \"They have taken the Lord out of the tomb, and we don't know where they have put him!\" The two ran to the tomb. They saw the linen cloths lying there, and the cloth that had been around Jesus' head folded up by itself. The other disciple went in, saw and believed. They still did not understand from Scripture that Jesus had to rise from the dead."
+    },
+    {
+      "verses": "10-18",
+      "text": "Mary stood outside the tomb crying. She saw two angels in white, who asked, \"Woman, why are you crying?\" She turned and saw Jesus standing there, but did not recognise him. Thinking he was the gardener, she asked where the body was. Jesus said, \"Mary.\" She turned and cried, \"Rabboni!\" (which means Teacher). Jesus said, \"Do not hold on to me, for I have not yet ascended to the Father. Go to my brothers and tell them, 'I am ascending to my Father and your Father, to my God and your God.'\" Mary Magdalene went and announced, \"I have seen the Lord!\""
+    },
+    {
+      "verses": "19-23",
+      "text": "That evening, the disciples were together with the doors locked for fear of the leaders. Jesus came and stood among them: \"Peace be with you!\" He showed them his hands and side, and they were overjoyed. \"As the Father has sent me, I am sending you.\" He breathed on them and said, \"Receive the Holy Spirit. If you forgive anyone's sins, they are forgiven; if you do not forgive them, they are not forgiven.\""
+    },
+    {
+      "verses": "24-29",
+      "text": "Thomas was not with them. When they told him, he said, \"Unless I see the nail marks in his hands and put my hand into his side, I will not believe.\" A week later Jesus came again and said to Thomas, \"Put your finger here; see my hands. Stop doubting and believe.\" Thomas said, \"My Lord and my God!\" Jesus said, \"Because you have seen me, you have believed; blessed are those who have not seen and yet have believed.\""
+    },
+    {
+      "verses": "30-31",
+      "text": "Jesus did many other signs not written in this book. \"But these are written that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus is risen! He meets grieving Mary, frightened disciples and doubting Thomas, and sends them out in peace.",
+    "points": [
+      "The tomb is empty, and Jesus calls Mary by name.",
+      "Jesus breathes on his disciples: \"Receive the Holy Spirit.\"",
+      "Thomas says, \"My Lord and my God!\" John wrote so that readers may believe and have life."
+    ],
+    "reflection": "Jesus said, \"Blessed are those who have not seen and yet have believed.\" What helps or hinders your believing?"
+  }
+}

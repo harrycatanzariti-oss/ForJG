@@ -1,0 +1,40 @@
+{
+  "book": "john",
+  "chapter": 18,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-11",
+      "text": "Jesus went with his disciples to a garden across the Kidron Valley. Judas came there with soldiers and officials carrying torches and weapons. Jesus stepped forward: \"Who is it you want?\" \"Jesus of Nazareth.\" \"I am he,\" Jesus said, and they drew back and fell to the ground. He asked them to let his disciples go. Simon Peter drew a sword and cut off the right ear of the high priest's servant, Malchus. Jesus said, \"Put your sword away! Shall I not drink the cup the Father has given me?\""
+    },
+    {
+      "verses": "12-14",
+      "text": "The soldiers arrested Jesus, bound him and took him first to Annas, the father-in-law of Caiaphas, the high priest that year."
+    },
+    {
+      "verses": "15-18",
+      "text": "Simon Peter and another disciple followed. The other disciple, known to the high priest, got Peter into the courtyard. The girl at the door asked Peter, \"You aren't one of this man's disciples too, are you?\" \"I am not,\" he said. Peter stood warming himself by a fire with the servants and officials."
+    },
+    {
+      "verses": "19-24",
+      "text": "The high priest questioned Jesus about his disciples and teaching. Jesus said he had spoken openly in synagogues and the temple; they should ask those who heard him. An official slapped him. Jesus said, \"If I said something wrong, testify as to what is wrong. But if I spoke the truth, why did you strike me?\" Annas sent him, still bound, to Caiaphas."
+    },
+    {
+      "verses": "25-27",
+      "text": "As Peter warmed himself, he was asked again, \"You aren't one of his disciples too, are you?\" He denied it. A relative of the man whose ear Peter had cut off asked, \"Didn't I see you with him in the garden?\" Again Peter denied it, and at that moment a rooster began to crow."
+    },
+    {
+      "verses": "28-40",
+      "text": "Early in the morning they led Jesus to Pilate's palace. Pilate asked, \"Are you the king of the Jews?\" Jesus said, \"My kingdom is not of this world.\" \"You are a king, then!\" Jesus said, \"For this reason I was born and came into the world: to testify to the truth. Everyone on the side of truth listens to me.\" Pilate asked, \"What is truth?\" He went out and said he found no basis for a charge. He offered to release \"the king of the Jews\" for Passover, but they shouted, \"No, not him! Give us Barabbas!\" Barabbas had taken part in an uprising."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus willingly faces arrest and trial, telling Pilate that his kingdom is not of this world.",
+    "points": [
+      "Jesus steps forward in the garden: \"I am he.\"",
+      "Peter denies knowing him three times.",
+      "Before Pilate, Jesus says he came to testify to the truth."
+    ],
+    "reflection": "Pilate asked, \"What is truth?\" What do you think Jesus would say to someone asking that today?"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "book": "john",
+  "chapter": 1,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-5",
+      "text": "In the beginning was the Word. The Word was with God, and the Word was God. Everything was made through him. In him was life, and that life was the light of all people. The light shines in the darkness, and the darkness has not overcome it."
+    },
+    {
+      "verses": "6-13",
+      "text": "God sent a man named John to tell people about the light, so that through him everyone might believe. John was not the light himself. The true light was coming into the world. He came to his own people, but most did not accept him. But to everyone who did receive him and believe in his name, he gave the right to become children of God, born not in a human way, but of God."
+    },
+    {
+      "verses": "14-18",
+      "text": "The Word became a human being and lived among us. We have seen his glory, the glory of the Father's only Son, full of grace and truth. The law was given through Moses; grace and truth came through Jesus Christ. No one has ever seen God, but the one and only Son, who is close to the Father's heart, has made him known."
+    },
+    {
+      "verses": "19-28",
+      "text": "Leaders from Jerusalem asked John the Baptist who he was. He said plainly, \"I am not the Christ.\" Nor was he Elijah or the Prophet. He said, \"I am the voice of one calling in the desert, 'Make straight the way for the Lord.'\" He baptised with water, but said someone was among them whose sandals he was not worthy to untie."
+    },
+    {
+      "verses": "29-34",
+      "text": "The next day John saw Jesus coming and said, \"Look, the Lamb of God, who takes away the sin of the world!\" He said he had seen the Spirit come down from heaven like a dove and stay on Jesus. \"I have seen and I testify that this is the Son of God.\""
+    },
+    {
+      "verses": "35-42",
+      "text": "Two of John's disciples heard him call Jesus the Lamb of God and followed Jesus. Jesus asked, \"What do you want?\" They asked where he was staying. \"Come and see,\" he said, and they spent the day with him. One of them, Andrew, found his brother Simon and told him, \"We have found the Messiah.\" Jesus looked at Simon and said, \"You will be called Cephas,\" which means Peter, or \"rock\"."
+    },
+    {
+      "verses": "43-51",
+      "text": "Jesus found Philip and said, \"Follow me.\" Philip told Nathanael, \"We have found the one Moses and the prophets wrote about: Jesus of Nazareth.\" Nathanael asked, \"Can anything good come from Nazareth?\" \"Come and see,\" said Philip. Jesus told Nathanael he had seen him under the fig tree before Philip called him. Nathanael said, \"Rabbi, you are the Son of God! You are the King of Israel!\" Jesus said he would see even greater things: heaven opened and angels going up and down on the Son of Man."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus is the eternal Word of God who became a human being, so we can see what God is like and become God's children.",
+    "points": [
+      "In the beginning was the Word, and the Word was God.",
+      "The Word became flesh and lived among us, full of grace and truth.",
+      "John the Baptist points to Jesus as the Lamb of God, and the first disciples \"come and see\"."
+    ],
+    "reflection": "Jesus invited the first disciples to \"come and see\". What would it look like for you to come and see who Jesus is?"
+  }
+}

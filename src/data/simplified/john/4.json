@@ -1,0 +1,36 @@
+{
+  "book": "john",
+  "chapter": 4,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-15",
+      "text": "Jesus travelled through Samaria. Tired, he sat by a well at midday. A Samaritan woman came to draw water, and Jesus asked her for a drink. She was surprised, because Jews did not usually have anything to do with Samaritans. Jesus said, \"If you knew who is asking you for a drink, you would have asked him, and he would have given you living water.\" Whoever drinks from this well will be thirsty again, but the water he gives becomes a spring welling up to eternal life. \"Sir, give me this water,\" she said."
+    },
+    {
+      "verses": "16-26",
+      "text": "Jesus told her to call her husband. She said she had none. Jesus said she was right: she had had five husbands, and the man she was now with was not her husband. \"I can see you are a prophet,\" she said, and asked whether God should be worshipped on their mountain or in Jerusalem. Jesus said a time was coming when true worshippers would worship the Father in spirit and in truth. She said, \"I know the Messiah is coming.\" Jesus said, \"I, the one speaking to you, am he.\""
+    },
+    {
+      "verses": "27-38",
+      "text": "The disciples returned and were surprised he was talking with a woman. She left her water jar, went into town and said, \"Come, see a man who told me everything I ever did. Could this be the Christ?\" The disciples urged Jesus to eat. He said, \"My food is to do the will of him who sent me and to finish his work.\" He told them to look at the fields, ready for harvest."
+    },
+    {
+      "verses": "39-42",
+      "text": "Many Samaritans from that town believed because of the woman's words. They asked Jesus to stay, and he stayed two days. Many more believed because of his own words. They told the woman, \"We have heard for ourselves, and we know that this man really is the Saviour of the world.\""
+    },
+    {
+      "verses": "43-54",
+      "text": "Jesus returned to Cana in Galilee. A royal official whose son was sick in Capernaum begged Jesus to come and heal him before he died. Jesus said, \"Go, your son will live.\" The man believed and went. On the way, his servants met him: the boy was alive! The fever had left him at the very hour Jesus had spoken. He and his whole household believed. This was Jesus' second sign in Galilee."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus offers living water to everyone, even an outsider with a broken past, and he is the Saviour of the world.",
+    "points": [
+      "Jesus crosses social barriers to talk with a Samaritan woman.",
+      "He offers \"living water\" and says true worship is in spirit and truth.",
+      "Many Samaritans believe, and an official's son is healed at Jesus' word."
+    ],
+    "reflection": "Jesus knew everything about the woman and still offered her living water. How does that change how you see yourself?"
+  }
+}

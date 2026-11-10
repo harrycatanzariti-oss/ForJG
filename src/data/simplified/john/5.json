@@ -1,0 +1,32 @@
+{
+  "book": "john",
+  "chapter": 5,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-15",
+      "text": "In Jerusalem there was a pool called Bethesda, where many sick people lay. One man had been unable to walk for thirty-eight years. Jesus asked him, \"Do you want to get well?\" The man said he had no one to help him into the water. Jesus said, \"Get up! Pick up your mat and walk.\" At once he was healed. But it was the Sabbath, and some leaders told him carrying his mat was not allowed. Later, Jesus found him in the temple and said, \"You are well again. Stop sinning, or something worse may happen.\" The man told the leaders it was Jesus who had healed him."
+    },
+    {
+      "verses": "16-30",
+      "text": "The leaders began to persecute Jesus for healing on the Sabbath. Jesus said, \"My Father is always at work, and I too am working.\" This made them want to kill him even more, because he was calling God his own Father, making himself equal with God. Jesus said the Son does what he sees the Father doing. The Father has given the Son authority to give life and to judge, so that all may honour the Son as they honour the Father. Whoever hears his word and believes the one who sent him has eternal life. A time is coming when the dead will hear his voice and rise."
+    },
+    {
+      "verses": "31-38",
+      "text": "Jesus said others testified about him: John the Baptist, the works the Father gave him to do, and the Father himself. But they did not have God's word living in them, because they did not believe the one he sent."
+    },
+    {
+      "verses": "39-47",
+      "text": "\"You study the Scriptures because you think that in them you have eternal life. These are the very Scriptures that testify about me, yet you refuse to come to me to have life.\" Jesus said they accepted praise from one another but did not seek praise from God. Moses, whom they trusted, wrote about him. \"If you believed Moses, you would believe me.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus does the work of his Father and gives life, and the Scriptures point to him.",
+    "points": [
+      "Jesus heals a man who had been unable to walk for 38 years.",
+      "He says he works as his Father works and has authority to give life.",
+      "The Scriptures testify about Jesus."
+    ],
+    "reflection": "Jesus asked, \"Do you want to get well?\" What would your honest answer be today?"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "book": "john",
+  "chapter": 13,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-17",
+      "text": "Before Passover, Jesus knew his hour had come. Having loved his own, he loved them to the end. During supper he got up, wrapped a towel around his waist, poured water into a basin and began to wash his disciples' feet, the job of a servant. Peter protested, \"You shall never wash my feet!\" Jesus said, \"Unless I wash you, you have no part with me.\" \"Then not just my feet but my hands and head as well!\" Jesus said, \"I have set you an example: you should do as I have done for you. Now that you know these things, you will be blessed if you do them.\""
+    },
+    {
+      "verses": "18-30",
+      "text": "Jesus was troubled and said, \"One of you is going to betray me.\" The disciples stared at each other. The disciple whom Jesus loved asked who it was. Jesus said it was the one to whom he would give a piece of bread after dipping it. He gave it to Judas Iscariot. Jesus told him, \"What you are about to do, do quickly.\" Judas went out. And it was night."
+    },
+    {
+      "verses": "31-35",
+      "text": "Jesus said, \"Now the Son of Man is glorified, and God is glorified in him.\" He would be with them only a little longer. \"A new command I give you: Love one another. As I have loved you, so you must love one another. By this everyone will know that you are my disciples, if you love one another.\""
+    },
+    {
+      "verses": "36-38",
+      "text": "Peter asked where he was going, and why he could not follow now. \"I will lay down my life for you.\" Jesus answered, \"Will you really? Before the rooster crows, you will deny me three times!\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus washes his disciples' feet and gives them a new command: love one another as he has loved you.",
+    "points": [
+      "Jesus takes the role of a servant and washes his disciples' feet.",
+      "Judas goes out into the night to betray him.",
+      "\"By this everyone will know that you are my disciples, if you love one another.\""
+    ],
+    "reflection": "Jesus washed feet. What humble act of love could you do for someone this week?"
+  }
+}

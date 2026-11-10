@@ -1,0 +1,32 @@
+{
+  "book": "john",
+  "chapter": 14,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-4",
+      "text": "\"Do not let your hearts be troubled. You believe in God; believe also in me. My Father's house has many rooms. I am going there to prepare a place for you. And I will come back and take you to be with me, so that you also may be where I am.\""
+    },
+    {
+      "verses": "5-14",
+      "text": "Thomas said, \"Lord, we don't know where you are going, so how can we know the way?\" Jesus answered, \"I am the way and the truth and the life. No one comes to the Father except through me. If you really know me, you will know my Father as well.\" Philip asked, \"Lord, show us the Father.\" Jesus said, \"Anyone who has seen me has seen the Father. I am in the Father, and the Father is in me.\" Those who believe will do the works he has been doing, and even greater, and he will do whatever they ask in his name."
+    },
+    {
+      "verses": "15-26",
+      "text": "\"If you love me, keep my commands. I will ask the Father, and he will give you another Advocate to help you and be with you forever, the Spirit of truth.\" \"I will not leave you as orphans; I will come to you.\" Whoever loves him will obey his teaching, and the Father and the Son will come and make their home with them. The Holy Spirit will teach them all things and remind them of everything Jesus said."
+    },
+    {
+      "verses": "27-31",
+      "text": "\"Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.\" Jesus said he was going to the Father, and told them now so that when it happened they would believe. The world must learn that he loves the Father and does what the Father commands. \"Come now, let us leave.\""
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus comforts his troubled friends: he is the way to the Father, and he will send the Holy Spirit and give his peace.",
+    "points": [
+      "\"My Father's house has many rooms... I will come back and take you to be with me.\"",
+      "\"I am the way and the truth and the life.\"",
+      "Jesus promises the Holy Spirit and his peace."
+    ],
+    "reflection": "Jesus said, \"Do not let your hearts be troubled.\" What is troubling your heart that you could bring to him?"
+  }
+}

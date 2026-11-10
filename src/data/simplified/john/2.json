@@ -1,0 +1,28 @@
+{
+  "book": "john",
+  "chapter": 2,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-12",
+      "text": "There was a wedding in Cana in Galilee. Jesus, his mother and his disciples were there. The wine ran out. Jesus' mother told him, \"They have no more wine,\" and said to the servants, \"Do whatever he tells you.\" There were six large stone water jars. Jesus told the servants to fill them with water, then take some to the person in charge of the feast. It had become wine, and the best wine! This was the first of Jesus' signs. He revealed his glory, and his disciples believed in him."
+    },
+    {
+      "verses": "13-17",
+      "text": "At Passover, Jesus went to Jerusalem. In the temple courts he found people selling cattle, sheep and doves, and money changers at their tables. He made a whip out of cords and drove them all out, scattering coins and overturning tables. \"Stop turning my Father's house into a market!\" His disciples remembered the Scripture: \"Zeal for your house will consume me.\""
+    },
+    {
+      "verses": "18-25",
+      "text": "The leaders demanded a sign to prove his authority. Jesus answered, \"Destroy this temple, and I will raise it again in three days.\" They thought he meant the building, which had taken forty-six years to build. But he was speaking about his body. After he rose from the dead, his disciples remembered this and believed. In Jerusalem many believed when they saw his signs, but Jesus did not entrust himself to them, because he knew what is in people's hearts."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus' first sign shows his glory, and he speaks of his body as the true temple.",
+    "points": [
+      "At a wedding, Jesus turns water into the best wine.",
+      "Mary tells the servants, \"Do whatever he tells you.\"",
+      "Jesus clears the temple and speaks of raising the temple of his body in three days."
+    ],
+    "reflection": "Jesus turned ordinary water into something wonderful. Where would you like to see him bring new life?"
+  }
+}

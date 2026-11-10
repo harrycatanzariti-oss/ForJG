@@ -1,0 +1,36 @@
+{
+  "book": "john",
+  "chapter": 10,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-6",
+      "text": "Jesus said that whoever enters the sheepfold by climbing in another way is a thief, but the shepherd enters by the gate. The sheep know his voice, and he calls them by name and leads them out. They will not follow a stranger. The listeners did not understand."
+    },
+    {
+      "verses": "7-21",
+      "text": "Jesus explained: \"I am the gate for the sheep. Whoever enters through me will be saved. The thief comes only to steal, kill and destroy; I have come that they may have life, and have it to the full. I am the good shepherd. The good shepherd lays down his life for the sheep.\" A hired man runs away when the wolf comes, but Jesus knows his sheep and they know him. He has other sheep, not of this fold, and there will be one flock and one shepherd. \"No one takes my life from me, but I lay it down of my own accord, and I have authority to take it up again.\" The people were divided about him again."
+    },
+    {
+      "verses": "22-30",
+      "text": "At the Feast of Dedication in winter, people surrounded Jesus in the temple: \"If you are the Christ, tell us plainly.\" Jesus said the works he did in his Father's name testified about him, but they did not believe because they were not his sheep. \"My sheep listen to my voice; I know them, and they follow me. I give them eternal life, and they will never perish. No one will snatch them out of my hand.\" \"I and the Father are one.\""
+    },
+    {
+      "verses": "31-39",
+      "text": "They picked up stones to stone him for claiming to be God. Jesus pointed to his good works from the Father and said, \"Believe the works, that you may know and understand that the Father is in me, and I in the Father.\" They tried to seize him, but he escaped."
+    },
+    {
+      "verses": "40-42",
+      "text": "Jesus went back across the Jordan to where John had baptised. Many came to him and said, \"Everything John said about this man was true.\" And many believed in him there."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus is the good shepherd who knows his sheep by name and lays down his life for them.",
+    "points": [
+      "\"I have come that they may have life, and have it to the full.\"",
+      "The good shepherd lays down his life for the sheep.",
+      "\"No one will snatch them out of my hand. I and the Father are one.\""
+    ],
+    "reflection": "The shepherd calls his sheep by name. How does it feel to be known personally by Jesus?"
+  }
+}

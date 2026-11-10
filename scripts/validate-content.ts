@@ -92,13 +92,15 @@ for (const file of walk('src/data/simplified')) {
   if (!d) continue;
   if (!file.endsWith(`${d.book}/${d.chapter}.json`)) fail(file, `file should be named ${d.book}/${d.chapter}.json`);
   for (const p of d.plain) checkRange(file, d.book, d.chapter, p.verses);
-  // Ranges should follow each other in order without overlapping.
+  // Ranges must cover the whole chapter, in order, with no gaps or overlaps.
   let last = 0;
   for (const p of d.plain) {
     const [a, b = a] = p.verses.split('-').map(Number);
-    if (a! <= last) fail(file, `verse range "${p.verses}" overlaps or is out of order`);
+    if (a !== last + 1) fail(file, `verse range "${p.verses}" should start at verse ${last + 1}`);
     last = b!;
   }
+  const max = bookById.get(d.book)?.verses[d.chapter - 1];
+  if (max && last !== max) fail(file, `plain retelling stops at verse ${last}, but the chapter has ${max} verses`);
 }
 
 // --- Book intros ---------------------------------------------------------------

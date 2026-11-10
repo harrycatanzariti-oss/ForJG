@@ -1,0 +1,28 @@
+{
+  "book": "john",
+  "chapter": 9,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-12",
+      "text": "Jesus saw a man who had been blind from birth. His disciples asked, \"Who sinned, this man or his parents, that he was born blind?\" Jesus said, \"Neither. This happened so that the works of God might be displayed in him.\" \"While I am in the world, I am the light of the world.\" He spat on the ground, made mud, put it on the man's eyes and told him to wash in the Pool of Siloam. The man washed and came home seeing. His neighbours asked how. He told them, \"The man they call Jesus did it.\""
+    },
+    {
+      "verses": "13-34",
+      "text": "They brought him to the Pharisees. It was a Sabbath when Jesus made the mud. Some said Jesus could not be from God because he did not keep the Sabbath; others asked how a sinner could do such signs. They questioned the man's parents, who were afraid and said, \"Ask him; he is of age.\" They called the man again and told him Jesus was a sinner. He answered, \"Whether he is a sinner or not, I don't know. One thing I do know: I was blind but now I see!\" He said that if this man were not from God, he could do nothing. They threw him out."
+    },
+    {
+      "verses": "35-41",
+      "text": "Jesus found him and asked, \"Do you believe in the Son of Man?\" \"Who is he, sir? Tell me so that I may believe.\" Jesus said, \"You have now seen him; in fact, he is the one speaking with you.\" The man said, \"Lord, I believe,\" and worshipped him. Jesus said he came so that the blind would see, and those who think they see would become blind. Some Pharisees asked, \"Are we blind too?\" Jesus said that because they claimed they could see, their guilt remained."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus, the light of the world, opens the eyes of a man born blind, while those who think they see stay blind.",
+    "points": [
+      "Jesus rejects the idea that the man's blindness was a punishment for sin.",
+      "The healed man boldly says, \"I was blind but now I see!\"",
+      "He comes to believe in Jesus and worships him."
+    ],
+    "reflection": "The man didn't have all the answers, but he knew what Jesus had done for him. What do you know Jesus has done?"
+  }
+}

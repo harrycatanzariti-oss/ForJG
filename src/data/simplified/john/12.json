@@ -1,0 +1,36 @@
+{
+  "book": "john",
+  "chapter": 12,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-8",
+      "text": "Six days before Passover, Jesus came to Bethany. At a dinner in his honour, Mary took a pint of expensive perfume, poured it on Jesus' feet and wiped them with her hair. The house was filled with the fragrance. Judas Iscariot objected that it could have been sold for the poor. (He was a thief who took from the money bag.) Jesus said, \"Leave her alone. She has kept this for the day of my burial.\""
+    },
+    {
+      "verses": "9-11",
+      "text": "A large crowd came, not only to see Jesus but also Lazarus. So the chief priests planned to kill Lazarus too, because many were believing in Jesus because of him."
+    },
+    {
+      "verses": "12-19",
+      "text": "The next day, the crowd heard Jesus was coming to Jerusalem. They took palm branches and went out shouting, \"Hosanna! Blessed is he who comes in the name of the Lord, the King of Israel!\" Jesus sat on a young donkey, as the Scripture says. The Pharisees said to one another, \"Look how the whole world has gone after him!\""
+    },
+    {
+      "verses": "20-36",
+      "text": "Some Greeks asked to see Jesus. Jesus said, \"The hour has come for the Son of Man to be glorified. Unless a grain of wheat falls to the ground and dies, it remains alone. But if it dies, it produces many seeds.\" Whoever loves their life will lose it. \"Now my soul is troubled. Shall I say, 'Father, save me from this hour'? No, it was for this very reason I came. Father, glorify your name!\" A voice came from heaven: \"I have glorified it, and will glorify it again.\" Jesus said, \"When I am lifted up from the earth, I will draw all people to myself,\" showing the kind of death he would die. He urged them to believe in the light while they had it."
+    },
+    {
+      "verses": "37-50",
+      "text": "Even after so many signs, many still did not believe, as Isaiah had foretold. Yet many leaders did believe, but would not say so for fear of being thrown out of the synagogue; they loved human praise more than praise from God. Jesus cried out, \"Whoever believes in me believes in the one who sent me. I have come into the world as a light. I did not come to judge the world, but to save it.\" The Father's command leads to eternal life."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus' hour has come: like a seed that dies to bear fruit, he will be lifted up to draw all people to himself.",
+    "points": [
+      "Mary anoints Jesus' feet with costly perfume.",
+      "Crowds welcome Jesus into Jerusalem with palm branches.",
+      "\"Unless a grain of wheat falls to the ground and dies... it produces many seeds.\""
+    ],
+    "reflection": "Mary gave something precious to Jesus. What might you offer him?"
+  }
+}

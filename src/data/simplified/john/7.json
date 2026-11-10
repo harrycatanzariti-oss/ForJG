@@ -1,0 +1,40 @@
+{
+  "book": "john",
+  "chapter": 7,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-13",
+      "text": "Jesus stayed in Galilee because the leaders in Judea wanted to kill him. His brothers, who did not believe in him, urged him to go to the Feast of Tabernacles and show himself. He told them his time had not yet come. Later he went up quietly. People were whispering about him: some said he was a good man, others that he was deceiving people."
+    },
+    {
+      "verses": "14-24",
+      "text": "Halfway through the festival, Jesus taught in the temple. People were amazed at his learning. He said his teaching came from God who sent him. He asked why they wanted to kill him for healing a man on the Sabbath, when they circumcised boys on the Sabbath. \"Stop judging by appearances, and judge correctly.\""
+    },
+    {
+      "verses": "25-36",
+      "text": "Some in Jerusalem asked, \"Isn't this the man they are trying to kill? Have the authorities decided he is the Christ?\" Jesus said he had not come on his own, but was sent by the one who is true. They tried to seize him, but no one laid a hand on him, because his hour had not yet come. Many believed. The Pharisees sent guards to arrest him. Jesus said he would be with them only a little longer, then go where they could not come."
+    },
+    {
+      "verses": "37-39",
+      "text": "On the last and greatest day of the festival, Jesus stood and called out, \"Let anyone who is thirsty come to me and drink. Whoever believes in me, rivers of living water will flow from within them.\" He meant the Spirit, whom believers would later receive."
+    },
+    {
+      "verses": "40-44",
+      "text": "The crowd was divided. Some said, \"He is the Prophet.\" Others said, \"He is the Christ.\" Others asked how the Christ could come from Galilee, when Scripture says he comes from David's town, Bethlehem. Some wanted to seize him, but no one did."
+    },
+    {
+      "verses": "45-53",
+      "text": "The guards returned without Jesus. \"No one ever spoke the way this man does,\" they said. The Pharisees mocked them. Nicodemus, who had visited Jesus before, asked whether the law condemns a man without first hearing him. They answered, \"Are you from Galilee too?\" (The story in 7:53–8:11 does not appear in the earliest manuscripts of John, though many Bibles include it.)"
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus invites everyone who is thirsty to come to him, while people argue about who he is.",
+    "points": [
+      "Jesus teaches openly at the festival despite threats.",
+      "He calls out, \"Let anyone who is thirsty come to me and drink.\"",
+      "The crowd is divided; even the guards say no one ever spoke like him."
+    ],
+    "reflection": "Jesus invites anyone who is thirsty. What are you thirsty for right now?"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "book": "john",
+  "chapter": 6,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-15",
+      "text": "A large crowd followed Jesus across the Sea of Galilee. Jesus asked Philip where they could buy bread. A boy had five small barley loaves and two fish. Jesus had the people sit down, gave thanks and handed out the food. About five thousand men ate as much as they wanted, and twelve baskets of leftovers were gathered. The people said, \"Surely this is the Prophet!\" Jesus knew they wanted to make him king by force, so he withdrew to a mountain alone."
+    },
+    {
+      "verses": "16-21",
+      "text": "That evening the disciples set out across the lake. A strong wind was blowing. They saw Jesus walking on the water and were afraid. He said, \"It is I; don't be afraid.\" They took him into the boat, and immediately they reached the shore."
+    },
+    {
+      "verses": "22-40",
+      "text": "The crowd found Jesus the next day. He said they were looking for him because they had eaten bread, not because they understood the signs. \"Work for food that lasts for eternal life.\" They asked for a sign, like the manna Moses gave. Jesus said it was his Father who gives the true bread from heaven. \"I am the bread of life. Whoever comes to me will never go hungry, and whoever believes in me will never be thirsty.\" It is the Father's will that everyone who looks to the Son and believes will have eternal life, and he will raise them up on the last day."
+    },
+    {
+      "verses": "41-58",
+      "text": "People grumbled: \"Isn't this Jesus, the son of Joseph?\" Jesus said no one can come to him unless the Father draws them. \"I am the living bread that came down from heaven. Whoever eats this bread will live forever. This bread is my flesh, which I will give for the life of the world.\" They argued, \"How can this man give us his flesh to eat?\" Jesus said, \"Unless you eat the flesh of the Son of Man and drink his blood, you have no life in you. Whoever eats my flesh and drinks my blood has eternal life, and I will raise them up on the last day. They remain in me, and I in them.\""
+    },
+    {
+      "verses": "59-66",
+      "text": "Many of his followers said, \"This is a hard teaching. Who can accept it?\" Jesus asked if it offended them. \"The Spirit gives life; the flesh counts for nothing. The words I have spoken to you are spirit and life.\" From this time many of his disciples turned back and no longer followed him."
+    },
+    {
+      "verses": "67-71",
+      "text": "Jesus asked the twelve, \"You do not want to leave too, do you?\" Simon Peter answered, \"Lord, to whom would we go? You have the words of eternal life. We believe and know that you are the Holy One of God.\" Jesus said one of them, Judas, would betray him."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus is the bread of life who gives eternal life to all who come to him.",
+    "points": [
+      "Jesus feeds five thousand and walks on the water.",
+      "\"I am the bread of life. Whoever comes to me will never go hungry.\"",
+      "Many turn away at his hard words, but Peter says, \"Lord, to whom would we go?\""
+    ],
+    "reflection": "Peter said, \"You have the words of eternal life.\" What words of Jesus have meant most to you?"
+  }
+}

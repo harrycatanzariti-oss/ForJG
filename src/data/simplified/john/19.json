@@ -1,0 +1,36 @@
+{
+  "book": "john",
+  "chapter": 19,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-15",
+      "text": "Pilate had Jesus flogged. The soldiers twisted thorns into a crown, put it on his head, dressed him in purple and mocked him: \"Hail, king of the Jews!\" Pilate brought him out and said, \"Here is the man!\" The chief priests shouted, \"Crucify! Crucify!\" They said he claimed to be the Son of God. Pilate was more afraid and asked Jesus where he came from. Jesus said Pilate would have no power over him if it were not given from above. Pilate tried to release him, but they shouted that anyone claiming to be king opposes Caesar. Pilate sat on the judge's seat. \"Here is your king,\" he said. \"Take him away! Crucify him!\" \"We have no king but Caesar,\" the chief priests answered."
+    },
+    {
+      "verses": "16-27",
+      "text": "Carrying his own cross, Jesus went out to the place of the Skull, Golgotha. There they crucified him, with two others, one on each side. Pilate had a notice fastened to the cross in three languages: JESUS OF NAZARETH, THE KING OF THE JEWS. The soldiers divided his clothes and cast lots for his seamless garment, as Scripture said. Near the cross stood his mother, her sister, Mary the wife of Clopas, and Mary Magdalene. Jesus saw his mother and the disciple whom he loved, and said to her, \"Woman, here is your son,\" and to the disciple, \"Here is your mother.\" From that time the disciple took her into his home."
+    },
+    {
+      "verses": "28-30",
+      "text": "Knowing that everything was now finished, Jesus said, \"I am thirsty.\" They lifted a sponge soaked in sour wine to his lips. When he had received it, Jesus said, \"It is finished.\" He bowed his head and gave up his spirit."
+    },
+    {
+      "verses": "31-37",
+      "text": "It was the day before a special Sabbath, and the leaders did not want bodies left on the crosses. Soldiers broke the legs of the two men crucified with Jesus to hasten their deaths. But Jesus was already dead, so they did not break his legs. Instead, a soldier pierced his side with a spear, and blood and water flowed out. The one who saw it testifies, so that you may believe. These things fulfilled Scripture: \"Not one of his bones will be broken,\" and \"They will look on the one they have pierced.\""
+    },
+    {
+      "verses": "38-42",
+      "text": "Joseph of Arimathea, a secret disciple, asked Pilate for Jesus' body. Nicodemus, who had first come to Jesus at night, brought about seventy-five pounds of myrrh and aloes. They wrapped the body with the spices in linen cloths. In a garden near the place of crucifixion was a new tomb, and they laid Jesus there."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus is crucified as \"King of the Jews\" and dies saying, \"It is finished.\"",
+    "points": [
+      "Pilate presents Jesus: \"Here is the man!\" and the crowd demands his death.",
+      "From the cross, Jesus cares for his mother.",
+      "Jesus says, \"It is finished,\" and gives up his spirit; he is buried in a new tomb."
+    ],
+    "reflection": "Jesus' last words in John are \"It is finished.\" What do you think he had finished?"
+  }
+}
