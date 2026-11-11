@@ -167,7 +167,8 @@ export default function ChapterReader({
   // but only once the reader has actually scrolled (or spent 30s on the page),
   // so short chapters are not marked the instant they open.
   useEffect(() => {
-    if (!hydrated || read || !endRef.current || typeof IntersectionObserver === 'undefined') return;
+    // A summary is not the chapter itself, so it never marks the chapter read on its own.
+    if (!hydrated || read || level === 4 || !endRef.current || typeof IntersectionObserver === 'undefined') return;
     let engaged = false;
     const engage = () => (engaged = true);
     window.addEventListener('scroll', engage, { passive: true, once: true });
@@ -196,7 +197,7 @@ export default function ChapterReader({
       window.removeEventListener('scroll', engage);
       window.removeEventListener('scroll', recheck);
     };
-  }, [hydrated, read]);
+  }, [hydrated, read, level]);
 
   // Swipe left/right on phones to move between chapters.
   useEffect(() => {
