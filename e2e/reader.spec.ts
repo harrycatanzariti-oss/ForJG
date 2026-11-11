@@ -19,12 +19,14 @@ test('the slider switches between the KJV and BSB and remembers the level', asyn
   await expect(page.locator('#v16')).toContainText('only begotten Son');
 });
 
-test('levels without written content say "coming soon" instead of breaking', async ({ page }) => {
+test('chapters without a written retelling still get Plain and Summary, from an outline', async ({ page }) => {
   await page.goto('/bible/obadiah/1');
   await ready(page);
-  await page.getByRole('button', { name: /Summary/ }).click();
-  await expect(page.locator('#level-description')).toContainText('coming soon');
-  await expect(page.getByRole('slider', { name: 'Reading level' })).toHaveValue('2');
+  await page.getByRole('button', { name: /^Summary/ }).click();
+  await expect(page.getByRole('heading', { name: 'What happens' })).toBeVisible();
+  await expect(page.getByRole('slider', { name: 'Reading level' })).toHaveValue('4');
+  await page.getByRole('button', { name: /^Plain/ }).click();
+  await expect(page.locator('#level-description')).toContainText('still being written');
 });
 
 test('settings change the theme and the modern translation', async ({ page }) => {

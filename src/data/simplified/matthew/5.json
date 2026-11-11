@@ -1,0 +1,40 @@
+{
+  "book": "matthew",
+  "chapter": 5,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-12",
+      "text": "Seeing the crowds, Jesus went up a mountain, sat down and began to teach his disciples. He said that people who seem least fortunate are truly blessed: the poor in spirit, those who mourn, the humble, those who long for what is right, the merciful, the pure in heart, the peacemakers, and those mistreated for doing right. God's kingdom and comfort belong to them. When people insult you because of me, he said, be glad, because your reward in heaven is great."
+    },
+    {
+      "verses": "13-16",
+      "text": "You are the salt of the earth and the light of the world, Jesus said. A lamp is not hidden under a basket. Let your light shine so that people see your good deeds and praise your Father in heaven."
+    },
+    {
+      "verses": "17-20",
+      "text": "Jesus said he had not come to abolish the Law or the Prophets but to fulfil them. His followers must live with a goodness that goes deeper than that of the religious teachers."
+    },
+    {
+      "verses": "21-30",
+      "text": "Jesus went beyond the rules to the heart. Not only murder, but anger and insults are serious, so make peace quickly with anyone you have wronged. Not only adultery, but looking at someone with lust is wrong. Take drastic action against whatever leads you into sin."
+    },
+    {
+      "verses": "31-37",
+      "text": "Jesus spoke strongly against divorce, except in the case of sexual unfaithfulness. And instead of making oaths, he said, simply let your yes mean yes and your no mean no."
+    },
+    {
+      "verses": "38-48",
+      "text": "Do not take revenge, Jesus said. If someone strikes your cheek, turn the other one; give generously to those who ask. You have heard, love your neighbour and hate your enemy. But I say, love your enemies and pray for those who persecute you. Your Father sends sun and rain on good and bad alike. Be perfect, as your heavenly Father is perfect."
+    }
+  ],
+  "summary": {
+    "bigIdea": "In the Sermon on the Mount, Jesus describes the upside-down blessings of God's kingdom and calls his followers to a goodness that starts in the heart.",
+    "points": [
+      "Jesus calls the humble, the grieving and the peacemakers blessed.",
+      "His followers are salt and light in the world.",
+      "He calls them to love even their enemies."
+    ],
+    "reflection": "Which of the blessings at the start of this chapter speaks most to where you are now?"
+  }
+}

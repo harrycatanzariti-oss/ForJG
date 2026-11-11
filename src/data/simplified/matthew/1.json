@@ -1,0 +1,24 @@
+{
+  "book": "matthew",
+  "chapter": 1,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-17",
+      "text": "Matthew begins with Jesus' family tree. It runs from Abraham, the father of the Jewish people, through King David, through the time when the people were taken into exile in Babylon, and on to Joseph, the husband of Mary. Matthew sets it out in three groups of fourteen generations, to show that Jesus' story is part of the long story of God's people."
+    },
+    {
+      "verses": "18-25",
+      "text": "Mary was engaged to Joseph, but before they married she was found to be pregnant through the Holy Spirit. Joseph was a good man and planned to end the engagement quietly. Then an angel told him in a dream not to be afraid to take Mary as his wife. The child was from the Holy Spirit, and Joseph was to name him Jesus, because he would save his people from their sins. Matthew says this fulfilled Isaiah's words about a virgin giving birth to a son called Immanuel, which means God with us. Joseph did what the angel said, and named the baby Jesus."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus belongs to the family line of Abraham and David, and his birth is God's own doing: he is God with us, who will save his people from their sins.",
+    "points": [
+      "Jesus' family tree links him to Abraham and King David.",
+      "Mary becomes pregnant through the Holy Spirit.",
+      "An angel tells Joseph to marry Mary and name the child Jesus."
+    ],
+    "reflection": "Joseph trusted God when things did not go to plan. Where might you need that kind of trust?"
+  }
+}

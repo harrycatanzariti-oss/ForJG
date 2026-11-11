@@ -1,0 +1,36 @@
+{
+  "book": "matthew",
+  "chapter": 13,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-23",
+      "text": "Jesus sat in a boat and taught the crowd in parables. A farmer scattered seed. Some fell on the path and birds ate it; some on rocky ground and withered; some among thorns and was choked; some on good soil and produced a huge crop. The disciples asked why he used parables. He said they had been given to understand the secrets of the kingdom, while others look but do not see. Then he explained: the seed is the message about the kingdom. Some hear it but the evil one snatches it away; some receive it gladly but fall away in trouble; some let worries and wealth choke it; but some hear, understand and bear much fruit."
+    },
+    {
+      "verses": "24-35",
+      "text": "The kingdom is like a field where an enemy sowed weeds among the wheat. The owner let both grow until harvest, when they would be separated. It is also like a tiny mustard seed that grows into a tree where birds nest, and like yeast that works through a large batch of dough. Jesus spoke to the crowds in parables, as the psalm says."
+    },
+    {
+      "verses": "36-43",
+      "text": "Later Jesus explained the weeds to his disciples. The sower is the Son of Man, the field is the world, the good seed are the people of the kingdom, and the weeds are the people of the evil one. At the end of the age the angels will remove everything evil, and the righteous will shine like the sun in their Father's kingdom."
+    },
+    {
+      "verses": "44-52",
+      "text": "The kingdom is like treasure hidden in a field: a man sold everything to buy that field. It is like a merchant who found a pearl of great value and sold all he had to buy it. And it is like a net that catches all kinds of fish, which are then sorted. Every teacher who learns about the kingdom brings out treasures new and old."
+    },
+    {
+      "verses": "53-58",
+      "text": "Jesus went to his hometown. People were amazed but took offence: isn't this the carpenter's son? Jesus said a prophet is not honoured in his own town, and he did not do many miracles there because of their lack of faith."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Through parables Jesus shows that God's kingdom starts small and hidden but grows, is worth everything, and calls for a heart ready to receive it.",
+    "points": [
+      "The parable of the sower shows different ways people receive God's word.",
+      "The kingdom grows like a mustard seed and yeast.",
+      "It is a treasure worth giving up everything for."
+    ],
+    "reflection": "In the parable of the sower, which kind of soil is most like your heart right now?"
+  }
+}

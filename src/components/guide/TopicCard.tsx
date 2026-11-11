@@ -47,7 +47,7 @@ export default function TopicCard({ topic, matched, careNote, onChoose, headingL
       <ul class="mt-2 space-y-2">{topic.passages.slice(0, 3).map(passage)}</ul>
       {topic.passages.length > 3 && (
         <details class="mt-2">
-          <summary class="cursor-pointer py-2 text-sm text-accent">
+          <summary class="disclosure min-h-11 cursor-pointer py-2 text-sm text-accent">
             {topic.passages.length - 3} more {topic.passages.length - 3 === 1 ? 'passage' : 'passages'}
           </summary>
           <ul class="mt-1 space-y-2">{topic.passages.slice(3).map(passage)}</ul>

@@ -68,7 +68,7 @@ export default function PlanDetail({
             onAdjust={() => startPlan(data.id, catchUpStart(status))}
           />
           <details class="card p-4">
-            <summary class="min-h-11 cursor-pointer py-2 font-medium">Change or stop this plan</summary>
+            <summary class="disclosure min-h-11 cursor-pointer py-2 font-medium">Change or stop this plan</summary>
             <div class="mt-3 space-y-4">
               <div class="flex flex-wrap items-end gap-2">
                 <label class="block">

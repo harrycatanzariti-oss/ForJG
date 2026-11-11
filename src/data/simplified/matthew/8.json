@@ -1,0 +1,40 @@
+{
+  "book": "matthew",
+  "chapter": 8,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-4",
+      "text": "When Jesus came down from the mountain, a man with leprosy knelt and said, Lord, if you are willing, you can make me clean. Jesus touched him and said, I am willing. Be clean. He was healed at once. Jesus told him to tell no one but to show himself to the priest."
+    },
+    {
+      "verses": "5-13",
+      "text": "In Capernaum a Roman centurion asked Jesus to heal his paralysed servant. Jesus offered to come, but the centurion said he was not worthy to have Jesus in his house; Jesus only needed to say the word. Jesus was amazed and said he had not found such faith in Israel. Many would come from east and west to feast in God's kingdom. The servant was healed that very hour."
+    },
+    {
+      "verses": "14-17",
+      "text": "At Peter's house, Jesus touched the hand of Peter's mother-in-law, who had a fever, and she got up and served him. That evening he drove out spirits and healed all the sick, fulfilling Isaiah's words that he took up our illnesses."
+    },
+    {
+      "verses": "18-22",
+      "text": "A teacher of the law said he would follow Jesus anywhere. Jesus said foxes have holes and birds have nests, but he had nowhere to lay his head. Another man wanted to bury his father first; Jesus told him to follow him now."
+    },
+    {
+      "verses": "23-27",
+      "text": "Jesus got into a boat with his disciples, and a fierce storm hit while he slept. They woke him in terror: Lord, save us! He asked why they were so afraid and of so little faith, then rebuked the wind and waves, and it became completely calm. The disciples were amazed: what kind of man is this?"
+    },
+    {
+      "verses": "28-34",
+      "text": "On the other side of the lake, two men controlled by demons came out of the tombs. The demons begged to be sent into a herd of pigs. Jesus said, Go! The pigs rushed into the lake and drowned. The whole town came out and begged Jesus to leave."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus shows his authority over sickness, nature and evil, and invites people to trust and follow him.",
+    "points": [
+      "Jesus touches and heals a man with leprosy.",
+      "A Roman officer's faith amazes Jesus.",
+      "Jesus calms a storm with a word."
+    ],
+    "reflection": "The disciples asked, what kind of man is this? How would you answer that question today?"
+  }
+}

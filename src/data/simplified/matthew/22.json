@@ -1,0 +1,32 @@
+{
+  "book": "matthew",
+  "chapter": 22,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-14",
+      "text": "The kingdom of heaven is like a king who prepared a wedding banquet for his son. The invited guests refused to come; some even killed his servants. So the king sent his servants into the streets to invite everyone they found, good and bad, and the hall was filled. But one guest had no wedding clothes and was thrown out. Many are invited, but few are chosen."
+    },
+    {
+      "verses": "15-22",
+      "text": "The Pharisees tried to trap Jesus: is it right to pay taxes to Caesar? Jesus asked for a coin and whose image was on it. Caesar's, they said. Then give to Caesar what is Caesar's, and to God what is God's. They were amazed and went away."
+    },
+    {
+      "verses": "23-33",
+      "text": "Sadducees, who say there is no resurrection, asked about a woman married in turn to seven brothers: whose wife would she be? Jesus said they knew neither the Scriptures nor God's power. In the resurrection people do not marry but are like the angels. God is the God of Abraham, Isaac and Jacob: not the God of the dead, but of the living."
+    },
+    {
+      "verses": "34-46",
+      "text": "An expert in the law asked which commandment is the greatest. Jesus said: Love the Lord your God with all your heart, soul and mind. This is the first and greatest. The second is like it: Love your neighbour as yourself. All the Law and the Prophets hang on these two. Then Jesus asked the Pharisees whose son the Christ is. David's, they said. Then why does David, in the psalm, call him Lord? No one could answer, and from then on no one dared ask him any more questions."
+    }
+  ],
+  "summary": {
+    "bigIdea": "God invites everyone to his feast, and Jesus sums up the whole law: love God with everything, and love your neighbour as yourself.",
+    "points": [
+      "The king invites everyone to his son's wedding banquet.",
+      "Give to Caesar what is Caesar's, and to God what is God's.",
+      "The greatest commandments are to love God and love your neighbour."
+    ],
+    "reflection": "What would loving God with all your heart, soul and mind look like in your day tomorrow?"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "book": "matthew",
+  "chapter": 25,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-13",
+      "text": "The kingdom of heaven is like ten bridesmaids who took their lamps to meet the bridegroom. Five were foolish and took no extra oil; five were wise and did. The bridegroom was delayed and they all fell asleep. At midnight came the shout: he's here! The foolish ones' lamps were going out, and while they went to buy oil, the bridegroom arrived and the door was shut. So keep watch, because you do not know the day or the hour."
+    },
+    {
+      "verses": "14-30",
+      "text": "A man going on a journey entrusted his wealth to his servants: five talents to one, two to another, and one to a third, each according to his ability. The first two put the money to work and doubled it. The third buried his in the ground out of fear. When the master returned, he praised the first two: Well done, good and faithful servant! Enter into the joy of your master. But he rebuked the third for doing nothing with what he had been given."
+    },
+    {
+      "verses": "31-46",
+      "text": "When the Son of Man comes in glory, all the nations will be gathered before him, and he will separate them as a shepherd separates sheep from goats. To those on his right the King will say: Come, you who are blessed by my Father. I was hungry and you fed me, thirsty and you gave me a drink, a stranger and you welcomed me, naked and you clothed me, sick and you looked after me, in prison and you visited me. They will ask when they did this. He will answer: whatever you did for one of the least of these brothers of mine, you did for me. Those who did nothing for the least did nothing for him."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus calls his followers to be ready for his return, faithful with what they have been given, and caring for the least, because whatever they do for them, they do for him.",
+    "points": [
+      "The wise bridesmaids are ready when the bridegroom comes.",
+      "Faithful servants put their master's gifts to work.",
+      "Serving the hungry, the stranger and the prisoner is serving Jesus."
+    ],
+    "reflection": "Who are the least of these around you, and how could you serve Jesus by serving them?"
+  }
+}

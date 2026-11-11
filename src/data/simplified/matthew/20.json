@@ -1,0 +1,32 @@
+{
+  "book": "matthew",
+  "chapter": 20,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-16",
+      "text": "Jesus told a story. A landowner hired workers at dawn for a day's wage, then hired more at nine, at noon, at three, and even at five o'clock. In the evening he paid everyone the same full day's wage, starting with the last. Those hired first grumbled. He replied: I am not being unfair; don't I have the right to be generous? So the last will be first, and the first last."
+    },
+    {
+      "verses": "17-19",
+      "text": "On the way to Jerusalem Jesus told the twelve, for a third time, that he would be handed over, mocked, flogged and crucified, and on the third day raised to life."
+    },
+    {
+      "verses": "20-28",
+      "text": "The mother of James and John asked for her sons to sit at Jesus' right and left in his kingdom. Jesus asked if they could drink the cup he would drink. The other ten were angry. Jesus said rulers lord it over people, but among you, whoever wants to be great must be your servant. The Son of Man did not come to be served, but to serve, and to give his life as a ransom for many."
+    },
+    {
+      "verses": "29-34",
+      "text": "Leaving Jericho, two blind men by the road shouted, Lord, Son of David, have mercy on us! The crowd told them to be quiet, but they shouted louder. Jesus stopped and asked what they wanted. Lord, we want to see. Moved with compassion, he touched their eyes, and they could see, and they followed him."
+    }
+  ],
+  "summary": {
+    "bigIdea": "God is generous beyond what we deserve, and true greatness is found in serving, as Jesus came to serve and give his life.",
+    "points": [
+      "Late workers receive the same generous wage.",
+      "Jesus again predicts his death and resurrection.",
+      "The Son of Man came to serve and give his life as a ransom for many."
+    ],
+    "reflection": "Where could you choose to serve rather than be served this week?"
+  }
+}

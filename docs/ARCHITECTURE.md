@@ -106,6 +106,9 @@ Take `/bible/john/3`:
 
 1. **At build time**, `pages/bible/[book]/[chapter].astro` renders John 3 (BSB)
    to HTML, with any Plain/Summary content and "How traditions read this" notes.
+   Chapters with no hand-written Plain/Summary get an outline from
+   `lib/outline.ts` instead (sections from the BSB headings, the book's big
+   idea, and a question for its genre), so all four levels always work.
    Search engines and no-JavaScript visitors get readable text immediately.
 2. The `ChapterReader` island wakes up in the browser, reads your settings,
    switches to your level and preloads the other translation when the browser
@@ -176,7 +179,12 @@ stays in the Literata serif for comfortable reading), a light grey page with
 white cards that use soft layered shadows instead of hard borders, pill-shaped
 buttons, a frosted header that holds all the navigation and retracts while you
 read (it slides away as you scroll down and returns when you scroll up), and
-gentle "blur-in" entrances.
+gentle "blur-in" entrances. Otis's small touches are here too: buttons press
+in slightly when tapped, sections ease into view as you scroll (`.reveal`), the
+Guide shows typing dots before it answers, toasts and disclosures spring open,
+the reading-level slider is a filled track with a white knob, and the lamp's
+flame flickers now and then. All of it switches off for people who ask their
+device to reduce motion.
 
 The accent colour follows the **church year**. `src/lib/liturgical.js` works
 out the season and the colour of the vestments for any date: green (Ordinary

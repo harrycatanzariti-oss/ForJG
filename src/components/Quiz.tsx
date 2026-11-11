@@ -228,7 +228,7 @@ export default function Quiz({ questions, traditions }: Props) {
         </ol>
       )}
       <details class="mt-4">
-        <summary class="min-h-11 cursor-pointer py-2 text-accent">See all traditions</summary>
+        <summary class="disclosure min-h-11 cursor-pointer py-2 text-accent">See all traditions</summary>
         <ul class="mt-2 space-y-1 text-sm">
           {results.map((r) => (
             <li key={r.id} class="flex justify-between border-b border-line py-1">

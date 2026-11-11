@@ -88,8 +88,11 @@ limits. `public/_headers` sets caching and security headers.
 | Traditions | `/traditions`, `/traditions/{id}`, `/traditions/compare`, `/traditions/tree`, `/traditions/quiz`, `/traditions/questions/{id}` |
 | Other      | `/glossary`, `/about`, `/settings`, `/offline`                                                                                 |
 
-Plain and Summary levels currently cover Genesis, Psalms 1–23, Mark, John, Acts
-and Romans (154 chapters, marked Draft). Other chapters show "Coming soon".
+Plain and Summary levels are written by hand for Genesis, Psalms 1–23, Matthew,
+Mark, John, Acts and Romans (182 chapters, marked Draft). Every other chapter
+gets an automatic outline (`src/lib/outline.ts`): the chapter in sections with
+the verse numbers hidden for Plain, and an "at a glance" view for Summary, built
+from the BSB section headings and the book introduction.
 
 ## Licence
 

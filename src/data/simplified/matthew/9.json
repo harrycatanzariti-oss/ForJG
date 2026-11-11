@@ -1,0 +1,40 @@
+{
+  "book": "matthew",
+  "chapter": 9,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-8",
+      "text": "Some men brought a paralysed man to Jesus on a mat. Seeing their faith, Jesus said, Take heart, son; your sins are forgiven. Some teachers of the law thought this was blasphemy. To show he had authority to forgive sins, Jesus told the man to get up and go home, and he did. The crowd was filled with awe and praised God."
+    },
+    {
+      "verses": "9-13",
+      "text": "Jesus saw a tax collector named Matthew and said, Follow me, and he got up and followed. Jesus ate at his house with many tax collectors and sinners. When the Pharisees complained, Jesus said it is not the healthy who need a doctor, but the sick. God wants mercy, not just sacrifice. I have come to call sinners."
+    },
+    {
+      "verses": "14-17",
+      "text": "John's disciples asked why Jesus' disciples did not fast. Jesus said wedding guests don't mourn while the bridegroom is with them. You don't sew new cloth on old clothes or put new wine into old wineskins: his new way needs new forms."
+    },
+    {
+      "verses": "18-26",
+      "text": "A synagogue leader begged Jesus to come because his daughter had just died. On the way, a woman who had been bleeding for twelve years touched his cloak, thinking that would heal her. Jesus turned and said, Take heart, daughter, your faith has healed you. At the leader's house he sent out the mourners, took the girl by the hand, and she got up."
+    },
+    {
+      "verses": "27-34",
+      "text": "Two blind men followed him calling, Have mercy on us, Son of David! Jesus touched their eyes and they could see. Then a man who could not speak was brought to him; Jesus drove out the demon and the man spoke. The crowds were amazed, but the Pharisees said he did it by the prince of demons."
+    },
+    {
+      "verses": "35-38",
+      "text": "Jesus went through all the towns teaching and healing. Seeing the crowds, he had compassion on them, because they were like sheep without a shepherd. The harvest is plentiful but the workers are few, he said, so ask the Lord of the harvest to send out workers."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus forgives, heals and welcomes outsiders, because he came for those who know they need him.",
+    "points": [
+      "Jesus forgives and heals a paralysed man.",
+      "He calls Matthew the tax collector and eats with sinners.",
+      "He raises a girl to life and heals a woman who touched his cloak."
+    ],
+    "reflection": "Jesus came for the sick, not the healthy. What would it mean to bring him what is broken in you?"
+  }
+}

@@ -7,6 +7,7 @@ import ChapterReader from '~/components/reader/ChapterReader';
 import BaseLayout from '~/layouts/BaseLayout.astro';
 import { books, getChapter, getIntro, getSimplified, neighbours } from '~/lib/bible';
 import { getPassageNotes, traditionNames } from '~/lib/content';
+import { makeOutline } from '~/lib/outline';
 import { url } from '~/lib/url';
 
 export function getStaticPaths() {
@@ -22,6 +23,7 @@ const { bookId, chapter } = Astro.props;
 const book = books.find((b) => b.id === bookId)!;
 const initial = getChapter('bsb', bookId, chapter);
 const simplified = getSimplified(bookId, chapter);
+const outline = simplified ? undefined : makeOutline(initial, book.genre, getIntro(bookId)?.overview);
 const { prev, next } = neighbours(bookId, chapter);
 const intro = chapter === 1 ? getIntro(bookId) : undefined;
 const passageNotes = getPassageNotes(bookId, chapter);
@@ -67,6 +69,7 @@ const description = `Read ${title} in the KJV, BSB or WEB, with a plain-English 
       chapter={chapter}
       initial={initial}
       simplified={simplified}
+      outline={outline}
       passageNotes={passageNotes}
       traditionNames={passageNotes ? traditionNames() : undefined}
       prevHref={prevHref}

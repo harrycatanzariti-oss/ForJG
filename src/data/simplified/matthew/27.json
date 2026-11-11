@@ -1,0 +1,36 @@
+{
+  "book": "matthew",
+  "chapter": 27,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-10",
+      "text": "In the morning the leaders handed Jesus over to Pilate, the Roman governor. When Judas saw that Jesus was condemned, he was seized with remorse and returned the thirty silver coins, saying he had betrayed innocent blood. He threw the money into the temple and went and hanged himself. The priests used the money to buy a potter's field as a burial place for foreigners, which Matthew links to the prophets."
+    },
+    {
+      "verses": "11-26",
+      "text": "Pilate asked Jesus, Are you the King of the Jews? Jesus said, You have said so, but gave no answer to the charges, which amazed Pilate. At the festival Pilate used to release a prisoner, and he offered the crowd Jesus or a notorious prisoner called Barabbas. Pilate's wife warned him to have nothing to do with this innocent man. But the crowd, stirred up by the leaders, shouted for Barabbas and for Jesus to be crucified. Pilate washed his hands in front of them, saying he was innocent of this man's blood, released Barabbas, had Jesus flogged and handed him over to be crucified."
+    },
+    {
+      "verses": "27-44",
+      "text": "The soldiers dressed Jesus in a scarlet robe, put a crown of thorns on his head, mocked him and beat him. Simon of Cyrene was forced to carry his cross. At Golgotha they crucified him and divided his clothes. Above his head was the charge: This is Jesus, the King of the Jews. Two robbers were crucified with him. Passers-by, the chief priests and even the robbers mocked him: he saved others, but he cannot save himself."
+    },
+    {
+      "verses": "45-56",
+      "text": "From noon until three, darkness came over all the land. Then Jesus cried out, Eli, Eli, lema sabachthani? which means, My God, my God, why have you forsaken me? He cried out again and gave up his spirit. The curtain of the temple was torn in two from top to bottom, the earth shook, and tombs opened. The centurion and those with him were terrified and said, Truly this was the Son of God. Many women who had followed Jesus watched from a distance."
+    },
+    {
+      "verses": "57-66",
+      "text": "That evening a rich man, Joseph of Arimathea, a disciple, asked Pilate for the body. He wrapped it in clean linen and placed it in his own new tomb cut in the rock, and rolled a great stone across the entrance. Mary Magdalene and the other Mary sat opposite. The next day the chief priests asked Pilate to secure the tomb, remembering that Jesus said he would rise, so the stone was sealed and guards were posted."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus, the innocent King, is condemned, mocked and crucified, and even a Roman soldier recognises him as the Son of God.",
+    "points": [
+      "Pilate releases Barabbas and hands Jesus over to be crucified.",
+      "Jesus is mocked and dies on the cross, crying out to God.",
+      "The temple curtain is torn, and Jesus is buried in a sealed tomb."
+    ],
+    "reflection": "The centurion said, truly this was the Son of God. What do you see as you look at Jesus on the cross?"
+  }
+}

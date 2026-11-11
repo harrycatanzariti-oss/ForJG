@@ -1,0 +1,32 @@
+{
+  "book": "matthew",
+  "chapter": 2,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-12",
+      "text": "After Jesus was born in Bethlehem, wise men, called Magi, came from the east to Jerusalem. They had seen a star and asked where the newborn king of the Jews was, so they could worship him. King Herod was troubled. His advisers told him the Messiah was to be born in Bethlehem. Herod secretly asked the Magi to find the child and report back, pretending he wanted to worship too. The star led them to the house. They were overjoyed, bowed down, and gave Jesus gold, frankincense and myrrh. Warned in a dream, they went home another way."
+    },
+    {
+      "verses": "13-15",
+      "text": "An angel told Joseph in a dream to take Mary and the child and escape to Egypt, because Herod wanted to kill Jesus. They stayed there until Herod died."
+    },
+    {
+      "verses": "16-18",
+      "text": "When Herod realised the Magi had tricked him, he was furious. He ordered all the boys aged two and under in and around Bethlehem to be killed. Matthew recalls Jeremiah's words about Rachel weeping for her children."
+    },
+    {
+      "verses": "19-23",
+      "text": "After Herod died, an angel told Joseph it was safe to go back. Because Herod's son now ruled Judea, Joseph settled the family in Nazareth in Galilee, and Jesus became known as a Nazarene."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Foreigners come to worship the newborn King while the ruling king tries to kill him, and God protects Jesus.",
+    "points": [
+      "Magi follow a star and worship Jesus with gifts.",
+      "Herod tries to kill Jesus and murders the boys of Bethlehem.",
+      "Joseph obeys God's warnings and the family settles in Nazareth."
+    ],
+    "reflection": "The Magi travelled far to find Jesus. What would it look like for you to seek him?"
+  }
+}

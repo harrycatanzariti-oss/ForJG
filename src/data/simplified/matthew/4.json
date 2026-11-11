@@ -1,0 +1,32 @@
+{
+  "book": "matthew",
+  "chapter": 4,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-11",
+      "text": "The Spirit led Jesus into the wilderness, where he fasted for forty days and was tempted by the devil. The devil told him to turn stones into bread, to throw himself from the top of the temple, and to worship him in return for all the kingdoms of the world. Each time Jesus answered with words from Scripture: people live by every word from God, do not put God to the test, and worship and serve God alone. The devil left, and angels came and cared for him."
+    },
+    {
+      "verses": "12-17",
+      "text": "When Jesus heard John had been arrested, he moved to Capernaum in Galilee. Matthew says this fulfilled Isaiah: people living in darkness have seen a great light. From then on Jesus preached: turn back to God, for the kingdom of heaven is near."
+    },
+    {
+      "verses": "18-22",
+      "text": "Walking by the Sea of Galilee, Jesus saw two fishermen, Simon Peter and his brother Andrew. He said, Follow me, and I will make you fishers of people. At once they left their nets and followed him. Then he called James and John, who left their boat and their father to follow him."
+    },
+    {
+      "verses": "23-25",
+      "text": "Jesus went all over Galilee, teaching in the synagogues, announcing the good news of the kingdom, and healing every kind of disease. News about him spread, and large crowds followed him from far and wide."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus resists temptation by trusting God's word, then begins announcing the kingdom and calling followers.",
+    "points": [
+      "Jesus answers each temptation with Scripture.",
+      "He begins to preach that the kingdom of heaven is near.",
+      "Fishermen leave everything to follow him."
+    ],
+    "reflection": "Jesus faced temptation with God's word. Which words of Scripture could help you when you are tempted?"
+  }
+}

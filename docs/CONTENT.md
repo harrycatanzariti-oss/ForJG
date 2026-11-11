@@ -13,14 +13,14 @@ npm test           # data, Guide and plan tests
 Everything below was drafted during development and should be checked by
 people with the right knowledge before the site is promoted widely.
 
-| Content                                                                               | Where                                           | What to check                                                                                                                                                         |
-| ------------------------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Plain & Summary levels (154 chapters: Genesis, Psalms 1–23, Mark, John, Acts, Romans) | `src/data/simplified/`                          | Faithful to the text, no added theology, neutral where traditions differ, reading age ~12. When a chapter is checked, change `"status": "draft"` to `"reviewed"`.     |
-| Tradition profiles (17)                                                               | `src/data/traditions/`                          | Ideally reviewed by a member or scholar of each tradition: does it describe them as they would describe themselves? Are citations accurate? Are size figures current? |
-| Passage notes (44)                                                                    | `src/data/passage-notes/`                       | Each view is fairly stated and correctly attributed.                                                                                                                  |
-| Big Questions (7), quiz weights, family tree                                          | `src/data/questions/`, `quiz.json`, `tree.json` | Fair, accurate, unranked.                                                                                                                                             |
-| Book introductions (66)                                                               | `src/data/book-intros/`                         | Authorship/dating notes are fair to both traditional and critical views.                                                                                              |
-| Guide topics (37) and help resources                                                  | `src/data/guide/`                               | Tone is kind and non-preachy; helpline numbers are current for your audience. **Check `safety.json` regularly.**                                                      |
+| Content                                                                                                                                       | Where                                           | What to check                                                                                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Plain & Summary levels (182 chapters: Genesis, Psalms 1–23, Matthew, Mark, John, Acts, Romans; every other chapter gets an automatic outline) | `src/data/simplified/`                          | Faithful to the text, no added theology, neutral where traditions differ, reading age ~12. When a chapter is checked, change `"status": "draft"` to `"reviewed"`.     |
+| Tradition profiles (17)                                                                                                                       | `src/data/traditions/`                          | Ideally reviewed by a member or scholar of each tradition: does it describe them as they would describe themselves? Are citations accurate? Are size figures current? |
+| Passage notes (44)                                                                                                                            | `src/data/passage-notes/`                       | Each view is fairly stated and correctly attributed.                                                                                                                  |
+| Big Questions (7), quiz weights, family tree                                                                                                  | `src/data/questions/`, `quiz.json`, `tree.json` | Fair, accurate, unranked.                                                                                                                                             |
+| Book introductions (66)                                                                                                                       | `src/data/book-intros/`                         | Authorship/dating notes are fair to both traditional and critical views.                                                                                              |
+| Guide topics (37) and help resources                                                                                                          | `src/data/guide/`                               | Tone is kind and non-preachy; helpline numbers are current for your audience. **Check `safety.json` regularly.**                                                      |
 
 ## Rules for the Plain and Summary levels
 
@@ -52,7 +52,7 @@ Example file (`src/data/simplified/mark/1.json`):
 
 ## Suggested next books
 
-Luke, Matthew, Exodus, Psalms 24–150, Proverbs, Ephesians, Philippians,
+Luke, Exodus, Psalms 24–150, Proverbs, Ephesians, Philippians,
 James, 1 John, then the rest of the New Testament.
 
 ## Adding a Guide topic

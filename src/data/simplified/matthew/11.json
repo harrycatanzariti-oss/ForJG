@@ -1,0 +1,32 @@
+{
+  "book": "matthew",
+  "chapter": 11,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-6",
+      "text": "John the Baptist, now in prison, sent his disciples to ask Jesus: Are you the one who was to come, or should we expect someone else? Jesus told them to report what they saw: the blind see, the lame walk, lepers are cleansed, the deaf hear, the dead are raised, and the good news is preached to the poor."
+    },
+    {
+      "verses": "7-19",
+      "text": "Jesus told the crowd that John was more than a prophet: he was the messenger sent ahead to prepare the way. No one born of women was greater than John, yet the least in the kingdom of heaven is greater still. Jesus said this generation was like children who complain whatever happens: they called John demon-possessed for fasting, and called Jesus a glutton and drunkard, a friend of sinners, for eating and drinking."
+    },
+    {
+      "verses": "20-24",
+      "text": "Jesus warned the towns where he had done most of his miracles, like Chorazin, Bethsaida and Capernaum, because they still had not turned back to God. Even ancient Tyre, Sidon and Sodom would have repented if they had seen such things."
+    },
+    {
+      "verses": "25-30",
+      "text": "Jesus thanked his Father for hiding these things from the wise and revealing them to little children. No one knows the Father except the Son and those to whom the Son reveals him. Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke and learn from me, for I am gentle and humble in heart. My yoke is easy and my burden is light."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus' works show who he is, and he invites everyone who is weary to come to him for rest.",
+    "points": [
+      "Jesus points John's disciples to what he is doing.",
+      "He warns towns that saw his miracles but did not change.",
+      "Come to me, all who are weary, and I will give you rest."
+    ],
+    "reflection": "What is making you weary right now, and what would it mean to bring it to Jesus?"
+  }
+}

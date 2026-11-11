@@ -1,0 +1,36 @@
+{
+  "book": "matthew",
+  "chapter": 21,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-11",
+      "text": "Near Jerusalem, Jesus sent two disciples to fetch a donkey and its colt, fulfilling the prophet's words: your king comes to you, gentle and riding on a donkey. Crowds spread cloaks and branches on the road and shouted, Hosanna to the Son of David! Blessed is he who comes in the name of the Lord! The whole city was stirred: who is this? The crowds said, This is Jesus, the prophet from Nazareth in Galilee."
+    },
+    {
+      "verses": "12-17",
+      "text": "Jesus entered the temple and drove out those buying and selling, overturning the money changers' tables. My house will be called a house of prayer, he said, but you are making it a den of robbers. The blind and lame came and he healed them. Children shouted Hosanna, and when the chief priests objected, Jesus quoted the psalm about praise from the lips of children."
+    },
+    {
+      "verses": "18-22",
+      "text": "In the morning, hungry, Jesus found a fig tree with leaves but no fruit, and said, May you never bear fruit again. It withered at once. The disciples were amazed. Jesus said that with faith and without doubt, they could even tell a mountain to be thrown into the sea; whatever you ask in prayer, believing, you will receive."
+    },
+    {
+      "verses": "23-32",
+      "text": "The chief priests and elders demanded to know by what authority Jesus did these things. He asked them whether John's baptism was from heaven or from men. Afraid of either answer, they said they did not know, so Jesus would not tell them either. Then he told of two sons: one refused to work in the vineyard but later went; the other said yes but did not go. Tax collectors and prostitutes are entering the kingdom ahead of you, he said, because they believed John and you did not."
+    },
+    {
+      "verses": "33-46",
+      "text": "A landowner planted a vineyard and rented it to tenants. When he sent servants to collect his share, the tenants beat and killed them. Finally he sent his son, and they killed him too. Jesus quoted the psalm: the stone the builders rejected has become the cornerstone. The kingdom would be given to people who produce its fruit. The chief priests and Pharisees knew he was talking about them and wanted to arrest him, but feared the crowds."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus enters Jerusalem as a humble king, cleanses the temple, and warns the leaders who reject him.",
+    "points": [
+      "Crowds welcome Jesus into Jerusalem, riding on a donkey.",
+      "He drives the traders out of the temple.",
+      "The parable of the tenants points to the rejected Son."
+    ],
+    "reflection": "The city asked, who is this? Who is Jesus to you as you read this chapter?"
+  }
+}

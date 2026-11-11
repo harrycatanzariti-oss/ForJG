@@ -1,0 +1,24 @@
+{
+  "book": "matthew",
+  "chapter": 3,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-12",
+      "text": "John the Baptist began preaching in the Judean wilderness: turn back to God, because the kingdom of heaven is near. Isaiah had spoken of a voice in the wilderness preparing the way for the Lord. John wore camel hair and ate locusts and wild honey. Crowds came, confessed their sins and were baptised by him in the Jordan. When many Pharisees and Sadducees came, John warned them not to rely on being Abraham's descendants, but to show real change in their lives. He said someone more powerful was coming after him, who would baptise with the Holy Spirit and fire."
+    },
+    {
+      "verses": "13-17",
+      "text": "Jesus came from Galilee to be baptised by John. John objected, saying he needed to be baptised by Jesus. Jesus said it was right to do this, so John agreed. As Jesus came up out of the water, heaven opened, the Spirit of God came down on him like a dove, and a voice from heaven said: This is my beloved Son, in whom I am well pleased."
+    }
+  ],
+  "summary": {
+    "bigIdea": "John prepares the way, and at Jesus' baptism God declares him his beloved Son.",
+    "points": [
+      "John calls people to turn back to God and be baptised.",
+      "John says one greater than him is coming.",
+      "The Spirit comes on Jesus, and God the Father speaks from heaven."
+    ],
+    "reflection": "John called people to change, not just to belong. What change might God be inviting in you?"
+  }
+}

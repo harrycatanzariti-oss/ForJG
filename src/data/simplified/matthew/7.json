@@ -1,0 +1,36 @@
+{
+  "book": "matthew",
+  "chapter": 7,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-6",
+      "text": "Don't judge others harshly, Jesus said, because you will be judged the same way. Why look at the speck of sawdust in someone else's eye and ignore the plank in your own? Deal with your own faults first. Also, be wise about sharing what is holy with those who will only trample it."
+    },
+    {
+      "verses": "7-12",
+      "text": "Ask, and it will be given to you; seek, and you will find; knock, and the door will be opened. If human parents give good things to their children, how much more will your Father in heaven give good things to those who ask him. So treat others the way you want them to treat you. This sums up the Law and the Prophets."
+    },
+    {
+      "verses": "13-14",
+      "text": "Enter through the narrow gate. The road to destruction is wide and many take it, but the road that leads to life is narrow, and few find it."
+    },
+    {
+      "verses": "15-23",
+      "text": "Watch out for false prophets who look harmless but are not. You will recognise them by their fruit: a good tree produces good fruit and a bad tree bad fruit. Not everyone who calls me Lord will enter the kingdom, Jesus said, but only those who do the will of my Father."
+    },
+    {
+      "verses": "24-29",
+      "text": "Everyone who hears these words and puts them into practice is like a wise man who built his house on rock. Rain, floods and wind came, but it stood firm. Whoever hears and does not act is like a foolish man who built on sand, and his house fell with a great crash. The crowds were amazed, because Jesus taught with real authority, not like their religious teachers."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus ends his sermon by calling people not just to hear his words but to build their lives on them.",
+    "points": [
+      "Deal with your own faults before judging others.",
+      "Ask, seek and knock: God gives good gifts.",
+      "The wise person hears Jesus' words and puts them into practice."
+    ],
+    "reflection": "Which part of Jesus' teaching do you find hardest to actually live out?"
+  }
+}

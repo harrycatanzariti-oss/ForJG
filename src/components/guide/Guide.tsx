@@ -29,6 +29,8 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
   const byId = useMemo(() => new Map(topics.map((t) => [t.id, t])), [topics]);
   const [text, setText] = useState('');
   const [entries, setEntries] = useState<Entry[]>([]);
+  /** True for a moment while the Guide "types" (purely for feel; matching is instant). */
+  const [typing, setTyping] = useState(false);
   const lastRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
@@ -36,8 +38,19 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
     const q = value.trim();
     if (!q) return;
     const result = guide(q, prepared, safety);
-    setEntries((e) => [...e, { id: nextId++, from: 'you', text: q }, { id: nextId++, from: 'guide', result }]);
     setText('');
+    const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    // Safety answers never wait.
+    if (reduced || result.safety.length) {
+      setEntries((e) => [...e, { id: nextId++, from: 'you', text: q }, { id: nextId++, from: 'guide', result }]);
+      return;
+    }
+    setEntries((e) => [...e, { id: nextId++, from: 'you', text: q }]);
+    setTyping(true);
+    window.setTimeout(() => {
+      setTyping(false);
+      setEntries((e) => [...e, { id: nextId++, from: 'guide', result }]);
+    }, 650);
   };
 
   const showTopic = (topicId: string, label?: string) => {
@@ -64,15 +77,23 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
     if (!entries.length) return;
     const el = lastRef.current;
     if (!el) return;
+    if (entries[entries.length - 1]!.from === 'you') {
+      // Your message is shown first; the answer follows after the typing dots.
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
     el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    el.querySelector<HTMLElement>('[data-topic-heading], h2, [data-focus]')?.focus({ preventScroll: true });
+    const answers = document.querySelectorAll<HTMLElement>('[data-entry]');
+    answers[answers.length - 1]
+      ?.querySelector<HTMLElement>('[data-topic-heading], h2, [data-focus]')
+      ?.focus({ preventScroll: true });
   }, [entries.length]);
 
   const chip = (t: ResolvedTopic) => (
     <button
       key={t.id}
       type="button"
-      class="min-h-11 rounded-full border border-line bg-surface px-4 text-sm hover:border-accent hover:bg-accent-soft"
+      class="press min-h-11 rounded-full border border-line bg-surface px-4 text-sm hover:border-accent hover:bg-accent-soft"
       onClick={() => showTopic(t.id, t.chip)}
     >
       {t.chip}
@@ -244,7 +265,7 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
                 <li key={ex}>
                   <button
                     type="button"
-                    class="min-h-11 rounded-full bg-surface-2 px-4 text-left text-sm hover:bg-accent-soft"
+                    class="press min-h-11 rounded-full bg-surface-2 px-4 text-left text-sm hover:bg-accent-soft"
                     onClick={() => submit(ex)}
                   >
                     “{ex}”
@@ -261,7 +282,7 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
           const isLast = i === entries.length - 1 || (entry.from === 'you' && i === entries.length - 2);
           if (entry.from === 'you') {
             return (
-              <div key={entry.id} class="anchor-target flex justify-end" ref={isLast ? lastRef : undefined}>
+              <div key={entry.id} class="anchor-target bubble-in flex justify-end" ref={isLast ? lastRef : undefined}>
                 <p class="max-w-[85%] rounded-2xl rounded-br-sm bg-accent-fill px-4 py-2 text-accent-ink">
                   <span class="sr-only">You: </span>
                   {entry.text}
@@ -272,7 +293,7 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
           if (entry.from === 'topic') {
             const t = byId.get(entry.topicId);
             return t ? (
-              <div key={entry.id}>
+              <div key={entry.id} class="bubble-in" data-entry>
                 <TopicCard
                   topic={t}
                   careNote={safety.careNote}
@@ -282,12 +303,24 @@ export default function Guide({ topics, safety, categories, examples }: Props) {
               </div>
             ) : null;
           }
-          return <div key={entry.id}>{renderResult(entry)}</div>;
+          return (
+            <div key={entry.id} class="bubble-in" data-entry>
+              {renderResult(entry)}
+            </div>
+          );
         })}
+        {typing && (
+          <p class="bubble-in inline-flex items-center gap-1.5 rounded-2xl rounded-bl-sm bg-surface px-4 py-3 text-ink-muted shadow-[var(--shadow-surface)]">
+            <span class="sr-only">Finding guidance…</span>
+            <span class="typing-dot" aria-hidden="true" />
+            <span class="typing-dot" aria-hidden="true" />
+            <span class="typing-dot" aria-hidden="true" />
+          </p>
+        )}
       </div>
 
       <details id="guide-browse" class="card mt-10 p-4">
-        <summary class="cursor-pointer text-lg font-semibold">Or browse all topics</summary>
+        <summary class="disclosure min-h-11 cursor-pointer text-lg font-semibold">Or browse all topics</summary>
         {Object.entries(categories).map(([cat, label]) => (
           <div key={cat} class="mt-4">
             <h3 class="text-sm font-semibold tracking-wide text-ink-muted uppercase">{label}</h3>

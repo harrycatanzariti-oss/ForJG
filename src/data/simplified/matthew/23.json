@@ -1,0 +1,28 @@
+{
+  "book": "matthew",
+  "chapter": 23,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-12",
+      "text": "Jesus told the crowds and his disciples that the teachers of the law and the Pharisees sit in Moses' seat, so they should do what they teach, but not what they do, because they do not practise what they preach. They tie heavy loads on others, do everything for show and love the best seats and titles. You have one Teacher, and you are all brothers. The greatest among you will be your servant; whoever exalts himself will be humbled, and whoever humbles himself will be exalted."
+    },
+    {
+      "verses": "13-36",
+      "text": "Then Jesus pronounced a series of woes on the religious leaders, calling them hypocrites. They shut people out of the kingdom, make careful rules about oaths, and give a tenth of their herbs while neglecting justice, mercy and faithfulness. They strain out a gnat but swallow a camel. They clean the outside of the cup but inside are full of greed. They are like whitewashed tombs, beautiful outside but full of death inside. He warned that they share the guilt of those who killed the prophets."
+    },
+    {
+      "verses": "37-39",
+      "text": "Jerusalem, Jerusalem, Jesus said, you who kill the prophets: how often I have longed to gather your children together, as a hen gathers her chicks under her wings, but you were not willing. Your house is left to you desolate. You will not see me again until you say, Blessed is he who comes in the name of the Lord."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus exposes religious show without real love, and grieves over Jerusalem like a hen longing to gather her chicks.",
+    "points": [
+      "The greatest among you will be your servant.",
+      "Jesus condemns neglecting justice, mercy and faithfulness.",
+      "He longs to gather Jerusalem's people like a hen gathers her chicks."
+    ],
+    "reflection": "Where might your faith be more about appearance than about justice, mercy and faithfulness?"
+  }
+}

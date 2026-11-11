@@ -1,0 +1,32 @@
+{
+  "book": "matthew",
+  "chapter": 10,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-15",
+      "text": "Jesus called his twelve disciples and gave them authority to drive out evil spirits and heal every disease. Matthew lists them, from Simon Peter to Judas Iscariot, who betrayed him. Jesus sent them to the lost sheep of Israel to announce that the kingdom of heaven is near, to heal the sick and raise the dead. Freely you have received, freely give. They were to travel light and stay with whoever welcomed them."
+    },
+    {
+      "verses": "16-25",
+      "text": "I am sending you like sheep among wolves, Jesus said, so be as shrewd as snakes and as innocent as doves. You will be handed over to councils and brought before rulers because of me. Don't worry about what to say: the Spirit of your Father will speak through you. Even families will turn against each other. Whoever stands firm to the end will be saved."
+    },
+    {
+      "verses": "26-33",
+      "text": "Don't be afraid of those who can kill the body but not the soul. Not one sparrow falls to the ground without your Father knowing. Even the hairs of your head are numbered, so don't be afraid: you are worth more than many sparrows. Whoever acknowledges me before others, I will acknowledge before my Father."
+    },
+    {
+      "verses": "34-42",
+      "text": "Jesus warned that following him would bring division, even in families. Whoever loves family more than him, or will not take up their cross and follow, is not worthy of him. Whoever loses their life for his sake will find it. Anyone who welcomes his followers welcomes him, and even a cup of cold water given to one of them will be rewarded."
+    }
+  ],
+  "summary": {
+    "bigIdea": "Jesus sends out the twelve to share his work, warning of hardship but promising the Father's care.",
+    "points": [
+      "Jesus gives the twelve authority to preach and heal.",
+      "He warns they will be opposed, but the Spirit will help them.",
+      "God knows even the sparrows, so they need not fear."
+    ],
+    "reflection": "Jesus says you are worth more than many sparrows. How does that change the way you face fear?"
+  }
+}

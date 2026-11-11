@@ -62,7 +62,7 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
         <li>
           <a
             href={`${url('/guide')}?q=${encodeURIComponent(e)}`}
-            class="inline-flex min-h-11 items-center rounded-full bg-surface-2 px-4 text-sm text-ink no-underline hover:bg-accent-soft"
+            class="press inline-flex min-h-11 items-center rounded-full bg-surface-2 px-4 text-sm text-ink no-underline hover:bg-accent-soft"
           >
             {e}
           </a>
@@ -74,7 +74,10 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
   <div class="mx-auto mt-6 grid max-w-4xl gap-4 sm:grid-cols-2">
     <ContinueReading client:idle names={names} />
     <TodayReading client:idle names={names} />
-    <a href={url('/bible')} class="card flex items-start gap-4 p-5 text-ink no-underline hover:border-accent">
+    <a
+      href={url('/bible')}
+      class="card press reveal flex items-start gap-4 p-5 text-ink no-underline hover:border-accent"
+    >
       <Icon name="book" class="mt-1 size-7 shrink-0 text-accent" />
       <span>
         <span class="block text-xl font-semibold tracking-tight">Start reading</span>
@@ -83,7 +86,10 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
         </span>
       </span>
     </a>
-    <a href={url('/traditions')} class="card flex items-start gap-4 p-5 text-ink no-underline hover:border-accent">
+    <a
+      href={url('/traditions')}
+      class="card press reveal flex items-start gap-4 p-5 text-ink no-underline hover:border-accent"
+    >
       <Icon name="compass" class="mt-1 size-7 shrink-0 text-accent" />
       <span>
         <span class="block text-xl font-semibold tracking-tight">Explore traditions</span>
@@ -95,7 +101,7 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
     </a>
   </div>
 
-  <section class="mx-auto mt-14 max-w-4xl">
+  <section class="reveal mx-auto mt-14 max-w-4xl">
     <h2 class="text-lg font-semibold">How the reading levels work</h2>
     <ol class="mt-3 list-decimal space-y-2 pl-5 text-ink-muted">
       <li>
@@ -112,8 +118,9 @@ const examples = ['I’m afraid of dying', 'I’m grieving', 'God feels far away
       </li>
     </ol>
     <p class="mt-3 text-sm text-ink-muted">
-      Plain and Summary are written by hand and are available so far for Genesis, Psalms 1–23, Mark, John, Acts and
-      Romans. <a href={url('/about')}>How they were written</a>.
+      Plain and Summary are written by hand for Genesis, Psalms 1–23, Matthew, Mark, John, Acts and Romans. Every other
+      chapter gets a quick outline from its section headings until its retelling is written.
+      <a href={url('/about')}>How they were written</a>.
     </p>
   </section>
 </BaseLayout>

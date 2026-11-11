@@ -1,0 +1,32 @@
+{
+  "book": "matthew",
+  "chapter": 18,
+  "status": "draft",
+  "plain": [
+    {
+      "verses": "1-9",
+      "text": "The disciples asked who is the greatest in the kingdom. Jesus called a little child and said, Unless you change and become like little children, you will never enter the kingdom. Whoever humbles himself like this child is the greatest. Whoever welcomes a child in his name welcomes him. He warned strongly against causing little ones to stumble, and to cut off whatever causes you to sin."
+    },
+    {
+      "verses": "10-14",
+      "text": "Do not look down on these little ones. If a shepherd has a hundred sheep and one wanders away, he leaves the ninety-nine to look for it, and rejoices more over that one. Your Father does not want any of these little ones to be lost."
+    },
+    {
+      "verses": "15-20",
+      "text": "If a brother or sister sins against you, go and talk to them privately. If they won't listen, take one or two others; if they still refuse, tell the church. Jesus said that where two or three gather in his name, he is there with them."
+    },
+    {
+      "verses": "21-35",
+      "text": "Peter asked how many times he should forgive: up to seven times? Jesus said, not seven, but seventy-seven times. He told a story: a king forgave a servant a debt so huge he could never repay it. But that servant then seized a fellow servant who owed him a little and had him thrown into prison. The king was angry: shouldn't you have had mercy as I had mercy on you? Jesus said the Father will treat us the same way unless we forgive from the heart."
+    }
+  ],
+  "summary": {
+    "bigIdea": "In God's kingdom the humble are greatest, every lost one is sought, and those who have been forgiven must forgive.",
+    "points": [
+      "Become humble like a little child.",
+      "The shepherd goes looking for the one lost sheep.",
+      "Forgive not seven times, but seventy-seven times."
+    ],
+    "reflection": "Is there someone you need to forgive, remembering how much you have been forgiven?"
+  }
+}

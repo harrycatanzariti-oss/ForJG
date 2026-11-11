@@ -15,6 +15,7 @@ import { useEffect, useRef, useState } from 'preact/hooks';
 import { chapterAnnotations, setAnnotation, type Annotation, type HighlightColour } from '~/lib/annotations';
 import { loadChapter, primeChapter } from '~/lib/bible-client';
 import { LEVELS } from '~/lib/levels';
+import type { Outline } from '~/lib/outline';
 import { isRead, markRead, markUnread, recordLastRead } from '~/lib/progress';
 import type { Chapter, PassageNotes, Simplified, TranslationId } from '~/lib/schemas';
 import {
@@ -40,6 +41,8 @@ interface Props {
   /** BSB text, rendered on the server. */
   initial: Chapter;
   simplified?: Simplified;
+  /** Used for Plain and Summary when no hand-written version exists yet. */
+  outline?: Outline;
   passageNotes?: PassageNotes;
   traditionNames?: Record<string, string>;
   prevHref?: string;
@@ -59,6 +62,7 @@ export default function ChapterReader({
   chapter,
   initial,
   simplified,
+  outline,
   passageNotes,
   traditionNames = {},
   prevHref,
@@ -77,6 +81,8 @@ export default function ChapterReader({
   const [error, setError] = useState<string | null>(null);
   const [notice, setNotice] = useState<string | null>(null);
   const [hydrated, setHydrated] = useState(false);
+  /** Counts level changes the reader makes, so only those fade in (not the first load). */
+  const [switches, setSwitches] = useState(0);
   const [annotations, setAnnotations] = useState<Record<number, Annotation>>({});
   const [selected, setSelected] = useState<number | null>(null);
   const [openNote, setOpenNote] = useState<string | null>(null);
@@ -86,9 +92,25 @@ export default function ChapterReader({
   const toastTimer = useRef<number>();
 
   const refName = bookId === 'psalms' ? 'Psalm' : bookName;
-  const available: Record<Level, boolean> = { 1: true, 2: true, 3: !!simplified, 4: !!simplified };
+  const available: Record<Level, boolean> = {
+    1: true,
+    2: true,
+    3: !!(simplified || outline),
+    4: !!(simplified || outline),
+  };
   const translationFor = (l: Level, m: ModernTranslation): TranslationId | null =>
     l === 1 ? 'kjv' : l === 2 ? m : null;
+  const modernText = texts[settings.modernTranslation] ?? initial;
+
+  /** From the outline: go to Modern and scroll to a verse. */
+  const jumpTo = (v: number) => {
+    choose(2);
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() =>
+        document.getElementById(`v${v}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' }),
+      ),
+    );
+  };
 
   const ensure = async (t: TranslationId) => {
     try {
@@ -213,6 +235,7 @@ export default function ChapterReader({
       return;
     }
     setNotice(null);
+    if (next !== level) setSwitches((n) => n + 1);
     setLevel(next);
     rememberLevel(next);
   };
@@ -229,6 +252,12 @@ export default function ChapterReader({
     }
   };
 
+  const description =
+    level === 3 && !simplified
+      ? 'Easy reading: the chapter in short sections with the verse numbers tucked away. A plain-English retelling is still being written.'
+      : level === 4 && !simplified
+        ? 'At a glance: where this chapter fits, what happens in it, and a question to think about.'
+        : LEVELS[level - 1]!.describe(settings.modernTranslation);
   const translation = translationFor(level, settings.modernTranslation);
   const text = translation ? texts[translation] : undefined;
   const omitted = text?.omitted ?? [];
@@ -240,7 +269,11 @@ export default function ChapterReader({
         ? countWords(
             [simplified.summary.bigIdea, ...simplified.summary.points, simplified.summary.reflection].join(' '),
           )
-        : (text?.verses.reduce((n, v) => n + countWords(v.text), 0) ?? 0);
+        : level === 3 && outline
+          ? modernText.verses.reduce((n, v) => n + countWords(v.text), 0)
+          : level === 4 && outline
+            ? 60
+            : (text?.verses.reduce((n, v) => n + countWords(v.text), 0) ?? 0);
   const minutes = Math.max(1, Math.round(words / WORDS_PER_MINUTE));
 
   const noteMarkers = (passageNotes?.notes ?? []).map((n) => ({
@@ -259,49 +292,55 @@ export default function ChapterReader({
         <LevelSlider level={level} modern={settings.modernTranslation} available={available} onChange={choose} />
       </div>
       <p id="level-description" class="mt-3 text-sm text-ink-muted" aria-live="polite">
-        {notice ?? LEVELS[level - 1]!.describe(settings.modernTranslation)}
+        <span key={notice ?? level} class="otis-fade block">
+          {notice ?? description}
+        </span>
       </p>
 
       <div id="reader-swipe-area" class="mt-4" aria-live="polite" aria-busy={translation && !text ? 'true' : 'false'}>
-        <p class="mb-3 flex items-center justify-between text-xs font-semibold tracking-wide text-ink-muted uppercase">
-          <span>{text ? text.translation : LEVELS[level - 1]!.name}</span>
-          <span class="font-normal normal-case">About {minutes} min read</span>
-        </p>
-        {translation && text && (
-          <>
-            <ScriptureText
-              chapter={text}
-              showVerseNumbers={settings.verseNumbers}
-              annotations={annotations}
-              noteMarkers={noteMarkers}
-              selectedVerse={selected}
-              // Always render verse buttons (so nothing shifts when the page becomes interactive).
-              onVerse={(v) => hydrated && (setOpenNote(null), setSelected(v))}
-              onNoteMarker={(id) => (setSelected(null), setOpenNote(id))}
-            />
-            {omitted.length > 0 && (
-              <p class="mt-6 border-t border-line pt-3 text-sm text-ink-muted">
-                {omitted.length === 1 ? 'Verse' : 'Verses'} {omitted.join(', ')}:{' '}
-                {omittedNote(translation, bookId, chapter) ?? 'Not included in this translation.'}
-              </p>
-            )}
-          </>
-        )}
-        {translation && !text && !error && <p class="text-ink-muted">Loading…</p>}
-        {error && (
-          <div class="card p-4" role="alert">
-            <p>{error}</p>
-            <button
-              type="button"
-              class="btn btn-secondary mt-3"
-              onClick={() => translation && void ensure(translation)}
-            >
-              Try again
-            </button>
-          </div>
-        )}
-        {level === 3 && simplified && <PlainView simplified={simplified} />}
-        {level === 4 && simplified && <SummaryView simplified={simplified} />}
+        <div key={switches} class={switches ? 'otis-fade' : undefined}>
+          <p class="mb-3 flex items-center justify-between text-xs font-semibold tracking-wide text-ink-muted uppercase">
+            <span>{text ? text.translation : LEVELS[level - 1]!.name}</span>
+            <span class="font-normal normal-case">About {minutes} min read</span>
+          </p>
+          {translation && text && (
+            <>
+              <ScriptureText
+                chapter={text}
+                showVerseNumbers={settings.verseNumbers}
+                annotations={annotations}
+                noteMarkers={noteMarkers}
+                selectedVerse={selected}
+                // Always render verse buttons (so nothing shifts when the page becomes interactive).
+                onVerse={(v) => hydrated && (setOpenNote(null), setSelected(v))}
+                onNoteMarker={(id) => (setSelected(null), setOpenNote(id))}
+              />
+              {omitted.length > 0 && (
+                <p class="mt-6 border-t border-line pt-3 text-sm text-ink-muted">
+                  {omitted.length === 1 ? 'Verse' : 'Verses'} {omitted.join(', ')}:{' '}
+                  {omittedNote(translation, bookId, chapter) ?? 'Not included in this translation.'}
+                </p>
+              )}
+            </>
+          )}
+          {translation && !text && !error && <p class="text-ink-muted">Loading…</p>}
+          {error && (
+            <div class="card p-4" role="alert">
+              <p>{error}</p>
+              <button
+                type="button"
+                class="btn btn-secondary mt-3"
+                onClick={() => translation && void ensure(translation)}
+              >
+                Try again
+              </button>
+            </div>
+          )}
+          {level === 3 && simplified && <PlainView simplified={simplified} />}
+          {level === 4 && simplified && <SummaryView simplified={simplified} />}
+          {level === 3 && !simplified && outline && <OutlinePlainView outline={outline} chapter={modernText} />}
+          {level === 4 && !simplified && outline && <OutlineSummaryView outline={outline} onJump={jumpTo} />}
+        </div>
       </div>
 
       {/* One tidy row at the end: previous chapter, mark as read, next chapter. */}
@@ -361,7 +400,7 @@ export default function ChapterReader({
 
       {toast && (
         <div
-          class="fixed inset-x-4 bottom-[calc(1.5rem+env(safe-area-inset-bottom))] z-50 mx-auto flex max-w-md items-center justify-between gap-3 rounded-2xl bg-ink px-4 py-3 text-paper shadow-xl sm:bottom-6"
+          class="fixed inset-x-4 bottom-[calc(1.5rem+env(safe-area-inset-bottom))] z-50 mx-auto flex max-w-md items-center justify-between gap-3 toast-in rounded-2xl bg-ink px-4 py-3 text-paper shadow-xl sm:bottom-6"
           role="status"
         >
           <span>{toast}</span>
@@ -452,6 +491,68 @@ function SummaryView({ simplified }: { simplified: Simplified }) {
           <h3 class="text-xs font-semibold tracking-wide text-ink-muted uppercase">To think about</h3>
           <p class="mt-1">{reflection}</p>
         </div>
+      </div>
+    </div>
+  );
+}
+
+function OutlinePlainView({ outline, chapter }: { outline: Outline; chapter: Chapter }) {
+  return (
+    <div>
+      <div class="scripture space-y-7">
+        {outline.sections.map((s) => (
+          <section key={s.from}>
+            <h3 class="font-sans text-base font-semibold tracking-tight text-ink">{s.heading}</h3>
+            <p class="mt-0.5 font-sans text-xs text-ink-muted">
+              Verses {s.from}
+              {s.to > s.from ? `–${s.to}` : ''}
+            </p>
+            <p class="mt-2">
+              {chapter.verses
+                .filter((v) => v.v >= s.from && v.v <= s.to)
+                .map((v) => v.text)
+                .join(' ')}
+            </p>
+          </section>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function OutlineSummaryView({ outline, onJump }: { outline: Outline; onJump: (verse: number) => void }) {
+  return (
+    <div class="card space-y-5 p-5">
+      {outline.bookIdea && (
+        <div>
+          <h3 class="text-xs font-semibold tracking-wide text-ink-muted uppercase">Where this fits</h3>
+          <p class="mt-1">{outline.bookIdea}</p>
+        </div>
+      )}
+      <div>
+        <h3 class="text-xs font-semibold tracking-wide text-ink-muted uppercase">What happens</h3>
+        <ol class="mt-2 space-y-1">
+          {outline.sections.map((s, i) => (
+            <li key={s.from}>
+              <button
+                type="button"
+                class="press flex w-full items-baseline gap-3 rounded-xl px-2 py-2 text-left hover:bg-surface-2"
+                onClick={() => onJump(s.from)}
+              >
+                <span class="w-5 shrink-0 text-sm text-ink-muted tabular-nums">{i + 1}</span>
+                <span class="flex-1 font-medium">{s.heading}</span>
+                <span class="shrink-0 text-xs text-ink-muted tabular-nums">
+                  v{s.from}
+                  {s.to > s.from ? `–${s.to}` : ''}
+                </span>
+              </button>
+            </li>
+          ))}
+        </ol>
+      </div>
+      <div class="rounded-xl bg-accent-soft p-4">
+        <h3 class="text-xs font-semibold tracking-wide text-ink-muted uppercase">To think about</h3>
+        <p class="mt-1">{outline.reflection}</p>
       </div>
     </div>
   );
