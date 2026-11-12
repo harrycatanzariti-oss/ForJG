@@ -1,0 +1,30 @@
+House Piano 89 - install
+========================
+
+This zip has two copies of the same plugin. Use the VST3 one unless your DAW
+prefers CLAP (Bitwig, Reaper and FL Studio can use either).
+
+WINDOWS
+  Copy the "House Piano 89.vst3" folder to:
+      C:\Program Files\Common Files\VST3\
+  (CLAP: copy "House Piano 89.clap" to C:\Program Files\Common Files\CLAP\)
+
+MAC (Apple Silicon and Intel)
+  Copy "House Piano 89.vst3" to:  /Library/Audio/Plug-Ins/VST3/
+  (CLAP: copy "House Piano 89.clap" to /Library/Audio/Plug-Ins/CLAP/)
+  The plugin is not notarised by Apple, so macOS will block it the first time.
+  Open Terminal and run:
+      sudo xattr -dr com.apple.quarantine "/Library/Audio/Plug-Ins/VST3/House Piano 89.vst3"
+  Note: Logic Pro and GarageBand only load AU plugins, so use Ableton, Reaper,
+  Bitwig, FL Studio, Studio One or Cubase.
+
+LINUX
+  Copy "House Piano 89.vst3" to ~/.vst3/   (CLAP: ~/.clap/)
+
+USING IT
+  1. Put Keyscape on an instrument track (a clean grand like "LA Custom C7"
+     or "Concert Grand" works best).
+  2. Add House Piano 89 as an audio effect right after Keyscape.
+  3. Pick a preset (Classic M1, Deep House, Rave Stab, Lo-Fi ROM, Subtle) and
+     tweak. Add your own reverb after it for the full 90s house sound.
+  Tip: play chords in the middle of the keyboard - that's where this sound lives.

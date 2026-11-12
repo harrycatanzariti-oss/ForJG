@@ -5,3 +5,4 @@ node_modules/
 package-lock.json
 src/data/bible/
 src/data/books.json
+m1-piano-vst/target/

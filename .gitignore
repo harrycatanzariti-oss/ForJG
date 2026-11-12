@@ -7,3 +7,4 @@ playwright-report/
 .DS_Store
 *.log
 .env
+m1-piano-vst/target/

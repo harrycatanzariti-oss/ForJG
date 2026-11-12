@@ -1,0 +1,85 @@
+# Builds the House Piano 89 plugin (m1-piano-vst/) for Windows, macOS and Linux,
+# then publishes the zips as a GitHub release you can download.
+name: House Piano plugin
+on:
+  push:
+    paths:
+      - 'm1-piano-vst/**'
+      - '.github/workflows/house-piano.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+    working-directory: m1-piano-vst
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            name: Windows
+          - os: macos-latest
+            name: macOS
+          - os: ubuntu-22.04
+            name: Linux
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Linux build dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libx11-dev libx11-xcb-dev libxcb1-dev libxcb-dri2-0-dev \
+            libxcb-icccm4-dev libxcursor-dev libxkbcommon-dev libxcb-shape0-dev \
+            libxcb-xfixes0-dev libgl-dev libasound2-dev libjack-jackd2-dev
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ runner.os == 'macOS' && 'x86_64-apple-darwin,aarch64-apple-darwin' || '' }}
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: m1-piano-vst
+      - name: Test
+        if: runner.os == 'Linux'
+        run: cargo test --lib
+      - name: Bundle
+        if: runner.os != 'macOS'
+        run: cargo xtask bundle house_piano --release
+      - name: Bundle (universal) and ad-hoc sign
+        if: runner.os == 'macOS'
+        run: |
+          cargo xtask bundle-universal house_piano --release
+          for b in target/bundled/*.vst3 target/bundled/*.clap; do codesign --force --deep -s - "$b"; done
+      - name: Zip
+        run: |
+          cp INSTALL.txt target/bundled/
+          cd target/bundled
+          out="$GITHUB_WORKSPACE/HousePiano89-${{ matrix.name }}.zip"
+          if [ "$RUNNER_OS" = "Windows" ]; then 7z a -tzip "$out" . ; else zip -ry "$out" . ; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: HousePiano89-${{ matrix.name }}
+          path: HousePiano89-${{ matrix.name }}.zip
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: house-piano-v0.1.0
+          name: House Piano 89 v0.1.0
+          target_commitish: ${{ github.sha }}
+          body: |
+            M1-style house piano effect for Keyscape (or any clean piano). VST3 and CLAP.
+            Download the zip for your computer and follow INSTALL.txt inside it.
+          files: dist/*.zip
